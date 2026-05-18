@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "afa1c6a3ff3c456d",
+        "id": "9eda3a158bbb7aa1",
         "type": "tabs",
         "children": [
           {
-            "id": "4306cee8c28bda1b",
+            "id": "a834966a52705aea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily.md",
+                "file": "SDD/03-technical/API_CONTRACT.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Daily"
+              "title": "API_CONTRACT"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 424.51103591918945
+    "width": 275.5
   },
   "right": {
     "id": "01d2952e0fd07782",
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Daily.md",
+                "file": "SDD/03-technical/API_CONTRACT.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Daily"
+              "title": "Outline of API_CONTRACT"
             }
           },
           {
@@ -180,68 +180,67 @@
       }
     ],
     "direction": "horizontal",
-    "width": 440.5,
-    "collapsed": true
+    "width": 440.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-git:Open Git source control": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4306cee8c28bda1b",
+  "active": "0c6102da16e07152",
   "lastOpenFiles": [
-    "Hotel booking service/Update plan.md",
-    "Hotel booking service/Thesis-report/chapters/README.md",
-    "Hotel booking service/Thesis-report/chapters/chuong-4-ket-luan.md",
-    "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
-    "Hotel booking service/Thesis-report/chapters/chuong-2-phuong-phap-thuc-hien.md",
-    "Hotel booking service/Thesis-report/chapters/chuong-1-gioi-thieu.md",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-125.png",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-124.png",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-123.png",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-122.png",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-121.png",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-120.png",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-119.png",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-118.png",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-117.png",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-116.png",
-    "Hotel booking service/Thesis-report/Backup/v0.1/images",
-    "Hotel booking service/Thesis-report/Backup/v0.1/chapters/README.md",
-    "Hotel booking service/Thesis-report/Backup/v0.1/chapters/chuong-4-ket-luan.md",
-    "Hotel booking service/Thesis-report/Backup/v0.1/chapters/chuong-3-thiet-ke.md",
-    "Hotel booking service/Thesis-report/Backup/v0.1/chapters/chuong-2-phuong-phap-thuc-hien.md",
-    "Hotel booking service/Thesis-report/Backup/v0.1/chapters/chuong-1-gioi-thieu.md",
-    "Hotel booking service/Thesis-report/Backup/v0.1/chapters",
-    "Hotel booking service/Thesis-report/Backup/v0.1",
-    "Hotel booking service/Thesis-report/Backup/New folder",
-    "Hotel booking service/Thesis-report/Backup/images",
-    "Hotel booking service/Thesis-report/Backup/chapters/README.md",
-    "Hotel booking service/Thesis-report/Backup/chapters/chuong-4-ket-luan.md",
-    "Hotel booking service/Thesis-report/Backup/chapters/chuong-3-thiet-ke.md",
-    "Hotel booking service/Thesis-report/Backup/chapters/chuong-2-phuong-phap-thuc-hien.md",
-    "Hotel booking service/Thesis-report/Backup/chapters/chuong-1-gioi-thieu.md",
-    "Hotel booking service/Thesis-report/Backup/chapters",
-    "Hotel booking service/Thesis-report/images",
-    "Hotel booking service/Thesis-report/chapters",
-    "Hotel booking service/Thesis-report/Backup",
-    "Hotel booking service/Thesis-report",
-    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chapters/README.md",
-    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chapters/chuong-4-ket-luan.md",
-    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chapters/chuong-3-thiet-ke.md",
-    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chapters/chuong-2-phuong-phap-thuc-hien.md",
-    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chapters/chuong-1-gioi-thieu.md",
-    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chaptersf/README.md",
-    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chaptersf/chuong-4-ket-luan.md",
-    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chaptersf/chuong-3-thiet-ke.md",
-    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chaptersf/chuong-2-phuong-phap-thuc-hien.md",
-    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chaptersf/chuong-1-gioi-thieu.md"
+    "SDD/03-technical/ENTITY_SCHEMA.md",
+    "SDD/02-business/BUSINESS_PROCESS.md",
+    "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
+    "graphify-out/cache/ast/aebdeff94846ac4140cac040a1dc57a367f07460744b4b7759e4f835ab2d630d.json",
+    "graphify-out/cache/ast/7c9af73b82efd2023f094a55512f1789a41edff83d802d0e0d9532ea3b6af2de.json",
+    "graphify-out/cache/ast/2fef96ac544af202fceb2e98c9c3de5cb8facd743ba35b1ec12fc3acab941437.json",
+    "graphify-out/cache/ast/1a3b1515aac4ad7b7ed17b8c2ff56baa746168a4ed0143fbe2945bbadfeb31c2.json",
+    "graphify-out/cache/ast/1a8770ea43037ab0a718d5844360eb934a2d66d664d4ed0db2debe7c2de87477.json",
+    "graphify-out/cache/ast/b7f6000260feb7b18dc0f7974b46ee3d942cc437cc051f0f014b4bfe03c036fb.json",
+    "graphify-out/cache/ast/9a5130f8743ec184fadbff28e348def56c95ce355ef7a3d8d934d04946adea16.json",
+    "graphify-out/cache/ast/0319e95d290c39f428ea906269aea8f96325c847aee82065c7775c2ff1521e94.json",
+    "graphify-out/cache/ast/1c79a5ecd481c35b253b245b5003d70f3d384ddc6ebd67c1d27fec38706f4ae5.json",
+    "graphify-out/cache/ast/3774237da96544bcf39a90906bd57b8402af32aed281246dffc93a4cf9a9b417.json",
+    "graphify-out/wiki/toString()_-_filter()_-__6().md",
+    "graphify-out/wiki/subscribeMe()_-_unsubscribeMe()_-_changeToNewFilepath().md",
+    "graphify-out/wiki/sp()_-_diff()_-_diffWithOptionsObj().md",
+    "graphify-out/wiki/hs()_-_reload()_-_Gm().md",
+    "graphify-out/wiki/constructor()_-_create()_-_reconfigure().md",
+    "graphify-out/wiki/_addPattern()_-_f3().md",
+    "graphify-out/wiki/Zn()_-_eI()_-_sE().md",
+    "graphify-out/wiki/Wg()_-_XP()_-_NP().md",
+    "graphify-out/wiki/Uv()_-_Xi()_-_nh().md",
+    "graphify-out/wiki/UE()_-_Mt()_-_hu().md",
+    "graphify-out/wiki/AGENTS.md_-_graphify.md",
+    "SDD/04-diagrams/CORE_FLOW_DIAGRAMS.md",
+    "SDD/03-technical/TECH_SPEC.md",
+    "SDD/03-technical/API_CONTRACT.md",
+    "SDD/02-business/business-processes/01-auth-and-account.md",
+    "SDD/01-product/USE_CASE_CATALOG.md",
+    "SDD/01-product/PRD.md",
+    "SDD/README.md",
+    "SDD/02-business/business-processes/07-business-rules-and-edge-cases.md",
+    "SDD/02-business/business-processes/06-amenity-management.md",
+    "SDD/02-business/business-processes/05-admin-booking-operations.md",
+    "SDD/02-business/business-processes/04-admin-hotel-room-management.md",
+    "SDD/02-business/business-processes/03-booking-lifecycle.md",
+    "Hotel booking service/Thesis-report/images/image-009.png",
+    "Hotel booking service/Thesis-report/images/image-096.png",
+    "Hotel booking service/Thesis-report/images/image-125.png",
+    "Hotel booking service/Thesis-report/images/image-124.png",
+    "Hotel booking service/Thesis-report/images/image-123.png",
+    "Hotel booking service/Thesis-report/images/image-122.png",
+    "Hotel booking service/Thesis-report/images/image-121.png",
+    "Hotel booking service/Thesis-report/images/image-120.png",
+    "Hotel booking service/Thesis-report/images/image-119.png",
+    "Hotel booking service/Thesis-report/images/image-118.png"
   ]
 }
