@@ -1,0 +1,247 @@
+{
+  "main": {
+    "id": "8b92b276d7af2bb7",
+    "type": "split",
+    "children": [
+      {
+        "id": "afa1c6a3ff3c456d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4306cee8c28bda1b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Daily"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f347f78df7b5f3e2",
+    "type": "split",
+    "children": [
+      {
+        "id": "dd247fc119aa5231",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3b83d99a5688479a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "99c6fd0e609c0d1b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7a29c945a4b66003",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 424.51103591918945
+  },
+  "right": {
+    "id": "01d2952e0fd07782",
+    "type": "split",
+    "children": [
+      {
+        "id": "30e32e81603d6f21",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7d1e2847166951cb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Real Time banking/Business Analysis Docs/01_nghiep_vu_tong_quan.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 01_nghiep_vu_tong_quan"
+            }
+          },
+          {
+            "id": "738daf63569ba0c0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Para.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Para"
+            }
+          },
+          {
+            "id": "6111b55871824164",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "99ee301f87701d23",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "bac1e7b49979088e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Daily.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Daily"
+            }
+          },
+          {
+            "id": "0c6102da16e07152",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 440.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-git:Open Git source control": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "4306cee8c28bda1b",
+  "lastOpenFiles": [
+    "Hotel booking service/Update plan.md",
+    "Hotel booking service/Thesis-report/chapters/README.md",
+    "Hotel booking service/Thesis-report/chapters/chuong-4-ket-luan.md",
+    "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
+    "Hotel booking service/Thesis-report/chapters/chuong-2-phuong-phap-thuc-hien.md",
+    "Hotel booking service/Thesis-report/chapters/chuong-1-gioi-thieu.md",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-125.png",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-124.png",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-123.png",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-122.png",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-121.png",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-120.png",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-119.png",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-118.png",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-117.png",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images/image-116.png",
+    "Hotel booking service/Thesis-report/Backup/v0.1/images",
+    "Hotel booking service/Thesis-report/Backup/v0.1/chapters/README.md",
+    "Hotel booking service/Thesis-report/Backup/v0.1/chapters/chuong-4-ket-luan.md",
+    "Hotel booking service/Thesis-report/Backup/v0.1/chapters/chuong-3-thiet-ke.md",
+    "Hotel booking service/Thesis-report/Backup/v0.1/chapters/chuong-2-phuong-phap-thuc-hien.md",
+    "Hotel booking service/Thesis-report/Backup/v0.1/chapters/chuong-1-gioi-thieu.md",
+    "Hotel booking service/Thesis-report/Backup/v0.1/chapters",
+    "Hotel booking service/Thesis-report/Backup/v0.1",
+    "Hotel booking service/Thesis-report/Backup/New folder",
+    "Hotel booking service/Thesis-report/Backup/images",
+    "Hotel booking service/Thesis-report/Backup/chapters/README.md",
+    "Hotel booking service/Thesis-report/Backup/chapters/chuong-4-ket-luan.md",
+    "Hotel booking service/Thesis-report/Backup/chapters/chuong-3-thiet-ke.md",
+    "Hotel booking service/Thesis-report/Backup/chapters/chuong-2-phuong-phap-thuc-hien.md",
+    "Hotel booking service/Thesis-report/Backup/chapters/chuong-1-gioi-thieu.md",
+    "Hotel booking service/Thesis-report/Backup/chapters",
+    "Hotel booking service/Thesis-report/images",
+    "Hotel booking service/Thesis-report/chapters",
+    "Hotel booking service/Thesis-report/Backup",
+    "Hotel booking service/Thesis-report",
+    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chapters/README.md",
+    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chapters/chuong-4-ket-luan.md",
+    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chapters/chuong-3-thiet-ke.md",
+    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chapters/chuong-2-phuong-phap-thuc-hien.md",
+    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chapters/chuong-1-gioi-thieu.md",
+    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chaptersf/README.md",
+    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chaptersf/chuong-4-ket-luan.md",
+    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chaptersf/chuong-3-thiet-ke.md",
+    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chaptersf/chuong-2-phuong-phap-thuc-hien.md",
+    "Hotel booking service/ThucTap-566-HuynhNguyenTanPhat-LaiThuanPhat_markdown_v2/Backup/chaptersf/chuong-1-gioi-thieu.md"
+  ]
+}
