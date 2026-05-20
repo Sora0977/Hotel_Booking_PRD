@@ -38,6 +38,7 @@
 | BR-DATE-004 | "Quá khứ" được tính theo business timezone UTC+7 tại thời điểm server xử lý. |
 | BR-AVAIL-007 | Nếu booking có `quantity`, capacity check là `adult_amount + children_amount <= room.capacity * quantity`, trừ khi có policy trẻ em riêng. |
 | BR-AVAIL-008 | Availability chỉ tính hotel/room có active flag bằng `true`/`1`. |
+| BR-BOOK-011 | Mỗi đơn đặt phòng (Booking) trong phiên bản MVP chỉ hỗ trợ đặt MỘT loại phòng duy nhất trong mỗi giao dịch (tuy số lượng `quantity` có thể > 1). Bảng `booking_room` được thiết kế Many-to-Many để dự phòng cho tính năng Giỏ hàng (Shopping Cart - đặt nhiều loại phòng cùng lúc) trong tương lai, nhưng ở MVP, quan hệ thực tế là 1 Booking - 1 Booking_Room. |
 
 ## 4. Booking State Machine
 
@@ -125,6 +126,7 @@
 | EC-008 | JWT hết hạn khi đang thao tác form | Yêu cầu đăng nhập lại, không lưu thao tác |
 | EC-009 | Cloudinary upload thành công nhưng DB save thất bại | Cần rollback DB và cân nhắc cleanup ảnh orphan |
 | EC-010 | DB save thành công nhưng frontend mất kết nối | Customer có thể tra cứu bằng mã booking hoặc xem lịch sử |
+| EC-011 | Soft Delete chạm Unique Constraint | Khi thực hiện Soft Delete (vô hiệu hóa) một Entity có Unique Constraint (như User email, Hotel name, Amenity name), Backend phải tự động gắn thêm hậu tố `_DELETED_{timestamp}` vào trường Unique đó để giải phóng dữ liệu, cho phép tạo bản ghi mới trùng tên trong tương lai. |
 
 ## 10. Open Questions
 

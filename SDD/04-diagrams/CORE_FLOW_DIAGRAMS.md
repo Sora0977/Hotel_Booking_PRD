@@ -161,9 +161,7 @@ flowchart TD
     Permission -->|Yes| Status
     Status -->|CHECKED_OUT or CANCELLED| CannotCancel
     Status -->|BOOKED| SaveReason --> UpdateStatus --> ReturnUpdated --> Success
-    Status -->|CHECKED_IN| Policy{Policy allows cancel after check-in?}
-    Policy -->|No or undefined| CannotCancel
-    Policy -->|Admin exception| SaveReason
+    Status -->|CHECKED_IN (MVP Default No)| CannotCancel
 ```
 
 ## 5. Admin Check-In And Check-Out
@@ -197,9 +195,9 @@ flowchart TD
     LoadForCheckIn -->|No| StateError[Return RESOURCE_NOT_FOUND or state error]
     LoadForCheckIn -->|Yes| RoomNumberRequired{roomNumber provided?}
     RoomNumberRequired -->|No| ValidationError[Return VALIDATION_ERROR]
-    RoomNumberRequired -->|Yes| Occupancy{roomNumber already assigned to active CHECKED_IN booking?}
+    RoomNumberRequired -->|Yes| Occupancy{roomNumber already assigned in booking_room for active CHECKED_IN booking?}
     Occupancy -->|Yes| Occupied[Return ROOM_NUMBER_OCCUPIED]
-    Occupancy -->|No| AssignRoom[Set booking.room_number]
+    Occupancy -->|No| AssignRoom[Set booking_room.room_number]
     AssignRoom --> MarkCheckedIn[Set status CHECKED_IN]
     MarkCheckedIn --> ReturnCheckIn[Return updated booking]
 

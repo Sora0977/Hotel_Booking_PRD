@@ -108,17 +108,20 @@
 | Trigger | Actor chọn đăng xuất |
 | Preconditions | Actor đang đăng nhập |
 | Inputs | Current session/token |
-| Outputs | Client session cleared |
-| Data touched | None required |
+| Outputs | JWT blacklisted, client session cleared |
+| Data touched | Token blacklist store (`Redis`/DB) |
 
 ### Main Flow
 
 | Step | Action |
 | --- | --- |
 | 1 | Actor nhấn đăng xuất. |
-| 2 | Frontend xóa token khỏi storage. |
-| 3 | Frontend xóa user context. |
-| 4 | Frontend điều hướng về trang public/login. |
+| 2 | Frontend gửi `POST /api/auth/logout` kèm JWT hiện tại. |
+| 3 | Backend nhận request logout, lấy JWT hiện tại và lưu vào Token Blacklist (`Redis`/DB) để chặn các request sau này. |
+| 4 | Backend trả logout success. |
+| 5 | Frontend xóa token khỏi storage. |
+| 6 | Frontend xóa user context. |
+| 7 | Frontend điều hướng về trang public/login. |
 
 ## 5. BP-AUTH-004 - Xem Profile
 
@@ -313,4 +316,3 @@
 | 3 | System tìm user theo ID. |
 | 4 | System cập nhật `activate = true`. |
 | 5 | System trả thông báo mở khóa thành công. |
-

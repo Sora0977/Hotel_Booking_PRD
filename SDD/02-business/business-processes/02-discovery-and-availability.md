@@ -236,9 +236,9 @@
 | 3 | System lấy hotel theo location hoặc room cụ thể nếu đang ở trang chi tiết. |
 | 4 | System lấy các room ứng viên. |
 | 5 | System tìm booking có trạng thái `BOOKED` hoặc `CHECKED_IN`. |
-| 6 | System loại room có booking giao ngày với khoảng tìm kiếm. |
-| 7 | System kiểm tra `room.capacity` đáp ứng tổng khách. |
-| 8 | System kiểm tra số lượng còn lại theo `room.amount`. |
+| 6 | System tính tổng số lượng phòng đã đặt (`booked_quantity`) của từng loại phòng trong khoảng thời gian giao nhau. |
+| 7 | System kiểm tra `room.capacity * quantity` đáp ứng tổng khách. |
+| 8 | System kiểm tra số lượng khả dụng: `room.amount - booked_quantity >= requested_quantity`. |
 | 9 | System trả danh sách phòng trống. |
 
 ### Availability Formula
@@ -248,7 +248,7 @@
 | BR-AVAIL-001 | Existing booking conflicts if `existing_checkin < new_checkout AND existing_checkout > new_checkin`. |
 | BR-AVAIL-002 | Only statuses `BOOKED` and `CHECKED_IN` block availability. |
 | BR-AVAIL-003 | `requested_quantity + booked_quantity <= room.amount`. |
-| BR-AVAIL-004 | `adultAmount + childrenAmount <= room.capacity` unless policy defines child capacity differently. |
+| BR-AVAIL-004 | `adultAmount + childrenAmount <= room.capacity * quantity` unless policy defines child capacity differently. |
 
 ### Error Flows
 
@@ -256,5 +256,4 @@
 | --- | --- | --- |
 | Invalid date | Check-in in past or checkout before/equal checkin | Return validation error |
 | No room | No room meets filters | Return empty result, not system error |
-| Capacity exceeded | Guest count exceeds room capacity | Exclude room or return capacity error in booking flow |
-
+| Capacity exceeded | Guest count exceeds `room.capacity * quantity` | Exclude room or return capacity error in booking flow |

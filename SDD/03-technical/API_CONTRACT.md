@@ -80,6 +80,7 @@ All API errors MUST return this JSON shape. Do not create endpoint-specific erro
 | `PASSWORD_REUSED` | `409 Conflict` | Change password | New password matches old password |
 | `ROOM_UNAVAILABLE` | `409 Conflict` | Availability/booking | Room is blocked by overlapping active booking |
 | `ROOM_QUANTITY_EXCEEDED` | `409 Conflict` | Availability/booking | Requested quantity exceeds available room amount |
+| `ROOM_QUANTITY_CONFLICT` | `409 Conflict` | Update room | Không thể giảm số lượng phòng xuống thấp hơn số lượng đang được đặt trong tương lai |
 | `ROOM_NUMBER_OCCUPIED` | `409 Conflict` | Check-in | Physical room number is already assigned to active checked-in booking |
 | `BOOKING_CANNOT_CANCEL` | `409 Conflict` | Cancel booking | Booking status does not allow cancellation |
 | `AMENITY_IN_USE` | `409 Conflict` | Delete amenity | Amenity is still linked to at least one hotel or room |
@@ -153,14 +154,14 @@ All request DTOs, query parameters, database writes, and frontend forms MUST use
 | VAL-ID-001 | `id`, `hotelId`, `roomId`, `amenityId`, `roleId`, `userId` | integer | Min `1`; path/query IDs must be positive integers |
 | VAL-EMAIL-001 | `email` | string | Trim, lowercase before unique check; max length `255`; regex `^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$` |
 | VAL-PASSWORD-001 | `password`, `oldPassword`, `newPassword`, `confirmPassword` | string | Min length `8`, max length `72`; must contain at least one letter and one digit; regex `^(?=.*[A-Za-z])(?=.*\\d).{8,72}$` |
-| VAL-PHONE-001 | `phone`, `contactPhone` | string | VN phone only; max length `20`; regex `^(0|\\+84)(2[0-9]{8,9}|[35789][0-9]{8})$` |
+| VAL-PHONE-001 | `phone`, `contactPhone`, `customerPhone` | string | VN phone only; max length `20`; regex `^(0|\\+84)(2[0-9]{8,9}|[35789][0-9]{8})$` |
 | VAL-DATE-001 | `dob`, `checkinDate`, `checkoutDate` | string | ISO date only; format `YYYY-MM-DD`; regex `^\\d{4}-\\d{2}-\\d{2}$` |
-| VAL-PRICE-001 | `price`, `totalPrice`, `refund` | decimal | Min `0`; decimal precision `10,2`; max `99999999.99`; no floating-point storage |
+| VAL-PRICE-001 | `price`, `totalPrice`, `refund` | decimal | Min `0`; decimal precision `15,2`; max `9999999999999.99`; no floating-point storage |
 | VAL-IMAGE-URL-001 | `imageUrl`, `imageUrls[]`, `path` | string | HTTPS URL only; max length `1024`; regex `^https://.{1,1016}$` |
 | VAL-NAME-001 | `fullName`, `customerName`, `contactName`, `name` | string | Trim; min length `1`; max length `255`; must not be blank |
 | VAL-DESC-001 | `description`, `specialRequire`, `cancelReason` | string | Trim; max length `255`; optional fields may be `null` |
 | VAL-BOOK-REF-001 | `bookingReference` | string | Uppercase alphanumeric; length `10`; regex `^[A-Z0-9]{10}$` |
-| VAL-ROOM-NUMBER-001 | `roomNumber` | string | Max length `10`; regex `^[A-Za-z0-9-]{1,10}$` |
+| VAL-ROOM-NUMBER-001 | `roomNumber` | string | Max length `255`; regex `^[A-Za-z0-9-,\s]{1,255}$`; comma-separated values allowed when `quantity > 1`, example `"301, 302"` |
 
 #### Domain Field Constraints
 
@@ -433,6 +434,7 @@ All request DTOs, query parameters, database writes, and frontend forms MUST use
 | `VALIDATION_ERROR` | `400` | Invalid type, price, amount, capacity, dates |
 | `ROOM_UNAVAILABLE` | `409` | Room blocked by overlapping booking |
 | `ROOM_QUANTITY_EXCEEDED` | `409` | Requested quantity exceeds available amount |
+| `ROOM_QUANTITY_CONFLICT` | `409` | Không thể giảm số lượng phòng xuống thấp hơn số lượng đang được đặt trong tương lai |
 
 ## 7. Booking APIs
 
@@ -458,9 +460,12 @@ All request DTOs, query parameters, database writes, and frontend forms MUST use
   "adultAmount": 2,
   "childrenAmount": 0,
   "customerName": "Nguyen Van A",
+  "customerPhone": "0900000000",
   "specialRequire": "Late check-in"
 }
 ```
+
+Note: MVP chỉ hỗ trợ đặt 1 loại phòng (Room Type) trên mỗi Booking. Cấu trúc DB hỗ trợ Many-to-Many nhưng API chỉ nhận 1 `roomId`.
 
 ### 7.2 Booking Response
 
@@ -469,19 +474,21 @@ All request DTOs, query parameters, database writes, and frontend forms MUST use
   "id": 100,
   "bookingReference": "A1B2C3D4E5",
   "customerName": "Nguyen Van A",
+  "customerPhone": "0900000000",
   "status": "BOOKED",
   "checkinDate": "2026-06-01",
   "checkoutDate": "2026-06-03",
   "adultAmount": 2,
   "childrenAmount": 0,
   "totalPrice": 2400000,
-  "roomNumber": null,
   "specialRequire": "Late check-in",
   "cancelReason": null,
   "room": {
     "id": 10,
     "name": "Deluxe Double",
-    "type": "DOUBLE"
+    "type": "DOUBLE",
+    "quantity": 1,
+    "roomNumber": null
   },
   "hotel": {
     "id": 2,

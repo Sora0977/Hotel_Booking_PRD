@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "9eda3a158bbb7aa1",
+        "id": "21029ad091bab702",
         "type": "tabs",
         "children": [
           {
-            "id": "a834966a52705aea",
+            "id": "7ed24f0c4562ffd5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "SDD/03-technical/API_CONTRACT.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "API_CONTRACT"
+              "title": "New tab"
             }
           }
         ]
@@ -156,13 +152,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "SDD/03-technical/API_CONTRACT.md",
+                "file": "SDD/04-diagrams/CORE_FLOW_DIAGRAMS.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of API_CONTRACT"
+              "title": "Outline of CORE_FLOW_DIAGRAMS"
             }
           },
           {
@@ -194,21 +190,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c6102da16e07152",
+  "active": "7ed24f0c4562ffd5",
   "lastOpenFiles": [
-    "SDD/03-technical/ENTITY_SCHEMA.md",
-    "SDD/02-business/BUSINESS_PROCESS.md",
     "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
-    "graphify-out/cache/ast/aebdeff94846ac4140cac040a1dc57a367f07460744b4b7759e4f835ab2d630d.json",
-    "graphify-out/cache/ast/7c9af73b82efd2023f094a55512f1789a41edff83d802d0e0d9532ea3b6af2de.json",
-    "graphify-out/cache/ast/2fef96ac544af202fceb2e98c9c3de5cb8facd743ba35b1ec12fc3acab941437.json",
-    "graphify-out/cache/ast/1a3b1515aac4ad7b7ed17b8c2ff56baa746168a4ed0143fbe2945bbadfeb31c2.json",
-    "graphify-out/cache/ast/1a8770ea43037ab0a718d5844360eb934a2d66d664d4ed0db2debe7c2de87477.json",
-    "graphify-out/cache/ast/b7f6000260feb7b18dc0f7974b46ee3d942cc437cc051f0f014b4bfe03c036fb.json",
-    "graphify-out/cache/ast/9a5130f8743ec184fadbff28e348def56c95ce355ef7a3d8d934d04946adea16.json",
-    "graphify-out/cache/ast/0319e95d290c39f428ea906269aea8f96325c847aee82065c7775c2ff1521e94.json",
-    "graphify-out/cache/ast/1c79a5ecd481c35b253b245b5003d70f3d384ddc6ebd67c1d27fec38706f4ae5.json",
-    "graphify-out/cache/ast/3774237da96544bcf39a90906bd57b8402af32aed281246dffc93a4cf9a9b417.json",
+    "graphify-out/cache/ast/44ee793c85760b6e3b5868feff9bfb9cad74cb90f9e4f0ec34f2b4bb6617e078.json",
+    "graphify-out/cache/ast/c046b7402e00fdf127f51e1c37dc2ea5e99c506ab878272a51e8ad0c1f70aff3.json",
+    "graphify-out/cache/ast/351614c90d81d68c6f910c8e0743320ebf1d613936384fbaff43dd0270b32478.json",
+    "graphify-out/cache/ast/9f380fde1a941ba204da9846c50e35c2f419202a873b2191b82bd1dbac4482c2.json",
+    "graphify-out/cache/ast/bfa9730c60ac8cc9b77e0d762f65d6aa008b4d403e9ef28e26b52b94a5ae37f1.json",
+    "graphify-out/cache/ast/bfa9730c60ac8cc9b77e0d762f65d6aa008b4d403e9ef28e26b52b94a5ae37f1.n8ybjy6x.tmp",
+    "graphify-out/cache/ast/e9abc40a80aa163796ea5c474b98a2024c1b1fd8dc2aa7d8c398d546a552d782.json",
+    "graphify-out/cache/ast/ba4379bc639a972582dbc2ce91365c9476ea66d99a3f20273d4eb3d714b432c7.json",
+    "graphify-out/cache/ast/54ebd13b8644a854a30463b87c41d8c9fb3260638f4bf3690a3a8c6aa60ec84c.json",
+    "graphify-out/cache/ast/d8e2e9642f9ed3e3fbe413281959b30de39bd25b966ce20af1fb0b9b57aeb440.json",
+    "SDD/04-diagrams/CORE_FLOW_DIAGRAMS.md",
+    "SDD/02-business/BUSINESS_PROCESS.md",
+    "SDD/03-technical/API_CONTRACT.md",
+    "SDD/03-technical/ENTITY_SCHEMA.md",
     "graphify-out/wiki/toString()_-_filter()_-__6().md",
     "graphify-out/wiki/subscribeMe()_-_unsubscribeMe()_-_changeToNewFilepath().md",
     "graphify-out/wiki/sp()_-_diff()_-_diffWithOptionsObj().md",
@@ -220,9 +218,7 @@
     "graphify-out/wiki/Uv()_-_Xi()_-_nh().md",
     "graphify-out/wiki/UE()_-_Mt()_-_hu().md",
     "graphify-out/wiki/AGENTS.md_-_graphify.md",
-    "SDD/04-diagrams/CORE_FLOW_DIAGRAMS.md",
     "SDD/03-technical/TECH_SPEC.md",
-    "SDD/03-technical/API_CONTRACT.md",
     "SDD/02-business/business-processes/01-auth-and-account.md",
     "SDD/01-product/USE_CASE_CATALOG.md",
     "SDD/01-product/PRD.md",
@@ -231,7 +227,6 @@
     "SDD/02-business/business-processes/06-amenity-management.md",
     "SDD/02-business/business-processes/05-admin-booking-operations.md",
     "SDD/02-business/business-processes/04-admin-hotel-room-management.md",
-    "SDD/02-business/business-processes/03-booking-lifecycle.md",
     "Hotel booking service/Thesis-report/images/image-009.png",
     "Hotel booking service/Thesis-report/images/image-096.png",
     "Hotel booking service/Thesis-report/images/image-125.png",

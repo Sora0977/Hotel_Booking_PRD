@@ -193,7 +193,7 @@
 | Ngày tạo | `booking.created_at` |
 | Người lớn/trẻ em | `adult_amount`, `children_amount` |
 | Tổng tiền | `total_price` |
-| Số phòng thực tế | `room_number` |
+| Số phòng thực tế | `booking_room.room_number` |
 | Yêu cầu đặc biệt | `special_require` |
 | Lý do hủy | `cancel_reason` |
 | Hoàn tiền | `refund` |

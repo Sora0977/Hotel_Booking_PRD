@@ -80,7 +80,7 @@ erDiagram
 | `id` | `INT` | Yes | PK | Room ID |
 | `name` | `VARCHAR(255)` | Yes |  | Room name/code |
 | `type` | `ENUM('SINGLE','DOUBLE','TRIPLE','SUIT')` | Yes | Index recommended | Room type |
-| `price` | `DECIMAL(10,2)` | Yes |  | Non-negative money value |
+| `price` | `DECIMAL(15,2)` | Yes |  | Non-negative money value |
 | `amount` | `INT` | Yes |  | Room quantity, must be > 0 |
 | `capacity` | `INT` | Yes |  | Guest capacity, must be > 0 |
 | `description` | `VARCHAR(255)` | Yes |  | Room description |
@@ -103,7 +103,8 @@ erDiagram
 | `id` | `INT` | Yes | PK | Booking ID |
 | `booking_reference` | `VARCHAR(10)` | Yes | Unique | Booking lookup code |
 | `customer_name` | `VARCHAR(255)` | Yes |  | Customer name at booking time |
-| `total_price` | `DECIMAL(10,2)` | Yes |  | Total booking price; calculated server-side |
+| `customer_phone` | `VARCHAR(20)` | Yes |  | Customer phone at booking time; validates with `VAL-PHONE-001` |
+| `total_price` | `DECIMAL(15,2)` | Yes |  | Total booking price; calculated server-side |
 | `status` | `ENUM('BOOKED','CHECKED_IN','CHECKED_OUT','CANCELLED')` | Yes | Index | Booking lifecycle status |
 | `checkin_date` | `DATE` | Yes | Composite index recommended | Stay start date |
 | `checkout_date` | `DATE` | Yes | Composite index recommended | Stay end date |
@@ -111,8 +112,7 @@ erDiagram
 | `children_amount` | `INT` | Yes |  | Number of children |
 | `created_at` | `DATETIME(6)` | Yes | Index optional | Booking creation time; default `CURRENT_TIMESTAMP(6)` |
 | `cancel_reason` | `VARCHAR(255)` | No |  | Cancellation reason |
-| `refund` | `DECIMAL(10,2)` | No |  | Refund amount, payment flow not in MVP |
-| `room_number` | `VARCHAR(10)` | No | Index recommended with status | Physical room assigned at check-in |
+| `refund` | `DECIMAL(15,2)` | No |  | Refund amount, payment flow not in MVP |
 | `special_require` | `VARCHAR(255)` | No |  | Special request |
 | `user_id` | `INT` | Yes | FK -> `user.id`, index | Booker |
 
@@ -124,6 +124,7 @@ erDiagram
 | `booking_id` | `INT` | Yes | FK -> `booking.id`, index | Booking reference |
 | `room_id` | `INT` | Yes | FK -> `room.id`, index | Room reference |
 | `quantity` | `INT` | Yes |  | Number of rooms booked for this room type; default `1`, must be > 0 |
+| `room_number` | `VARCHAR(255)` | No | Index recommended with booking status | Physical room number(s) assigned at check-in; comma-separated when `quantity > 1` |
 
 ### 3.9 `amenity`
 
@@ -176,14 +177,14 @@ erDiagram
 | VAL-ID-001 | All PK/FK IDs | Positive integer, min `1` |
 | VAL-EMAIL-001 | `user.email`, `hotel.email` | Trim, lowercase before persistence; max length `255`; regex `^[A-Za-z0-9+_.-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$` |
 | VAL-PASSWORD-001 | `user.password` input before hash | Min length `8`, max length `72`; at least one letter and one digit; regex `^(?=.*[A-Za-z])(?=.*\\d).{8,72}$`; persist only BCrypt hash |
-| VAL-PHONE-001 | `user.phone`, `hotel.phone`, `hotel.contact_phone` | VN phone format; max length `20`; regex `^(0|\\+84)(2[0-9]{8,9}|[35789][0-9]{8})$` |
+| VAL-PHONE-001 | `user.phone`, `hotel.phone`, `hotel.contact_phone`, `booking.customer_phone` | VN phone format; max length `20`; regex `^(0|\\+84)(2[0-9]{8,9}|[35789][0-9]{8})$` |
 | VAL-DATE-001 | `user.dob`, `booking.checkin_date`, `booking.checkout_date` | API format `YYYY-MM-DD`; regex `^\\d{4}-\\d{2}-\\d{2}$` |
-| VAL-MONEY-001 | `room.price`, `booking.total_price`, `booking.refund` | MySQL `DECIMAL(10,2)`; min `0`; max `99999999.99`; never use `FLOAT` or `DOUBLE` |
+| VAL-MONEY-001 | `room.price`, `booking.total_price`, `booking.refund` | MySQL `DECIMAL(15,2)`; min `0`; max `9999999999999.99`; never use `FLOAT` or `DOUBLE` |
 | VAL-IMAGE-001 | `image.path` | HTTPS URL only; max length `1024`; regex `^https://.{1,1016}$` |
 | VAL-NAME-001 | `name`, `full_name`, `customer_name`, `contact_name` columns | Trim; min length `1`; max length `255`; required fields cannot be blank |
 | VAL-TEXT-001 | `description`, `special_require`, `cancel_reason` | Trim; max length `255`; optional blank strings must be persisted as `NULL` |
 | VAL-BOOK-REF-001 | `booking.booking_reference` | Uppercase alphanumeric; length `10`; regex `^[A-Z0-9]{10}$`; generated server-side |
-| VAL-ROOM-NUMBER-001 | `booking.room_number` | Max length `10`; regex `^[A-Za-z0-9-]{1,10}$`; required only when status becomes `CHECKED_IN` |
+| VAL-ROOM-NUMBER-001 | `booking_room.room_number` | Max length `255`; regex `^[A-Za-z0-9-,\s]{1,255}$`; required only when parent booking status becomes `CHECKED_IN`; comma-separated when `booking_room.quantity > 1` |
 
 ### 6.2 Default Values
 
@@ -197,7 +198,7 @@ erDiagram
 | `booking.created_at` | `CURRENT_TIMESTAMP(6)` | Server-generated; used by default pagination sort |
 | `booking_room.quantity` | `1` | Must be set from booking request quantity when provided |
 | `booking.refund` | `NULL` | MVP has no real refund calculation |
-| `booking.room_number` | `NULL` | Set only during check-in |
+| `booking_room.room_number` | `NULL` | Set only during check-in |
 | `booking.cancel_reason` | `NULL` | Required only when status becomes `CANCELLED` |
 
 ### 6.3 Database Constraints
@@ -215,6 +216,7 @@ erDiagram
 | CONS-BOOK-003 | `booking` | `total_price >= 0` |
 | CONS-BOOK-004 | `booking` | `refund IS NULL OR refund >= 0` |
 | CONS-BOOK-ROOM-001 | `booking_room` | `quantity > 0` |
+| CONS-BOOK-ROOM-002 | `booking_room` | Trong phạm vi MVP, mỗi `booking_id` chỉ được có duy nhất 1 bản ghi tương ứng trong bảng `booking_room` (Chỉ đặt 1 loại phòng trên 1 đơn hàng). |
 | CONS-AMN-001 | `amenity` | `name` unique |
 | CONS-HOTEL-AMN-001 | `hotel_amenity` | composite PK prevents duplicate link |
 | CONS-ROOM-AMN-001 | `room_amenity` | composite PK prevents duplicate link |
@@ -236,17 +238,17 @@ erDiagram
 | IDX-BOOK-CREATED | `booking` | `created_at` | Default list sort |
 | IDX-BOOK-DATE-STATUS | `booking` | `status`, `checkin_date`, `checkout_date` | Availability check |
 | IDX-BOOK-ROOM | `booking_room` | `room_id`, `booking_id` | Availability join |
-| IDX-BOOK-ROOM-NUMBER | `booking` | `room_number`, `status` | Check-in occupancy |
+| IDX-BOOK-ROOM-NUMBER | `booking_room` + `booking` | `booking_room.room_number`, `booking.status` | Check-in occupancy |
 
 ## 8. Delete Policy Recommendations
 
 | Entity | Recommended Policy | Reason |
 | --- | --- | --- |
-| User | Soft delete/inactive | Preserve booking history |
-| Hotel | Soft delete/inactive | Preserve room and booking history |
-| Room | Soft delete/inactive | Preserve booking history and availability audit |
+| User | Soft delete (`is_active = 0`) AND append `_DELETED_{timestamp}` to unique columns (`email`, `name`) to prevent Unique Index constraints from blocking future records | Preserve booking history |
+| Hotel | Soft delete (`is_active = 0`) AND append `_DELETED_{timestamp}` to unique columns (`email`, `name`) to prevent Unique Index constraints from blocking future records | Preserve room and booking history |
+| Room | Soft delete (`is_active = 0`) AND append `_DELETED_{timestamp}` to unique columns (`email`, `name`) to prevent Unique Index constraints from blocking future records | Preserve booking history and availability audit |
 | Booking | Never hard delete from normal UI | Preserve transaction/history |
-| Amenity | Hard delete only if not in use | Catalog item can be removed safely when no mappings |
+| Amenity | Soft delete (`is_active = 0`) AND append `_DELETED_{timestamp}` to unique columns (`email`, `name`) to prevent Unique Index constraints from blocking future records | Catalog item can be hidden safely while preventing unique-name collisions |
 | Mapping tables | Hard delete mapping | Removing link does not destroy original entity |
 
 ## 9. AI Maintenance Notes

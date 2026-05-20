@@ -67,7 +67,7 @@ Trace theo module thường gặp:
 | Tìm phòng trống | `FR-CUS-ROOM-004`, `UC-006` | `BP-DISC-008` | `GET /api/rooms/available` | `hotel`, `room`, `booking`, `booking_room` | `TECH_SPEC` 8.3 |
 | Tạo booking | `FR-CUS-BOOK-001`, `UC-010` | `BP-BOOK-001` | `POST /api/bookings` | `booking`, `booking_room`, `room`, `hotel`, `user` | `TECH_SPEC` 8.4 |
 | Hủy booking | `FR-CUS-BOOK-006`, `FR-ADM-BOOK-004`, `UC-011` | `BP-BOOK-006`, `BP-OPS-005` | `PATCH /api/bookings/{id}/cancel` | `booking.status`, `booking.cancel_reason` | `TECH_SPEC` 8.5 |
-| Admin check-in/out | `FR-ADM-BOOK-002`, `UC-009` | `05-admin-booking-operations.md` | `/api/admin/bookings/{id}/check-in`, `/check-out` | `booking.status`, `booking.room_number` | `TECH_SPEC` 8.8 |
+| Admin check-in/out | `FR-ADM-BOOK-002`, `UC-009` | `05-admin-booking-operations.md` | `/api/admin/bookings/{id}/check-in`, `/check-out` | `booking.status`, `booking_room.room_number` | `TECH_SPEC` 8.8 |
 | Quản lý hotel/room | `UC-005`, `UC-007` | `04-admin-hotel-room-management.md` | `/api/admin/hotels`, `/api/admin/rooms` | `hotel`, `room`, `image`, amenity mappings | `TECH_SPEC` 8.6, 8.7 |
 | Quản lý amenity | `UC-012` | `06-amenity-management.md` | `/api/amenities`, mapping endpoints | `amenity`, `hotel_amenity`, `room_amenity` | `TECH_SPEC` 8.9 |
 

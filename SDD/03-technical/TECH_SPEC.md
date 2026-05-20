@@ -97,7 +97,7 @@
 | `userId` | number   | Yes      | Current user ID                                               |
 | `roles`  | string[] | Yes      | `CUSTOMER`, `ADMIN`                                           |
 | `iat`    | number   | Yes      | Issued-at timestamp                                           |
-| `exp`    | number   | Yes      | Expiration; source document states token validity is 6 months |
+| `exp`    | number   | Yes      | Access Token validity is 24 hours (or 15 mins with Refresh Token rotation) |
 
 ### 4.3 Protected Endpoint Rules
 
@@ -209,10 +209,10 @@
 | `user` | `id INT` | `activate BIT(1)`, `dob DATE`, `email VARCHAR(255)`, `full_name VARCHAR(255)`, `password VARCHAR(255)`, `phone VARCHAR(20)` | `created_at DATETIME(6)` |
 | `user_role` | `role_id INT`, `user_id INT` | `role_id FK`, `user_id FK` | None |
 | `hotel` | `id INT` | `name`, `description`, `location`, `phone`, `email`, `contact_name`, `contact_phone`, `star_rating`, `is_active`, `user_id FK` | None |
-| `room` | `id INT` | `name`, `type ENUM('SINGLE','DOUBLE','TRIPLE','SUIT')`, `price DECIMAL(10,2)`, `amount INT`, `capacity INT`, `description`, `is_active BIT(1)`, `hotel_id FK` | None |
+| `room` | `id INT` | `name`, `type ENUM('SINGLE','DOUBLE','TRIPLE','SUIT')`, `price DECIMAL(15,2)`, `amount INT`, `capacity INT`, `description`, `is_active BIT(1)`, `hotel_id FK` | None |
 | `image` | `id INT` | `path VARCHAR(1024)` | `hotel_id FK`, `room_id FK` |
-| `booking` | `id INT` | `booking_reference VARCHAR(10)`, `customer_name`, `total_price DECIMAL(10,2)`, `status`, `checkin_date`, `checkout_date`, `adult_amount`, `children_amount`, `created_at`, `user_id FK` | `cancel_reason`, `refund DECIMAL(10,2)`, `room_number`, `special_require` |
-| `booking_room` | `id INT` | `booking_id FK`, `room_id FK`, `quantity INT` | None |
+| `booking` | `id INT` | `booking_reference VARCHAR(10)`, `customer_name`, `total_price DECIMAL(15,2)`, `status`, `checkin_date`, `checkout_date`, `adult_amount`, `children_amount`, `created_at`, `user_id FK` | `cancel_reason`, `refund DECIMAL(15,2)`, `special_require` |
+| `booking_room` | `id INT` | `booking_id FK`, `room_id FK`, `quantity INT` | `room_number VARCHAR(255)` |
 | `amenity` | `id INT` | `name VARCHAR(255)`, `type ENUM('HOTEL_SERVICE','ROOM_FEATURE')` | None |
 | `hotel_amenity` | `amenity_id INT`, `hotel_id INT` | `amenity_id FK`, `hotel_id FK` | None |
 | `room_amenity` | `amenity_id INT`, `room_id INT` | `amenity_id FK`, `room_id FK` | None |
@@ -392,10 +392,11 @@
 | 3 | BookingService | Validates Admin role. |
 | 4 | BookingService | Loads booking by ID. |
 | 5 | BookingService | For check-in, requires `roomNumber`. |
-| 6 | BookingService | Checks `roomNumber` is not assigned to another active `CHECKED_IN` booking. |
-| 7 | BookingService | Updates `room_number` and status to `CHECKED_IN`. |
-| 8 | BookingService | For check-out, updates status to `CHECKED_OUT`. |
-| 9 | API | Returns updated booking detail. |
+| 6 | BookingService | Checks each parsed physical room number is not assigned to another active `CHECKED_IN` booking in `booking_room.room_number`. |
+| 7 | BookingService | Validates parsed room number count equals `booking_room.quantity`. |
+| 8 | BookingService | Updates `booking_room.room_number` and booking status to `CHECKED_IN`. |
+| 9 | BookingService | For check-out, updates status to `CHECKED_OUT`. |
+| 10 | API | Returns updated booking detail. |
 
 ### 8.9 Admin Amenity Management Flow
 
@@ -458,6 +459,8 @@
 | NFR-TECH-006 | Data integrity | DB constraints and service-level transaction boundaries |
 | NFR-TECH-007 | Image storage | Store Cloudinary URL only, not binary image in MySQL |
 | NFR-TECH-008 | Maintainability | Keep controller-service-repository separation |
+| NFR-TECH-009 | Token Blacklisting | Bắt buộc implement cơ chế chặn JWT đã logout bằng Redis/DB blacklist until token expiration |
+| NFR-TECH-010 | Bootstrap Admin | Tài khoản Super Admin đầu tiên của hệ thống phải được tạo cứng (Seed) thông qua script DB migration khi deploy, do API đăng ký mặc định chỉ tạo Customer |
 
 ## 12. Transaction Boundaries
 
@@ -468,7 +471,7 @@
 | Create room | Save room, images, and amenity links atomically after successful Cloudinary upload |
 | Create booking | Availability check and booking insert must run in one transaction to reduce overbooking risk |
 | Cancel booking | Status update and cancel reason save atomically |
-| Check-in | Room number occupancy check and status update atomically |
+| Check-in | Room number occupancy check, room-number-count validation, `booking_room.room_number` update, and booking status update atomically |
 | Delete amenity | In-use check and delete atomically |
 
 ## 13. Concurrency Notes
@@ -476,7 +479,7 @@
 | Risk | Mitigation |
 | --- | --- |
 | Two users book the last available room simultaneously | Use DB transaction, row-level lock or optimistic locking on room/booking availability check |
-| Admin assigns same room number to two active stays | Check active `CHECKED_IN` booking by `room_number` inside transaction |
+| Admin assigns same room number to two active stays | Check active `CHECKED_IN` booking by parsed `booking_room.room_number` inside transaction |
 | Amenity deleted while another admin assigns it | Check existence and in-use status inside transaction |
 | Hotel/room edited while another admin deletes it | Use existence checks and return `RESOURCE_NOT_FOUND` if stale |
 

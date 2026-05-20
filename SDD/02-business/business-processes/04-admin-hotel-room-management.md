@@ -261,10 +261,17 @@
 | 3 | System kiểm tra owner hotel. |
 | 4 | Admin thay đổi thông tin. |
 | 5 | System validate dữ liệu. |
-| 6 | Nếu có ảnh mới, system upload ảnh. |
-| 7 | System cập nhật room. |
-| 8 | System cập nhật ảnh/tiện ích nếu có thay đổi. |
-| 9 | System trả room mới. |
+| 6 | System kiểm tra `amount` mới không được nhỏ hơn số lượng phòng đã được đặt (`booked_quantity`) cao nhất trong bất kỳ ngày nào ở tương lai. |
+| 7 | Nếu có ảnh mới, system upload ảnh. |
+| 8 | System cập nhật room. |
+| 9 | System cập nhật ảnh/tiện ích nếu có thay đổi. |
+| 10 | System trả room mới. |
+
+### Error Flows
+
+| Case | Condition | Behavior |
+| --- | --- | --- |
+| Room quantity conflict | `new_amount < max(booked_quantity)` trong bất kỳ ngày nào ở tương lai | Trả `ROOM_QUANTITY_CONFLICT` |
 
 ## 10. BP-HR-008 - Xóa Phòng
 
@@ -296,4 +303,3 @@
 | --- | --- |
 | Hard delete hay soft delete room? | Hard delete ảnh hưởng booking history |
 | Có cho xóa room đang có booking `BOOKED`/`CHECKED_IN` không? | Nên chặn hoặc chỉ deactivate |
-
