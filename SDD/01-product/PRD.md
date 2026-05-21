@@ -43,6 +43,21 @@
 | MVP-010 | No | Thống kê doanh thu |
 | MVP-011 | No | Gợi ý cá nhân hóa, AI recommendation |
 | MVP-012 | No | Review, policy engine, thanh toán thật qua VNPAY/MoMo/ngân hàng |
+| MVP-013 | No | Chấm điểm/xử phạt đối tác, cơ chế chống gian lận, commission/hoa hồng marketplace |
+| MVP-014 | No | Chatbot/FAQ tự động, hỗ trợ khách hàng đa kênh, SLA hỗ trợ |
+| MVP-015 | No | Khuyến mãi, loyalty/tích điểm, ưu đãi thành viên |
+
+### 2.3 Benchmark Và Product Direction Từ Hệ Thống Tương Tự
+
+Nguồn chương 2 phân tích Booking.com và Traveloka như hai hệ thống marketplace tiêu biểu. SDD dùng phần này để giữ lại reasoning sản phẩm, không mặc định đưa toàn bộ vào MVP.
+
+| Benchmark Insight | Ý nghĩa cho MVP hiện tại | Roadmap/Open Policy |
+| --- | --- | --- |
+| Booking.com mạnh ở danh mục lưu trú lớn, bộ lọc theo giá/tiện nghi/rating/vị trí và công cụ quản lý đối tác. | MVP ưu tiên search theo location/date/capacity, quản lý hotel/room/booking cho Admin, và cấu trúc dữ liệu đủ mở rộng filter. | Bổ sung filter `priceMin/priceMax`, `amenityIds`, `starRating`, `reviewScore`, sort theo giá/rating/vị trí khi có dữ liệu review/location chuẩn. |
+| Booking.com có chính sách đặt/hủy linh hoạt và các rate plan khác nhau. | MVP chỉ có state machine hủy cơ bản: owner/Admin được hủy khi booking chưa hoàn tất/chưa hủy. | Nếu thêm policy engine, cần mô hình `cancellation_policy`, `rate_plan`, non-refundable/free-cancellation/pay-at-property và tác động refund/payment. |
+| Traveloka mạnh ở địa phương hóa Đông Nam Á, ví điện tử, chuyển khoản, khuyến mãi và trải nghiệm tối giản. | MVP chưa xử lý thanh toán thật; UI cần giữ luồng đặt phòng đơn giản và thông báo lỗi rõ. | Payment/localization roadmap gồm VietQR, MoMo, ví điện tử, chuyển khoản ngân hàng, thanh toán tại nơi lưu trú, promotion và loyalty. |
+| Cả hai hệ thống đều có nhu cầu kiểm soát chất lượng đối tác và chống gian lận. | MVP chỉ kiểm soát owner checks, trạng thái active và Admin operations. | Cần partner quality score, audit log, xử lý đối tác tự ý hủy đơn, tạm khóa hotel/partner, chính sách khiếu nại. |
+| Hệ thống lớn thường cần support/chăm sóc khách hàng đa kênh. | MVP chưa có workflow support riêng. | Roadmap có FAQ/chính sách, chatbot hỗ trợ tự động, kênh chat/phone/email và SLA phản hồi. |
 
 ## 3. Đối Tượng Người Dùng
 
@@ -235,6 +250,15 @@
 | SCR-ADM-017 | Admin    | Xác nhận xóa tiện nghi                 | `Hotel booking service/Thesis-report/images/image-124.png` |
 | SCR-ADM-018 | Admin    | Xem tiện nghi theo cấp khách sạn/phòng | `Hotel booking service/Thesis-report/images/image-125.png` |
 
+### 8.1 Screen Coverage Notes
+
+| Note ID | Note |
+| --- | --- |
+| SCR-NOTE-001 | Chapter 3 labels two final screenshots as `Hình 3.113`; SDD disambiguates them as `SCR-ADM-017` and `SCR-ADM-018`. |
+| SCR-NOTE-002 | Logout is treated as a header/profile/admin-layout action, not a standalone screen in Chapter 3. |
+| SCR-NOTE-003 | Check-out and Admin cancel booking are operations inside `SCR-ADM-012` unless a future UI adds dedicated dialogs/screens. |
+| SCR-NOTE-004 | Amenity assignment/removal can be implemented inside edit hotel/edit room screens or `SCR-ADM-018`; add a separate screen only if UI introduces a dedicated dialog. |
+
 ## 9. Yêu Cầu Phi Chức Năng
 
 ### 9.1 Performance
@@ -294,6 +318,10 @@
 | OQ-004 | Xóa hotel/room là hard delete hay soft delete? | Ảnh hưởng lịch sử booking và toàn vẹn dữ liệu |
 | OQ-005 | Thanh toán thật có thuộc scope phiên bản tiếp theo không? | Ảnh hưởng payment domain, bảo mật, luồng booking |
 | OQ-006 | Review, policy, promotion có thuộc roadmap gần không? | Ảnh hưởng database và màn hình mới |
+| OQ-007 | Marketplace có tách Hotel Partner khỏi Admin hệ thống và có commission/hoa hồng không? | Ảnh hưởng role model, payout/reporting và quyền quản lý hotel |
+| OQ-008 | Có cần partner quality score, audit log hoặc xử phạt khi đối tác vi phạm chính sách không? | Ảnh hưởng schema, admin workflow và compliance |
+| OQ-009 | Có cần chatbot/support workflow trong roadmap gần không? | Ảnh hưởng use case hỗ trợ khách hàng, SLA và màn hình support |
+| OQ-010 | Có cần rate plan/cancellation policy như free cancellation, non-refundable, pay-at-property không? | Ảnh hưởng pricing, cancellation, refund và payment domain |
 
 ## 11. Source References
 

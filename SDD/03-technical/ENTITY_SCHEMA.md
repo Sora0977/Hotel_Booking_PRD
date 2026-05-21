@@ -244,14 +244,26 @@ erDiagram
 
 | Entity | Recommended Policy | Reason |
 | --- | --- | --- |
-| User | Soft delete (`is_active = 0`) AND append `_DELETED_{timestamp}` to unique columns (`email`, `name`) to prevent Unique Index constraints from blocking future records | Preserve booking history |
-| Hotel | Soft delete (`is_active = 0`) AND append `_DELETED_{timestamp}` to unique columns (`email`, `name`) to prevent Unique Index constraints from blocking future records | Preserve room and booking history |
-| Room | Soft delete (`is_active = 0`) AND append `_DELETED_{timestamp}` to unique columns (`email`, `name`) to prevent Unique Index constraints from blocking future records | Preserve booking history and availability audit |
+| User | Soft deactivate (`activate = 0`) AND append `_DELETED_{timestamp}` to unique columns such as `email` if the system allows re-registration with the same email | Preserve booking history |
+| Hotel | Soft delete/deactivate (`is_active = 0`) AND append `_DELETED_{timestamp}` to unique columns such as `name`/`location` if needed | Preserve room and booking history |
+| Room | Soft delete/deactivate (`is_active = 0`) when using the SDD schema; if implementing raw Chapter 3 schema without `room.is_active`, block delete when booking history exists or add the column first | Preserve booking history and availability audit |
 | Booking | Never hard delete from normal UI | Preserve transaction/history |
-| Amenity | Soft delete (`is_active = 0`) AND append `_DELETED_{timestamp}` to unique columns (`email`, `name`) to prevent Unique Index constraints from blocking future records | Catalog item can be hidden safely while preventing unique-name collisions |
+| Amenity | MVP may hard delete only when unused; if catalog hiding/soft delete is required, add `amenity.is_active` before using soft-delete behavior | Catalog item can be hidden safely while preventing unique-name collisions |
 | Mapping tables | Hard delete mapping | Removing link does not destroy original entity |
 
-## 9. AI Maintenance Notes
+## 9. Chapter 3 Compatibility And Normalization Notes
+
+| Source Detail | SDD Canonical Decision |
+| --- | --- |
+| Chapter 3 uses `booking.create_at` in the physical table. | SDD standardizes on `booking.created_at` to align with pagination sort and common timestamp naming. |
+| Chapter 3 places `room_number` on `booking`. | SDD stores physical room assignment on `booking_room.room_number` so the model can support quantity and future multi-room bookings. |
+| Chapter 3 uses `FLOAT` for `booking.total_price` and `refund`. | SDD uses `DECIMAL(15,2)` for money to avoid floating-point rounding errors. |
+| Chapter 3 `booking_room` contains only `booking_id` and `room_id`. | SDD adds `quantity INT` with default `1` and `> 0`; MVP still restricts each booking to one `booking_room` row. |
+| Chapter 3 does not list `room.is_active` or `amenity.is_active`. | SDD includes `room.is_active` for safe deactivate/delete behavior. Amenity remains hard-delete-if-unused unless an `is_active` column is added. |
+| Chapter 3 does not list `booking.customer_phone`. | SDD keeps `customer_phone` because booking forms and API examples collect contact phone at booking time. |
+| Chapter 3 defines `booking_reference` broadly as `VARCHAR(255)`. | SDD constrains it to uppercase alphanumeric `VARCHAR(10)` and unique, matching the source process that generates a 10-character booking code. |
+
+## 10. AI Maintenance Notes
 
 | Task | Required Checks |
 | --- | --- |

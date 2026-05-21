@@ -55,7 +55,7 @@ flowchart TD
     FindRooms[Find candidate rooms under matched hotels]
     FindBlockingBookings[Find BOOKED or CHECKED_IN bookings]
     Overlap{Date overlap exists?}
-    Capacity{adultAmount + childrenAmount <= room.capacity?}
+    Capacity{adultAmount + childrenAmount <= room.capacity * requested quantity?}
     Quantity{requested quantity + blocked quantity <= room.amount?}
     Include[Include room in available results]
     Exclude[Exclude room]
@@ -195,7 +195,9 @@ flowchart TD
     LoadForCheckIn -->|No| StateError[Return RESOURCE_NOT_FOUND or state error]
     LoadForCheckIn -->|Yes| RoomNumberRequired{roomNumber provided?}
     RoomNumberRequired -->|No| ValidationError[Return VALIDATION_ERROR]
-    RoomNumberRequired -->|Yes| Occupancy{roomNumber already assigned in booking_room for active CHECKED_IN booking?}
+    RoomNumberRequired -->|Yes| RoomNumberCount{roomNumber count equals booking_room.quantity?}
+    RoomNumberCount -->|No| ValidationError
+    RoomNumberCount -->|Yes| Occupancy{roomNumber already assigned in booking_room for active CHECKED_IN booking?}
     Occupancy -->|Yes| Occupied[Return ROOM_NUMBER_OCCUPIED]
     Occupancy -->|No| AssignRoom[Set booking_room.room_number]
     AssignRoom --> MarkCheckedIn[Set status CHECKED_IN]
@@ -330,7 +332,74 @@ flowchart TD
     DeleteRoomMapping --> RemovedRoom[Return success]
 ```
 
-## 8. Entity Relationship Overview
+## 8. Account, Profile, And Admin User Management
+
+```mermaid
+flowchart TD
+    Start([Customer or Admin opens account area])
+    Auth{JWT valid?}
+    Action{Action}
+
+    Start --> Auth
+    Auth -->|No| LoginAgain[Redirect to login]
+    Auth -->|Yes| Action
+
+    Action -->|Logout| LogoutAPI[POST /api/auth/logout]
+    LogoutAPI --> Blacklist[Blacklist current JWT until exp]
+    Blacklist --> ClearSession[Clear client token and user context]
+    ClearSession --> PublicRoute[Redirect to public home/login]
+
+    Action -->|View profile| LoadProfile[GET /api/users/me]
+    LoadProfile --> ShowProfile[Show current user profile]
+
+    Action -->|Update profile| UpdateInput[Edit fullName, phone, dob]
+    UpdateInput --> ValidateProfile{Fields valid?}
+    ValidateProfile -->|No| ValidationError[Return VALIDATION_ERROR]
+    ValidateProfile -->|Yes| SaveProfile[PUT /api/users/me]
+    SaveProfile --> ShowProfile
+
+    Action -->|Change password| PasswordInput[Enter oldPassword, newPassword, confirmPassword]
+    PasswordInput --> OldPassword{Old password matches?}
+    OldPassword -->|No| PasswordError[Return AUTH_INVALID_CREDENTIALS]
+    OldPassword -->|Yes| Reused{New password reused?}
+    Reused -->|Yes| ReuseError[Return PASSWORD_REUSED]
+    Reused -->|No| SavePassword[Hash and save new password]
+    SavePassword --> PasswordChanged[Return success]
+
+    Action -->|Delete account| DeleteConfirm[Confirm delete/deactivate]
+    DeleteConfirm --> AccountPolicy{Open policy allows delete?}
+    AccountPolicy -->|No| PolicyBlocked[Return policy/validation error]
+    AccountPolicy -->|Yes| DeactivateUser[Set user.activate = false or apply approved delete policy]
+    DeactivateUser --> ClearSession
+```
+
+```mermaid
+flowchart TD
+    AdminStart([Admin opens user management])
+    AdminAuth{Role ADMIN?}
+    UserAction{Action}
+
+    AdminStart --> AdminAuth
+    AdminAuth -->|No| Forbidden[Return AUTH_FORBIDDEN]
+    AdminAuth -->|Yes| UserAction
+
+    UserAction -->|List users| ListUsers[GET /api/admin/users with pagination/filter]
+    ListUsers --> ShowUsers[Display users and activate status]
+
+    UserAction -->|Lock user| LockRequest[PATCH /api/admin/users/{id}/lock]
+    LockRequest --> FindLockUser{User exists?}
+    FindLockUser -->|No| NotFound[Return RESOURCE_NOT_FOUND]
+    FindLockUser -->|Yes| LockUser[Set user.activate = false]
+    LockUser --> UserUpdated[Return updated user status]
+
+    UserAction -->|Unlock user| UnlockRequest[PATCH /api/admin/users/{id}/unlock]
+    UnlockRequest --> FindUnlockUser{User exists?}
+    FindUnlockUser -->|No| NotFound
+    FindUnlockUser -->|Yes| UnlockUser[Set user.activate = true]
+    UnlockUser --> UserUpdated
+```
+
+## 9. Entity Relationship Overview
 
 ```mermaid
 erDiagram
@@ -400,7 +469,6 @@ erDiagram
         datetime created_at
         string cancel_reason
         decimal refund
-        string room_number
         string special_require
         int user_id FK
     }
@@ -410,6 +478,7 @@ erDiagram
         int booking_id FK
         int room_id FK
         int quantity
+        string room_number
     }
 
     AMENITY {
@@ -443,7 +512,7 @@ erDiagram
     AMENITY ||--o{ ROOM_AMENITY : assigned_to_room
 ```
 
-## 9. Cross-Cutting Rules Represented
+## 10. Cross-Cutting Rules Represented
 
 - Protected APIs require a valid JWT.
 - Admin-only APIs require role `ADMIN`.
@@ -452,3 +521,15 @@ erDiagram
 - Date overlap formula: `existing_checkin < new_checkout AND existing_checkout > new_checkin`.
 - Booking creation, cancellation, check-in, check-out, and amenity delete checks should run in transaction boundaries.
 - Hotel and room image files are uploaded to Cloudinary or equivalent storage; MySQL stores only URLs.
+- Check-in must validate that the number of physical room numbers entered equals `booking_room.quantity`.
+
+## 11. Chapter 3 Diagram Coverage Index
+
+| Chapter 3 Source | Coverage In This SDD |
+| --- | --- |
+| `Hình 3.1` to `Hình 3.12` use case diagrams | Captured in `USE_CASE_CATALOG.md` plus section 8 account/admin-user diagrams here. |
+| `Hình 3.13` to `Hình 3.48` sequence diagrams | Condensed into core flow diagrams for auth, profile/account, discovery, booking, hotel/room management, booking operations, amenity management. |
+| `Hình 3.49` to `Hình 3.84` activity diagrams | Converted into business-process main/error flows and Mermaid flowcharts/state diagrams. |
+| `Hình 3.85` to `Hình 3.113` screen screenshots | Indexed in `PRD.md` Screen Inventory. Chapter 3 repeats figure number `3.113`; SDD uses stable `SCR-ADM-017` and `SCR-ADM-018`. |
+| Logout | No dedicated Chapter 3 screen; represented as a header/profile/admin-layout action in section 8. |
+| Check-out and Admin cancel booking | Chapter 3 groups these under booking status management; SDD keeps separate `BP-OPS-004` and `BP-OPS-005` business processes. |

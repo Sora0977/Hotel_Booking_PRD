@@ -28,6 +28,17 @@
 | Cloud/storage | Cloudinary | Documented | Hotel/room image upload and URL storage |
 | Transport security | HTTPS/SSL-TLS | Required for production | Not completed in current implementation notes |
 
+### 2.1 Source Rationale From Chapter 2
+
+| Technology | Rationale preserved from thesis source |
+| --- | --- |
+| React.js | Component-based UI helps reuse screen elements and keep the SPA easier to maintain. |
+| React Router | Client-side routing keeps navigation smooth without full-page reloads. |
+| Tailwind CSS | Utility-first styling supports fast UI construction and consistent responsive screens. |
+| Axios | Central API client can attach JWT automatically and centralize request/error handling. |
+| Java/Spring Boot | Spring Boot provides REST API structure, dependency injection, embedded server deployment, and Spring ecosystem integration. |
+| MySQL | Relational model fits users, hotels, rooms, bookings, amenities, and join tables with explicit constraints. |
+
 ## 3. System Architecture
 
 ### 3.1 Architecture Style
@@ -97,7 +108,7 @@
 | `userId` | number   | Yes      | Current user ID                                               |
 | `roles`  | string[] | Yes      | `CUSTOMER`, `ADMIN`                                           |
 | `iat`    | number   | Yes      | Issued-at timestamp                                           |
-| `exp`    | number   | Yes      | Access Token validity is 24 hours (or 15 mins with Refresh Token rotation) |
+| `exp`    | number   | Yes      | Source baseline is 6 months; a shorter access-token plus refresh-token design requires explicit approval and matching API contract changes |
 
 ### 4.3 Protected Endpoint Rules
 

@@ -24,6 +24,12 @@
 | --- | --- |
 | JWT Bearer | `Authorization: Bearer <token>` |
 
+| Token Policy | Rule |
+| --- | --- |
+| Expiry source | Clients should rely on the JWT `exp` claim. |
+| Baseline validity | Chapter 2 source and `BP-AUTH-002` state a 6-month token validity. |
+| Production hardening | If the project switches to short-lived access tokens plus refresh tokens, update `TECH_SPEC`, this contract, logout/blacklist behavior, and frontend storage rules together. |
+
 ### 2.3 Standard Success Response
 
 ```json
@@ -218,6 +224,8 @@ All request DTOs, query parameters, database writes, and frontend forms MUST use
 }
 ```
 
+Token expiry is carried by the JWT `exp` claim. The source baseline is 6 months; do not add refresh-token fields to this response unless the token policy is explicitly changed.
+
 #### Errors
 
 | Error Code | HTTP | Condition |
@@ -356,6 +364,18 @@ All request DTOs, query parameters, database writes, and frontend forms MUST use
 | `page` | integer | No | Default `0`; see section `2.5 Pagination Query And Response` |
 | `size` | integer | No | Default `20`, max `100`; see section `2.5 Pagination Query And Response` |
 | `sort` | string | No | Default `created_at,desc`; see section `2.5 Pagination Query And Response` |
+
+#### Future Search Filters From Benchmark
+
+These filters come from the Booking.com/Traveloka benchmark in Chapter 2 and are not mandatory until explicitly moved into MVP scope.
+
+| Param | Type | Applies To | Notes |
+| --- | --- | --- | --- |
+| `priceMin`, `priceMax` | decimal | Hotel/room search | Requires stable room price aggregation for hotel results |
+| `amenityIds` | number[] | Hotel/room search | Filter by mapped hotel/room amenities |
+| `starRating` | number | Hotel search | Integer `1..5` |
+| `reviewScore` | decimal | Hotel/room search | Requires review/rating feature |
+| `sort=price|rating|distance` | string | Hotel/room search | Requires normalized price/rating/location data |
 
 ### 5.2 Create/Update Hotel Request
 
@@ -556,7 +576,76 @@ Note: MVP chỉ hỗ trợ đặt 1 loại phòng (Room Type) trên mỗi Bookin
 | `AUTH_FORBIDDEN` | `403` | Admin does not own hotel/room |
 | `RESOURCE_NOT_FOUND` | `404` | Amenity/hotel/room not found |
 
-## 9. Cross-Reference Matrix
+## 9. DTO And List Response Catalog
+
+All list endpoints must wrap these DTOs in the paginated success response from section `2.5`.
+
+### 9.1 User List Item
+
+```json
+{
+  "id": 1,
+  "fullName": "Nguyen Van A",
+  "email": "customer@example.com",
+  "phone": "0900000000",
+  "dob": "1999-01-01",
+  "activate": true,
+  "roles": ["CUSTOMER"],
+  "createdAt": "2026-05-18T10:15:30Z"
+}
+```
+
+### 9.2 Hotel List Item
+
+```json
+{
+  "id": 2,
+  "name": "Demo Hotel",
+  "location": "Ho Chi Minh City",
+  "starRating": 4,
+  "isActive": true,
+  "thumbnailUrl": "https://res.cloudinary.com/.../hotel.jpg",
+  "minRoomPrice": 1200000
+}
+```
+
+### 9.3 Room List Item
+
+```json
+{
+  "id": 10,
+  "hotelId": 2,
+  "hotelName": "Demo Hotel",
+  "name": "Deluxe Double",
+  "type": "DOUBLE",
+  "price": 1200000,
+  "amount": 5,
+  "capacity": 2,
+  "thumbnailUrl": "https://res.cloudinary.com/.../room.jpg"
+}
+```
+
+### 9.4 Amenity Response
+
+```json
+{
+  "id": 4,
+  "name": "Wifi miễn phí",
+  "type": "HOTEL_SERVICE"
+}
+```
+
+### 9.5 Mutating Admin Response
+
+Create/update/lock/unlock/check-in/check-out/delete APIs should return the updated resource summary when available. Delete/deactivate APIs may return:
+
+```json
+{
+  "message": "Operation completed"
+}
+```
+
+## 10. Cross-Reference Matrix
 
 | Business Process | API IDs |
 | --- | --- |

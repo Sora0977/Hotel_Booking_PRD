@@ -162,8 +162,8 @@
 
 | Question | Impact |
 | --- | --- |
-| Hard delete hay soft delete hotel? | Hard delete có thể ảnh hưởng booking history |
-| Có cho xóa hotel khi có booking chưa hoàn tất không? | Cần chặn để bảo toàn vận hành |
+| Hard delete hay soft delete hotel? | Recommended: soft delete/deactivate (`is_active = 0`) to preserve room and booking history. |
+| Có cho xóa hotel khi có booking chưa hoàn tất không? | Recommended: block destructive delete; allow deactivate only if active booking handling is explicit. |
 
 ## 7. BP-HR-005 - Xem Phòng Theo Khách Sạn
 
@@ -301,5 +301,5 @@
 
 | Question | Impact |
 | --- | --- |
-| Hard delete hay soft delete room? | Hard delete ảnh hưởng booking history |
-| Có cho xóa room đang có booking `BOOKED`/`CHECKED_IN` không? | Nên chặn hoặc chỉ deactivate |
+| Hard delete hay soft delete room? | Recommended: soft delete/deactivate when `room.is_active` exists; otherwise block delete if booking history exists. |
+| Có cho xóa room đang có booking `BOOKED`/`CHECKED_IN` không? | Recommended: block hard delete; deactivate only after defining how active/future bookings are handled. |

@@ -33,7 +33,7 @@
 | BR-AVAIL-003 | Booking `CANCELLED` không chặn phòng. |
 | BR-AVAIL-004 | Booking `CHECKED_OUT` không chặn phòng cho booking tương lai. |
 | BR-AVAIL-005 | Số lượng đặt không vượt quá `room.amount` sau khi trừ booking đang chặn. |
-| BR-AVAIL-006 | Tổng khách không vượt quá `room.capacity`, trừ khi có rule riêng cho trẻ em. |
+| BR-AVAIL-006 | Với `quantity = 1`, tổng khách không vượt quá `room.capacity`; khi đặt nhiều phòng, áp dụng BR-AVAIL-007. |
 | BR-DATE-003 | Date input/output dùng `YYYY-MM-DD`; không nhận datetime cho `checkin_date`/`checkout_date`. |
 | BR-DATE-004 | "Quá khứ" được tính theo business timezone UTC+7 tại thời điểm server xử lý. |
 | BR-AVAIL-007 | Nếu booking có `quantity`, capacity check là `adult_amount + children_amount <= room.capacity * quantity`, trừ khi có policy trẻ em riêng. |
@@ -128,7 +128,18 @@
 | EC-010 | DB save thành công nhưng frontend mất kết nối | Customer có thể tra cứu bằng mã booking hoặc xem lịch sử |
 | EC-011 | Soft Delete chạm Unique Constraint | Khi thực hiện Soft Delete (vô hiệu hóa) một Entity có Unique Constraint (như User email, Hotel name, Amenity name), Backend phải tự động gắn thêm hậu tố `_DELETED_{timestamp}` vào trường Unique đó để giải phóng dữ liệu, cho phép tạo bản ghi mới trùng tên trong tương lai. |
 
-## 10. Open Questions
+## 10. Roadmap Policy Candidates From Chapter 2 Benchmark
+
+| Policy Area | Candidate Rule |
+| --- | --- |
+| Cancellation/rate plan | Nếu thêm free cancellation/non-refundable/pay-at-property, tạo policy riêng thay vì nhúng trực tiếp vào `booking.status`. |
+| Local payment | VietQR, MoMo, ví điện tử, chuyển khoản ngân hàng và pay-at-property cần payment status, callback/webhook, reconciliation và refund rules riêng. |
+| Partner quality | Cần audit log, điểm uy tín đối tác, xử lý đối tác tự ý hủy đơn hoặc vi phạm chính sách. |
+| Review/rating | Chỉ user có booking `CHECKED_OUT` mới được review; review phải liên kết user-booking-hotel/room để chống đánh giá giả. |
+| Support/chatbot | FAQ/chính sách, chatbot hoặc ticket support cần SLA, ownership và escalation rule. |
+| Promotion/loyalty | Mã giảm giá, tích điểm và ưu đãi thành viên phải mở rộng pricing rule, không để frontend tự tính tiền cuối. |
+
+## 11. Open Questions
 
 | Question ID | Question | Suggested Decision |
 | --- | --- | --- |

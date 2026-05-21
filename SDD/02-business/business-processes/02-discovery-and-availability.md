@@ -217,6 +217,16 @@
 | Room type | Một trong `SINGLE`, `DOUBLE`, `TRIPLE`, `SUIT`. |
 | Empty result | Không lỗi hệ thống, chỉ hiển thị không có kết quả. |
 
+### Future Filter Candidates From Benchmark
+
+| Filter | Status | Notes |
+| --- | --- | --- |
+| Price range | Roadmap | Requires `priceMin`/`priceMax` query support and consistent hotel price aggregation. |
+| Amenity filter | Roadmap | Uses `hotel_amenity`/`room_amenity`; useful for Booking.com-style discovery. |
+| Star rating | Roadmap | Can use `hotel.star_rating`; move to MVP only if UI exposes it. |
+| Review score | Blocked by review feature | Requires review/rating domain first. |
+| Sort by price/rating/distance | Roadmap | Requires normalized price/rating/location data and explicit sort contract. |
+
 ## 9. BP-DISC-008 - Kiểm Tra Phòng Trống Theo Ngày
 
 | Field | Detail |

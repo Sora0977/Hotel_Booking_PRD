@@ -1,16 +1,16 @@
-# Graph Report - Hotel_booking_PRD  (2026-05-20)
+# Graph Report - Hotel_booking_PRD  (2026-05-21)
 
 ## Corpus Check
-- 43 files · ~550,919 words
+- 43 files · ~553,375 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 2234 nodes · 5446 edges · 121 communities (115 shown, 6 thin omitted)
+- 2271 nodes · 5488 edges · 121 communities (115 shown, 6 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS · INFERRED: 8 edges (avg confidence: 0.8)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `b0b4a60e`
+- Built from commit: `48340634`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -151,9 +151,9 @@
   .obsidian/plugins/obsidian-plantuml/main.js → .obsidian/plugins/obsidian-git/main.js
 - `"node_modules/plantuml-encoder/dist/plantuml-decoder.js"()` --calls--> `F()`  [INFERRED]
   .obsidian/plugins/obsidian-plantuml/main.js → .obsidian/plugins/obsidian-git/main.js
-- `"node_modules/localforage/dist/localforage.js"()` --calls--> `resolve()`  [INFERRED]
+- `"node_modules/localforage/dist/localforage.js"()` --calls--> `F()`  [INFERRED]
   .obsidian/plugins/obsidian-plantuml/main.js → .obsidian/plugins/obsidian-git/main.js
-- `"node_modules/localforage/dist/localforage.js"()` --calls--> `unwrap()`  [INFERRED]
+- `"node_modules/localforage/dist/localforage.js"()` --calls--> `resolve()`  [INFERRED]
   .obsidian/plugins/obsidian-plantuml/main.js → .obsidian/plugins/obsidian-git/main.js
 - `resolveLocalJarCmd()` --calls--> `error()`  [INFERRED]
   .obsidian/plugins/obsidian-plantuml/main.js → .obsidian/plugins/obsidian-git/main.js
@@ -162,11 +162,11 @@
 
 ### Community 0 - "main.js / createFilter() / createStashReflogEntry()"
 Cohesion: 0.01
-Nodes (51): _addPattern(), az(), B3(), BE(), Bn(), compare(), computeStagedHunks(), createFilter() (+43 more)
+Nodes (52): _addPattern(), BE(), Bn(), compare(), computeStagedHunks(), createFilter(), dC(), disconnectedCallback() (+44 more)
 
 ### Community 1 - "UE() / Mt() / hu()"
-Cohesion: 0.06
-Nodes (44): LI(), Mq(), Mt(), NT(), pW(), RL(), "src/lib/git-logger.ts"(), "src/lib/parsers/parse-branch.ts"() (+36 more)
+Cohesion: 0.04
+Nodes (68): aq(), Bq(), cI(), cq(), D3(), dq(), fi(), Jq() (+60 more)
 
 ### Community 2 - "J() / from() / Ar()"
 Cohesion: 0.05
@@ -185,92 +185,92 @@ Cohesion: 0.05
 Nodes (36): authorInHistoryView, autoBackupAfterFileChange, autoCommitMessage, autoCommitOnlyStaged, autoPullInterval, autoPullOnBoot, autoPushInterval, autoSaveInterval (+28 more)
 
 ### Community 6 - "push() / gR() / mA()"
-Cohesion: 0.16
-Nodes (15): aj(), c0(), CT(), eq(), fq(), Gh(), hr(), iI() (+7 more)
+Cohesion: 0.11
+Nodes (31): aj(), applyLineGroupping(), c0(), calcSigns(), CD(), changeEnd(), CT(), fj() (+23 more)
 
 ### Community 7 - "core-plugins.json / audio-recorder / backlink"
 Cohesion: 0.06
 Nodes (31): audio-recorder, backlink, bases, bookmarks, canvas, command-palette, daily-notes, editor-status (+23 more)
 
 ### Community 8 - "get() / set() / has()"
-Cohesion: 0.08
-Nodes (51): a5(), adaptTextForFakeCommit(), add(), _addEntry(), ak(), aM(), bF(), capture() (+43 more)
+Cohesion: 0.09
+Nodes (52): _6(), ak(), Av(), b8(), capture(), ck(), cM(), connect() (+44 more)
 
 ### Community 9 - "toString() / filter() / _6()"
-Cohesion: 0.13
-Nodes (36): _6(), a6(), Av(), branchIsMerged(), connect(), deleteRef(), deleteRefs(), disconnectedCallback() (+28 more)
+Cohesion: 0.16
+Nodes (26): a6(), deleteRef(), deleteRefs(), exists(), expand(), getall(), listRefs(), listTags() (+18 more)
 
 ### Community 10 - "hiddenItems / right / workspace.json"
 Cohesion: 0.06
 Nodes (30): active, bases:Create new base, canvas:Create new canvas, command-palette:Open command palette, daily-notes:Open today's daily note, graph:Open graph view, obsidian-git:Open Git source control, switcher:Open quick switcher (+22 more)
 
 ### Community 11 - "main.js / setState() / onload()"
-Cohesion: 0.08
-Nodes (17): constructor(), getProcessor(), getState(), getViewData(), _handleHoverMutation(), loadFile(), loadSettings(), onExternalSettingsChange() (+9 more)
+Cohesion: 0.09
+Nodes (12): getState(), getViewData(), loadSettings(), onExternalSettingsChange(), onload(), renderPreview(), rng(), setState() (+4 more)
 
 ### Community 12 - "activateFeature() / deactivateFeature() / destroy()"
-Cohesion: 0.08
-Nodes (33): activateCodeMirrorExtensions(), activateFeature(), activateLineAuthoring(), beforeSaveSettings(), conditionallyActivateBySettings(), configureLineAuthorShowStatus(), deactivateCodeMirrorExtensions(), deactivateFeature() (+25 more)
+Cohesion: 0.14
+Nodes (15): activateCodeMirrorExtensions(), activateFeature(), activateLineAuthoring(), beforeSaveSettings(), conditionallyActivateBySettings(), configureLineAuthorShowStatus(), deactiveLineAuthoring(), lineAuthorSettingHandler() (+7 more)
 
 ### Community 13 - "2.3.1 Các quy trình, nghiệp vụ / CHƯƠNG 2. PHƯƠNG PHÁP THỰC HIỆN / 2.2.2 Phía Backend"
 Cohesion: 0.07
 Nodes (27): 2.1.1 Booking.com, 2.1.2 Traveloka, 2.1 Các hệ thống tương tự, 2.2.1 Phía Frontend, 2.2.2.1 Java, 2.2.2.2 Spring Boot, 2.2.2.3 MySQL, 2.2.2 Phía Backend (+19 more)
 
 ### Community 14 - "b() / TB() / XF()"
-Cohesion: 0.25
-Nodes (28): ae(), aF(), at(), b(), bb(), cF(), ee(), go() (+20 more)
+Cohesion: 0.09
+Nodes (61): ae(), aF(), aM(), at(), b(), bb(), Bt(), build() (+53 more)
 
 ### Community 15 - "slice() / Av() / read()"
-Cohesion: 0.17
-Nodes (23): aL(), bk(), dA(), entries(), f6(), fu(), getStashReflogEntry(), getStashSHA() (+15 more)
+Cohesion: 0.14
+Nodes (26): aL(), bk(), dA(), Ek(), entries(), fu(), getStashReflogEntry(), getStashSHA() (+18 more)
 
 ### Community 16 - "join() / exists() / remove()"
 Cohesion: 0.04
-Nodes (44): 10. Error Handling, 11. Non-Functional Technical Requirements, 12. Transaction Boundaries, 13. Concurrency Notes, 14. Source References, 1. Metadata, 2. Tech Stack, 3.1 Architecture Style (+36 more)
+Nodes (45): 10. Error Handling, 11. Non-Functional Technical Requirements, 12. Transaction Boundaries, 13. Concurrency Notes, 14. Source References, 1. Metadata, 2.1 Source Rationale From Chapter 2, 2. Tech Stack (+37 more)
 
 ### Community 17 - ""src/git.js"() / c / u"
-Cohesion: 0.07
-Nodes (26): 02 - Tra Cứu Khách Sạn, Phòng Và Kiểm Tra Phòng Trống, 1. Scope, 2. BP-DISC-001 - Xem Danh Sách Khách Sạn, 3. BP-DISC-002 - Xem Chi Tiết Khách Sạn, 4. BP-DISC-003 - Tìm Kiếm Khách Sạn, 5. BP-DISC-004 - Xem Danh Sách Phòng Của Khách Sạn, 6. BP-DISC-005 - Xem Danh Sách Tất Cả Phòng, 7. BP-DISC-006 - Xem Chi Tiết Phòng (+18 more)
+Cohesion: 0.06
+Nodes (29): 02 - Tra Cứu Khách Sạn, Phòng Và Kiểm Tra Phòng Trống, 1. Scope, 2. BP-DISC-001 - Xem Danh Sách Khách Sạn, 3. BP-DISC-002 - Xem Chi Tiết Khách Sạn, 4. BP-DISC-003 - Tìm Kiếm Khách Sạn, 5. BP-DISC-004 - Xem Danh Sách Phòng Của Khách Sạn, 6. BP-DISC-005 - Xem Danh Sách Tất Cả Phòng, 7. BP-DISC-006 - Xem Chi Tiết Phòng (+21 more)
 
 ### Community 18 - "zB() / connectedCallback() / Ic()"
-Cohesion: 0.25
-Nodes (14): $1(), ai(), F1(), Ic(), lb(), mu(), qB(), UB() (+6 more)
+Cohesion: 0.24
+Nodes (15): $1(), ai(), F1(), Ic(), JP(), lb(), mu(), qB() (+7 more)
 
 ### Community 19 - "pull() / commit() / displayMessage()"
 Cohesion: 0.08
 Nodes (25): 10. Open Questions, 11. Source References, 1. Metadata, 2.1 Mục Tiêu Cốt Lõi, 2.2 Phạm Vi MVP, 2. Tổng Quan Dự Án, 3. Đối Tượng Người Dùng, 4. Vai Trò Và Quyền Truy Cập (+17 more)
 
 ### Community 20 - "pr() / UH() / eW()"
-Cohesion: 0.06
-Nodes (34): a0(), BW(), e0(), eW(), Fg(), HH(), HW(), i0() (+26 more)
+Cohesion: 0.08
+Nodes (26): a0(), BW(), e0(), eW(), Fg(), HH(), HW(), i0() (+18 more)
 
 ### Community 21 - "3.2.1 Use case chi tiết / 3.2.1.10 Usecase đặt phòng / 3.2.1.11 Usecase tra cứu và hủy đơn đặt phòng"
 Cohesion: 0.08
 Nodes (25): 3.2.1.10 Usecase đặt phòng, 3.2.1.11 Usecase tra cứu và hủy đơn đặt phòng, 3.2.1.12 Usecase quản lý tiện ích, 3.2.1.1 Usecase đăng nhập, 3.2.1.2 Usecase đăng ký, 3.2.1.3 Usecase quản lý thông tin cá nhân, 3.2.1.4 Usecase quản trị người dùng, 3.2.1.5 Usecase quản lý phòng (+17 more)
 
 ### Community 22 - "resolve() / yA() / writeRef()"
-Cohesion: 0.11
-Nodes (23): a3(), Ap(), dispatch(), hg(), IF(), iV(), jF(), lF() (+15 more)
+Cohesion: 0.09
+Nodes (34): a3(), Bz(), dispatch(), EF(), ey(), HmacSha256(), hz(), IF() (+26 more)
 
 ### Community 23 - "displayError() / setPluginState() / branchInfo()"
 Cohesion: 0.09
 Nodes (22): 1. Metadata, 2. Entity Relationship Summary, 3.10 `hotel_amenity`, 3.11 `room_amenity`, 3.1 `role`, 3.2 `user`, 3.3 `user_role`, 3.4 `hotel` (+14 more)
 
 ### Community 24 - "render() / jA() / wL()"
-Cohesion: 0.22
-Nodes (11): generateEmptyDiff(), generateLineHtml(), generateSingleHtml(), generateSingleLineHtml(), kO(), mv(), pV(), ql() (+3 more)
+Cohesion: 0.10
+Nodes (24): Ap(), colorSettingPreviewDescHtml(), createColorSetting(), generateEmptyDiff(), generateLineHtml(), generateSingleHtml(), generateSingleLineHtml(), makeHeaderHtml() (+16 more)
 
 ### Community 25 - "hk() / h6() / oid()"
-Cohesion: 0.27
-Nodes (19): content(), fS(), _getGitConfig(), h6(), hA(), hk(), ik(), insert() (+11 more)
+Cohesion: 0.15
+Nodes (33): _addEntry(), b6(), ca(), content(), createStashReflogEntry(), d6(), delete(), fS() (+25 more)
 
 ### Community 26 - "fromBuffer() / readSlice() / eof()"
-Cohesion: 0.17
-Nodes (26): c6(), demux(), fromBuffer(), fromIdx(), fromPack(), g8(), isIgnored(), J3() (+18 more)
+Cohesion: 0.33
+Nodes (6): d_(), Fv(), I8(), r8(), t8(), Xi()
 
 ### Community 27 - ""src/lib/simple-git-api.ts"() / Rr() / "src/lib/responses/StatusSummary.ts"()"
-Cohesion: 0.08
-Nodes (26): aq(), Bq(), cI(), cq(), D3(), dq(), fi(), Jq() (+18 more)
+Cohesion: 0.18
+Nodes (25): branchInfo(), clone(), cloneNewRepo(), editRemotes(), fetch(), getConfig(), getCurrentRemote(), getRemoteBranches() (+17 more)
 
 ### Community 28 - "graph.json / centerStrength / close"
 Cohesion: 0.10
@@ -281,32 +281,32 @@ Cohesion: 0.04
 Nodes (44): 10. Error Handling, 11. Non-Functional Technical Requirements, 12. Transaction Boundaries, 13. Concurrency Notes, 14. Source References, 1. Metadata, 2. Tech Stack, 3.1 Architecture Style (+36 more)
 
 ### Community 30 - "error() / log() / _init()"
-Cohesion: 0.14
-Nodes (21): aA(), acquire(), b6(), b8(), ck(), constructor(), createStashReflogEntry(), discover() (+13 more)
+Cohesion: 0.20
+Nodes (18): branchIsMerged(), commitAndSync(), convertErrors(), createBranch(), deleteBranch(), display(), displayMessage(), handleConflict() (+10 more)
 
 ### Community 31 - "on() / createEventHandlers() / addTask()"
 Cohesion: 0.10
 Nodes (19): 1. Login And Register, 2. Search Availability, 3. Create Booking, 4. Cancel Booking, 5. Admin Check-In And Check-Out, 6. Admin Hotel And Room Management, 7. Amenity Management, 8. Entity Relationship Overview (+11 more)
 
 ### Community 32 - "dr() / exec() / fL()"
-Cohesion: 0.26
-Nodes (14): d5(), dr(), fL(), gu(), h5(), Kd(), l5(), o5() (+6 more)
+Cohesion: 0.24
+Nodes (15): a5(), d5(), dr(), fL(), gu(), h5(), Kd(), l5() (+7 more)
 
 ### Community 33 - "Community 33"
-Cohesion: 0.22
-Nodes (19): Ar(), D8(), delim(), du(), encode(), _entryToBuffer(), fA(), from() (+11 more)
+Cohesion: 0.23
+Nodes (22): Ar(), cu(), D8(), du(), EL(), _entryToBuffer(), fA(), from() (+14 more)
 
 ### Community 34 - "zi() / pA() / Gs()"
-Cohesion: 0.15
-Nodes (20): AB(), addEventListener(), createCssRefreshHandler(), createEventHandlers(), createFileOpenEvent(), createFileRenameEvent(), createGutterContextMenuHandler(), createHeadChangeEvent() (+12 more)
+Cohesion: 0.07
+Nodes (35): AB(), adaptTextForFakeCommit(), addEventListener(), az(), bF(), computeDom(), createCssRefreshHandler(), createEventHandlers() (+27 more)
 
 ### Community 35 - "OF() / dispatch() / XS()"
 Cohesion: 0.07
-Nodes (26): 10. Open Questions, 11. Source References, 1. Metadata, 2.1 Mục Tiêu Cốt Lõi, 2.2 Phạm Vi MVP, 2. Tổng Quan Dự Án, 3. Đối Tượng Người Dùng, 4. Vai Trò Và Quyền Truy Cập (+18 more)
+Nodes (28): 10. Open Questions, 11. Source References, 1. Metadata, 2.1 Mục Tiêu Cốt Lõi, 2.2 Phạm Vi MVP, 2.3 Benchmark Và Product Direction Từ Hệ Thống Tương Tự, 2. Tổng Quan Dự Án, 3. Đối Tượng Người Dùng (+20 more)
 
 ### Community 36 - "sp() / diff() / diffWithOptionsObj()"
-Cohesion: 0.15
-Nodes (17): addAskPassScriptToExclude(), build(), calcSigns(), changeEnd(), error(), kz(), M9(), pO() (+9 more)
+Cohesion: 0.12
+Nodes (26): Dv(), Fd(), fromPayloadSignature(), gpgsig(), headers(), justHeaders(), justMessage(), kO() (+18 more)
 
 ### Community 37 - "h_() / kH() / Gt()"
 Cohesion: 0.06
@@ -321,84 +321,84 @@ Cohesion: 0.14
 Nodes (14): lineAuthor, authorDisplay, coloringMaxAge, dateTimeFormatCustomString, dateTimeFormatOptions, dateTimeTimezone, followMovement, gutterSpacingFallbackLength (+6 more)
 
 ### Community 40 - "acquire() / ga() / tA()"
-Cohesion: 0.21
-Nodes (14): deleteSection(), Dk(), e6(), filter(), JP(), listTags(), localNamespaces(), o6() (+6 more)
+Cohesion: 0.24
+Nodes (13): c6(), deleteSection(), Dk(), e6(), f6(), filter(), getSubsections(), nk() (+5 more)
 
 ### Community 41 - "write() / Ev() / x8()"
-Cohesion: 0.06
-Nodes (102): addTask(), applyLineGroupping(), askpass(), branchInfo(), canPush(), checkAuthorInfo(), checkout(), checkRequirements() (+94 more)
+Cohesion: 0.15
+Nodes (25): checkAuthorInfo(), commit(), commitAll(), createNewRepo(), displayError(), displayFromNow(), displayState(), getConflict() (+17 more)
 
 ### Community 42 - "Wi() / sign() / headers()"
 Cohesion: 0.08
 Nodes (22): 06 - Quản Lý Tiện Ích, 10. BP-AMN-008 - Gỡ Tiện Ích Khỏi Phòng, 1. Scope, 2. Shared Rules, 3. BP-AMN-001 - Xem Danh Sách Tiện Ích, 4. BP-AMN-002 - Tạo Tiện Ích Mới, 5. BP-AMN-003 - Cập Nhật Tiện Ích, 6. BP-AMN-004 - Xóa Tiện Ích Hệ Thống (+14 more)
 
 ### Community 43 - "addLineAuthorInfoSettings() / createColorSetting() / computeSigns()"
-Cohesion: 0.26
-Nodes (12): Cc(), dM(), eA(), eI(), Gp(), KM(), Le(), sE() (+4 more)
+Cohesion: 0.32
+Nodes (8): create(), dM(), eI(), _initCache(), rq(), sE(), TO(), Zn()
 
 ### Community 44 - "vg() / Nn() / pL()"
 Cohesion: 0.07
-Nodes (42): applyRematchMatching(), Bp(), createHtmlNode(), DP(), gG(), Hp(), I1(), ip() (+34 more)
+Nodes (43): Bm(), Bp(), DP(), Fp(), getViewType(), gG(), Hp(), I1() (+35 more)
 
 ### Community 45 - "Uv() / Xi() / nh()"
-Cohesion: 0.08
-Nodes (25): 1. Metadata, 2. Entity Relationship Summary, 3.10 `hotel_amenity`, 3.11 `room_amenity`, 3.1 `role`, 3.2 `user`, 3.3 `user_role`, 3.4 `hotel` (+17 more)
+Cohesion: 0.07
+Nodes (27): 10. AI Maintenance Notes, 1. Metadata, 2. Entity Relationship Summary, 3.10 `hotel_amenity`, 3.11 `room_amenity`, 3.1 `role`, 3.2 `user`, 3.3 `user_role` (+19 more)
 
 ### Community 46 - "f9() / GE() / aM()"
-Cohesion: 0.20
-Nodes (15): Ao(), bG(), c, cL(), _G(), H3(), iE(), l (+7 more)
+Cohesion: 0.14
+Nodes (22): Ao(), apply(), bG(), c, cL(), _G(), gW(), H3() (+14 more)
 
 ### Community 47 - "3.1 Mô hình dữ liệu (mức ý niệm, mức luận lý, mức vậT lý) / CHƯƠNG 3: THIẾT KẾ / 3.2 Mô hình xử lý"
 Cohesion: 0.17
 Nodes (10): 3.1.1 Mức ý niệm, 3.1.2 Mức luận lý, 3.1.3 Mức vật lý, 3.1.4 Mô tả chi tiết bảng, 3.1 Mô hình dữ liệu (mức ý niệm, mức luận lý, mức vậT lý), 3.2 Mô hình xử lý, 3.3 Hệ thống màn hình, CHƯƠNG 3: THIẾT KẾ (+2 more)
 
 ### Community 48 - "getHunk() / vy() / getHunkAtPos()"
-Cohesion: 0.32
-Nodes (8): findHunk(), findNearestHunk(), getCursorHunk(), getHunk(), getHunkAtPos(), getHunks(), goToHunk(), resetHunk()
+Cohesion: 0.12
+Nodes (17): addTask(), getPluginDisabled(), handleTask(), loadSettings(), migrate(), onExternalSettingsChange(), onload(), onLoadPlugin() (+9 more)
 
 ### Community 49 - "ut() / fM() / oS()"
 Cohesion: 0.08
 Nodes (22): 05 - Admin Vận Hành Booking, 1. Scope, 2. Shared Rules, 3. BP-OPS-001 - Xem Toàn Bộ Booking, 4. BP-OPS-002 - Tìm Kiếm/Lọc Booking, 5. BP-OPS-003 - Check-In Booking, 6. BP-OPS-004 - Check-Out Booking, 7. BP-OPS-005 - Hủy Booking Bởi Admin (+14 more)
 
 ### Community 50 - "ba() / lL() / hy()"
-Cohesion: 0.10
-Nodes (19): 1. Login And Register, 2. Search Availability, 3. Create Booking, 4. Cancel Booking, 5. Admin Check-In And Check-Out, 6. Admin Hotel And Room Management, 7. Amenity Management, 8. Entity Relationship Overview (+11 more)
+Cohesion: 0.08
+Nodes (25): 10. Cross-Cutting Rules Represented, 11. Chapter 3 Diagram Coverage Index, 1. Login And Register, 2. Search Availability, 3. Create Booking, 4. Cancel Booking, 5. Admin Check-In And Check-Out, 6. Admin Hotel And Room Management (+17 more)
 
 ### Community 51 - "CHƯƠNG 1. GIỚI THIỆU / 1.1 ĐẶT VẤN ĐỀ, MỤC TIÊU LUẬN VĂN / 1.3 NỘI DUNG, PHẠM VI THỰC HIỆN"
 Cohesion: 0.18
 Nodes (9): 1.1.1 Đặt vấn đề, 1.1.2 Mục tiêu luận văn, 1.1 ĐẶT VẤN ĐỀ, MỤC TIÊU LUẬN VĂN, 1.2 NHỮNG THÁCH THỨC CẦN GIẢI QUYẾT, 1.3.1 Nội dung thực hiện, 1.3.1 Phạm vi thực hiện, 1.3 NỘI DUNG, PHẠM VI THỰC HIỆN, 1.4 Kết quả cần đạt (+1 more)
 
 ### Community 52 - "Community 52"
-Cohesion: 0.23
-Nodes (12): cO(), Do(), GF(), h9(), Ht(), lO(), nr(), offset() (+4 more)
+Cohesion: 0.31
+Nodes (9): cO(), Do(), GF(), lO(), oO(), pO(), uF(), YM() (+1 more)
 
 ### Community 53 - "_z() / uz() / Ou()"
-Cohesion: 0.17
-Nodes (13): createHunk(), createPartialHunk(), fb(), Kn(), parseDiffLine(), pC(), Pz(), Rz() (+5 more)
+Cohesion: 0.24
+Nodes (12): addAskPassScriptToExclude(), askpass(), checkRequirements(), error(), getEnvVars(), getGitPath(), getPATHPaths(), _init() (+4 more)
 
 ### Community 54 - "update() / t_() / o_()"
-Cohesion: 0.18
-Nodes (17): Bi(), dL(), F(), generateFileHtml(), gL(), hL(), Hm(), i_() (+9 more)
+Cohesion: 0.19
+Nodes (16): Bi(), dL(), F(), generateFileHtml(), gL(), hL(), Hm(), i_() (+8 more)
 
 ### Community 55 - "Community 55"
-Cohesion: 0.11
-Nodes (26): bU(), cw(), De(), decrement(), Ft(), Gs(), gW(), increment() (+18 more)
+Cohesion: 0.18
+Nodes (15): B3(), bU(), cw(), e, Gs(), IW(), M9(), nh() (+7 more)
 
 ### Community 56 - "Zn() / eI() / sE()"
 Cohesion: 0.15
 Nodes (12): 1. Nguyên Tắc Làm Việc, 2. Thứ Tự Đọc Tài Liệu SDD, 3. Cách Trace Requirement End-To-End, 4. Quy Tắc Khi Thêm Feature Mới, 5. Checklist Cập Nhật Docs, 6. Open Policy Cần Hỏi Người Dùng, 7. Guardrails Booking, Availability, Permission, 8. Tín Hiệu Cần Dừng Và Hỏi Lại (+4 more)
 
 ### Community 57 - "constructor() / create() / reconfigure()"
-Cohesion: 0.15
-Nodes (11): 07 - Business Rules Và Edge Cases Tổng Hợp, 10. Open Questions, 1. Authentication Rules, 2. Permission Rules, 3. Date And Availability Rules, 4. Booking State Machine, 5. Pricing Rules, 6. Hotel And Room Rules (+3 more)
+Cohesion: 0.13
+Nodes (13): 07 - Business Rules Và Edge Cases Tổng Hợp, 10. Open Questions, 10. Roadmap Policy Candidates From Chapter 2 Benchmark, 11. Open Questions, 1. Authentication Rules, 2. Permission Rules, 3. Date And Availability Rules, 4. Booking State Machine (+5 more)
 
 ### Community 58 - "Community 58"
-Cohesion: 0.40
-Nodes (6): js(), renderAuthoringDate(), renderAuthorName(), renderHash(), renderNonZeroCommit(), ZP()
+Cohesion: 0.18
+Nodes (11): 9.1 User List Item, 9.2 Hotel List Item, 9.3 Room List Item, 9.4 Amenity Response, 9.5 Mutating Admin Response, 9. DTO And List Response Catalog, code:json ({), code:json ({) (+3 more)
 
 ### Community 59 - "Community 59"
-Cohesion: 0.09
-Nodes (28): addLineAuthorInfoSettings(), blame(), changeToNewFilepath(), colorSettingPreviewDescHtml(), computeLineAuthorInfo(), computeSigns(), createColorSetting(), ensureInitialized() (+20 more)
+Cohesion: 0.08
+Nodes (29): addLineAuthorInfoSettings(), blame(), changeToNewFilepath(), computeLineAuthorInfo(), computeSigns(), ensureInitialized(), getSubmoduleOfFile(), hashObject() (+21 more)
 
 ### Community 60 - "Community 60"
 Cohesion: 0.18
@@ -421,24 +421,24 @@ Cohesion: 0.18
 Nodes (10): 1. Metadata, 4.1 Update Profile Request, 4. User APIs, 8.1 Amenity Request, 8.2 Amenity Errors, 8. Amenity APIs, 9. Cross-Reference Matrix, API Contract - Hotel Booking (+2 more)
 
 ### Community 65 - "Community 65"
-Cohesion: 0.16
-Nodes (15): AG(), aW(), d0(), exec(), jW(), Oq(), _q(), sq() (+7 more)
+Cohesion: 0.29
+Nodes (8): AG(), exec(), sq(), generateLocalImage(), generateLocalMap(), getFullPath(), getPath(), resolveLocalJarCmd()
 
 ### Community 66 - "gj() / mj() / vR()"
-Cohesion: 0.24
-Nodes (10): br(), fj(), gj(), mj(), Oj(), Pj(), sj(), "src/lib/tasks/config.ts"() (+2 more)
+Cohesion: 0.25
+Nodes (8): br(), gj(), mj(), Oj(), Pj(), "src/lib/tasks/config.ts"(), vR(), yR()
 
 ### Community 67 - "addEventListener() / computeDom() / adaptTextForFakeCommit()"
-Cohesion: 0.14
-Nodes (22): advance(), ba(), d_(), hF(), hy(), I8(), iO(), iz() (+14 more)
+Cohesion: 0.20
+Nodes (17): advance(), applyRematchMatching(), ba(), hF(), hy(), iO(), lL(), ly() (+9 more)
 
 ### Community 68 - "Community 68"
-Cohesion: 0.24
-Nodes (13): Bt(), eR(), GE(), iA(), iD(), iM(), mb(), Qr() (+5 more)
+Cohesion: 0.31
+Nodes (9): getFileChangesCount(), getLastCommitTime(), getUnpushedCommits(), log(), Qi(), refreshCommitTimestamp(), resolveRef(), walkDifference() (+1 more)
 
 ### Community 69 - "Community 69"
-Cohesion: 0.22
-Nodes (11): a, bL(), Bm(), Fp(), getViewType(), m_(), Mf(), Tz() (+3 more)
+Cohesion: 0.18
+Nodes (13): bL(), KM(), Le(), Mf(), Pz(), revive(), Rz(), tM() (+5 more)
 
 ### Community 70 - "Community 70"
 Cohesion: 0.20
@@ -449,8 +449,8 @@ Cohesion: 0.25
 Nodes (9): attributeChangedCallback(), bD(), cb(), connectedCallback(), $$g_p(), Kb(), nL(), q1() (+1 more)
 
 ### Community 72 - "Wg() / XP() / NP()"
-Cohesion: 0.22
-Nodes (15): eM(), Ev(), H8(), jm(), kv(), mkdir(), o_(), Rk() (+7 more)
+Cohesion: 0.19
+Nodes (15): Ev(), Gm(), H8(), hs(), iA(), kv(), mkdir(), mM() (+7 more)
 
 ### Community 73 - "CHƯƠNG 4: KẾT LUẬN / 4.1 Kết quả đối chiếu với mục tiêu / 4.2 Các vấn đề còn tồn đọng"
 Cohesion: 0.33
@@ -461,8 +461,8 @@ Cohesion: 0.22
 Nodes (8): 1. Metadata, 2. Actor Catalog, 3. Customer/Guest Use Cases, 4. Admin Use Cases, 5. Detailed Use Case Template, 6. Use Case Detail Matrix, 7. Feature Extension Notes, Use Case Catalog - Hotel Booking
 
 ### Community 75 - "Community 75"
-Cohesion: 0.24
-Nodes (11): 3.2 Login, code:json ({), code:json ({), Errors, Errors, Errors, Request, Request (+3 more)
+Cohesion: 0.20
+Nodes (14): 3.2 Login, code:json ({), code:json ({), Errors, Errors, Errors, Errors, Request (+6 more)
 
 ### Community 76 - "Community 76"
 Cohesion: 0.25
@@ -477,16 +477,16 @@ Cohesion: 0.15
 Nodes (12): 1. Nguyên Tắc Làm Việc, 2. Thứ Tự Đọc Tài Liệu SDD, 3. Cách Trace Requirement End-To-End, 4. Quy Tắc Khi Thêm Feature Mới, 5. Checklist Cập Nhật Docs, 6. Open Policy Cần Hỏi Người Dùng, 7. Guardrails Booking, Availability, Permission, 8. Tín Hiệu Cần Dừng Và Hỏi Lại (+4 more)
 
 ### Community 79 - "resolveLocalJarCmd() / generateLocalImage() / generateLocalMap()"
-Cohesion: 0.11
-Nodes (23): addFileToGitignore(), append(), bShouldBeEditable(), createMergeView(), Ds(), getDiffString(), getDisplayText(), getFileStatusResult() (+15 more)
+Cohesion: 0.22
+Nodes (14): addFileToGitignore(), append(), bShouldBeEditable(), createMergeView(), getDiffString(), getDisplayText(), getFileStatusResult(), getRelativeRepoPath() (+6 more)
 
 ### Community 80 - "Community 80"
 Cohesion: 0.13
-Nodes (25): ca(), cu(), Dv(), Ek(), EL(), Fk(), getAuthor(), gk() (+17 more)
+Nodes (22): a, aA(), acquire(), Fk(), ga(), getAuthor(), gk(), J() (+14 more)
 
 ### Community 81 - "Es() / CH() / FH()"
-Cohesion: 0.08
-Nodes (36): AH(), As(), Bz(), CH(), create(), EF(), EH(), Es() (+28 more)
+Cohesion: 0.10
+Nodes (21): _8(), AH(), As(), CH(), EH(), Es(), Fe(), FH() (+13 more)
 
 ### Community 82 - "Community 82"
 Cohesion: 0.33
@@ -517,116 +517,116 @@ Cohesion: 0.40
 Nodes (5): 6.1 Available Rooms Query, 6.2 Create/Update Room Request, 6.3 Room Errors, 6. Room APIs, code:json ({)
 
 ### Community 92 - "Community 92"
-Cohesion: 0.50
-Nodes (4): 8.1 Amenity Request, 8.2 Amenity Errors, 8. Amenity APIs, code:json ({)
+Cohesion: 0.29
+Nodes (8): aW(), d0(), jW(), Oq(), _q(), Tr(), wE(), zh()
 
 ### Community 93 - "Community 93"
-Cohesion: 0.50
-Nodes (4): defer_effect(), lv(), QP(), sM()
+Cohesion: 0.20
+Nodes (14): add(), d9(), defer_effect(), ensure(), Et(), f9(), GB(), i3() (+6 more)
 
 ### Community 97 - "Community 97"
-Cohesion: 0.33
-Nodes (9): activate(), apply(), clear(), deactivate(), eO(), flush(), is_deferred(), process() (+1 more)
+Cohesion: 0.39
+Nodes (8): clear(), deactivate(), eM(), eO(), flush(), is_deferred(), process(), wy()
 
 ### Community 98 - "Community 98"
 Cohesion: 0.18
 Nodes (10): 1. Mục Đích, 2. Cấu Trúc Tài Liệu, 3. Module Map, 4. End-To-End Customer Journey, 5. End-To-End Admin Journey, 6.1 Booking Status, 6.2 Account Status, 6. Core State Machines (+2 more)
 
 ### Community 99 - "Community 99"
-Cohesion: 0.20
-Nodes (11): bO(), bv(), castInput(), diff(), Fv(), Gv(), removeEmpty(), tokenize() (+3 more)
+Cohesion: 0.10
+Nodes (21): bO(), bv(), castInput(), createHunk(), createPartialHunk(), diff(), findHunk(), findNearestHunk() (+13 more)
 
 ### Community 100 - "Community 100"
-Cohesion: 0.27
-Nodes (10): 7.1 Create Booking Request, 7.2 Booking Response, 7.3 Cancel Booking Request, 7.4 Check-In Request, 7.5 Booking Errors, 7. Booking APIs, code:json ({), code:json ({) (+2 more)
+Cohesion: 0.18
+Nodes (14): 7.1 Create Booking Request, 7.2 Booking Response, 7.3 Cancel Booking Request, 7.4 Check-In Request, 7.5 Booking Errors, 7. Booking APIs, 8.1 Amenity Request, 8.2 Amenity Errors (+6 more)
 
 ### Community 101 - "Community 101"
-Cohesion: 0.22
-Nodes (8): 1. Metadata, 2. Actor Catalog, 3. Customer/Guest Use Cases, 4. Admin Use Cases, 5. Detailed Use Case Template, 6. Use Case Detail Matrix, 7. Feature Extension Notes, Use Case Catalog - Hotel Booking
+Cohesion: 0.18
+Nodes (10): 1. Metadata, 2. Actor Catalog, 3. Customer/Guest Use Cases, 4. Admin Use Cases, 5. Detailed Use Case Template, 6. Use Case Detail Matrix, 7. Chapter 3 Include/Extend Traceability, 7. Feature Extension Notes (+2 more)
 
 ### Community 102 - "Community 102"
-Cohesion: 0.20
-Nodes (12): absPluginConfigPath(), applyPatch(), createPatch(), dD(), join(), KP(), oL(), relPluginConfigPath() (+4 more)
+Cohesion: 0.13
+Nodes (19): absPluginConfigPath(), applyPatch(), buildValues(), createPatch(), dD(), delim(), encode(), ez() (+11 more)
 
 ### Community 103 - "Community 103"
 Cohesion: 0.17
 Nodes (12): 2.1 Base URL, 2.2 Authentication, 2.3 Standard Success Response, 2.4 Standard Error Response, 2.5 Pagination Query, 2.6 Validation Constraint Catalog, 2. API Conventions, code:json ({) (+4 more)
 
 ### Community 104 - "Community 104"
-Cohesion: 0.33
-Nodes (7): 3.4 Change Password, code:json ({), Errors, Errors, Errors, Request, Request
+Cohesion: 0.28
+Nodes (9): 3.4 Change Password, code:json ({), Errors, Errors, Errors, Errors, Request, Request (+1 more)
 
 ### Community 105 - "Community 105"
 Cohesion: 0.25
 Nodes (7): 1. Purpose, 2. Recommended Reading Order, 3. Folder Structure, 4. Traceability Path, 5. Maintenance Rules, code:text (PRD requirement -> Use case -> Business process -> API contr), SDD Index - Hotel Booking
 
 ### Community 109 - "Community 109"
-Cohesion: 0.29
-Nodes (8): by(), jA(), makeFileDiffHtml(), template(), templateKey(), wL(), xy(), zl()
+Cohesion: 0.50
+Nodes (5): by(), jA(), makeFileDiffHtml(), wL(), xy()
 
 ### Community 110 - "Community 110"
 Cohesion: 0.32
-Nodes (8): ir(), Jy(), oi(), oM(), Pn(), vV(), Wr(), Xt()
+Nodes (8): canPush(), checkout(), discard(), discardAll(), getAvailableLocalBranchName(), getLocalBranchUpstream(), getUntrackedPaths(), status()
 
 ### Community 111 - "Community 111"
 Cohesion: 0.18
 Nodes (12): 2.5 Pagination Query And Response, 3.1 Register, 3. Auth APIs, code:json ({), code:json ({), code:json ({), Errors, GET List APIs Requiring Pagination (+4 more)
 
 ### Community 112 - "Community 112"
-Cohesion: 0.13
-Nodes (16): 1. Metadata, 4.1 Update Profile Request, 4. User APIs, 5.1 Search Hotels Query, 5.2 Create/Update Hotel Request, 5.3 Hotel Errors, 5. Hotel APIs, 6.1 Available Rooms Query (+8 more)
+Cohesion: 0.12
+Nodes (18): 10. Cross-Reference Matrix, 1. Metadata, 4.1 Update Profile Request, 4. User APIs, 5.1 Search Hotels Query, 5.2 Create/Update Hotel Request, 5.3 Hotel Errors, 5. Hotel APIs (+10 more)
 
 ### Community 113 - "Community 113"
-Cohesion: 0.46
-Nodes (8): fromPayloadSignature(), justMessage(), message(), nv(), payload(), sign(), Wi(), withoutSignature()
+Cohesion: 0.38
+Nodes (7): deactivateCodeMirrorExtensions(), deactivateFeature(), destroy(), destroyEventHandlers(), end(), remove(), Ss()
 
 ### Community 114 - "Community 114"
-Cohesion: 0.47
-Nodes (6): dF(), fM(), jl(), oS(), Qy(), RH()
+Cohesion: 0.17
+Nodes (16): activate(), Cc(), dF(), eA(), fb(), fM(), Gp(), jl() (+8 more)
 
 ### Community 115 - "Community 115"
-Cohesion: 0.40
-Nodes (6): 3.3 Logout, code:json ({), Request, Response, Response, Response
+Cohesion: 0.38
+Nodes (7): 3.3 Logout, code:json ({), Request, Response, Response, Response, Response
 
 ### Community 116 - "Community 116"
-Cohesion: 0.17
-Nodes (15): _8(), A8(), _accumulate(), byte(), C8(), chunk(), copy(), eof() (+7 more)
+Cohesion: 0.13
+Nodes (23): A8(), _accumulate(), byte(), C8(), chunk(), copy(), eof(), fromBuffer() (+15 more)
 
 ### Community 117 - "Community 117"
-Cohesion: 0.47
-Nodes (6): F8(), Fd(), headers(), justHeaders(), O8(), parseHeaders()
+Cohesion: 0.38
+Nodes (7): sk(), "src/lib/responses/TagList.ts"(), V3(), W3(), Xw(), z3(), zi()
 
 ### Community 118 - "Community 118"
 Cohesion: 0.50
 Nodes (5): jB(), V1(), W1(), YB(), z1()
 
 ### Community 119 - "Community 119"
-Cohesion: 0.47
-Nodes (6): makeHeaderHtml(), processChangedLines(), Sn(), sp(), WV(), ys()
+Cohesion: 0.50
+Nodes (5): De(), decrement(), increment(), update_pending_count(), vt()
 
 ### Community 120 - "Community 120"
-Cohesion: 0.50
-Nodes (4): buildValues(), diffWithOptionsObj(), equals(), extractCommon()
+Cohesion: 0.40
+Nodes (5): constructor(), getProcessor(), _handleHoverMutation(), loadFile(), syncDispatch()
 
 ## Knowledge Gaps
-- **678 isolated node(s):** `PreToolUse`, `BeforeTool`, `theme`, `file-explorer`, `global-search` (+673 more)
+- **699 isolated node(s):** `PreToolUse`, `BeforeTool`, `theme`, `file-explorer`, `global-search` (+694 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **6 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `"node_modules/localforage/dist/localforage.js"()` connect `update() / t_() / o_()` to `toString() / filter() / _6()`, `fromBuffer() / readSlice() / eof()`, `main.js / setState() / onload()`?**
+- **Why does `"node_modules/localforage/dist/localforage.js"()` connect `slice() / Av() / read()` to `toString() / filter() / _6()`, `main.js / setState() / onload()`, `update() / t_() / o_()`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `F()` connect `update() / t_() / o_()` to `main.js / createFilter() / createStashReflogEntry()`, `Community 68`, `acquire() / ga() / tA()`, `Es() / CH() / FH()`, `Community 55`?**
+- **Why does `F()` connect `update() / t_() / o_()` to `main.js / createFilter() / createStashReflogEntry()`, `acquire() / ga() / tA()`, `f9() / GE() / aM()`, `b() / TB() / XF()`, `slice() / Av() / read()`, `zB() / connectedCallback() / Ic()`, `resolve() / yA() / writeRef()`?**
   _High betweenness centrality (0.008) - this node is a cross-community bridge._
-- **Why does `exec()` connect `Community 65` to `main.js / createFilter() / createStashReflogEntry()`, `dr() / exec() / fL()`, `toString() / filter() / _6()`, `Es() / CH() / FH()`, `render() / jA() / wL()`?**
+- **Why does `exec()` connect `Community 65` to `main.js / createFilter() / createStashReflogEntry()`, `dr() / exec() / fL()`, `sp() / diff() / diffWithOptionsObj()`, `toString() / filter() / _6()`, `addLineAuthorInfoSettings() / createColorSetting() / computeSigns()`, `Community 92`?**
   _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **What connects `PreToolUse`, `BeforeTool`, `theme` to the rest of the system?**
-  _678 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _699 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `main.js / createFilter() / createStashReflogEntry()` be split into smaller, more focused modules?**
-  _Cohesion score 0.013172724711186249 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.013156978767838496 - nodes in this community are weakly interconnected._
 - **Should `UE() / Mt() / hu()` be split into smaller, more focused modules?**
-  _Cohesion score 0.05708245243128964 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.03687445127304653 - nodes in this community are weakly interconnected._
 - **Should `J() / from() / Ar()` be split into smaller, more focused modules?**
   _Cohesion score 0.046511627906976744 - nodes in this community are weakly interconnected._

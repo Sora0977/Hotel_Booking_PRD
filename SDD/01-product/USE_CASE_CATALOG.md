@@ -18,6 +18,7 @@
 | Admin | Logged-in administrator who manages users, hotels, rooms, amenities, bookings |
 | System | Backend/frontend system behavior |
 | Cloudinary | External image storage service |
+| Hotel Partner | Future split from Admin if marketplace partner role is approved |
 
 ## 3. Customer/Guest Use Cases
 
@@ -115,13 +116,34 @@ Use this template when adding a new use case:
 | UC-ADM-017 | Admin logged in, booking checked in | Booking `CHECKED_OUT` | Booking not found, invalid status |
 | UC-ADM-022 | Amenity exists and unused | Amenity deleted | Amenity in use, not found |
 
-## 7. Feature Extension Notes
+## 7. Chapter 3 Include/Extend Traceability
+
+Chapter 3 models detailed use cases with PlantUML include/extend relationships. The table below keeps those relationships searchable without duplicating every diagram verbatim.
+
+| Source Use Case | Include Relationships | Extend/Error Relationships | SDD Coverage |
+| --- | --- | --- | --- |
+| Đăng nhập | Check email, check password, check `activate`, issue JWT token | Invalid credentials, locked account | `UC-CUS-002`, `UC-ADM-001`, `BP-AUTH-002` |
+| Đăng ký | Validate input, check duplicate email, hash password, assign default `CUSTOMER` role | Validation or duplicate email error | `UC-CUS-001`, `BP-AUTH-001` |
+| Quản lý thông tin cá nhân | Verify session, get current user context, validate update form, verify old password, check password reuse | Validation error, wrong old password | `UC-CUS-003` to `UC-CUS-007`, `BP-AUTH-003` to `BP-AUTH-007` |
+| Quản trị người dùng | Verify Admin session, check Admin role, find user, update `activate` | User not found, forbidden | `UC-ADM-003` to `UC-ADM-005`, `BP-AUTH-008` to `BP-AUTH-010` |
+| Quản lý phòng | Check hotel owner, check room exists, upload image, add room amenities | Room not found, invalid image, permission error | `UC-ADM-010` to `UC-ADM-013`, `BP-HR-005` to `BP-HR-008` |
+| Tra cứu phòng | Query DB, validate dates, view room type, keyword search | Invalid dates, not found, no result | `UC-CUS-011` to `UC-CUS-015`, `BP-DISC-004` to `BP-DISC-008` |
+| Quản lý khách sạn | Check Admin, login/session, check hotel exists, owner check, duplicate name/location check, upload image | Permission error, duplicate hotel, missing image | `UC-ADM-006` to `UC-ADM-009`, `BP-HR-001` to `BP-HR-004` |
+| Tra cứu khách sạn | Find hotel in DB, validate search dates, view hotel rooms/details | Invalid dates, hotel not found | `UC-CUS-008` to `UC-CUS-010`, `BP-DISC-001` to `BP-DISC-004` |
+| Quản lý đặt phòng | Check Admin, login/session, assign room number, check room occupancy | Room occupied, booking not found | `UC-ADM-014` to `UC-ADM-018`, `BP-OPS-001` to `BP-OPS-005` |
+| Đặt phòng | Login/session, validate booking dates, availability check, capacity/quantity check, calculate total price, generate reference code | Invalid dates, full room, room-hotel mismatch | `UC-CUS-016`, `UC-CUS-017`, `BP-BOOK-001`, `BP-BOOK-002` |
+| Tra cứu và hủy booking | Login/session, owner/Admin check, status check, save cancel reason | Cannot cancel, permission error, code not found | `UC-CUS-019` to `UC-CUS-021`, `UC-ADM-018`, `BP-BOOK-004` to `BP-BOOK-006` |
+| Quản lý tiện ích | Check Admin, login/session, check duplicate name, check exists, check in-use, check hotel owner for assignment/removal | Permission error, in-use, not found, duplicate name | `UC-ADM-019` to `UC-ADM-026`, `BP-AMN-001` to `BP-AMN-008` |
+
+## 8. Feature Extension Notes
 
 | New Feature | Use Case Updates Needed |
 | --- | --- |
 | Forgot password | Add Customer use case, auth API, token/email rules |
-| Real payment | Add payment use cases, payment status, callback/webhook, refund flow |
-| Review/rating | Add review use cases, rule that only completed bookings can review |
-| Partner role | Split Admin use cases into System Admin and Hotel Partner |
-| Promotion/discount | Add promotion CRUD and pricing rule extension |
+| Real payment/local payment | Add payment use cases, payment status, callback/webhook, refund flow, VietQR/MoMo/bank transfer/pay-at-property options |
+| Review/rating | Add review use cases, rule that only completed `CHECKED_OUT` bookings can review, anti-fake-review checks |
+| Partner role/marketplace commission | Split Admin use cases into System Admin and Hotel Partner, add commission/reporting/payout if approved |
+| Partner quality control | Add partner score, violation handling, audit log, temporary hotel/partner suspension |
+| Promotion/discount/loyalty | Add promotion CRUD, loyalty points, member offers, and pricing rule extension |
 | Recommendation | Add discovery use cases and personalization rules |
+| Support/chatbot | Add support ticket/FAQ/chatbot use cases and escalation rules |
