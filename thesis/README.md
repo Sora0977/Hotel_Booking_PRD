@@ -16,6 +16,8 @@ Project này giúp quản lý một luận văn dài bằng cách chia nội dun
 - TODO.md: danh sách việc cần làm.
 - references.bib: dữ liệu thư mục tài liệu tham khảo.
 - chapters/: các chương của luận văn.
+- chapters/index.md: bản đồ phân mảnh cấp độ 2 của các chương.
+- chapters/<ma_chuong>/: thư mục chunk của từng chương; đây là bề mặt chỉnh sửa mặc định theo MEGA-DOCUMENT PROTOCOL.
 - front_matter/: phần trước nội dung chính như tóm tắt, lời cảm ơn, mục lục.
 - appendices/: phụ lục, tối thiểu có hướng dẫn sử dụng một quy trình chính.
 - notes/: ghi chú nguồn và ý tưởng.
@@ -28,6 +30,7 @@ Project này giúp quản lý một luận văn dài bằng cách chia nội dun
 
 - Làm việc theo từng chương, từng mục.
 - Ưu tiên cấu trúc 5 chương theo `SCHOOL_RULES.md` và `../Rules.md`.
+- Ưu tiên làm việc trên mảnh file trong thư mục chương, không chỉnh trực tiếp file chương gộp lớn nếu không có yêu cầu rõ ràng.
 - Không viết lại toàn bộ luận văn nếu không cần.
 - Không tự tạo nguồn tham khảo.
 - Luôn cập nhật THESIS_MEMORY.md khi có thay đổi quan trọng.
@@ -41,3 +44,13 @@ Project này giúp quản lý một luận văn dài bằng cách chia nội dun
 - Chương 4 — Thử nghiệm.
 - Chương 5 — Kết luận.
 - Phụ lục — Hướng dẫn sử dụng.
+
+## MEGA-DOCUMENT PROTOCOL
+
+Luận văn dự kiến có quy mô lớn, vì vậy project dùng cơ chế phân mảnh cấp độ 2:
+
+- Mỗi chương có một thư mục riêng trong `chapters/`.
+- Mỗi mục cấp 2 được lưu thành một file Markdown riêng.
+- Nếu một mục cấp 2 quá lớn, mục đó được tách tiếp thành thư mục Level-3 có `index.md`, ví dụ `chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/`.
+- Mỗi thư mục chương có `index.md` để định vị mảnh file.
+- Các file chương gộp `.md` ở `chapters/` hiện được giữ lại làm bản đối chiếu và chỉ xóa hoặc di chuyển sau khi có xác nhận.

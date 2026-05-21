@@ -1,3 +1,6 @@
+cd thesis
+python scripts/build_thesis.py
+
 # GỢI Ý NỘI DUNG QUYỂN LUẬN VĂN
 
 ## Chương 1: Giới thiệu

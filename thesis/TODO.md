@@ -16,6 +16,10 @@
 - [ ] Kiểm tra đủ độ dài tối thiểu 60 trang khi xuất bản.
 - [ ] Rà soát quy định định dạng khi xuất Word/PDF: A4, lề, Times New Roman 13, giãn dòng 1.3.
 - [ ] Tạo mục lục nội dung và mục lục hình ảnh tự động khi dàn trang.
+- [x] Bổ sung MEGA-DOCUMENT PROTOCOL vào `AI_INSTRUCTIONS.md`.
+- [x] Phân mảnh cấp độ 2 các chương 1-5 thành thư mục chunk có `index.md`.
+- [ ] Xác nhận có xóa hoặc di chuyển các file chương gốc `chapters/*.md` sau khi đã phân mảnh hay không.
+- [x] Phân mảnh sâu mục 3.2 để chỉnh sửa chi tiết use case, sơ đồ tuần tự hoặc sơ đồ hoạt động.
 
 ## Phần trước nội dung chính
 
@@ -52,6 +56,10 @@
 - [ ] Kiểm tra hiển thị 31 ảnh sau khi chuyển link sang Markdown tương đối.
 - [ ] Kiểm tra caption hình bị lệch chương hoặc trùng số hình.
 - [ ] Kiểm tra bảng mô tả use case và bảng mô tả dữ liệu không bị vỡ định dạng.
+- [x] Mục 3.2 đã được tách Level-3 vào `chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/`.
+- [ ] Khi chỉnh sửa mục 3.2, chỉ làm việc trên file con cụ thể trong `chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/`.
+- [ ] Rà soát lệch tên file/caption/title PlantUML trong nhóm `3_2_2_*` và `3_2_3_*` trước khi export ảnh sơ đồ.
+- [ ] Bổ sung hoặc kiểm tra thẻ nhúng ảnh `.png` ngay dưới các khối PlantUML trong mục 3.2 sau khi export ảnh vào `thesis/figures/`.
 
 ## Chương 4 — Thử nghiệm
 

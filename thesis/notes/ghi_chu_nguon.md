@@ -20,3 +20,5 @@ File này dùng để lưu ghi chú về tài liệu, nguồn tham khảo, dữ 
 - [ ] Chương 4 — Thử nghiệm hiện chưa có dữ liệu kiểm thử thực tế; không được tự bịa kết quả.
 - [ ] Phụ lục hướng dẫn sử dụng đã có khung, cần bổ sung thao tác và hình minh họa thực tế.
 - [ ] Cần kiểm tra caption hình trong Chương 3 vì nội dung cũ có thể còn số hình theo chương cũ.
+- [ ] Các thư mục chunk trong `thesis/chapters/` là bề mặt chỉnh sửa mặc định theo MEGA-DOCUMENT PROTOCOL; các file chương gốc chỉ dùng để đối chiếu cho đến khi có xác nhận xử lý.
+- [ ] Mục `3.2 Mô hình xử lý` đã được tách Level-3; không đọc lại toàn bộ file `.bak` trừ khi cần đối chiếu khẩn cấp.

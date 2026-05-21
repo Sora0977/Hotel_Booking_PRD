@@ -99,6 +99,9 @@ Theo `Rules.md`, chương này gồm kết quả đối chiếu với mục tiê
 - Không tự ý thay đổi mục tiêu, câu hỏi nghiên cứu, phương pháp hoặc luận điểm chính nếu chưa được yêu cầu.
 - Ưu tiên cấu trúc và quy định định dạng trong `Rules.md` và `SCHOOL_RULES.md`.
 - Cấu trúc chương hiện hành là 5 chương theo mẫu của trường, không dùng cấu trúc 6 chương của template cũ.
+- Áp dụng MEGA-DOCUMENT PROTOCOL: nội dung chương phải được chỉnh sửa mặc định qua các mảnh file trong thư mục chương, không chỉnh trực tiếp file chương gộp lớn nếu không có yêu cầu rõ ràng.
+- Các file chương gốc trong `thesis/chapters/*.md` hiện vẫn được giữ lại để đối chiếu và chỉ xóa hoặc di chuyển khi người dùng xác nhận.
+- Mục `3.2 Mô hình xử lý` đã được phân mảnh cấp độ 3 tại `chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/`; file cấp 2 cũ được giữ dưới tên `3_2_mo_hinh_xu_ly_OLD.md.bak`.
 
 ## Vấn đề còn mở
 
@@ -109,6 +112,8 @@ Theo `Rules.md`, chương này gồm kết quả đối chiếu với mục tiê
 - [ ] Cần bổ sung dữ liệu hoặc minh chứng: Kết quả kiểm thử hiệu suất, bảo mật, responsive, xác thực API và các chức năng chưa đạt.
 - [ ] Cần bổ sung phụ lục hướng dẫn sử dụng cho tối thiểu một quy trình chính.
 - [ ] Cần chuẩn hóa caption hình theo quy định đánh số hình của trường.
+- [ ] Cần quyết định xử lý các file chương gốc sau khi đã phân mảnh cấp độ 2.
+- [x] Đã phân mảnh sâu mục `3.2 Mô hình xử lý` để tránh xử lý file quá lớn khi chỉnh use case, sơ đồ tuần tự và sơ đồ hoạt động.
 
 ## Nhật ký thay đổi
 
@@ -124,3 +129,9 @@ Theo `Rules.md`, chương này gồm kết quả đối chiếu với mục tiê
 - Ngày: 2026-05-21
   - Thay đổi: Cập nhật project theo `Rules.md` của trường; chuyển cấu trúc từ 6 chương sang 5 chương gồm Giới thiệu, Phương pháp thực hiện, Thiết kế, Thử nghiệm và Kết luận; tạo `SCHOOL_RULES.md`, `front_matter/` và `appendices/huong_dan_su_dung.md`.
   - File liên quan: Rules.md, SCHOOL_RULES.md, OUTLINE.md, STYLE_GUIDE.md, AI_INSTRUCTIONS.md, README.md, chapters/, front_matter/, appendices/, TODO.md
+- Ngày: 2026-05-21
+  - Thay đổi: Bổ sung MEGA-DOCUMENT PROTOCOL vào `AI_INSTRUCTIONS.md` và phân mảnh cấp độ 2 các chương 1-5 thành thư mục chunk có `index.md`.
+  - File liên quan: AI_INSTRUCTIONS.md, chapters/index.md, chapters/01_mo_dau/, chapters/02_phuong_phap_thuc_hien/, chapters/03_thiet_ke/, chapters/04_thu_nghiem/, chapters/05_ket_luan/, TODO.md
+- Ngày: 2026-05-21
+  - Thay đổi: Phân mảnh cấp độ 3 mục `3.2 Mô hình xử lý`; tách use case, sơ đồ tuần tự và sơ đồ hoạt động thành các file nhỏ trong `chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/`.
+  - File liên quan: chapters/03_thiet_ke/index.md, chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/, chapters/03_thiet_ke/3_2_mo_hinh_xu_ly_OLD.md.bak, AI_INSTRUCTIONS.md, TODO.md

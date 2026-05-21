@@ -2,6 +2,66 @@
 
 File này quy định cách AI agent làm việc với project luận văn.
 
+## MEGA-DOCUMENT PROTOCOL
+
+Dự án này là một luận văn quy mô lớn, dự kiến khoảng 300-400 trang. AI agent phải làm việc theo cơ chế phân mảnh cấp độ 2 và cấp độ 3 (Level-2 & Level-3 Chunking) và truy xuất cục bộ (Local Retrieval) để tránh tràn ngữ cảnh, giảm rủi ro làm hỏng nội dung và bảo vệ các khối sơ đồ/mã nguồn.
+
+### 1. Cấu trúc Phân mảnh (Level-2 & Level-3 Chunking)
+
+- Các chương trong `chapters/` phải được chia thành thư mục chương.
+- Mỗi thư mục chương chứa các mảnh file tương ứng với từng heading cấp 2, ví dụ `3.1_mo_hinh_du_lieu.md`, `3.2_mo_hinh_xu_ly.md`.
+- Mỗi thư mục chương phải có `index.md` để liệt kê và mô tả các mảnh file con.
+- Khi chỉnh sửa nội dung, làm việc trên mảnh file cục bộ, không thao tác trực tiếp trên file chương gộp lớn trừ khi người dùng yêu cầu rõ ràng.
+- Các file chương gốc chỉ được dùng như bản tham chiếu/nguồn nhập hoặc phục vụ xuất bản, không phải bề mặt chỉnh sửa mặc định.
+- Nếu một mảnh cấp độ 2 vẫn quá lớn, đặc biệt là các mục chứa nhiều PlantUML, phải tách tiếp thành thư mục cấp độ 3 theo heading cấp 3/cấp 4 hoặc theo cụm sơ đồ/caption an toàn.
+- Mỗi thư mục phân mảnh cấp độ 3 cũng phải có `index.md`.
+- Sau khi phân mảnh cấp độ 3, file mảnh cấp độ 2 gốc phải được đổi thành `_OLD.md.bak` hoặc lưu vào `archive/`, không xóa hẳn nếu chưa có bản dự phòng.
+
+### 2. Giao thức đọc ngữ cảnh
+
+Trước khi viết, sửa hoặc tái cấu trúc:
+
+1. Đọc `THESIS_MEMORY.md` và `OUTLINE.md` để nắm bản đồ tổng thể.
+2. Định vị đúng thư mục chương và mảnh file cần sửa bằng `index.md` hoặc tìm kiếm theo từ khóa.
+3. Chỉ đọc mảnh file liên quan trực tiếp đến tác vụ.
+4. Không tự ý đọc toàn bộ chương hoặc toàn bộ luận văn nếu không cần thiết.
+5. Nếu cần tìm khái niệm, thuật ngữ, định nghĩa hoặc citation ở chương khác, ưu tiên dùng tìm kiếm (`rg`) với từ khóa cụ thể thay vì mở hàng loạt file.
+6. Chỉ đọc `STYLE_GUIDE.md` khi bắt đầu viết nội dung mới hoặc chỉnh văn phong.
+7. Chỉ đọc `SCHOOL_RULES.md` khi thao tác liên quan đến cấu trúc heading, định dạng, mục lục, hình ảnh hoặc quy định của trường.
+
+### 3. Giao thức chỉnh sửa
+
+- Chỉnh sửa bằng patch/diff hoặc thay thế khối nhỏ.
+- Không in lại toàn bộ nội dung file dài trong phản hồi.
+- Khi cần mô tả thay đổi, chỉ nêu file, mục và đoạn đã thay đổi.
+- Nếu cần thay thế nội dung thủ công, ghi rõ đoạn cần thay và nội dung thay thế.
+- Luôn bảo vệ citation key, bảng, heading và cấu trúc tài liệu nếu không có lý do rõ ràng để thay đổi.
+- **Bảo vệ Encoding (UTF-8):** TẤT CẢ các lệnh thao tác ghi (write/patch) lên hệ thống file BẮT BUỘC phải sử dụng chuẩn mã hóa `UTF-8`. AI tuyệt đối không được ghi ra các file làm vỡ font chữ tiếng Việt thành các ký tự dấu `?`.
+
+#### Quy tắc xuất ảnh PlantUML
+
+Mỗi khi sửa xong mã code PlantUML, bạn phải BẮT BUỘC nhắc User cập nhật/export file ảnh `.png` tương ứng lưu vào thư mục `thesis/figures/`. Đồng thời, đảm bảo file markdown chứa mã PlantUML đó phải có một thẻ nhúng ảnh, ví dụ `![Sơ đồ](../../figures/ten_anh.png)`, nằm ngay bên dưới khối code.
+
+### 4. Vùng bất khả xâm phạm
+
+- Không tự ý thay đổi, xóa hoặc định dạng lại các khối PlantUML, Mermaid, code fence hoặc sơ đồ.
+- Nếu tác vụ bắt buộc phải sửa sơ đồ, phải nêu rõ phạm vi sửa và chỉ sửa khối liên quan.
+- Không tự tạo kết quả thử nghiệm, dữ liệu, tài liệu tham khảo hoặc minh chứng.
+
+### 5. Diagnostic Report
+
+Sau mỗi tác vụ lớn liên quan đến tái cấu trúc, nhập nội dung, xuất bản hoặc chỉnh sửa nhiều mảnh file, báo cáo phải có các mục:
+
+- Phạm vi xử lý.
+- File/thư mục đã thay đổi.
+- Chunk đã tạo hoặc đã chỉnh sửa.
+- File gốc có bị xóa hay không.
+- Kiểm tra an toàn đã thực hiện.
+- Citation.
+- Bộ nhớ luận văn và TODO.
+- Vấn đề còn lại.
+- Cam kết thao tác tiếp theo theo Level-2/Level-3 Chunking.
+
 ## Vai trò
 
 AI agent có nhiệm vụ hỗ trợ:
