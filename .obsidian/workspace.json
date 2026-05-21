@@ -194,10 +194,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fb8f3089eab37664",
+  "active": "0c6102da16e07152",
   "lastOpenFiles": [
-    "thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md",
+    "thesis/SCHOOL_RULES.md",
     "thesis/compiled_thesis.md",
+    "thesis/OUTLINE.md",
+    "thesis/README.md",
+    "thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md",
     "thesis/chapters/01_mo_dau/1_3_noi_dung_pham_vi_thuc_hien.md",
     "thesis/chapters/01_mo_dau/1_2_nhung_thach_thuc_can_giai_quyet.md",
     "Rules.md",
@@ -208,8 +211,6 @@
     "thesis/scripts/build_thesis.py",
     "thesis/scripts",
     "thesis/TODO.md",
-    "thesis/README.md",
-    "thesis/OUTLINE.md",
     "thesis/chapters/04_thu_nghiem/muc_4_ghi_chu_cho_ai_agent.md",
     "thesis/chapters/04_thu_nghiem/4_3_xu_ly_cac_truong_hop_ngoai_le.md",
     "thesis/chapters/03_thiet_ke/3_3_he_thong_man_hinh.md",
@@ -226,7 +227,6 @@
     "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_0_gioi_thieu_mo_hinh_xu_ly.md",
     "thesis/chapters/03_thiet_ke.md",
     "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly_OLD.md.bak",
-    "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_2_36_so_do_tuan_tu_go_tien_ich_khoi_phong.md",
     "thesis/archive/pre_level3_chunking_2026-05-21/03_thiet_ke",
     "thesis/archive/pre_level3_chunking_2026-05-21",
     "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly",
