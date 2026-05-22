@@ -1,13 +1,24 @@
 ---
 status: imported_chunk
-last_updated: 2026-05-21
+last_updated: 2026-05-22
 chapter: "03 - Thiết kế"
 chunk: "3.3"
 source_file: "../03_thiet_ke.md"
 related_memory: ../../THESIS_MEMORY.md
 school_rules: ../../SCHOOL_RULES.md
+dependencies:
+  - "../02_phuong_phap_thuc_hien/2_4_phan_tich_yeu_cau.md"
+  - "3_2_mo_hinh_xu_ly/index.md"
+  - "3_1_mo_hinh_du_lieu_muc_y_niem_muc_luan_ly_muc_vat_ly.md"
 ---
-<!-- Mảnh file được tạo từ 03_thiet_ke.md. Theo MEGA-DOCUMENT PROTOCOL, chỉnh sửa mặc định phải thực hiện tại mảnh này, không chỉnh file chương gốc. -->
+
+<ai_context>
+File này là mảnh Level-2 thuộc Chương 3, mục 3.3. Chứa hệ thống màn hình của ứng dụng đặt phòng khách sạn, gồm danh sách caption và ảnh giao diện để đối chiếu luồng nghiệp vụ, use case và dữ liệu hiển thị.
+</ai_context>
+
+<system_instruction>
+TUYỆT ĐỐI KHÔNG tự ý thay đổi, xóa, định dạng lại liên kết ảnh, caption hình, thứ tự màn hình, code fence hoặc mã nguồn PlantUML/Mermaid nếu được bổ sung sau này, trừ khi tác vụ yêu cầu đích danh. Khi sửa hệ thống màn hình, phải đối chiếu dependencies trước và bảo toàn quan hệ giữa màn hình, chức năng nghiệp vụ, dữ liệu hiển thị và số thứ tự hình.
+</system_instruction>
 
 ## 3.3 Hệ thống màn hình
 

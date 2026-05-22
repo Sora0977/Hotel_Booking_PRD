@@ -1,0 +1,3 @@
+graphify-out/obsidian-contaminated-backup-*/
+graphify-out/cache/ast/*.json
+graphify-out/cache/ast/*.tmp

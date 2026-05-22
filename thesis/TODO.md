@@ -20,6 +20,9 @@
 - [x] Phân mảnh cấp độ 2 các chương 1-5 thành thư mục chunk có `index.md`.
 - [ ] Xác nhận có xóa hoặc di chuyển các file chương gốc `chapters/*.md` sau khi đã phân mảnh hay không.
 - [x] Phân mảnh sâu mục 3.2 để chỉnh sửa chi tiết use case, sơ đồ tuần tự hoặc sơ đồ hoạt động.
+- [x] Sửa vị trí thư mục Chương 4: di chuyển `chapters/03_thiet_ke/04_thu_nghiem/` về `chapters/04_thu_nghiem/`.
+- [x] Dọn file backup `3_2_mo_hinh_xu_ly_OLD.md.bak` vào `archive/`.
+- [x] Chuẩn hóa YAML Frontmatter và dependencies cho các chunk Level-3 trong mục 3.2.
 
 ## Phần trước nội dung chính
 

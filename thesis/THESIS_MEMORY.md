@@ -101,7 +101,7 @@ Theo `Rules.md`, chương này gồm kết quả đối chiếu với mục tiê
 - Cấu trúc chương hiện hành là 5 chương theo mẫu của trường, không dùng cấu trúc 6 chương của template cũ.
 - Áp dụng MEGA-DOCUMENT PROTOCOL: nội dung chương phải được chỉnh sửa mặc định qua các mảnh file trong thư mục chương, không chỉnh trực tiếp file chương gộp lớn nếu không có yêu cầu rõ ràng.
 - Các file chương gốc trong `thesis/chapters/*.md` hiện vẫn được giữ lại để đối chiếu và chỉ xóa hoặc di chuyển khi người dùng xác nhận.
-- Mục `3.2 Mô hình xử lý` đã được phân mảnh cấp độ 3 tại `chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/`; file cấp 2 cũ được giữ dưới tên `3_2_mo_hinh_xu_ly_OLD.md.bak`.
+- Mục `3.2 Mô hình xử lý` đã được phân mảnh cấp độ 3 tại `chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/`; file cấp 2 cũ được lưu tại `archive/3_2_mo_hinh_xu_ly_OLD.md.bak`.
 
 ## Vấn đề còn mở
 
@@ -134,4 +134,7 @@ Theo `Rules.md`, chương này gồm kết quả đối chiếu với mục tiê
   - File liên quan: AI_INSTRUCTIONS.md, chapters/index.md, chapters/01_mo_dau/, chapters/02_phuong_phap_thuc_hien/, chapters/03_thiet_ke/, chapters/04_thu_nghiem/, chapters/05_ket_luan/, TODO.md
 - Ngày: 2026-05-21
   - Thay đổi: Phân mảnh cấp độ 3 mục `3.2 Mô hình xử lý`; tách use case, sơ đồ tuần tự và sơ đồ hoạt động thành các file nhỏ trong `chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/`.
-  - File liên quan: chapters/03_thiet_ke/index.md, chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/, chapters/03_thiet_ke/3_2_mo_hinh_xu_ly_OLD.md.bak, AI_INSTRUCTIONS.md, TODO.md
+  - File liên quan: chapters/03_thiet_ke/index.md, chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/, archive/3_2_mo_hinh_xu_ly_OLD.md.bak, AI_INSTRUCTIONS.md, TODO.md
+- Ngày: 2026-05-22
+  - Thay đổi: Sửa cấu trúc thư mục Chương 4 bằng cách di chuyển `chapters/03_thiet_ke/04_thu_nghiem/` về `chapters/04_thu_nghiem/`; dọn file backup `3_2_mo_hinh_xu_ly_OLD.md.bak` vào `archive/`; chuẩn hóa metadata YAML Frontmatter Level-3 cho mục 3.2.
+  - File liên quan: chapters/04_thu_nghiem/, archive/3_2_mo_hinh_xu_ly_OLD.md.bak, chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/, scripts/add_frontmatter.py, TODO.md

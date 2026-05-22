@@ -2,7 +2,7 @@
 status: chunk-index
 last_updated: 2026-05-21
 chapter: "04 - Thử nghiệm"
-source_file: "../04_thu_nghiem.md"
+source_file: "../../archive/original_chapters/04_thu_nghiem.md"
 related_memory: ../../THESIS_MEMORY.md
 school_rules: ../../SCHOOL_RULES.md
 ---
@@ -22,6 +22,6 @@ File này là chỉ mục phân mảnh cấp độ 2 của chương. Khi cần c
 
 ## Ghi chú an toàn
 
-- File chương gốc vẫn được giữ tại `../04_thu_nghiem.md` và chưa bị xóa.
+- File chương gốc được lưu tại `../../archive/original_chapters/04_thu_nghiem.md`.
 - Không tự ý sửa các khối PlantUML/Mermaid/code fence nếu tác vụ không yêu cầu.
 - Nếu cần tìm nội dung trong chương, ưu tiên tìm trong các mảnh file bằng từ khóa cụ thể.

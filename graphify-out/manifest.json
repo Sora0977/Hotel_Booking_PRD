@@ -10,22 +10,22 @@
     "semantic_hash": "ddc6069a85a1acc06096e06bcd8087ac"
   },
   "C:\\Data\\Hotel_booking_PRD\\.obsidian\\app.json": {
-    "mtime": 1779329106.4195182,
-    "ast_hash": "99914b932bd37a50b983c5e7c90ae93b",
-    "semantic_hash": "99914b932bd37a50b983c5e7c90ae93b"
+    "mtime": 1779421581.1983378,
+    "ast_hash": "9433b7ee063027638445476905097fd2",
+    "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\.obsidian\\appearance.json": {
-    "mtime": 1779329106.4362392,
+    "mtime": 1779421581.2072654,
     "ast_hash": "cec8cdf9bd35ead705ef048415579716",
     "semantic_hash": "cec8cdf9bd35ead705ef048415579716"
   },
   "C:\\Data\\Hotel_booking_PRD\\.obsidian\\community-plugins.json": {
-    "mtime": 1779329107.521466,
+    "mtime": 1779421582.3851113,
     "ast_hash": "eefc999fb9fb801b6ef7ce8a96e2eb3c",
     "semantic_hash": "eefc999fb9fb801b6ef7ce8a96e2eb3c"
   },
   "C:\\Data\\Hotel_booking_PRD\\.obsidian\\core-plugins.json": {
-    "mtime": 1779329106.403186,
+    "mtime": 1779421581.1815789,
     "ast_hash": "7c877bea49eaeabb100563bd157b9051",
     "semantic_hash": "7c877bea49eaeabb100563bd157b9051"
   },
@@ -35,8 +35,8 @@
     "semantic_hash": "41ffa915f9d880d061cd7db53a247fe1"
   },
   "C:\\Data\\Hotel_booking_PRD\\.obsidian\\workspace.json": {
-    "mtime": 1779330133.977199,
-    "ast_hash": "4cae483c462d54e6fd70ab0037d368a2",
+    "mtime": 1779424504.88264,
+    "ast_hash": "9941cf43de5b673a1fed282aab283f4a",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\.obsidian\\plugins\\obsidian-git\\data.json": {
@@ -55,7 +55,7 @@
     "semantic_hash": "926ad2f754e4fd6bf53c299923234d92"
   },
   "C:\\Data\\Hotel_booking_PRD\\.obsidian\\plugins\\obsidian-git\\obsidian_askpass.sh": {
-    "mtime": 1779329107.1333783,
+    "mtime": 1779421582.7139752,
     "ast_hash": "f662d5f216d371e86d1b108ba5d22a5f",
     "semantic_hash": "f662d5f216d371e86d1b108ba5d22a5f"
   },
@@ -522,6 +522,1406 @@
   "C:\\Data\\Hotel_booking_PRD\\SDD\\05-guides\\AI_MAINTENANCE_GUIDE.md": {
     "mtime": 1779264517.9241257,
     "ast_hash": "bc13b1edf99945d301c28d5f9992b243",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\scripts\\build_thesis.py": {
+    "mtime": 1779424424.386117,
+    "ast_hash": "8c6db06784458659b63ee03b506eb7b8",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\Rules.md": {
+    "mtime": 1779422018.2135627,
+    "ast_hash": "ac5a952b1afcc563f5fe59bdd7f34bc9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\AI_INSTRUCTIONS.md": {
+    "mtime": 1779436678.51601,
+    "ast_hash": "c06105d2703560bd2a7e2a25f5b55c6a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\compiled_thesis.md": {
+    "mtime": 1779439078.9763258,
+    "ast_hash": "653f3e024de61a6952a64bd5472235fa",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\compiled_thesis_readonly.md": {
+    "mtime": 1779439078.9783638,
+    "ast_hash": "653f3e024de61a6952a64bd5472235fa",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\OUTLINE.md": {
+    "mtime": 1779349509.5373492,
+    "ast_hash": "bd54517b6678decf2d54467285eb43f2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\README.md": {
+    "mtime": 1779353014.6299982,
+    "ast_hash": "840806522364f6481adebeba33b30c61",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\SCHOOL_RULES.md": {
+    "mtime": 1779349509.6325884,
+    "ast_hash": "28bebd83b9760cf408d218dad2a0eb53",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\STYLE_GUIDE.md": {
+    "mtime": 1779349822.937111,
+    "ast_hash": "c85a0f6757270d7a1ae7421a8fd311f9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\THESIS_MEMORY.md": {
+    "mtime": 1779437692.07618,
+    "ast_hash": "a90b181157d6da9dacd2fdd4dc9e7b46",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\TODO.md": {
+    "mtime": 1779437699.876002,
+    "ast_hash": "c8d75ea1c1b9e738823ce2c103d40a9f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\appendices\\huong_dan_su_dung.md": {
+    "mtime": 1779349509.9264817,
+    "ast_hash": "8349cb3d7c08ded64db771d03c5a718f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\original_chapters\\01_mo_dau.md": {
+    "mtime": 1779349446.6456144,
+    "ast_hash": "5913c4a63858def14e024c24a8787979",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\original_chapters\\02_phuong_phap_thuc_hien.md": {
+    "mtime": 1779349446.6801531,
+    "ast_hash": "8efcf40ac32db85614fb95ff93a1b53e",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\original_chapters\\03_thiet_ke.md": {
+    "mtime": 1779349446.6981533,
+    "ast_hash": "86f7ee20b837f87e862af7a37b97d389",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\original_chapters\\04_thu_nghiem.md": {
+    "mtime": 1779349446.7011557,
+    "ast_hash": "81ce6d2b2a96b64443185b5509bac7de",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\original_chapters\\05_ket_luan.md": {
+    "mtime": 1779349693.5332832,
+    "ast_hash": "f228619d25fcd9ead29d0dc908c1114a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\original_chapters\\chuong-1-gioi-thieu.md": {
+    "mtime": 1778038943.929747,
+    "ast_hash": "3b41550d8c52fccb3384fad8199f01e9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\original_chapters\\chuong-2-phuong-phap-thuc-hien.md": {
+    "mtime": 1778229346.2378974,
+    "ast_hash": "b4fbf7baca5a1c295504f85165f7f263",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\original_chapters\\chuong-3-thiet-ke.md": {
+    "mtime": 1778229346.2851007,
+    "ast_hash": "a2bef071b71c7f85766f6c11d9f8460c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\original_chapters\\chuong-4-ket-luan.md": {
+    "mtime": 1778050097.787943,
+    "ast_hash": "1b2e3045ef055263b0dc5f156995f0be",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\original_chapters\\README.md": {
+    "mtime": 1778129147.389162,
+    "ast_hash": "71693441e345d32ec32543f507f1a4b9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_level2_chunking_2026-05-21\\chapters\\01_mo_dau.md": {
+    "mtime": 1779349446.6456144,
+    "ast_hash": "5913c4a63858def14e024c24a8787979",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_level2_chunking_2026-05-21\\chapters\\02_phuong_phap_thuc_hien.md": {
+    "mtime": 1779349446.6801531,
+    "ast_hash": "8efcf40ac32db85614fb95ff93a1b53e",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_level2_chunking_2026-05-21\\chapters\\03_thiet_ke.md": {
+    "mtime": 1779349446.6981533,
+    "ast_hash": "86f7ee20b837f87e862af7a37b97d389",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_level2_chunking_2026-05-21\\chapters\\04_thu_nghiem.md": {
+    "mtime": 1779349446.7011557,
+    "ast_hash": "81ce6d2b2a96b64443185b5509bac7de",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_level2_chunking_2026-05-21\\chapters\\05_ket_luan.md": {
+    "mtime": 1779349693.5332832,
+    "ast_hash": "f228619d25fcd9ead29d0dc908c1114a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_level3_chunking_2026-05-21\\03_thiet_ke\\3_2_mo_hinh_xu_ly.md": {
+    "mtime": 1779352271.5673385,
+    "ast_hash": "7e1585c0b1e1a71f6e36b2bdaba3536d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_school_rules_2026-05-21\\chapters\\00_tom_tat.md": {
+    "mtime": 1779347356.0917733,
+    "ast_hash": "047d68691580ce08baa39a08ac83c8c0",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_school_rules_2026-05-21\\chapters\\01_mo_dau.md": {
+    "mtime": 1779347356.0940945,
+    "ast_hash": "6de99bc2991aa3779ddd9684fb910856",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_school_rules_2026-05-21\\chapters\\02_co_so_ly_thuyet_va_nghien_cuu_lien_quan.md": {
+    "mtime": 1779347361.9282377,
+    "ast_hash": "c7abb5b087e5812059cee09a8f2d5c56",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_school_rules_2026-05-21\\chapters\\03_phuong_phap_nghien_cuu.md": {
+    "mtime": 1779347356.0956082,
+    "ast_hash": "9e210cb4e644848c28bc601d029441cd",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_school_rules_2026-05-21\\chapters\\04_ket_qua_nghien_cuu.md": {
+    "mtime": 1779347356.0956082,
+    "ast_hash": "e163f1bfc4385f92a3118aa080d84012",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_school_rules_2026-05-21\\chapters\\05_thao_luan.md": {
+    "mtime": 1779347356.0956082,
+    "ast_hash": "171d3a71aac333285f1f626f6c7e2823",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\archive\\pre_school_rules_2026-05-21\\chapters\\06_ket_luan.md": {
+    "mtime": 1779347356.1031034,
+    "ast_hash": "2d7742320c765abed0d38eb996bf2e80",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\index.md": {
+    "mtime": 1779352271.6243854,
+    "ast_hash": "dd1d0c82c5f74a6525d67bc46728e948",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\01_mo_dau\\1_1_dat_van_de_muc_tieu_luan_van.md": {
+    "mtime": 1779352271.49872,
+    "ast_hash": "1a9df407978fd9914ffaaba9b1645ff7",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\01_mo_dau\\1_2_nhung_thach_thuc_can_giai_quyet.md": {
+    "mtime": 1779352271.502291,
+    "ast_hash": "f857efbb2949f47b9aaf8970e0551980",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\01_mo_dau\\1_3_noi_dung_pham_vi_thuc_hien.md": {
+    "mtime": 1779352271.506335,
+    "ast_hash": "aacd69c48358cbf4059ccb31802ed73d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\01_mo_dau\\1_4_ket_qua_can_dat.md": {
+    "mtime": 1779352271.5088592,
+    "ast_hash": "d6e4fb93620c7b429f3e5b78f999ffce",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\01_mo_dau\\index.md": {
+    "mtime": 1779352271.5088592,
+    "ast_hash": "ae6e5083e48edd3c7ef2b553ee95e60f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\02_phuong_phap_thuc_hien\\2_1_cac_he_thong_tuong_tu.md": {
+    "mtime": 1779352271.528481,
+    "ast_hash": "11f291112b3561c612b29b2e3e4803cd",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\02_phuong_phap_thuc_hien\\2_2_co_so_ly_thuyet.md": {
+    "mtime": 1779352271.5319955,
+    "ast_hash": "4fb0e3d00bdf3cfa5fe43d2eb4e25a65",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\02_phuong_phap_thuc_hien\\2_3_cong_nghe_su_dung.md": {
+    "mtime": 1779352271.5359917,
+    "ast_hash": "e73ff88a451b57b1782cae36d9d8dbaa",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\02_phuong_phap_thuc_hien\\2_4_phan_tich_yeu_cau.md": {
+    "mtime": 1779352271.5432384,
+    "ast_hash": "9c2f510ad1770f9068e7b0c89f14eb37",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\02_phuong_phap_thuc_hien\\index.md": {
+    "mtime": 1779352271.5438018,
+    "ast_hash": "1a9d816ec8127f9934eb3dd5e356b7a0",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_1_mo_hinh_du_lieu_muc_y_niem_muc_luan_ly_muc_vat_ly.md": {
+    "mtime": 1779421445.5690033,
+    "ast_hash": "dda99d397717e808d8fe03a451af75c0",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_3_he_thong_man_hinh.md": {
+    "mtime": 1779421667.3318925,
+    "ast_hash": "7318171a049c028dfd5d27873a7c5dc9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_4_he_thong_bao_bieu.md": {
+    "mtime": 1779352271.5673385,
+    "ast_hash": "df8febdff51db795729efaf8ab503b50",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\index.md": {
+    "mtime": 1779352914.5996666,
+    "ast_hash": "44be243025ffcf18911ff281bd7a7808",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_0_gioi_thieu_mo_hinh_xu_ly.md": {
+    "mtime": 1779437651.5133338,
+    "ast_hash": "4fba47b5ab0ea27996c87d3c513a5acf",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_10_usecase_dat_phong.md": {
+    "mtime": 1779437651.5133338,
+    "ast_hash": "6ee6ab349d9adb6cf080915d6901a84f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_11_usecase_tra_cuu_va_huy_don_dat_phong.md": {
+    "mtime": 1779437651.5133338,
+    "ast_hash": "976d7c4233d4b162b84484d831fa2155",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_12_usecase_quan_ly_tien_ich.md": {
+    "mtime": 1779437651.5133338,
+    "ast_hash": "ad973ad6866a5a0ed8c49c3222eb5362",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_1_usecase_dang_nhap.md": {
+    "mtime": 1779437651.5133338,
+    "ast_hash": "51a38346ab38771309dfd0c48ac176c5",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_2_usecase_dang_ky.md": {
+    "mtime": 1779437651.5264206,
+    "ast_hash": "6b640e6d808fb44c02342da8c2556e15",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_3_usecase_quan_ly_thong_tin_ca_nhan.md": {
+    "mtime": 1779437651.5293436,
+    "ast_hash": "791df1d67384471d889d2e5c6c558c9d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_4_usecase_quan_tri_nguoi_dung.md": {
+    "mtime": 1779437651.5293436,
+    "ast_hash": "628f42a9331fe48caa81bb920703edd2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_5_usecase_quan_ly_phong.md": {
+    "mtime": 1779437651.5293436,
+    "ast_hash": "a0536fcb28d805af0dfdcd13691e9195",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_6_usecase_tra_cuu_phong.md": {
+    "mtime": 1779437651.5293436,
+    "ast_hash": "95e8cc60a25d512c680d1f4f46ffaf07",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_7_usecase_quan_ly_khach_san.md": {
+    "mtime": 1779437651.5293436,
+    "ast_hash": "cd0d3b3fcba633ac151173ac1b6295f2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_8_usecase_tra_cuu_khach_san.md": {
+    "mtime": 1779437651.5293436,
+    "ast_hash": "eb97b18a5aebe826254e10d77ea3a70a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_9_usecase_quan_ly_dat_phong.md": {
+    "mtime": 1779437651.5293436,
+    "ast_hash": "84468400eca612ba3ed2166c96a30445",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_1_use_case_chi_tiet.md": {
+    "mtime": 1779437651.5293436,
+    "ast_hash": "d17a395a80922c37dcec6670b8c8a9c2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_01_so_do_tuan_tu_dang_nhap.md": {
+    "mtime": 1779439044.8740602,
+    "ast_hash": "0887b51b5e22fbc334733d2c65afd065",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_02_so_do_tuan_tu_dang_ky.md": {
+    "mtime": 1779437651.541036,
+    "ast_hash": "445e25b5de9164868c642f91699928c8",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_03_so_do_tuan_tu_cap_nhat_thong_tin_ca_nhan.md": {
+    "mtime": 1779437651.5440526,
+    "ast_hash": "8dc0ceaa926dae8769a27c117cd1a1b0",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_04_so_do_tuan_tu_doi_mat_khau.md": {
+    "mtime": 1779437651.54705,
+    "ast_hash": "17b25b6eb94889a0ed35f15cab165ef8",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_05_so_do_tuan_tu_xem_thong_tin_profile.md": {
+    "mtime": 1779437651.54705,
+    "ast_hash": "67df58b54cc4ae76d15c4ce2095b775c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_06_so_do_tuan_tu_xoa_tai_khoan_ca_nhan.md": {
+    "mtime": 1779437651.54705,
+    "ast_hash": "84af7966b21a180dbbcf986745b066b3",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_07_so_do_tuan_tu_xem_lich_su_dat_phong.md": {
+    "mtime": 1779437651.54705,
+    "ast_hash": "623fba6b1fd9ca8e5f190ded95dddea8",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_08_so_do_tuan_tu_xem_danh_sach_nguoi_dung.md": {
+    "mtime": 1779437651.54705,
+    "ast_hash": "3ab39dec6ca0fade4ce20a6f4452f8b8",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_09_so_do_tuan_tu_khoa_tai_khoan_nguoi_dung.md": {
+    "mtime": 1779437651.557767,
+    "ast_hash": "8be13dfb37673970849ab447f0e3b01d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_10_so_do_tuan_tu_mo_khoa_tai_khoan_nguoi_dung.md": {
+    "mtime": 1779437651.5617828,
+    "ast_hash": "5f1a0f435a8ba188259dd0a595470252",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_11_so_do_tuan_tu_them_phong_moi.md": {
+    "mtime": 1779437651.562784,
+    "ast_hash": "add7f8e582fd1ff2c1ee2ab497a402ff",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_12_so_do_tuan_tu_cap_nhat_thong_tin_phong.md": {
+    "mtime": 1779437651.562784,
+    "ast_hash": "beaabada1b6ebaf6ac151c78e9dfdd6b",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_13_so_do_tuan_tu_xoa_phong.md": {
+    "mtime": 1779437651.562784,
+    "ast_hash": "29b17b3480420451ac1d7d003b72d35c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_14_so_do_tuan_tu_xem_danh_sach_tat_ca_phong.md": {
+    "mtime": 1779437651.562784,
+    "ast_hash": "f59e50fb6a2285dd479f37711608a457",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_15_so_do_tuan_tu_tim_phong_trong_theo_ngay.md": {
+    "mtime": 1779437651.562784,
+    "ast_hash": "152f38d5ddc33a89205d23b34b607677",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_16_so_do_tuan_tu_xem_chi_tiet_phong.md": {
+    "mtime": 1779437651.562784,
+    "ast_hash": "783123b48a233d1039b6cb4951b7ca5b",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_17_so_do_tuan_tu_tim_kiem_phong_theo_tu_khoa.md": {
+    "mtime": 1779437651.562784,
+    "ast_hash": "fec1058e2b1c739557621b417d2a31fb",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_18_so_do_tuan_tu_xem_loai_phong.md": {
+    "mtime": 1779437651.5774422,
+    "ast_hash": "0dcb3242aaffb22f8809916bf5d2b723",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_19_so_do_tuan_tu_them_khach_san_moi.md": {
+    "mtime": 1779437651.5802422,
+    "ast_hash": "1dca28437e1aa61995391a303a1fdad9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_20_so_do_tuan_tu_cap_nhat_khach_san.md": {
+    "mtime": 1779437651.5802422,
+    "ast_hash": "df0cdacffbcb77d9cfc5eda35cd5beae",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_21_so_do_tuan_tu_xoa_khach_san.md": {
+    "mtime": 1779437651.5802422,
+    "ast_hash": "429775e723b85651a0e6435a8dec3ea9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_22_so_do_tuan_tu_xem_danh_sach_khach_san_cua_toi.md": {
+    "mtime": 1779437651.5802422,
+    "ast_hash": "8e834ed28a895cba97e35d62c1227097",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_23_so_do_tuan_tu_xem_danh_sach_tat_ca_khach_san.md": {
+    "mtime": 1779437651.5802422,
+    "ast_hash": "b7f12b13fbf17244018df4912ed053a5",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_24_so_do_tuan_tu_xem_chi_tiet_khach_san.md": {
+    "mtime": 1779437651.5802422,
+    "ast_hash": "777e848bd4ff9a830968a762dc30731a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_25_so_do_tuan_tu_tim_kiem_khach_san.md": {
+    "mtime": 1779437651.5802422,
+    "ast_hash": "e472b227bc7ad4c919bf01634295e867",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_26_so_do_tuan_tu_xem_danh_sach_phong_cua_khach_san.md": {
+    "mtime": 1779437651.5927496,
+    "ast_hash": "cd188d2f29065996d026d00c8e292804",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_27_so_do_tuan_tu_xem_danh_sach_tat_ca_booking.md": {
+    "mtime": 1779437651.5947506,
+    "ast_hash": "c8eb429617c5831084729f717ad5c1a3",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_28_so_do_tuan_tu_cap_nhat_trang_thai_booking.md": {
+    "mtime": 1779437651.5967443,
+    "ast_hash": "d6a664a33734953b25e78cf581d1b98f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_29_so_do_tuan_tu_tao_booking_moi.md": {
+    "mtime": 1779437651.5967443,
+    "ast_hash": "15c3c9c1f11ecf1f9588d174af2eb191",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_30_so_do_tuan_tu_tra_cuu_booking_theo_ma.md": {
+    "mtime": 1779437651.5967443,
+    "ast_hash": "b9b65f0b5bbb9d3848b3e13be8b0c9f8",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_31_so_do_tuan_tu_huy_dat_phong.md": {
+    "mtime": 1779437651.6026812,
+    "ast_hash": "d7972f6af53483e247747cced3587163",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_32_so_do_tuan_tu_tao_tien_ich_moi.md": {
+    "mtime": 1779437651.6026812,
+    "ast_hash": "ae97513c775dd95f0685b0cd9cb2fa7c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_33_so_do_tuan_tu_cap_nhat_tien_ich.md": {
+    "mtime": 1779437651.6026812,
+    "ast_hash": "592faa10bcd3e2dd79d28f1bcbbaac12",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_34_so_do_tuan_tu_xoa_tien_ich_he_thong.md": {
+    "mtime": 1779437651.60779,
+    "ast_hash": "cbb69da552275dc49cd21a6d7f117420",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_35_so_do_tuan_tu_go_tien_ich_khoi_khach_san.md": {
+    "mtime": 1779437651.6108012,
+    "ast_hash": "d208615fd18042fe9d96fe42788caecd",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_36_so_do_tuan_tu_go_tien_ich_khoi_phong.md": {
+    "mtime": 1779437651.6117444,
+    "ast_hash": "ee286c4ae8fc29c72b990918cdf51705",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_2_so_do_tuan_tu.md": {
+    "mtime": 1779437651.6117444,
+    "ast_hash": "300445d7b55d487787fabcf097dd75d1",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_01_so_do_hoat_dong_dang_nhap.md": {
+    "mtime": 1779437651.6117444,
+    "ast_hash": "dd888048a76763d893b880979b1aa80e",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_02_so_do_hoat_dong_dang_ky_tai_khoan.md": {
+    "mtime": 1779437651.6117444,
+    "ast_hash": "06800ef5e6d8fc6745194d920502f124",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_03_so_do_hoat_dong_cap_nhat_thong_tin_ca_nhan.md": {
+    "mtime": 1779437651.6117444,
+    "ast_hash": "3db06e16ca5472060108cec6017e5233",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_04_so_do_hoat_dong_doi_mat_khau.md": {
+    "mtime": 1779437651.6117444,
+    "ast_hash": "46dacb61dfd24850fe8caf59c31002d1",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_05_so_do_hoat_dong_xem_thong_tin_profile.md": {
+    "mtime": 1779437651.6117444,
+    "ast_hash": "c73deedd35efa076bd06a7e2550ff9f5",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_06_so_do_hoat_dong_xoa_tai_khoan_ca_nhan.md": {
+    "mtime": 1779437651.6117444,
+    "ast_hash": "fee90620ef3dfd70f252256208f51578",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_07_so_do_hoat_dong_xem_lich_su_dat_phong.md": {
+    "mtime": 1779437651.627449,
+    "ast_hash": "7163eea238efdc5894fbdb7484722d83",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_08_so_do_hoat_dong_xem_danh_sach_nguoi_dung.md": {
+    "mtime": 1779437651.6282833,
+    "ast_hash": "c099c64be28ea8c278e30d8475d841c8",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_09_so_do_hoat_dong_khoa_tai_khoan_nguoi_dung.md": {
+    "mtime": 1779437651.6282833,
+    "ast_hash": "5609c05277a6f41d4b98317abc37bce0",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_10_so_do_hoat_dong_mo_khoa_tai_khoan_nguoi_dung.md": {
+    "mtime": 1779437651.6282833,
+    "ast_hash": "cb7496b74ca4072588ec2e044690228a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_11_so_do_hoat_dong_them_phong_moi.md": {
+    "mtime": 1779437651.6282833,
+    "ast_hash": "978ad7316c9cdb08a56a551bec9af20f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_12_so_do_hoat_dong_cap_nhat_thong_tin_phong.md": {
+    "mtime": 1779437651.6282833,
+    "ast_hash": "d7597438471e15e09385a088f7aa4039",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_13_so_do_hoat_dong_xoa_phong.md": {
+    "mtime": 1779437651.6282833,
+    "ast_hash": "5fe2152d0f600f4e0e46849073ccefdb",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_14_so_do_hoat_dong_xem_danh_sach_tat_ca_phong.md": {
+    "mtime": 1779437651.6282833,
+    "ast_hash": "1f0f7812a72eb5a6b220a7d154f297b2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_15_so_do_hoat_dong_tim_phong_trong_theo_ngay.md": {
+    "mtime": 1779437651.6282833,
+    "ast_hash": "f81a594ab596e0565cea789b260b7a07",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_16_so_do_hoat_dong_xem_chi_tiet_phong.md": {
+    "mtime": 1779437651.6282833,
+    "ast_hash": "228f5deb0bf98ada83a95843a61c0919",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_17_so_do_hoat_dong_tim_kiem_phong.md": {
+    "mtime": 1779437651.6420612,
+    "ast_hash": "fbaf37a1df06e0192efef797d482dcfd",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_18_so_do_hoat_dong_xem_loai_phong.md": {
+    "mtime": 1779437651.6447794,
+    "ast_hash": "540be3000d68886bf20a8de02b9037f0",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_19_so_do_hoat_dong_them_khach_san_moi.md": {
+    "mtime": 1779437651.6447794,
+    "ast_hash": "29e7436b91ebcb66779218045d340514",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_20_so_do_hoat_dong_cap_nhat_khach_san.md": {
+    "mtime": 1779437651.6447794,
+    "ast_hash": "aaabe8b73ae208bf8da6d3a8946bcc95",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_21_so_do_hoat_dong_xoa_khach_san.md": {
+    "mtime": 1779437651.6447794,
+    "ast_hash": "371dabed7174d00ce008e65db302889c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_22_so_do_hoat_dong_xem_danh_sach_khach_san_cua_toi.md": {
+    "mtime": 1779437651.6447794,
+    "ast_hash": "5714a28a6aa927e08a74133f5dc8a563",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_23_so_do_hoat_dong_danh_sach_tat_ca_khach_san.md": {
+    "mtime": 1779437651.6447794,
+    "ast_hash": "04d5f1aadfaa0cb3a60a4ba06a9b61f5",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_24_so_do_hoat_dong_xem_chi_tiet_khach_san.md": {
+    "mtime": 1779437651.6447794,
+    "ast_hash": "98e47f5599b9264a3275a432bf7c343a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_25_so_do_hoat_dong_tim_kiem_khach_san.md": {
+    "mtime": 1779437651.6447794,
+    "ast_hash": "4dde7797a705cbb8c4b0880a3c28ac7a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_26_so_do_hoat_dong_xem_danh_sach_phong_cua_khach_san.md": {
+    "mtime": 1779437651.6447794,
+    "ast_hash": "489356dadeb5441a83f8a72a927e3cba",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_27_so_do_hoat_dong_xem_danh_sach_tat_ca_booking.md": {
+    "mtime": 1779437651.6597486,
+    "ast_hash": "141e9e60d80373633c4c33ae727d4cc1",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_28_so_do_hoat_dong_cap_nhat_trang_thai_booking.md": {
+    "mtime": 1779437651.6631012,
+    "ast_hash": "3795148e5155d9c2feefd0ba76f1851b",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_29_so_do_hoat_dong_tao_booking_moi.md": {
+    "mtime": 1779437651.6631012,
+    "ast_hash": "8477cbc6dfcc54b99b9601e5169c93a2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_30_so_do_hoat_dong_tra_cuu_booking_theo_ma.md": {
+    "mtime": 1779437651.6631012,
+    "ast_hash": "ee680128a83d510d473482a3e5ea6bd1",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_31_so_do_hoat_dong_huy_dat_phong.md": {
+    "mtime": 1779437651.6631012,
+    "ast_hash": "4cc82f9936ea6417bbbc2ae4298945eb",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_32_so_do_hoat_dong_tao_tien_ich_moi.md": {
+    "mtime": 1779437651.6631012,
+    "ast_hash": "95ecc1cf8a3900d9400e9268334a6400",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_33_so_do_hoat_dong_cap_nhat_tien_ich.md": {
+    "mtime": 1779437651.6631012,
+    "ast_hash": "09a33f04ef63f43d9760bac30820a12f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_34_so_do_hoat_dong_xoa_tien_ich_he_thong.md": {
+    "mtime": 1779437651.6631012,
+    "ast_hash": "070f80fd81139912fdeac8e08d72edd1",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_35_so_do_hoat_dong_go_tien_ich_khoi_khach_san.md": {
+    "mtime": 1779437651.6631012,
+    "ast_hash": "09b42bdc3141d1523644fb8f28ff21cf",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_36_so_do_hoat_dong_go_tien_ich_khoi_phong.md": {
+    "mtime": 1779437651.6764915,
+    "ast_hash": "d1009b8d2eae9d44c68780dedbfbf2d0",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\3_2_3_so_do_hoat_dong_activity.md": {
+    "mtime": 1779437651.6782215,
+    "ast_hash": "19f2c7dae8b6f826a375077f7e36b348",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\03_thiet_ke\\3_2_mo_hinh_xu_ly\\index.md": {
+    "mtime": 1779354462.5812943,
+    "ast_hash": "0ade9db01bee95209224dd1dc4b975c2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\05_ket_luan\\5_1_ket_qua_doi_chieu_voi_muc_tieu.md": {
+    "mtime": 1779352271.6103666,
+    "ast_hash": "fd8c226a69b2fc68ba99b896d37c020d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\05_ket_luan\\5_2_cac_van_de_con_ton_dong.md": {
+    "mtime": 1779352271.6103666,
+    "ast_hash": "21bc07ab30bff0b739c6a87813cb5d45",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\05_ket_luan\\5_3_mo_rong_huong_phat_trien.md": {
+    "mtime": 1779352271.616392,
+    "ast_hash": "59c698ebea18364a524226374ff2e389",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\05_ket_luan\\index.md": {
+    "mtime": 1779352271.6203964,
+    "ast_hash": "b3c39887e488145cbad9ce9f3906d725",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\front_matter\\00_tom_tat.md": {
+    "mtime": 1779349760.5348253,
+    "ast_hash": "015efe248f4144fdb0bd2c99bf7e8500",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\front_matter\\loi_cam_on.md": {
+    "mtime": 1779349509.7326903,
+    "ast_hash": "433305b916cbe84e0d866c9060b7655a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\front_matter\\muc_luc.md": {
+    "mtime": 1779349509.8133423,
+    "ast_hash": "162c0d45f57114514a3bda41c6681353",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\notes\\ghi_chu_nguon.md": {
+    "mtime": 1779353014.9446573,
+    "ast_hash": "e5a602717995f921b62d4398de154b7e",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\notes\\nhat_ky_y_tuong.md": {
+    "mtime": 1779346552.010151,
+    "ast_hash": "f7565566c46020660851ab484d0a1fe4",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\2_4_phan_tich_yeu_cau_01_7e4156c3d59f.png": {
+    "mtime": 1779424285.0583477,
+    "ast_hash": "74915f40e78badeddb061a7ad9c3b2fa",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\2_4_phan_tich_yeu_cau_02_1ac05d48e5fb.png": {
+    "mtime": 1779424285.6476183,
+    "ast_hash": "f06456c663e2a2fbc6afe19ed451f495",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\2_4_phan_tich_yeu_cau_03_e94a2a968cef.png": {
+    "mtime": 1779424286.27124,
+    "ast_hash": "1a078a15bccc439fd51b9dc0a82842fe",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\2_4_phan_tich_yeu_cau_04_b4d9dd571eb1.png": {
+    "mtime": 1779424286.9611473,
+    "ast_hash": "a41b54734920d9fd6aab0f5a5204828d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\2_4_phan_tich_yeu_cau_05_0fbeaab65db0.png": {
+    "mtime": 1779424288.3529103,
+    "ast_hash": "62d9dba76817601965a0a90886dceb32",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\2_4_phan_tich_yeu_cau_06_8b8e4ab01b06.png": {
+    "mtime": 1779424289.0949788,
+    "ast_hash": "02ea67df73c501182bf85d7fd7296a41",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\2_4_phan_tich_yeu_cau_07_ed2205a5cfb1.png": {
+    "mtime": 1779424289.9141839,
+    "ast_hash": "8c1dd09a55c986cf10b43e4b49ea7e17",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\2_4_phan_tich_yeu_cau_08_766498594839.png": {
+    "mtime": 1779424290.653601,
+    "ast_hash": "2b52777e56fd6d23f0647d2c1a53f425",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_1_mo_hinh_du_lieu_muc_y_niem_muc_luan_ly_muc_v_01_fcec998ee027.png": {
+    "mtime": 1779424291.6741154,
+    "ast_hash": "066c4cb3cd161413f9d0da11d177ada7",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_1_mo_hinh_du_lieu_muc_y_niem_muc_luan_ly_muc_v_02_95a762297c63.png": {
+    "mtime": 1779424292.6527698,
+    "ast_hash": "6b838778f4ba13cab118398b51e8acf6",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_10_usecase_dat_phong_01_5c942698769a.png": {
+    "mtime": 1779424300.4668794,
+    "ast_hash": "adca0d1319e89718714ecb1296b81988",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_11_usecase_tra_cuu_va_huy_don_dat_phong_01_4270c1f7ea79.png": {
+    "mtime": 1779424301.2553585,
+    "ast_hash": "72940430a53ba810aad98b213693bcbf",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_12_usecase_quan_ly_tien_ich_01_6a93cb9a202e.png": {
+    "mtime": 1779424302.2529154,
+    "ast_hash": "d77549ed10c0e363f813411096c7ef8d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_1_usecase_dang_nhap_01_7f81d459f4f8.png": {
+    "mtime": 1779424293.3360891,
+    "ast_hash": "d23d22477803ad2bfb0a1d22f1c226d3",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_2_usecase_dang_ky_01_2b4b49b26fec.png": {
+    "mtime": 1779424294.0692866,
+    "ast_hash": "ad04c3ee96bf17c2dc18b2a9bfb8d36c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_3_usecase_quan_ly_thong_tin_ca_nhan_01_f97b7aef4177.png": {
+    "mtime": 1779424294.7758672,
+    "ast_hash": "9ace0fbdb26cc128d3a8db378b2ce433",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_4_usecase_quan_tri_nguoi_dung_01_5837d4ad0edf.png": {
+    "mtime": 1779424295.4902563,
+    "ast_hash": "f63357243db674f8cd422d8db17c155b",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_5_usecase_quan_ly_phong_01_e1be51916427.png": {
+    "mtime": 1779424296.420121,
+    "ast_hash": "727893dccfcb493544fd5dc3265e784f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_6_usecase_tra_cuu_phong_01_a208d516a426.png": {
+    "mtime": 1779424297.2266583,
+    "ast_hash": "660e8c945d45ff30231d3a60c29eba4c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_7_usecase_quan_ly_khach_san_01_944cf466956b.png": {
+    "mtime": 1779424297.9358766,
+    "ast_hash": "b750422119e87eb98df40df4e69fdf7f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_8_usecase_tra_cuu_khach_san_01_a1f024447411.png": {
+    "mtime": 1779424298.7862053,
+    "ast_hash": "b0752f8d82cb0eb68bc4af9d76ce5984",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_1_9_usecase_quan_ly_dat_phong_01_0a9c06e13c13.png": {
+    "mtime": 1779424299.6538231,
+    "ast_hash": "e7e00079cf0b22d75ec4eba3fd1bb2a0",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_01_so_do_tuan_tu_dang_nhap_01_192385218a83.png": {
+    "mtime": 1779424302.955012,
+    "ast_hash": "5da77c66c740b7577b55f51f3683c155",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_02_so_do_tuan_tu_dang_ky_01_ed49ec5f358d.png": {
+    "mtime": 1779424303.6862235,
+    "ast_hash": "bcc43b872418a1028a2106634e36a2c6",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_03_so_do_tuan_tu_cap_nhat_thong_tin_ca_nha_01_666689213dd2.png": {
+    "mtime": 1779424304.4367573,
+    "ast_hash": "7529dd8599bf685a6f0255960570a381",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_04_so_do_tuan_tu_doi_mat_khau_01_11db6e0cadef.png": {
+    "mtime": 1779424305.2162054,
+    "ast_hash": "f8b26aafb39174baff1b96bc7ae90ebf",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_05_so_do_tuan_tu_xem_thong_tin_profile_01_31346e7e89f8.png": {
+    "mtime": 1779424306.019584,
+    "ast_hash": "de20416a70ef4f3689823fb0acecf549",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_06_so_do_tuan_tu_xoa_tai_khoan_ca_nhan_01_c27656d12f55.png": {
+    "mtime": 1779424306.739864,
+    "ast_hash": "a11034fa0e1225848bca7b77187d7f72",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_07_so_do_tuan_tu_xem_lich_su_dat_phong_01_a6aecc043c95.png": {
+    "mtime": 1779424307.4695282,
+    "ast_hash": "352e9768ba3adf6d555bc6910fa75e9d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_08_so_do_tuan_tu_xem_danh_sach_nguoi_dung_01_24a6ea8cc4a0.png": {
+    "mtime": 1779424308.168093,
+    "ast_hash": "15cb0794e7f69bee9eb7485b845b18b2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_09_so_do_tuan_tu_khoa_tai_khoan_nguoi_dung_01_5fb3017e56e3.png": {
+    "mtime": 1779424308.8529334,
+    "ast_hash": "7ab2bba2ee1ea5abae97ab1edf2598b0",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_10_so_do_tuan_tu_mo_khoa_tai_khoan_nguoi_d_01_4c1453553b75.png": {
+    "mtime": 1779424309.5691388,
+    "ast_hash": "d43398f9018b2091a59894eb494f3999",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_11_so_do_tuan_tu_them_phong_moi_01_22547fbce15f.png": {
+    "mtime": 1779424310.3193452,
+    "ast_hash": "7c0a3e46cfc174ae92ec29b1d5129ffd",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_12_so_do_tuan_tu_cap_nhat_thong_tin_phong_01_dda77c2584a0.png": {
+    "mtime": 1779424311.3426716,
+    "ast_hash": "d73a45848f3cc2d78095bb2c8d12f85a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_13_so_do_tuan_tu_xoa_phong_01_49ea6e454255.png": {
+    "mtime": 1779424312.17588,
+    "ast_hash": "2cda3072bd317c13e101363fc8783790",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_14_so_do_tuan_tu_xem_danh_sach_tat_ca_phon_01_07b10f613e4a.png": {
+    "mtime": 1779424312.852804,
+    "ast_hash": "f3dd7b649b500fa8201cca49fb2b12b2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_15_so_do_tuan_tu_tim_phong_trong_theo_ngay_01_bb9accf3c85e.png": {
+    "mtime": 1779424313.6190298,
+    "ast_hash": "27b53f1c898587bce1b788a48325561c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_16_so_do_tuan_tu_xem_chi_tiet_phong_01_f3f6d23c64c0.png": {
+    "mtime": 1779424314.3816638,
+    "ast_hash": "b1b891a05992e5619e5eddb0aaa85cde",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_17_so_do_tuan_tu_tim_kiem_phong_theo_tu_kh_01_e272573a4ef1.png": {
+    "mtime": 1779424315.1087568,
+    "ast_hash": "a6ebfc4ab77498b1e84053909c6b1f11",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_18_so_do_tuan_tu_xem_loai_phong_01_917d8b2ce882.png": {
+    "mtime": 1779424315.902613,
+    "ast_hash": "49b3a8d8cf796fe73d5aab2d3a14c5df",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_19_so_do_tuan_tu_them_khach_san_moi_01_9d49e526b0e3.png": {
+    "mtime": 1779424316.7133486,
+    "ast_hash": "5bf99a4877917d056a08f5e5285902fc",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_20_so_do_tuan_tu_cap_nhat_khach_san_01_4a103f8cd000.png": {
+    "mtime": 1779424317.4693248,
+    "ast_hash": "7f0b39d5f6e97d967bf2048374edb4cc",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_21_so_do_tuan_tu_xoa_khach_san_01_c3a923ca8560.png": {
+    "mtime": 1779424318.2027633,
+    "ast_hash": "0816333a715f5add30ef45f2c18b728c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_22_so_do_tuan_tu_xem_danh_sach_khach_san_c_01_aaa3b0e7421c.png": {
+    "mtime": 1779424318.8992257,
+    "ast_hash": "2b39eb1f47569999e5b318e685628394",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_23_so_do_tuan_tu_xem_danh_sach_tat_ca_khac_01_55a5998d5711.png": {
+    "mtime": 1779424319.6364295,
+    "ast_hash": "309e1ab1a06cb391b2a3373c089df03e",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_24_so_do_tuan_tu_xem_chi_tiet_khach_san_01_81e961d4b42f.png": {
+    "mtime": 1779424320.4025805,
+    "ast_hash": "1adff78b30c25caec5d85b01d2ee69bf",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_25_so_do_tuan_tu_tim_kiem_khach_san_01_8c2678cfd7ea.png": {
+    "mtime": 1779424321.1579075,
+    "ast_hash": "36676d882fd96fdd569ba9f34230cc9e",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_26_so_do_tuan_tu_xem_danh_sach_phong_cua_k_01_7d75582eacbb.png": {
+    "mtime": 1779424321.8858037,
+    "ast_hash": "8b952d9c94fdea6966ec97d91e293a85",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_27_so_do_tuan_tu_xem_danh_sach_tat_ca_book_01_ee7664dd6e94.png": {
+    "mtime": 1779424322.885197,
+    "ast_hash": "c0602009180dc183f82f0198369e6cdc",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_28_so_do_tuan_tu_cap_nhat_trang_thai_booki_01_8cfee3a4787c.png": {
+    "mtime": 1779424323.745779,
+    "ast_hash": "1982cde97d78f0dfdf259311b8958acc",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_29_so_do_tuan_tu_tao_booking_moi_01_655150b42470.png": {
+    "mtime": 1779424324.466374,
+    "ast_hash": "bed0aebb1535f71cb3300c32b94aefb9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_30_so_do_tuan_tu_tra_cuu_booking_theo_ma_01_f8b03abc0d37.png": {
+    "mtime": 1779424325.2184837,
+    "ast_hash": "840bc470285bb17046fbfb9b4af94ea9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_31_so_do_tuan_tu_huy_dat_phong_01_7553fa622c69.png": {
+    "mtime": 1779424325.986252,
+    "ast_hash": "eca36453c6a446121cd4f1b39d8114e8",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_32_so_do_tuan_tu_tao_tien_ich_moi_01_b6931ade15bc.png": {
+    "mtime": 1779424326.7177217,
+    "ast_hash": "5a527db7c2a2d57df399e3822b1b9e4a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_33_so_do_tuan_tu_cap_nhat_tien_ich_01_b5b4f154cf74.png": {
+    "mtime": 1779424327.5043793,
+    "ast_hash": "8e8e068c83664847b9fbf87d7d3100a3",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_34_so_do_tuan_tu_xoa_tien_ich_he_thong_01_5a692efbe64d.png": {
+    "mtime": 1779424328.2687314,
+    "ast_hash": "9e7942d114165082e362f26862927be6",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_35_so_do_tuan_tu_go_tien_ich_khoi_khach_sa_01_9b8ebba3a6f1.png": {
+    "mtime": 1779424328.9852462,
+    "ast_hash": "13a2c0e53e79c0ef19652fa0bf3d1483",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_so_do_tuan_tu_01_941a313a884b.png": {
+    "mtime": 1779424329.737324,
+    "ast_hash": "334f5a65dd7b49d20ae41a0b995174b6",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_01_so_do_hoat_dong_dang_nhap_01_e2d51aa74473.png": {
+    "mtime": 1779424330.532194,
+    "ast_hash": "60c081efd3280fc59022e81cac0ed82a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_02_so_do_hoat_dong_dang_ky_tai_khoan_01_01af5bc09a35.png": {
+    "mtime": 1779424331.3859107,
+    "ast_hash": "97590166e83bfde6e94592f059c76a68",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_03_so_do_hoat_dong_cap_nhat_thong_tin_ca_n_01_a610a6d0f9a8.png": {
+    "mtime": 1779424332.1978376,
+    "ast_hash": "3be755d1f4ac39e68a069d7aa77febb7",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_04_so_do_hoat_dong_doi_mat_khau_01_acc66dce0602.png": {
+    "mtime": 1779424332.902552,
+    "ast_hash": "3fca720dfe0eb26389238320430b28e7",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_05_so_do_hoat_dong_xem_thong_tin_profile_01_09c90861f2cd.png": {
+    "mtime": 1779424333.6680305,
+    "ast_hash": "3ac2d11c02073c9d5db4b42cb34b1796",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_06_so_do_hoat_dong_xoa_tai_khoan_ca_nhan_01_4657f9bfb951.png": {
+    "mtime": 1779424334.4010167,
+    "ast_hash": "4166679fcf61d4b302f6091089ba0542",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_07_so_do_hoat_dong_xem_lich_su_dat_phong_01_064342fde334.png": {
+    "mtime": 1779424335.1349845,
+    "ast_hash": "d13a246167f6ca86e5a7a1fe55837a55",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_08_so_do_hoat_dong_xem_danh_sach_nguoi_dun_01_afb1260f5f52.png": {
+    "mtime": 1779424335.8694735,
+    "ast_hash": "51092591eb96f3b4084d142e769694e2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_09_so_do_hoat_dong_khoa_tai_khoan_nguoi_du_01_883b8f6a90da.png": {
+    "mtime": 1779424336.6184032,
+    "ast_hash": "da8e4ad93a8d490462c65ae4f19e5184",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_10_so_do_hoat_dong_mo_khoa_tai_khoan_nguoi_01_fc9664701317.png": {
+    "mtime": 1779424337.4015014,
+    "ast_hash": "d7710cae3f6459c93ddf065e208be215",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_11_so_do_hoat_dong_them_phong_moi_01_56e70b1c97f8.png": {
+    "mtime": 1779424338.151544,
+    "ast_hash": "f677ecaca5b8b08819e00f86230bb02f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_12_so_do_hoat_dong_cap_nhat_thong_tin_phon_01_d91790d595d1.png": {
+    "mtime": 1779424338.90122,
+    "ast_hash": "0bcf99da065ada94eff6ce37057dbfe6",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_13_so_do_hoat_dong_xoa_phong_01_be09216135e0.png": {
+    "mtime": 1779424339.4347112,
+    "ast_hash": "09de247012cdf574c7a712ad2aa0ca39",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_14_so_do_hoat_dong_xem_danh_sach_tat_ca_ph_01_1f6268eb6e2c.png": {
+    "mtime": 1779424340.2012484,
+    "ast_hash": "c22d501c65aa409faab6a23c7d887e28",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_15_so_do_hoat_dong_tim_phong_trong_theo_ng_01_08077662b7ea.png": {
+    "mtime": 1779424340.9468932,
+    "ast_hash": "3b28df33d744af68ed070cb732362c7a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_16_so_do_hoat_dong_xem_chi_tiet_phong_01_7788f21a022e.png": {
+    "mtime": 1779424341.7832196,
+    "ast_hash": "7741b39fc0ecf027437f5ac6b7acfb38",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_17_so_do_hoat_dong_tim_kiem_phong_01_046187a9a3db.png": {
+    "mtime": 1779424342.3020651,
+    "ast_hash": "d45d1beb96047706ef745db6ceaa4a3d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_18_so_do_hoat_dong_xem_loai_phong_01_0e35b28fd499.png": {
+    "mtime": 1779424343.2770057,
+    "ast_hash": "fed8d5cf56eab0bc2159c8f50f32fa0d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_19_so_do_hoat_dong_them_khach_san_moi_01_01f9c4e199d0.png": {
+    "mtime": 1779424344.1568246,
+    "ast_hash": "ab2031a4358064e62877e50c511e5d46",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_20_so_do_hoat_dong_cap_nhat_khach_san_01_b28dcfa4d11c.png": {
+    "mtime": 1779424345.0430264,
+    "ast_hash": "3563729c095e479f356dda9599ab3035",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_21_so_do_hoat_dong_xoa_khach_san_01_f5e8f556e70d.png": {
+    "mtime": 1779424345.8110712,
+    "ast_hash": "16088b2999b662a477c3afbf096b6482",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_22_so_do_hoat_dong_xem_danh_sach_khach_san_01_7c454c42a8fe.png": {
+    "mtime": 1779424346.3526542,
+    "ast_hash": "8598fae100b8b1bf23e1220666faca84",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_23_so_do_hoat_dong_danh_sach_tat_ca_khach_01_9ffaac5cd4f5.png": {
+    "mtime": 1779424347.071175,
+    "ast_hash": "42154d22c7bf77df9b0f9d229a20c392",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_24_so_do_hoat_dong_xem_chi_tiet_khach_san_01_ad1c4381689f.png": {
+    "mtime": 1779424347.8223653,
+    "ast_hash": "6fac3f242f42dcbc1c78fe2dd372fe4f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_25_so_do_hoat_dong_tim_kiem_khach_san_01_edab90876658.png": {
+    "mtime": 1779424348.5837078,
+    "ast_hash": "8a4a38bf60c59b74925a369875108c5f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_26_so_do_hoat_dong_xem_danh_sach_phong_cua_01_5510954d3d04.png": {
+    "mtime": 1779424349.3360405,
+    "ast_hash": "8068c027a51305ecf48d8e416268759b",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_27_so_do_hoat_dong_xem_danh_sach_tat_ca_bo_01_ebf7f8a05f08.png": {
+    "mtime": 1779424350.1365538,
+    "ast_hash": "db20a9caa9c698d1c5c97706f6aa379a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_28_so_do_hoat_dong_cap_nhat_trang_thai_boo_01_952ae09cf067.png": {
+    "mtime": 1779424350.9046178,
+    "ast_hash": "5bc3f650271c2e9c37b32b1c2230cac5",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_29_so_do_hoat_dong_tao_booking_moi_01_bad9b400a320.png": {
+    "mtime": 1779424351.6346471,
+    "ast_hash": "c26bd7f82739c0951e45075b83632167",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_30_so_do_hoat_dong_tra_cuu_booking_theo_ma_01_1bbbf6249dbe.png": {
+    "mtime": 1779424352.3199344,
+    "ast_hash": "fc374e1ea2bdda2cbd7afca9e6e543b3",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_31_so_do_hoat_dong_huy_dat_phong_01_b7956844e09b.png": {
+    "mtime": 1779424353.1492863,
+    "ast_hash": "d4dd30e7e2fa563461e705eba2371772",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_32_so_do_hoat_dong_tao_tien_ich_moi_01_7516f98fb6c2.png": {
+    "mtime": 1779424353.9258413,
+    "ast_hash": "106d95e2e97960cc8c783d04b4a55027",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_33_so_do_hoat_dong_cap_nhat_tien_ich_01_5228c9a4edb9.png": {
+    "mtime": 1779424354.7355573,
+    "ast_hash": "56468f5e0205fe29f3ce0d3f5c2add83",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_34_so_do_hoat_dong_xoa_tien_ich_he_thong_01_e6a8b131b728.png": {
+    "mtime": 1779424355.470749,
+    "ast_hash": "c788193d8fa0c5a56124542c011f7950",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_35_so_do_hoat_dong_go_tien_ich_khoi_khach_01_27e607764507.png": {
+    "mtime": 1779424356.3208096,
+    "ast_hash": "25af24630b87918985f1c699d8e4daa8",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_so_do_hoat_dong_activity_01_247eb0d94ce2.png": {
+    "mtime": 1779424357.1600528,
+    "ast_hash": "36ed645b7ea55f6cf1f9de42b38f5831",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-009.png": {
+    "mtime": 1778032797.6935983,
+    "ast_hash": "ca028518de4b2c396e374aa419e99147",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-096.png": {
+    "mtime": 1778032798.2638373,
+    "ast_hash": "5cc2cc67b0ac9276301f3d6b1f0635d9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-097.png": {
+    "mtime": 1778032798.2666588,
+    "ast_hash": "0559a18c0470e87f18b26b98e9dd7158",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-098.png": {
+    "mtime": 1778032798.2686725,
+    "ast_hash": "d3ec882df833ff6eb39c9844942e4c2b",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-099.png": {
+    "mtime": 1778032798.2767124,
+    "ast_hash": "e7df676d3dd0894e73020d5583002f28",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-100.png": {
+    "mtime": 1778032798.2787416,
+    "ast_hash": "b73552933eeece1907715a784d4bff5d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-101.png": {
+    "mtime": 1778032798.2841394,
+    "ast_hash": "1dcbb8ef852bbd0301e24de2d90b1a4b",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-102.png": {
+    "mtime": 1778032798.2841394,
+    "ast_hash": "c7a2614a019f09d0017487a805f0ee63",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-103.png": {
+    "mtime": 1778032798.2841394,
+    "ast_hash": "a22b9703c061df8d1a79c2f2e2e0ea4b",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-104.png": {
+    "mtime": 1778032798.2941453,
+    "ast_hash": "d417fdfab4718c8cb5e9087cb26de1c9",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-105.png": {
+    "mtime": 1778032798.2941453,
+    "ast_hash": "e0cefdb62c9e949aa365d309c1e04053",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-106.png": {
+    "mtime": 1778032798.2941453,
+    "ast_hash": "cd58f04aee8941cdd24cf8d5cd485aea",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-107.png": {
+    "mtime": 1778032798.2941453,
+    "ast_hash": "9f2dabdbb67bd6a7bad75ce9132e0a6a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-108.png": {
+    "mtime": 1778032798.2941453,
+    "ast_hash": "87a140db1c3c0cfd1ccb8c88c957944b",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-109.png": {
+    "mtime": 1778032798.2941453,
+    "ast_hash": "7737d1ffc6da4de3b238c84bb5f34246",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-110.png": {
+    "mtime": 1778032798.3090413,
+    "ast_hash": "d5c4ac3fbd829ac83f1aff45baf3973d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-111.png": {
+    "mtime": 1778032798.3112533,
+    "ast_hash": "99cfcc4738191a8c62ef0e08faa59857",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-112.png": {
+    "mtime": 1778032798.3112533,
+    "ast_hash": "cde313ec3daa3b8e47016293bf7706d1",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-113.png": {
+    "mtime": 1778032798.3160255,
+    "ast_hash": "921fc0af2fe89ab71686f41f35befb42",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-114.png": {
+    "mtime": 1778032798.3200567,
+    "ast_hash": "a6f32c65dbd690b057a5a6aa490e39ad",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-115.png": {
+    "mtime": 1778032798.3220694,
+    "ast_hash": "aaf2c2643c3648160bedec3b7a597320",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-116.png": {
+    "mtime": 1778032798.3240798,
+    "ast_hash": "ba9c946b9fdfd28f92af427f8f211062",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-117.png": {
+    "mtime": 1778032798.3266394,
+    "ast_hash": "09aaeca7bc843eb2da6b93e95745c94b",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-118.png": {
+    "mtime": 1778032798.3266394,
+    "ast_hash": "c44c3d60dbcb4ce17130ea49e99b30b2",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-119.png": {
+    "mtime": 1778032798.3266394,
+    "ast_hash": "6fffbb22ca364a1006af7111e6dfe62c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-120.png": {
+    "mtime": 1778032798.3266394,
+    "ast_hash": "6471d94631763b51299f2c10c41dfe54",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-121.png": {
+    "mtime": 1778032798.3266394,
+    "ast_hash": "9585442bd1d028f9db8b73ed6c4d45fb",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-122.png": {
+    "mtime": 1778032798.3266394,
+    "ast_hash": "d3500094f262d6efed4fbacbf5f8ae4e",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-123.png": {
+    "mtime": 1778032798.3266394,
+    "ast_hash": "63bcef639fe14e8177086e5364a72ed4",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-124.png": {
+    "mtime": 1778032798.3408005,
+    "ast_hash": "33d7f0949c57f0f411624fd6ace30b5a",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\imported\\image-125.png": {
+    "mtime": 1778032798.3444858,
+    "ast_hash": "dcd7a5b46baf8f1d761d6dd741e462f6",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\scripts\\add_frontmatter.py": {
+    "mtime": 1779437646.5275085,
+    "ast_hash": "45af72563151cc36773c21a461d5c158",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\04_thu_nghiem\\4_1_cac_kich_ban_thu_nghiem.md": {
+    "mtime": 1779352271.5831993,
+    "ast_hash": "4f6f7218ad18ecd3f15c342059ecb087",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\04_thu_nghiem\\4_2_ket_qua_thu_nghiem_cac_kich_ban.md": {
+    "mtime": 1779352271.5878413,
+    "ast_hash": "e1e2362d8082b95f3d9a797a7877a200",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\04_thu_nghiem\\4_3_xu_ly_cac_truong_hop_ngoai_le.md": {
+    "mtime": 1779352271.5918822,
+    "ast_hash": "63c66c860bf243664d9e800e0fe55f36",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\04_thu_nghiem\\index.md": {
+    "mtime": 1779437745.7420676,
+    "ast_hash": "ccf41f60233c6fe0f360d6fd740ef56f",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\chapters\\04_thu_nghiem\\muc_4_ghi_chu_cho_ai_agent.md": {
+    "mtime": 1779352271.5939014,
+    "ast_hash": "5016d4da2dbfe0fe504ed72b8a37e902",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_2_01_so_do_tuan_tu_dang_nhap_01_7d9b607cf0de.png": {
+    "mtime": 1779439078.9659975,
+    "ast_hash": "64fb883fa2ee32b90f768ba5a10afba2",
     "semantic_hash": ""
   }
 }

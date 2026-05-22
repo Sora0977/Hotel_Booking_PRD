@@ -1,15 +1,25 @@
 ---
-status: imported_chunk
-last_updated: 2026-05-21
+status: draft
+last_updated: 2026-05-22
 chapter: "03 - Thiết kế"
 parent_chunk: "3.2 Mô hình xử lý"
 chunk: "3.2.3.01"
 title: "Sơ đồ hoạt động đăng nhập"
-source_file: "../3_2_mo_hinh_xu_ly_OLD.md.bak"
+source_file: "../../../archive/3_2_mo_hinh_xu_ly_OLD.md.bak"
 related_memory: ../../../THESIS_MEMORY.md
 school_rules: ../../../SCHOOL_RULES.md
+dependencies:
+  - "3_2_1_1_usecase_dang_nhap.md"
+  - "3_2_2_01_so_do_tuan_tu_dang_nhap.md"
 ---
-<!-- Mảnh Level-3 được tạo từ mục 3.2. Theo MEGA-DOCUMENT PROTOCOL, chỉnh sửa mặc định phải thực hiện tại mảnh này. Không tự ý chỉnh sửa PlantUML/code fence nếu tác vụ không yêu cầu. -->
+
+<ai_context>
+File này là mảnh Level-3 thuộc mục 3.2. Chứa Sơ đồ hoạt động cho chức năng Đăng nhập.
+</ai_context>
+
+<system_instruction>
+TUYỆT ĐỐI KHÔNG tự ý thay đổi, xóa, định dạng lại mã nguồn PlantUML hoặc code fence trừ khi tác vụ yêu cầu đích danh việc sửa sơ đồ.
+</system_instruction>
 
 > Hình 3.49: Sơ đồ hoạt động đăng nhập
 

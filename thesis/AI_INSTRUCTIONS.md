@@ -15,19 +15,24 @@ Dự án này là một luận văn quy mô lớn, dự kiến khoảng 300-400 
 - Các file chương gốc chỉ được dùng như bản tham chiếu/nguồn nhập hoặc phục vụ xuất bản, không phải bề mặt chỉnh sửa mặc định.
 - Nếu một mảnh cấp độ 2 vẫn quá lớn, đặc biệt là các mục chứa nhiều PlantUML, phải tách tiếp thành thư mục cấp độ 3 theo heading cấp 3/cấp 4 hoặc theo cụm sơ đồ/caption an toàn.
 - Mỗi thư mục phân mảnh cấp độ 3 cũng phải có `index.md`.
+- Mọi mảnh file Level-2 và Level-3 khi được tạo mới hoặc chỉnh sửa BẮT BUỘC phải duy trì hoặc thêm khối YAML Frontmatter ở đầu file. Khối này tối thiểu phải có trường `status:` (`draft`, `reviewing`, hoặc `completed`) và trường `dependencies:` để liệt kê các file liên quan cần đối chiếu, ví dụ file use case gốc nếu đang viết sơ đồ tuần tự.
+- Khi tạo file Level-3 mới, phải dùng slug ngắn gọn để tránh vượt Windows Path Length Limit 260 ký tự; ví dụ dùng `3_2_2_03_seq_update_profile.md` thay vì `3_2_2_03_so_do_tuan_tu_cap_nhat_thong_tin_ca_nhan.md`.
 - Sau khi phân mảnh cấp độ 3, file mảnh cấp độ 2 gốc phải được đổi thành `_OLD.md.bak` hoặc lưu vào `archive/`, không xóa hẳn nếu chưa có bản dự phòng.
 
 ### 2. Giao thức đọc ngữ cảnh
 
 Trước khi viết, sửa hoặc tái cấu trúc:
 
-1. Đọc `THESIS_MEMORY.md` và `OUTLINE.md` để nắm bản đồ tổng thể.
-2. Định vị đúng thư mục chương và mảnh file cần sửa bằng `index.md` hoặc tìm kiếm theo từ khóa.
-3. Chỉ đọc mảnh file liên quan trực tiếp đến tác vụ.
-4. Không tự ý đọc toàn bộ chương hoặc toàn bộ luận văn nếu không cần thiết.
-5. Nếu cần tìm khái niệm, thuật ngữ, định nghĩa hoặc citation ở chương khác, ưu tiên dùng tìm kiếm (`rg`) với từ khóa cụ thể thay vì mở hàng loạt file.
-6. Chỉ đọc `STYLE_GUIDE.md` khi bắt đầu viết nội dung mới hoặc chỉnh văn phong.
-7. Chỉ đọc `SCHOOL_RULES.md` khi thao tác liên quan đến cấu trúc heading, định dạng, mục lục, hình ảnh hoặc quy định của trường.
+1. Khi User yêu cầu rà soát tổng thể (Review, Proofread, kiểm tra văn phong, logic liên chương) thay vì chỉnh sửa chi tiết, AI BẮT BUỘC phải đọc file `compiled_thesis_readonly.md` để lấy ngữ cảnh toàn cục. Tuyệt đối KHÔNG sử dụng tool để đọc hàng loạt các mảnh file chunk nhỏ nhằm tránh tốn tài nguyên và time-out.
+2. Đọc `THESIS_MEMORY.md` và `OUTLINE.md` để nắm bản đồ tổng thể.
+3. Định vị đúng thư mục chương và mảnh file cần sửa bằng `index.md` hoặc tìm kiếm theo từ khóa.
+4. Chỉ đọc mảnh file liên quan trực tiếp đến tác vụ.
+5. Không tự ý đọc toàn bộ chương hoặc toàn bộ luận văn nếu không cần thiết.
+6. Nếu cần tìm khái niệm, thuật ngữ, định nghĩa hoặc citation ở chương khác, ưu tiên dùng tìm kiếm (`rg`) với từ khóa cụ thể thay vì mở hàng loạt file.
+7. Chỉ đọc `STYLE_GUIDE.md` khi bắt đầu viết nội dung mới hoặc chỉnh văn phong.
+8. Chỉ đọc `SCHOOL_RULES.md` khi thao tác liên quan đến cấu trúc heading, định dạng, mục lục, hình ảnh hoặc quy định của trường.
+9. Khám phá phụ thuộc (Dependency Resolution): Khi đọc một mảnh file (chunk) để chỉnh sửa, AI BẮT BUỘC phải kiểm tra trường `dependencies` trong khối YAML Frontmatter. Nếu có file liên kết chéo, AI phải dùng tool để đọc các file đó nhằm đảm bảo logic được đồng bộ (Ví dụ: Sửa Sequence Diagram thì phải đối chiếu Usecase).
+10. Tuân thủ thẻ XML: AI phải thiết lập mức độ ưu tiên cao nhất cho các chỉ thị nằm trong thẻ `<system_instruction>` ở từng file cục bộ.
 
 ### 3. Giao thức chỉnh sửa
 
@@ -40,7 +45,7 @@ Trước khi viết, sửa hoặc tái cấu trúc:
 
 #### Quy tắc xuất ảnh PlantUML
 
-Mỗi khi sửa xong mã code PlantUML, bạn phải BẮT BUỘC nhắc User cập nhật/export file ảnh `.png` tương ứng lưu vào thư mục `thesis/figures/`. Đồng thời, đảm bảo file markdown chứa mã PlantUML đó phải có một thẻ nhúng ảnh, ví dụ `![Sơ đồ](../../figures/ten_anh.png)`, nằm ngay bên dưới khối code.
+Mỗi khi sửa xong mã code PlantUML, không yêu cầu User export ảnh thủ công vì build script sẽ tự động tạo/cập nhật file ảnh `.png` tương ứng trong thư mục `thesis/figures/generated/` và chèn thẻ nhúng ảnh vào bản compiled. AI chỉ cần bảo toàn code block PlantUML trong chunk nguồn, không thêm ảnh thủ công trừ khi người dùng yêu cầu rõ ràng.
 
 ### 4. Vùng bất khả xâm phạm
 

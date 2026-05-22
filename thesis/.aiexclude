@@ -1,0 +1,7 @@
+# Bỏ qua các file backup và archive để tránh AI bị nhiễu ngữ cảnh
+*.bak
+archive/
+
+# Bỏ qua các thư mục hình ảnh vì AI không cần đọc file nhị phân
+figures/imported/
+figures/generated/

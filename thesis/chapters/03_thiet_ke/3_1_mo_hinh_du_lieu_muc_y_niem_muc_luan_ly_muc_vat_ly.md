@@ -1,13 +1,23 @@
 ---
 status: imported_chunk
-last_updated: 2026-05-21
+last_updated: 2026-05-22
 chapter: "03 - Thiết kế"
 chunk: "3.1"
 source_file: "../03_thiet_ke.md"
 related_memory: ../../THESIS_MEMORY.md
 school_rules: ../../SCHOOL_RULES.md
+dependencies:
+  - "../02_phuong_phap_thuc_hien/2_4_phan_tich_yeu_cau.md"
+  - "3_2_mo_hinh_xu_ly/index.md"
 ---
-<!-- Mảnh file được tạo từ 03_thiet_ke.md. Theo MEGA-DOCUMENT PROTOCOL, chỉnh sửa mặc định phải thực hiện tại mảnh này, không chỉnh file chương gốc. -->
+
+<ai_context>
+File này là mảnh Level-2 thuộc Chương 3, mục 3.1. Chứa mô hình dữ liệu mức ý niệm, mức luận lý và mức vật lý của hệ thống đặt phòng khách sạn; các khối PlantUML trong file là nguồn đối chiếu chính cho ERD, bảng dữ liệu và quan hệ dữ liệu.
+</ai_context>
+
+<system_instruction>
+TUYỆT ĐỐI KHÔNG tự ý thay đổi, xóa, định dạng lại mã nguồn PlantUML hoặc code fence trừ khi tác vụ yêu cầu đích danh việc sửa mô hình dữ liệu. Khi sửa sơ đồ dữ liệu, phải đối chiếu dependencies trước và bảo toàn PK/FK, cardinality, tên bảng/cột, kiểu dữ liệu, quan hệ luận lý/vật lý và caption hình nếu không có yêu cầu rõ ràng.
+</system_instruction>
 
 ## 3.1 Mô hình dữ liệu (mức ý niệm, mức luận lý, mức vật lý)
 

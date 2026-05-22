@@ -1,11 +1,13 @@
 ---
-status: imported_chunk
+status: draft
+dependencies:
+  - 3_2_1_6_usecase_tra_cuu_phong.md
 last_updated: 2026-05-21
 chapter: "03 - Thiết kế"
 parent_chunk: "3.2 Mô hình xử lý"
 chunk: "3.2.3.15"
 title: "Sơ đồ hoạt động tìm phòng trống theo ngày"
-source_file: "../3_2_mo_hinh_xu_ly_OLD.md.bak"
+source_file: "../../../archive/3_2_mo_hinh_xu_ly_OLD.md.bak"
 related_memory: ../../../THESIS_MEMORY.md
 school_rules: ../../../SCHOOL_RULES.md
 ---
