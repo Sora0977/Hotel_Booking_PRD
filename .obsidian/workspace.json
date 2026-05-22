@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "2c115a02d650bee4",
+        "id": "2c7b127fc0e8fc86",
         "type": "tabs",
         "children": [
           {
-            "id": "fb8f3089eab37664",
+            "id": "efef04d4d96966a5",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "thesis/compiled_thesis.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "compiled_thesis"
+              "title": "New tab"
             }
           }
         ]
@@ -156,13 +152,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "thesis/compiled_thesis.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of compiled_thesis"
+              "title": "Outline"
             }
           },
           {
@@ -196,21 +191,32 @@
   },
   "active": "0c6102da16e07152",
   "lastOpenFiles": [
+    "thesis/compiled_thesis.md",
+    "graphify-out/cache/ast/db944da871c1db7bbf7a5050b91812f55e3630617d717c0c33d1cd1d5109c33d.json",
+    "graphify-out/cache/ast/438ee451f81c6ccc72053bc31e0a2ae2ae3d83a2ec2f5cd4fbc3b8126e626fcc.json",
+    "thesis/figures/generated/3_2_3_so_do_hoat_dong_activity_01_1e30868bc07c.png",
+    "thesis/figures/generated/3_2_3_35_so_do_hoat_dong_go_tien_ich_khoi_khach_01_60eff3dc79a1.png",
+    "thesis/figures/generated/3_2_3_34_so_do_hoat_dong_xoa_tien_ich_he_thong_01_f6dda056272d.png",
+    "thesis/figures/generated/3_2_3_33_so_do_hoat_dong_cap_nhat_tien_ich_01_c08c38da43e2.png",
+    "thesis/figures/generated/3_2_3_32_so_do_hoat_dong_tao_tien_ich_moi_01_f645f29bdb10.png",
+    "thesis/figures/generated/3_2_3_31_so_do_hoat_dong_huy_dat_phong_01_c1feee80619a.png",
+    "thesis/figures/generated/3_2_3_30_so_do_hoat_dong_tra_cuu_booking_theo_ma_01_0b23516f4a79.png",
+    "thesis/figures/generated/3_2_3_29_so_do_hoat_dong_tao_booking_moi_01_4d01107fa00c.png",
+    "thesis/figures/generated/3_2_3_28_so_do_hoat_dong_cap_nhat_trang_thai_boo_01_a1895ed78200.png",
+    "thesis/figures/generated/3_2_3_27_so_do_hoat_dong_xem_danh_sach_tat_ca_bo_01_14480279a0b9.png",
+    "thesis/AI_INSTRUCTIONS.md",
+    "graphify-out/cache/ast/636f32967b50022d70a5185a7fb762e0f58bb422562cc8e6eac386931e5c9518.json",
+    "graphify-out/cache/ast/a755ad04a741eac50609941542c0957335a3b5fdeb004ffb61edf651df7087d8.json",
+    "graphify-out/cache/ast/f90f4d5d61b13c4a5608e7361eb7c6c62964d9f8273307f91efc599e6766ea3c.json",
+    "graphify-out/cache/ast/b903867ead08432198a41a08f008b373daf3def81c0f5def6460cf990270b218.json",
+    "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_1_7_usecase_quan_ly_khach_san.md",
     "thesis/compiled_thesis_readonly.md",
+    "graphify-out/cache/ast/a48d5aaabbfb45c2756ed71e327cf3ec36171422b6934ea5e23fc4599aeafcd3.json",
+    "graphify-out/cache/ast/2c54e8dc4cea6378d90e71d7a5ce3501cf9dd122bcd87e18e3a011f06532a1f7.json",
+    "graphify-out/cache/ast/e83ee3740fc6d952b1004f44296f18f511d21ab49152b32e65f403e4f5de946a.json",
+    "graphify-out/cache/ast/4678cf563227fb17dbb6e5d3301f3fd1552e0fd99bb955efda1bcacaff17c6cf.json",
     "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_1_1_usecase_dang_nhap.md",
     "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_1_2_usecase_dang_ky.md",
-    "thesis/compiled_thesis.md",
-    "graphify-out/cache/ast/358bb994a0fe3879a73389760a0774b3056bb27439527e3702c29276da79a88f.json",
-    "graphify-out/cache/ast/6523b3c1c0e220673583a1d2ab54cd41fb169c2e28afcae61422dbdedfc82331.json",
-    "graphify-out/cache/ast/f0ab57680378f096d840dbcf8bd732fcfd6b8934081ed426d86567cdc76383b0.json",
-    "graphify-out/cache/ast/e804a9d7b7c9dc5493e847d2968428ee52b33f610f372ee8bbdb0dd43e206874.json",
-    "graphify-out/cache/ast/79e93133978d438148283f3fda2d585a17301bb56524e6faa20a5423889dd19a.json",
-    "graphify-out/cache/ast/0f67b5a8bbcb4858c33af83f372d423b0962c2f81c6872aad2e6c4698c030e05.json",
-    "graphify-out/cache/ast/316897e4e694614f132913b12060b3417eb4d91ae199cc81b01c79ee504cee64.json",
-    "graphify-out/cache/ast/b795645f207d5ae11d51a8c5a6aa552c1bf5b13d75180207a0f60b1721abfaa3.json",
-    "graphify-out/cache/ast/70d725c9077bc433c288b22c635fd81c9ffee08ba216d7fd6fd9762b3d290f93.json",
-    "graphify-out/cache/ast/3e4e45af6da6756272a610ad261f8486df966f1c89fa0156dba6b15a69ebe4b6.json",
-    "thesis/figures/generated/3_2_2_01_so_do_tuan_tu_dang_nhap_01_7d9b607cf0de.png",
     "thesis/OUTLINE.md",
     "thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md",
     "thesis/chapters/04_thu_nghiem/muc_4_ghi_chu_cho_ai_agent.md",
@@ -229,18 +235,6 @@
     "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/y9()_-_dD().md",
     "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/write()_-_Ev()_-_x8().md",
     "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/Wi()_-_sign()_-_headers().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/vg()_-_Nn()_-_pL().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/Wg()_-_XP()_-_NP().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/Uv()_-_Xi()_-_nh().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/ut()_-_fM()_-_oS().md",
-    "thesis/figures/generated/3_2_3_so_do_hoat_dong_activity_01_247eb0d94ce2.png",
-    "thesis/figures/generated/3_2_3_35_so_do_hoat_dong_go_tien_ich_khoi_khach_01_27e607764507.png",
-    "thesis/figures/generated/3_2_3_34_so_do_hoat_dong_xoa_tien_ich_he_thong_01_e6a8b131b728.png",
-    "thesis/figures/generated/3_2_3_33_so_do_hoat_dong_cap_nhat_tien_ich_01_5228c9a4edb9.png",
-    "thesis/figures/generated/3_2_3_32_so_do_hoat_dong_tao_tien_ich_moi_01_7516f98fb6c2.png",
-    "thesis/figures/generated/3_2_3_31_so_do_hoat_dong_huy_dat_phong_01_b7956844e09b.png",
-    "thesis/figures/generated/3_2_3_30_so_do_hoat_dong_tra_cuu_booking_theo_ma_01_1bbbf6249dbe.png",
-    "thesis/figures/generated/3_2_3_29_so_do_hoat_dong_tao_booking_moi_01_bad9b400a320.png",
-    "thesis/figures/generated/3_2_3_28_so_do_hoat_dong_cap_nhat_trang_thai_boo_01_952ae09cf067.png"
+    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/vg()_-_Nn()_-_pL().md"
   ]
 }

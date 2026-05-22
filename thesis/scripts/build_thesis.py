@@ -1,9 +1,11 @@
+import argparse
 import hashlib
 import re
 import sys
 import zlib
 from dataclasses import dataclass
 from pathlib import Path
+from typing import Literal
 from urllib.error import HTTPError, URLError
 from urllib.parse import unquote, urldefrag
 from urllib.request import Request, urlopen
@@ -12,11 +14,12 @@ from urllib.request import Request, urlopen
 THESIS_ROOT = Path(__file__).resolve().parents[1]
 CHAPTERS_DIR = THESIS_ROOT / "chapters"
 OUTPUT_FILE = THESIS_ROOT / "compiled_thesis.md"
-READONLY_OUTPUT_FILE = THESIS_ROOT / "compiled_thesis_readonly.md"
+LEGACY_READONLY_OUTPUT_FILE = THESIS_ROOT / "compiled_thesis_readonly.md"
 GENERATED_FIGURES_DIR = THESIS_ROOT / "figures" / "generated"
 SEPARATOR = "\n\n"
 PLANTUML_SERVER_URL = "http://www.plantuml.com/plantuml/png"
 PLANTUML_TIMEOUT_SECONDS = 20
+PLANTUML_DEFAULT_FONT = "DejaVu Sans"
 
 NATURAL_SPLIT_RE = re.compile(r"(\d+)")
 MARKDOWN_IMAGE_RE = re.compile(r"!\[([^\]]*)\]\(([^)]+)\)")
@@ -24,10 +27,17 @@ MARKDOWN_LINK_RE = re.compile(r"(?<!!)\[([^\]\n]+)\]\(([^)\n]+)\)")
 HTTP_LINK_RE = re.compile(r"^https?://", re.IGNORECASE)
 EXTERNAL_LINK_RE = re.compile(r"^(?:https?://|mailto:|tel:|ftp://|data:)", re.IGNORECASE)
 PLANTUML_BLOCK_RE = re.compile(r"```plantuml[^\n]*\n(.*?)(?:\n```|```)", re.DOTALL | re.IGNORECASE)
+PLANTUML_DEFAULT_FONT_RE = re.compile(r"^\s*skinparam\s+defaultFontName\b", re.IGNORECASE | re.MULTILINE)
 YAML_FRONTMATTER_RE = re.compile(r"^\s*---\n.*?\n---\n", re.DOTALL)
 HTML_COMMENT_RE = re.compile(r"<!--.*?-->", re.DOTALL)
+AI_CONTEXT_BLOCK_RE = re.compile(r"<ai_context\b[^>]*>.*?</ai_context>\s*", re.DOTALL | re.IGNORECASE)
+SYSTEM_INSTRUCTION_BLOCK_RE = re.compile(
+    r"<system_instruction\b[^>]*>.*?</system_instruction>\s*",
+    re.DOTALL | re.IGNORECASE,
+)
 HEADING_RE = re.compile(r"^\s{0,3}#{1,6}\s+(.+?)\s*#*\s*$", re.MULTILINE)
 PLANTUML_ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz-_"
+PlantUMLMode = Literal["image", "code"]
 
 
 @dataclass(frozen=True)
@@ -42,6 +52,9 @@ class BuildStats:
     chunk_count: int
     diagram_count: int
     warning_count: int
+    stale_figure_count: int
+    legacy_output_removed: bool
+    plantuml_mode: PlantUMLMode
 
 
 def natural_sort_key(value: str) -> tuple[tuple[int, object], ...]:
@@ -63,6 +76,15 @@ def sort_key(path: Path) -> tuple[tuple[tuple[int, object], ...], ...]:
 def warn(warnings: list[str], message: str) -> None:
     warnings.append(message)
     safe_print(f"Warning: {message}")
+
+
+def configure_stdio() -> None:
+    """Cấu hình console UTF-8 để argparse/help text tiếng Việt không lỗi trên Windows."""
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8", errors="replace")
+        except (AttributeError, OSError):
+            continue
 
 
 def safe_print(message: str) -> None:
@@ -131,6 +153,12 @@ def strip_yaml_frontmatter(content: str) -> str:
 
 def strip_html_comments(content: str) -> str:
     return HTML_COMMENT_RE.sub("", content)
+
+
+def strip_ai_only_blocks(content: str) -> str:
+    """Loại metadata chỉ dành cho AI khỏi file compiled để bản xuất bản sạch hơn."""
+    content = AI_CONTEXT_BLOCK_RE.sub("", content)
+    return SYSTEM_INSTRUCTION_BLOCK_RE.sub("", content)
 
 
 def split_inline_link_target(raw_target: str) -> tuple[str, str]:
@@ -242,6 +270,7 @@ def clean_chunk_content(path: Path) -> str:
     content = path.read_text(encoding="utf-8")
     content = strip_yaml_frontmatter(content)
     content = strip_html_comments(content)
+    content = strip_ai_only_blocks(content)
     content = fix_image_paths(content.strip())
     content = re.sub(r"\n{3,}", "\n\n", content)
     return content.strip()
@@ -340,6 +369,22 @@ def plantuml_encode(source: str) -> str:
     return "".join(encoded_parts)
 
 
+def ensure_plantuml_unicode_font(plantuml_source: str) -> str:
+    """Ép font Unicode để PlantUML không làm rơi chữ/dấu tiếng Việt khi render PNG."""
+    if PLANTUML_DEFAULT_FONT_RE.search(plantuml_source):
+        return plantuml_source
+
+    lines = plantuml_source.splitlines()
+    font_line = f"skinparam defaultFontName {PLANTUML_DEFAULT_FONT}"
+
+    for index, line in enumerate(lines):
+        if line.strip().lower().startswith("@start"):
+            lines.insert(index + 1, font_line)
+            return "\n".join(lines)
+
+    return f"{font_line}\n{plantuml_source}"
+
+
 def diagram_filename(source_path: Path, diagram_index: int, plantuml_source: str) -> str:
     digest = hashlib.sha1(plantuml_source.encode("utf-8")).hexdigest()[:12]
     short_stem = re.sub(r"[^A-Za-z0-9_-]+", "_", source_path.stem)[:48].strip("_")
@@ -365,9 +410,51 @@ def render_plantuml_png(plantuml_source: str, output_path: Path) -> None:
     temporary_output.replace(output_path)
 
 
-def inject_plantuml_images(content: str, source_path: Path, warnings: list[str]) -> tuple[str, int]:
-    """Render từng block PlantUML và chèn ảnh ngay dưới code block trong bản build."""
+def cleanup_stale_generated_figures(active_figures: set[Path], warnings: list[str]) -> int:
+    """Xóa ảnh PlantUML cũ không còn được bản compiled hiện tại sử dụng."""
+    if not GENERATED_FIGURES_DIR.exists():
+        return 0
+
+    removed_count = 0
+    active_resolved = {path.resolve() for path in active_figures}
+
+    for image_path in GENERATED_FIGURES_DIR.glob("*.png"):
+        resolved_image_path = image_path.resolve()
+        if resolved_image_path in active_resolved:
+            continue
+
+        try:
+            image_path.unlink()
+            removed_count += 1
+        except OSError as exc:
+            warn(warnings, f"Không xóa được ảnh PlantUML cũ {image_path.name}: {exc}")
+
+    return removed_count
+
+
+def cleanup_legacy_readonly_output(warnings: list[str]) -> bool:
+    """Xóa file output cũ để build chỉ còn sinh một file compiled_thesis.md."""
+    if not LEGACY_READONLY_OUTPUT_FILE.exists():
+        return False
+
+    try:
+        LEGACY_READONLY_OUTPUT_FILE.unlink()
+    except OSError as exc:
+        warn(warnings, f"Không xóa được file build cũ {LEGACY_READONLY_OUTPUT_FILE.name}: {exc}")
+        return False
+
+    return True
+
+
+def process_plantuml_blocks(
+    content: str,
+    source_path: Path,
+    warnings: list[str],
+    plantuml_mode: PlantUMLMode,
+) -> tuple[str, int, set[Path]]:
+    """Xử lý PlantUML theo chế độ đã chọn: render ảnh hoặc giữ nguyên code."""
     diagram_counter = 0
+    active_figures: set[Path] = set()
 
     def replace(match: re.Match[str]) -> str:
         nonlocal diagram_counter
@@ -377,22 +464,70 @@ def inject_plantuml_images(content: str, source_path: Path, warnings: list[str])
         if not plantuml_source:
             return match.group(0)
 
-        image_path = GENERATED_FIGURES_DIR / diagram_filename(source_path, diagram_counter, plantuml_source)
+        if plantuml_mode == "code":
+            return match.group(0)
+
+        render_source = ensure_plantuml_unicode_font(plantuml_source)
+        image_path = GENERATED_FIGURES_DIR / diagram_filename(source_path, diagram_counter, render_source)
         if not image_path.exists():
             try:
-                render_plantuml_png(plantuml_source, image_path)
+                render_plantuml_png(render_source, image_path)
             except (HTTPError, URLError, TimeoutError, OSError, RuntimeError) as exc:
                 warn(warnings, f"Không render được PlantUML trong {source_path.name}: {exc}")
                 return match.group(0)
 
+        active_figures.add(image_path)
         relative_image_path = image_path.relative_to(THESIS_ROOT).as_posix()
-        return f"{match.group(0)}\n\n![Diagram]({relative_image_path})"
+        return f"![Diagram]({relative_image_path})"
 
     content_with_images = PLANTUML_BLOCK_RE.sub(replace, content)
-    return content_with_images, diagram_counter
+    return content_with_images, diagram_counter, active_figures
 
 
-def build() -> BuildStats:
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    """Đọc option CLI, mặc định hỏi người dùng cách xử lý PlantUML."""
+    parser = argparse.ArgumentParser(description="Build các chunk luận văn thành compiled_thesis.md")
+    parser.add_argument(
+        "--plantuml",
+        choices=("ask", "image", "code"),
+        default="ask",
+        help=(
+            "Cách xử lý block PlantUML trong file compiled: "
+            "'image' render thành PNG, 'code' giữ nguyên code block, 'ask' hỏi khi chạy."
+        ),
+    )
+    return parser.parse_args(argv)
+
+
+def ask_plantuml_mode() -> PlantUMLMode:
+    """Hỏi người dùng muốn render PlantUML thành ảnh hay giữ nguyên code block."""
+    safe_print("Chọn cách xử lý PlantUML trong compiled_thesis.md:")
+    safe_print("  1. Render thành ảnh PNG")
+    safe_print("  2. Giữ nguyên code block ```plantuml")
+
+    while True:
+        safe_print("Nhập lựa chọn [1/image, 2/code] (Enter = image):")
+        answer = input("> ").strip().lower()
+        if answer in ("", "1", "image", "img", "png"):
+            return "image"
+        if answer in ("2", "code", "keep"):
+            return "code"
+        safe_print("Lựa chọn không hợp lệ. Vui lòng nhập 1/image hoặc 2/code.")
+
+
+def resolve_plantuml_mode(requested_mode: str) -> PlantUMLMode:
+    """Chuyển option CLI thành chế độ build thực tế, có fallback an toàn khi không tương tác."""
+    if requested_mode in ("image", "code"):
+        return requested_mode
+
+    try:
+        return ask_plantuml_mode()
+    except (EOFError, KeyboardInterrupt):
+        safe_print("Không đọc được lựa chọn tương tác, mặc định render PlantUML thành ảnh PNG.")
+        return "image"
+
+
+def build(plantuml_mode: PlantUMLMode) -> BuildStats:
     if not CHAPTERS_DIR.exists():
         raise FileNotFoundError(f"Chapters directory not found: {CHAPTERS_DIR}")
 
@@ -402,29 +537,53 @@ def build() -> BuildStats:
 
     compiled_chunks: list[str] = []
     diagram_count = 0
+    active_figures: set[Path] = set()
     for chunk in chunks:
         content = rewrite_internal_links(chunk.content, chunk.path, path_to_anchor)
-        content, chunk_diagram_count = inject_plantuml_images(content, chunk.path, warnings)
+        content, chunk_diagram_count, chunk_active_figures = process_plantuml_blocks(
+            content,
+            chunk.path,
+            warnings,
+            plantuml_mode,
+        )
         content = re.sub(r"\n{3,}", "\n\n", content).strip()
         if content:
             compiled_chunks.append(content)
             diagram_count += chunk_diagram_count
+            active_figures.update(chunk_active_figures)
 
     compiled_content = SEPARATOR.join(compiled_chunks) + "\n"
     OUTPUT_FILE.write_text(compiled_content, encoding="utf-8")
-    READONLY_OUTPUT_FILE.write_text(compiled_content, encoding="utf-8")
+    legacy_output_removed = cleanup_legacy_readonly_output(warnings)
+    # Chỉ dọn ảnh cũ khi build ảnh hoàn tất sạch; nếu PlantUML API lỗi mạng,
+    # giữ cache ảnh hiện có để lần build sau không mất dữ liệu generated.
+    stale_figure_count = (
+        cleanup_stale_generated_figures(active_figures, warnings)
+        if plantuml_mode == "image" and not warnings
+        else 0
+    )
 
     return BuildStats(
         chunk_count=len(compiled_chunks),
         diagram_count=diagram_count,
         warning_count=len(warnings),
+        stale_figure_count=stale_figure_count,
+        legacy_output_removed=legacy_output_removed,
+        plantuml_mode=plantuml_mode,
     )
 
 
 if __name__ == "__main__":
-    stats = build()
-    safe_print(
-        f"Compiled {stats.chunk_count} Markdown files into {OUTPUT_FILE} "
-        f"and {READONLY_OUTPUT_FILE}"
-    )
-    safe_print(f"Processed {stats.diagram_count} PlantUML block(s) with {stats.warning_count} warning(s)")
+    configure_stdio()
+    args = parse_args()
+    plantuml_mode = resolve_plantuml_mode(args.plantuml)
+    stats = build(plantuml_mode)
+    safe_print(f"Compiled {stats.chunk_count} Markdown files into {OUTPUT_FILE}")
+    if stats.plantuml_mode == "image":
+        safe_print(f"Rendered {stats.diagram_count} PlantUML block(s) as image(s) with {stats.warning_count} warning(s)")
+    else:
+        safe_print(f"Kept {stats.diagram_count} PlantUML block(s) as code with {stats.warning_count} warning(s)")
+    if stats.stale_figure_count:
+        safe_print(f"Removed {stats.stale_figure_count} stale generated PlantUML image(s)")
+    if stats.legacy_output_removed:
+        safe_print(f"Removed legacy output file: {LEGACY_READONLY_OUTPUT_FILE}")

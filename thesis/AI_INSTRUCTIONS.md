@@ -23,7 +23,7 @@ Dự án này là một luận văn quy mô lớn, dự kiến khoảng 300-400 
 
 Trước khi viết, sửa hoặc tái cấu trúc:
 
-1. Khi User yêu cầu rà soát tổng thể (Review, Proofread, kiểm tra văn phong, logic liên chương) thay vì chỉnh sửa chi tiết, AI BẮT BUỘC phải đọc file `compiled_thesis_readonly.md` để lấy ngữ cảnh toàn cục. Tuyệt đối KHÔNG sử dụng tool để đọc hàng loạt các mảnh file chunk nhỏ nhằm tránh tốn tài nguyên và time-out.
+1. Khi User yêu cầu rà soát tổng thể (Review, Proofread, kiểm tra văn phong, logic liên chương) thay vì chỉnh sửa chi tiết, AI BẮT BUỘC phải đọc file `compiled_thesis.md` để lấy ngữ cảnh toàn cục. Tuyệt đối KHÔNG sử dụng tool để đọc hàng loạt các mảnh file chunk nhỏ nhằm tránh tốn tài nguyên và time-out.
 2. Đọc `THESIS_MEMORY.md` và `OUTLINE.md` để nắm bản đồ tổng thể.
 3. Định vị đúng thư mục chương và mảnh file cần sửa bằng `index.md` hoặc tìm kiếm theo từ khóa.
 4. Chỉ đọc mảnh file liên quan trực tiếp đến tác vụ.
