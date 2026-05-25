@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draw Thesis Sequence"
+  short_description: "PlantUML sequence diagrams for thesis"
+  default_prompt: "Use $draw-thesis-sequence to create a PlantUML sequence diagram for thesis/."

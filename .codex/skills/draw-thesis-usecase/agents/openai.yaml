@@ -1,0 +1,7 @@
+interface:
+  display_name: "Draw Thesis Use Case"
+  short_description: "PlantUML use cases for thesis"
+  default_prompt: "Use $draw-thesis-usecase to create a PlantUML use case diagram for thesis/."
+
+policy:
+  allow_implicit_invocation: true

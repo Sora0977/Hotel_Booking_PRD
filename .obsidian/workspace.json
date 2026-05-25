@@ -11,10 +11,14 @@
             "id": "efef04d4d96966a5",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "thesis/compiled_thesis.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "compiled_thesis"
             }
           }
         ]
@@ -191,6 +195,11 @@
   },
   "active": "0c6102da16e07152",
   "lastOpenFiles": [
+    "thesis/SCHOOL_RULES.md",
+    "thesis/STYLE_GUIDE.md",
+    "thesis/TODO.md",
+    "thesis/THESIS_MEMORY.md",
+    "thesis/README.md",
     "thesis/compiled_thesis.md",
     "graphify-out/cache/ast/db944da871c1db7bbf7a5050b91812f55e3630617d717c0c33d1cd1d5109c33d.json",
     "graphify-out/cache/ast/438ee451f81c6ccc72053bc31e0a2ae2ae3d83a2ec2f5cd4fbc3b8126e626fcc.json",
@@ -231,10 +240,6 @@
     "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/_addPattern()_-_f3().md",
     "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/Zn()_-_eI()_-_sE().md",
     "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/zB()_-_connectedCallback()_-_Ic().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/zi()_-_pA()_-_Gs().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/y9()_-_dD().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/write()_-_Ev()_-_x8().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/Wi()_-_sign()_-_headers().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/vg()_-_Nn()_-_pL().md"
+    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/zi()_-_pA()_-_Gs().md"
   ]
 }

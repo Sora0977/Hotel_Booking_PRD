@@ -1,0 +1,4 @@
+interface:
+  display_name: "Draw Thesis Activity"
+  short_description: "PlantUML activity diagrams for thesis"
+  default_prompt: "Use $draw-thesis-activity to create a PlantUML activity diagram for thesis/."
