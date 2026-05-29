@@ -445,23 +445,23 @@
     "semantic_hash": "dcd7a5b46baf8f1d761d6dd741e462f6"
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\README.md": {
-    "mtime": 1779096892.7621355,
-    "ast_hash": "2aee599d7b5ddf77db18c2563e086f30",
+    "mtime": 1780019710.9633641,
+    "ast_hash": "471b3c2071c6cd165b559203a3f8cde8",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\01-product\\PRD.md": {
-    "mtime": 1779329883.997135,
-    "ast_hash": "731d706476f0a47fff26a70f369e60d0",
+    "mtime": 1780019646.8441715,
+    "ast_hash": "b7504b79b0d249543157d814c544c093",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\01-product\\USE_CASE_CATALOG.md": {
-    "mtime": 1779329910.3583415,
-    "ast_hash": "561d1ab109558acec9f2a96b5c527f70",
+    "mtime": 1780019651.9780004,
+    "ast_hash": "59c1513f4e9d286959a4afcfd8c5523c",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\02-business\\BUSINESS_PROCESS.md": {
-    "mtime": 1779096892.854939,
-    "ast_hash": "dc707ae48681ecc3f14676a2e2fb359b",
+    "mtime": 1780019230.9970345,
+    "ast_hash": "da26cfb38b6d8415bd3c1aa4c99744b4",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\02-business\\business-processes\\01-auth-and-account.md": {
@@ -475,8 +475,8 @@
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\02-business\\business-processes\\03-booking-lifecycle.md": {
-    "mtime": 1779264471.6677775,
-    "ast_hash": "670817dfbb57c01ee6bbfd819d8417c5",
+    "mtime": 1780018409.959032,
+    "ast_hash": "b9b77f83a7cbbc20f2757e941dcc34ea",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\02-business\\business-processes\\04-admin-hotel-room-management.md": {
@@ -495,23 +495,23 @@
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\02-business\\business-processes\\07-business-rules-and-edge-cases.md": {
-    "mtime": 1779330030.9115562,
-    "ast_hash": "f0689046d8e3a99990e3d126b5e172a3",
+    "mtime": 1780019311.0496516,
+    "ast_hash": "f2941736848675831ad7dfcf69b6ab1c",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\03-technical\\API_CONTRACT.md": {
-    "mtime": 1779330070.8617635,
-    "ast_hash": "7d5242d315d13985bfd20c967ce09dca",
+    "mtime": 1780019732.6465435,
+    "ast_hash": "b372be6aef316e86fca1834e366679c6",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\03-technical\\ENTITY_SCHEMA.md": {
-    "mtime": 1779329986.290508,
-    "ast_hash": "1c74b866b81b2425e5814334e004b78d",
+    "mtime": 1780019277.3980825,
+    "ast_hash": "6911fa7668727ff6e5a716ef8de9a7df",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\03-technical\\TECH_SPEC.md": {
-    "mtime": 1779329921.1081026,
-    "ast_hash": "bc48ec16538d05ddc8ec89d71e246a50",
+    "mtime": 1780019727.0055642,
+    "ast_hash": "2b5b385f9acda31306d6db87ee7ec718",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\04-diagrams\\CORE_FLOW_DIAGRAMS.md": {
@@ -520,8 +520,8 @@
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\SDD\\05-guides\\AI_MAINTENANCE_GUIDE.md": {
-    "mtime": 1779264517.9241257,
-    "ast_hash": "bc13b1edf99945d301c28d5f9992b243",
+    "mtime": 1780019719.4287994,
+    "ast_hash": "4fbf8c63800960c4ff5e58e62b601473",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\thesis\\scripts\\build_thesis.py": {
@@ -540,8 +540,8 @@
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\thesis\\compiled_thesis.md": {
-    "mtime": 1779443547.937248,
-    "ast_hash": "4d3fa29b2e2db61d40ca1a1f2d4c1128",
+    "mtime": 1780018295.6120281,
+    "ast_hash": "330016f672734d9fad7f781179995318",
     "semantic_hash": ""
   },
   "C:\\Data\\Hotel_booking_PRD\\thesis\\OUTLINE.md": {
@@ -1912,6 +1912,21 @@
   "C:\\Data\\Hotel_booking_PRD\\thesis\\figures\\generated\\3_2_3_so_do_hoat_dong_activity_01_1e30868bc07c.png": {
     "mtime": 1779443547.9324267,
     "ast_hash": "ca1c114a5b31838ee9f85d726626a9c8",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\SDD\\01-product\\IMPLEMENTATION_STATUS.md": {
+    "mtime": 1780019636.9276087,
+    "ast_hash": "94d62e212f1e430811c211c0d279807c",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\SDD\\06-quality\\ACCEPTANCE_TEST_PLAN.md": {
+    "mtime": 1780019685.9780931,
+    "ast_hash": "2d1c5d58a389c2a12e372e04eed7b76d",
+    "semantic_hash": ""
+  },
+  "C:\\Data\\Hotel_booking_PRD\\SDD\\05-guides\\USER_BOOKING_FLOW_GUIDE.md": {
+    "mtime": 1780019710.866386,
+    "ast_hash": "638b322023e013849e3a5690cdc5cbb4",
     "semantic_hash": ""
   }
 }

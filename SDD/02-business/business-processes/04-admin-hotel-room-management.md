@@ -112,18 +112,18 @@
 
 ### Main Flow
 
-| Step | Action |
-| --- | --- |
-| 1 | Admin mở khách sạn cần chỉnh sửa. |
-| 2 | System load hotel và kiểm tra owner. |
-| 3 | Admin thay đổi thông tin. |
-| 4 | Admin tải ảnh mới nếu cần. |
-| 5 | System validate dữ liệu. |
-| 6 | System kiểm tra hotel vẫn tồn tại. |
-| 7 | System kiểm tra owner bằng `hotel.user_id == currentAdminId`. |
-| 8 | Nếu có ảnh mới, system upload ảnh và cập nhật URL. |
-| 9 | System lưu thay đổi. |
-| 10 | System trả thông tin mới. |
+| Step | Action                                                        |
+| ---- | ------------------------------------------------------------- |
+| 1    | Admin mở khách sạn cần chỉnh sửa.                             |
+| 2    | System load hotel và kiểm tra owner.                          |
+| 3    | Admin thay đổi thông tin.                                     |
+| 4    | Admin tải ảnh mới nếu cần.                                    |
+| 5    | System validate dữ liệu.                                      |
+| 6    | System kiểm tra hotel vẫn tồn tại.                            |
+| 7    | System kiểm tra owner bằng `hotel.user_id == currentAdminId`. |
+| 8    | Nếu có ảnh mới, system upload ảnh và cập nhật URL.            |
+| 9    | System lưu thay đổi.                                          |
+| 10   | System trả thông tin mới.                                     |
 
 ### Error Flows
 

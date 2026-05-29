@@ -656,3 +656,17 @@ Create/update/lock/unlock/check-in/check-out/delete APIs should return the updat
 | Admin hotel/room management | API-HOTEL-004 to API-HOTEL-007, API-ROOM-004 to API-ROOM-006 |
 | Admin booking operations | API-BOOK-006 to API-BOOK-008 |
 | Amenity management | API-AMN-001 to API-AMN-008 |
+
+## 11. Non-MVP API Boundary From Thesis Gaps
+
+These capabilities appear in thesis goals, limitations, or roadmap notes, but they do not have active MVP endpoints. Do not invent endpoints for them without updating PRD, use cases, business process, tech spec, schema, diagrams, and tests first.
+
+| Capability | Current API status | Minimum contract work before implementation |
+| --- | --- | --- |
+| Admin create/update/delete user | Scope conflict / no active endpoint beyond list/lock/unlock | Resolve PRD `OQ-011`, then define create/update/delete or deactivate endpoints, validation, role assignment, audit, and delete/deactivate behavior. |
+| Forgot password | No active API | Add request reset, verify token/OTP, set new password, expiry/rate-limit errors, and email/OTP delivery policy. |
+| Real payment | No active API | Add payment intent/create, gateway callback/webhook, payment status lookup, refund, signature verification, and idempotency rules. |
+| Revenue reporting | No active API | Add admin/partner report endpoints with date range, hotel filter, status filter, aggregation definition, pagination/export policy. |
+| Recommendation/personalization | No active API | Add recommendation query endpoint, fallback response, ranking metadata, privacy constraints, and empty-state behavior. |
+| Breadcrumb/navigation | Frontend/UI concern; no backend API expected by default | Add route metadata endpoint only if frontend cannot derive breadcrumbs statically. |
+| Partner extranet/promotions/reviews/travel add-ons | No active API | Treat as new modules/domains after role, schema, permission, and lifecycle decisions are approved. |

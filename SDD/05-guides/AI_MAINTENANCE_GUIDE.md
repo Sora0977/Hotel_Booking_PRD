@@ -17,15 +17,19 @@ Tài liệu này dành cho AI agent tiếp theo khi maintain hoặc phát triể
    - Đọc scope MVP, personas, role/permission matrix, functional requirements, use case map, business rules, NFR và open questions.
    - Đây là nguồn đầu tiên cho câu hỏi "feature này có thuộc scope không?".
 
-2. `SDD/02-business/BUSINESS_PROCESS.md`
+2. `SDD/01-product/IMPLEMENTATION_STATUS.md`
+   - Đọc ma trận đạt/chưa đạt từ luận văn, đặc biệt các gap quên mật khẩu, thống kê doanh thu, thanh toán thật, HTTPS, recommendation và breadcrumb.
+   - Đây là nguồn để biết một capability đã được thesis đánh giá thế nào, không thay thế PRD scope.
+
+3. `SDD/02-business/BUSINESS_PROCESS.md`
    - Đọc module map, customer/admin journey và state machine tổng quát.
    - Dùng để chọn file business process chi tiết cần mở.
 
-3. `SDD/02-business/business-processes/07-business-rules-and-edge-cases.md`
+4. `SDD/02-business/business-processes/07-business-rules-and-edge-cases.md`
    - Đọc rule tổng hợp trước khi động tới booking, availability, permission, delete, amenity hoặc status.
    - Đây là checklist chống regression nghiệp vụ.
 
-4. File business process theo module:
+5. File business process theo module:
    - Auth/account: `SDD/02-business/business-processes/01-auth-and-account.md`
    - Discovery/availability: `SDD/02-business/business-processes/02-discovery-and-availability.md`
    - Customer booking lifecycle: `SDD/02-business/business-processes/03-booking-lifecycle.md`
@@ -33,14 +37,20 @@ Tài liệu này dành cho AI agent tiếp theo khi maintain hoặc phát triể
    - Admin booking operations: `SDD/02-business/business-processes/05-admin-booking-operations.md`
    - Amenity: `SDD/02-business/business-processes/06-amenity-management.md`
 
-5. `SDD/03-technical/TECH_SPEC.md`
+6. `SDD/03-technical/TECH_SPEC.md`
    - Đọc architecture, module boundaries, protected endpoint rules, API surface, database schema, enums, core flows, transaction boundaries và concurrency notes.
    - Đây là nguồn chính để map nghiệp vụ sang controller/service/repository/API/schema.
 
-6. Diagram và màn hình nguồn
-   - Trong SDD, diagram được tham chiếu qua Source References tới `Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md`.
+7. Diagram và màn hình nguồn
+   - Trong SDD, diagram được tham chiếu qua Source References tới `thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/` và screen inventory trong `thesis/chapters/03_thiet_ke/3_3_he_thong_man_hinh.md`.
    - Với use case đặt/hủy booking, có thể tham chiếu thêm graphify wiki nếu tồn tại: `graphify-out/wiki/3.2.1_Use_case_chi_tiết_-_3.2.1.10_Usecase_đặt_phòng_-_3.2.1.11_Usecase_tra_cứu_và_hủy_đơn_đặt_phòng.md`.
    - Screen inventory nằm trong `SDD/01-product/PRD.md` mục 8.
+
+8. `SDD/06-quality/ACCEPTANCE_TEST_PLAN.md`
+   - Đọc khi cần kiểm thử, cập nhật trạng thái đạt/chưa đạt, hoặc bổ sung evidence cho Chương 4/5 của thesis.
+
+9. `SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md`
+   - Đọc khi cần viết/chỉnh phụ lục hướng dẫn sử dụng hoặc đối chiếu luồng thao tác đặt phòng từ góc nhìn người dùng.
 
 ## 3. Cách Trace Requirement End-To-End
 
@@ -90,11 +100,14 @@ Trace theo module thường gặp:
 Trước khi kết thúc task feature, kiểm tra:
 
 - `SDD/01-product/PRD.md`: scope MVP, FR, acceptance criteria, UC map, BR, NFR, screen inventory, open questions.
+- `SDD/01-product/IMPLEMENTATION_STATUS.md`: cập nhật nếu thay đổi trạng thái thesis đạt/chưa đạt hoặc roadmap boundary.
 - `SDD/02-business/BUSINESS_PROCESS.md`: module map, customer/admin journey, state machine nếu feature chạm lifecycle.
 - File trong `SDD/02-business/business-processes/`: BP chi tiết, main flow, error flow, business rules, open policy.
 - `SDD/02-business/business-processes/07-business-rules-and-edge-cases.md`: rule tổng hợp, error catalog, edge cases.
 - `SDD/03-technical/TECH_SPEC.md`: API surface, protected endpoint rules, schema, relationships, indexes, enums, validation, errors, transaction boundaries, concurrency notes.
 - Diagram/source references: nếu flow thay đổi, ghi rõ diagram/source nào cần cập nhật hoặc đã cập nhật.
+- `SDD/06-quality/ACCEPTANCE_TEST_PLAN.md`: thêm hoặc cập nhật acceptance/negative scenarios và evidence checklist cho feature.
+- `SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md`: cập nhật nếu luồng màn hình đặt phòng, booking success, lịch sử hoặc hủy booking thay đổi.
 - Trace: trong PR/summary phải nêu được FR/UC/BP/API/schema chính đã chạm.
 
 ## 6. Open Policy Cần Hỏi Người Dùng

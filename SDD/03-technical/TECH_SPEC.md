@@ -30,6 +30,8 @@
 
 ### 2.1 Source Rationale From Chapter 2
 
+Citation note: thesis TODO marks some technology/NFR claims as citation-pending. Use this section as implementation rationale for the project, not as an external benchmark claim, until thesis references are completed.
+
 | Technology | Rationale preserved from thesis source |
 | --- | --- |
 | React.js | Component-based UI helps reuse screen elements and keep the SPA easier to maintain. |
@@ -494,13 +496,25 @@
 | Amenity deleted while another admin assigns it | Check existence and in-use status inside transaction |
 | Hotel/room edited while another admin deletes it | Use existence checks and return `RESOURCE_NOT_FOUND` if stale |
 
-## 14. Source References
+## 14. Thesis Gap Technical Impacts
+
+| Gap / roadmap item | Technical work required before implementation |
+| --- | --- |
+| Forgot password | Add reset token storage or stateless token policy, email/OTP delivery, expiry/rate limit, auth APIs, and negative tests. |
+| Real payment | Add payment entity/status, callback/webhook verification, reconciliation, refund lifecycle, security constraints, and gateway timing tests. |
+| Revenue reports / báo biểu | Define revenue source of truth, aggregation by date/status/hotel/partner, reporting API, permission checks, indexes, and export format. |
+| HTTPS production rollout | Define deployment config, TLS termination, secure cookie/token storage rules, CORS policy, and production verification. |
+| Recommendation/personalization | Define data collection boundaries, ranking service/module, privacy constraints, fallback behavior, and A/B or relevance tests. |
+| Breadcrumb/navigation | Add frontend route metadata, screen inventory updates, and UX acceptance checks. |
+| Partner extranet/promotions/reviews | Split Admin and Hotel Partner permissions before adding partner-facing APIs, promotion/review entities, and reporting/payout flows. |
+
+## 15. Source References
 
 | Source ID | Path | Used For |
 | --- | --- | --- |
 | SRC-001 | `SDD/01-product/PRD.md` | Product requirements, business rules, scope |
-| SRC-002 | `Hotel booking service/Thesis-report/chapters/chuong-1-gioi-thieu.md` | High-level stack, NFR targets |
-| SRC-003 | `Hotel booking service/Thesis-report/chapters/chuong-2-phuong-phap-thuc-hien.md` | Tech stack, auth flow, hotel/room flow, booking flow |
-| SRC-004 | `Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md` | Database schema, use cases, sequence/activity flows |
-| SRC-005 | `Hotel booking service/Thesis-report/chapters/chuong-4-ket-luan.md` | Known limitations and pending production gaps |
+| SRC-002 | `thesis/chapters/01_mo_dau/1_4_ket_qua_can_dat.md` | NFR targets and completion criteria |
+| SRC-003 | `thesis/chapters/02_phuong_phap_thuc_hien/2_3_cong_nghe_su_dung.md`<br>`thesis/chapters/02_phuong_phap_thuc_hien/2_4_phan_tich_yeu_cau.md` | Tech stack, auth flow, hotel/room flow, booking flow |
+| SRC-004 | `thesis/chapters/03_thiet_ke/3_1_mo_hinh_du_lieu_muc_y_niem_muc_luan_ly_muc_vat_ly.md`<br>`thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/` | Database schema, use cases, sequence/activity flows |
+| SRC-005 | `thesis/chapters/05_ket_luan/` | Known limitations and pending production gaps |
 | SRC-006 | `graphify-out/wiki/index.md` | Knowledge graph navigation |

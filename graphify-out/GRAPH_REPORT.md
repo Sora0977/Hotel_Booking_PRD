@@ -1,16 +1,16 @@
-# Graph Report - Hotel_booking_PRD  (2026-05-22)
+# Graph Report - Hotel_booking_PRD  (2026-05-29)
 
 ## Corpus Check
-- 154 files · ~636,340 words
+- 157 files · ~640,325 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1492 nodes · 1376 edges · 201 communities (93 shown, 108 thin omitted)
+- 1520 nodes · 1401 edges · 201 communities (96 shown, 105 thin omitted)
 - Extraction: 100% EXTRACTED · 0% INFERRED · 0% AMBIGUOUS
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `8f5ba4aa`
+- Built from commit: `208313fc`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -222,10 +222,10 @@
 4. `3.2.2 Sơ đồ tuần tự` - 37 edges
 5. `3.2.1 Use case chi tiết` - 36 edges
 6. `3.2.1 Use case chi tiết` - 36 edges
-7. `3.2 Mô hình xử lý` - 16 edges
-8. `Thesis Memory` - 16 edges
-9. `3.2 Mô hình xử lý` - 16 edges
-10. `Technical Specification - Hotel Booking` - 15 edges
+7. `Technical Specification - Hotel Booking` - 17 edges
+8. `3.2 Mô hình xử lý` - 16 edges
+9. `Thesis Memory` - 16 edges
+10. `3.2 Mô hình xử lý` - 16 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `warn()` --calls--> `safe_print()`  [EXTRACTED]
@@ -239,15 +239,15 @@
 - `build()` --calls--> `prepare_chunks()`  [EXTRACTED]
   thesis/scripts/build_thesis.py → thesis/scripts/build_thesis.py  _Bridges community 3 → community 181_
 
-## Communities (201 total, 108 thin omitted)
+## Communities (201 total, 105 thin omitted)
 
 ### Community 0 - "Community 0"
-Cohesion: 0.04
-Nodes (47): 3.1.1 Mức ý niệm, 3.1.2 Mức luận lý, 3.1.3 Mức vật lý, 3.1.4 Mô tả chi tiết bảng, 3.1 Mô hình dữ liệu (mức ý niệm, mức luận lý, mức vậT lý), 3.2.2 Sơ đồ tuần tự, 3.2 Mô hình xử lý, 3.3 Hệ thống màn hình (+39 more)
+Cohesion: 0.05
+Nodes (37): 3.2.2 Sơ đồ tuần tự, code:plantuml (@startuml), code:plantuml (@startuml), code:plantuml (@startuml), code:plantuml (@startuml), code:plantuml (@startuml), code:plantuml (@startuml), code:plantuml (@startuml) (+29 more)
 
 ### Community 1 - "Community 1"
 Cohesion: 0.04
-Nodes (45): 10. Error Handling, 11. Non-Functional Technical Requirements, 12. Transaction Boundaries, 13. Concurrency Notes, 14. Source References, 1. Metadata, 2.1 Source Rationale From Chapter 2, 2. Tech Stack (+37 more)
+Nodes (47): 10. Error Handling, 11. Non-Functional Technical Requirements, 12. Transaction Boundaries, 13. Concurrency Notes, 14. Source References, 14. Thesis Gap Technical Impacts, 15. Source References, 1. Metadata (+39 more)
 
 ### Community 2 - "Community 2"
 Cohesion: 0.05
@@ -258,8 +258,8 @@ Cohesion: 0.16
 Nodes (16): Chunk, clean_chunk_content(), configure_stdio(), extract_first_heading(), fix_image_paths(), iter_index_targets(), natural_sort_key(), prepare_chunks() (+8 more)
 
 ### Community 4 - "Community 4"
-Cohesion: 0.05
-Nodes (37): 3.2.3 Sơ đồ hoạt động (activity), code:plantuml (@startuml), code:plantuml (@startuml), code:plantuml (@startuml), code:plantuml (@startuml), code:plantuml (@startuml), code:plantuml (@startuml), code:plantuml (@startuml) (+29 more)
+Cohesion: 0.04
+Nodes (47): 3.1.1 Mức ý niệm, 3.1.2 Mức luận lý, 3.1.3 Mức vật lý, 3.1.4 Mô tả chi tiết bảng, 3.1 Mô hình dữ liệu (mức ý niệm, mức luận lý, mức vậT lý), 3.2.3 Sơ đồ hoạt động (activity), 3.2 Mô hình xử lý, 3.3 Hệ thống màn hình (+39 more)
 
 ### Community 5 - "Community 5"
 Cohesion: 0.05
@@ -331,11 +331,11 @@ Nodes (22): Chương 1 — Giới thiệu, Chương 2 — Phương pháp thực 
 
 ### Community 22 - "Community 22"
 Cohesion: 0.10
-Nodes (21): 3.2.1.10 Usecase đặt phòng, 3.2.1.11 Usecase tra cứu và hủy đơn đặt phòng, 3.2.1.12 Usecase quản lý tiện ích, 3.2.1.1 Usecase đăng nhập, 3.2.1.3 Usecase quản lý thông tin cá nhân, 3.2.1.4 Usecase quản trị người dùng, 3.2.1.5 Usecase quản lý phòng, 3.2.1.6 Usecase tra cứu phòng (+13 more)
+Nodes (21): 3.2.1.10 Usecase đặt phòng, 3.2.1.12 Usecase quản lý tiện ích, 3.2.1.2 Usecase đăng ký, 3.2.1.3 Usecase quản lý thông tin cá nhân, 3.2.1.4 Usecase quản trị người dùng, 3.2.1.5 Usecase quản lý phòng, 3.2.1.6 Usecase tra cứu phòng, 3.2.1.7 Usecase quản lý khách sạn (+13 more)
 
 ### Community 23 - "Community 23"
-Cohesion: 0.10
-Nodes (21): 3.2.1.10 Usecase đặt phòng, 3.2.1.11 Usecase tra cứu và hủy đơn đặt phòng, 3.2.1.12 Usecase quản lý tiện ích, 3.2.1.1 Usecase đăng nhập, 3.2.1.3 Usecase quản lý thông tin cá nhân, 3.2.1.4 Usecase quản trị người dùng, 3.2.1.5 Usecase quản lý phòng, 3.2.1.6 Usecase tra cứu phòng (+13 more)
+Cohesion: 0.07
+Nodes (27): 3.2.1.10 Usecase đặt phòng, 3.2.1.11 Usecase tra cứu và hủy đơn đặt phòng, 3.2.1.12 Usecase quản lý tiện ích, 3.2.1.1 Usecase đăng nhập, 3.2.1.2 Usecase đăng ký, 3.2.1.3 Usecase quản lý thông tin cá nhân, 3.2.1.4 Usecase quản trị người dùng, 3.2.1.5 Usecase quản lý phòng (+19 more)
 
 ### Community 24 - "Community 24"
 Cohesion: 0.10
@@ -423,15 +423,15 @@ Nodes (7): Changelog, Dữ liệu và giao diện, Phạm vi cập nhật, Quả
 
 ### Community 45 - "Community 45"
 Cohesion: 0.25
-Nodes (7): 1. Purpose, 2. Recommended Reading Order, 3. Folder Structure, 4. Traceability Path, 5. Maintenance Rules, code:text (PRD requirement -> Use case -> Business process -> API contr), SDD Index - Hotel Booking
+Nodes (7): 1. Purpose, 2. Recommended Reading Order, 3. Folder Structure, 4. Traceability Path, 5. Maintenance Rules, code:text (PRD requirement -> Implementation status -> Use case -> Busi), SDD Index - Hotel Booking
 
 ### Community 46 - "Community 46"
 Cohesion: 0.29
 Nodes (6): 2.3.1 Phía Frontend, 2.3.2.1 Java, 2.3.2.2 Spring Boot, 2.3.2.3 MySQL, 2.3.2 Phía Backend, 2.3 Công nghệ sử dụng
 
 ### Community 47 - "Community 47"
-Cohesion: 0.29
-Nodes (6): 10. Cross-Reference Matrix, 1. Metadata, 4.1 Update Profile Request, 4. User APIs, API Contract - Hotel Booking, code:json ({)
+Cohesion: 0.25
+Nodes (7): 10. Cross-Reference Matrix, 11. Non-MVP API Boundary From Thesis Gaps, 1. Metadata, 4.1 Update Profile Request, 4. User APIs, API Contract - Hotel Booking, code:json ({)
 
 ### Community 48 - "Community 48"
 Cohesion: 0.29
@@ -605,25 +605,37 @@ Nodes (4): ensure_plantuml_unicode_font(), Ép font Unicode để PlantUML khôn
 Cohesion: 0.18
 Nodes (12): ask_plantuml_mode(), Hỏi người dùng muốn render PlantUML thành ảnh hay giữ nguyên code block., Chuyển option CLI thành chế độ build thực tế, có fallback an toàn khi không tươn, Hỏi người dùng muốn render PlantUML thành ảnh hay giữ nguyên code block., Chuyển option CLI thành chế độ build thực tế, có fallback an toàn khi không tươn, In UTF-8 an toàn trên Windows console có codepage hẹp như cp1252., In UTF-8 an toàn trên Windows console có codepage hẹp như cp1252., In UTF-8 an toàn trên Windows console có codepage hẹp như cp1252. (+4 more)
 
+### Community 195 - "Community 195"
+Cohesion: 0.20
+Nodes (9): 1. Metadata, 2. How To Use This Document, 3. Functional Completion Matrix, 4. Non-Functional Completion Matrix, 5. Known Gaps And Roadmap Boundaries, 6. Reporting/Báo Biểu Decision, 6. Thesis Source Map, 7. Thesis Source Map (+1 more)
+
+### Community 196 - "Community 196"
+Cohesion: 0.29
+Nodes (6): 1. Metadata, 2. Scope, 3. Five-Step Booking Walkthrough, 4. User-Facing Rules To Preserve, 5. Evidence For Thesis Appendix, User Booking Flow Guide - Hotel Booking
+
+### Community 198 - "Community 198"
+Cohesion: 0.25
+Nodes (7): 1. Metadata, 2. Test Data Baseline, 3. Acceptance Scenarios, 4. Exception And Negative Scenarios, 5. Evidence Checklist, 6. Source Map, Acceptance Test Plan - Hotel Booking
+
 ## Knowledge Gaps
-- **911 isolated node(s):** `graphify`, `graphify`, `1.1. Đặt vấn đề, mục tiêu luận văn`, `1.2. Những thách thức cần giải quyết`, `1.3. Nội dung, phạm vi thực hiện` (+906 more)
+- **933 isolated node(s):** `graphify`, `graphify`, `1.1. Đặt vấn đề, mục tiêu luận văn`, `1.2. Những thách thức cần giải quyết`, `1.3. Nội dung, phạm vi thực hiện` (+928 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **108 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **105 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `3.2 Mô hình xử lý` connect `Community 23` to `Community 196`, `Community 197`, `Community 6`, `Community 199`, `Community 8`, `Community 31`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
-- **Why does `3.2 Mô hình xử lý` connect `Community 22` to `Community 195`, `Community 5`, `Community 198`, `Community 7`, `Community 200`, `Community 30`?**
-  _High betweenness centrality (0.011) - this node is a cross-community bridge._
-- **Why does `3.2.1 Use case chi tiết` connect `Community 8` to `Community 23`?**
+- **Why does `3.2 Mô hình xử lý` connect `Community 23` to `Community 8`, `Community 6`, `Community 31`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **Why does `3.2 Mô hình xử lý` connect `Community 22` to `Community 5`, `Community 197`, `Community 7`, `Community 199`, `Community 200`, `Community 30`?**
+  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+- **Why does `3.2.2 Sơ đồ tuần tự` connect `Community 5` to `Community 22`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
 - **What connects `Suy luận dependency chính để AI biết file nào cần đối chiếu khi chỉnh chunk.`, `Thêm hoặc chuẩn hóa metadata tối thiểu mà không đụng phần nội dung chính.`, `Cấu hình console UTF-8 để argparse/help text tiếng Việt không lỗi trên Windows.` to the rest of the system?**
-  _974 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _996 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Community 0` be split into smaller, more focused modules?**
-  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
 - **Should `Community 1` be split into smaller, more focused modules?**
-  _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
+  _Cohesion score 0.041666666666666664 - nodes in this community are weakly interconnected._
 - **Should `Community 2` be split into smaller, more focused modules?**
   _Cohesion score 0.047619047619047616 - nodes in this community are weakly interconnected._

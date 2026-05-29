@@ -13,32 +13,32 @@
 
 ## 2. Permission Rules
 
-| Rule ID | Rule |
-| --- | --- |
-| BR-PERM-001 | Customer chỉ xem/sửa profile của chính mình. |
-| BR-PERM-002 | Customer chỉ xem/hủy booking của chính mình. |
-| BR-PERM-003 | Admin được xem toàn bộ booking. |
-| BR-PERM-004 | Admin chỉ sửa/xóa khách sạn do mình sở hữu. |
-| BR-PERM-005 | Admin chỉ quản lý phòng thuộc khách sạn mình sở hữu. |
+| Rule ID     | Rule                                                   |
+| ----------- | ------------------------------------------------------ |
+| BR-PERM-001 | Customer chỉ xem/sửa profile của chính mình.           |
+| BR-PERM-002 | Customer chỉ xem/hủy booking của chính mình.           |
+| BR-PERM-003 | Admin được xem toàn bộ booking.                        |
+| BR-PERM-004 | Admin chỉ sửa/xóa khách sạn do mình sở hữu.            |
+| BR-PERM-005 | Admin chỉ quản lý phòng thuộc khách sạn mình sở hữu.   |
 | BR-PERM-006 | Admin chỉ gán/gỡ tiện ích trên hotel/room mình sở hữu. |
 
 ## 3. Date And Availability Rules
 
-| Rule ID | Rule |
-| --- | --- |
-| BR-DATE-001 | `checkin_date` không được ở quá khứ. |
-| BR-DATE-002 | `checkout_date` phải sau `checkin_date`. |
-| BR-AVAIL-001 | Booking conflict nếu `existing_checkin < new_checkout AND existing_checkout > new_checkin`. |
-| BR-AVAIL-002 | Chỉ booking `BOOKED` và `CHECKED_IN` chặn phòng. |
-| BR-AVAIL-003 | Booking `CANCELLED` không chặn phòng. |
-| BR-AVAIL-004 | Booking `CHECKED_OUT` không chặn phòng cho booking tương lai. |
-| BR-AVAIL-005 | Số lượng đặt không vượt quá `room.amount` sau khi trừ booking đang chặn. |
-| BR-AVAIL-006 | Với `quantity = 1`, tổng khách không vượt quá `room.capacity`; khi đặt nhiều phòng, áp dụng BR-AVAIL-007. |
-| BR-DATE-003 | Date input/output dùng `YYYY-MM-DD`; không nhận datetime cho `checkin_date`/`checkout_date`. |
-| BR-DATE-004 | "Quá khứ" được tính theo business timezone UTC+7 tại thời điểm server xử lý. |
-| BR-AVAIL-007 | Nếu booking có `quantity`, capacity check là `adult_amount + children_amount <= room.capacity * quantity`, trừ khi có policy trẻ em riêng. |
-| BR-AVAIL-008 | Availability chỉ tính hotel/room có active flag bằng `true`/`1`. |
-| BR-BOOK-011 | Mỗi đơn đặt phòng (Booking) trong phiên bản MVP chỉ hỗ trợ đặt MỘT loại phòng duy nhất trong mỗi giao dịch (tuy số lượng `quantity` có thể > 1). Bảng `booking_room` được thiết kế Many-to-Many để dự phòng cho tính năng Giỏ hàng (Shopping Cart - đặt nhiều loại phòng cùng lúc) trong tương lai, nhưng ở MVP, quan hệ thực tế là 1 Booking - 1 Booking_Room. |
+| Rule ID      | Rule                                                                                                                                                                                                                                                                                                                                                            |
+| ------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| BR-DATE-001  | `checkin_date` không được ở quá khứ.                                                                                                                                                                                                                                                                                                                            |
+| BR-DATE-002  | `checkout_date` phải sau `checkin_date`.                                                                                                                                                                                                                                                                                                                        |
+| BR-AVAIL-001 | Booking conflict nếu `existing_checkin < new_checkout AND existing_checkout > new_checkin`.                                                                                                                                                                                                                                                                     |
+| BR-AVAIL-002 | Chỉ booking `BOOKED` và `CHECKED_IN` chặn phòng.                                                                                                                                                                                                                                                                                                                |
+| BR-AVAIL-003 | Booking `CANCELLED` không chặn phòng.                                                                                                                                                                                                                                                                                                                           |
+| BR-AVAIL-004 | Booking `CHECKED_OUT` không chặn phòng cho booking tương lai.                                                                                                                                                                                                                                                                                                   |
+| BR-AVAIL-005 | Số lượng đặt không vượt quá `room.amount` sau khi trừ booking đang chặn.                                                                                                                                                                                                                                                                                        |
+| BR-AVAIL-006 | Với `quantity = 1`, tổng khách không vượt quá `room.capacity`; khi đặt nhiều phòng, áp dụng BR-AVAIL-007.                                                                                                                                                                                                                                                       |
+| BR-DATE-003  | Date input/output dùng `YYYY-MM-DD`; không nhận datetime cho `checkin_date`/`checkout_date`.                                                                                                                                                                                                                                                                    |
+| BR-DATE-004  | "Quá khứ" được tính theo business timezone UTC+7 tại thời điểm server xử lý.                                                                                                                                                                                                                                                                                    |
+| BR-AVAIL-007 | Nếu booking có `quantity`, capacity check là `adult_amount + children_amount <= room.capacity * quantity`, trừ khi có policy trẻ em riêng.                                                                                                                                                                                                                      |
+| BR-AVAIL-008 | Availability chỉ tính hotel/room có active flag bằng `true`/`1`.                                                                                                                                                                                                                                                                                                |
+| BR-BOOK-011  | Mỗi đơn đặt phòng (Booking) trong phiên bản MVP chỉ hỗ trợ đặt MỘT loại phòng duy nhất trong mỗi giao dịch (tuy số lượng `quantity` có thể > 1). Bảng `booking_room` được thiết kế Many-to-Many để dự phòng cho tính năng Giỏ hàng (Shopping Cart - đặt nhiều loại phòng cùng lúc) trong tương lai, nhưng ở MVP, quan hệ thực tế là 1 Booking - 1 Booking_Room. |
 
 ## 4. Booking State Machine
 
@@ -134,10 +134,13 @@
 | --- | --- |
 | Cancellation/rate plan | Nếu thêm free cancellation/non-refundable/pay-at-property, tạo policy riêng thay vì nhúng trực tiếp vào `booking.status`. |
 | Local payment | VietQR, MoMo, ví điện tử, chuyển khoản ngân hàng và pay-at-property cần payment status, callback/webhook, reconciliation và refund rules riêng. |
+| Revenue reporting | Báo cáo doanh thu cần xác định nguồn doanh thu hợp lệ trước: booking đã check-out, payment đã settled, hay booking đã tạo; không tự cộng doanh thu từ booking bị hủy. |
 | Partner quality | Cần audit log, điểm uy tín đối tác, xử lý đối tác tự ý hủy đơn hoặc vi phạm chính sách. |
 | Review/rating | Chỉ user có booking `CHECKED_OUT` mới được review; review phải liên kết user-booking-hotel/room để chống đánh giá giả. |
+| Breadcrumb/navigation | Breadcrumb là yêu cầu UX, không được dùng thay thế cho authorization hoặc owner check phía backend. |
 | Support/chatbot | FAQ/chính sách, chatbot hoặc ticket support cần SLA, ownership và escalation rule. |
 | Promotion/loyalty | Mã giảm giá, tích điểm và ưu đãi thành viên phải mở rộng pricing rule, không để frontend tự tính tiền cuối. |
+| Travel add-ons | Vé máy bay, xe đưa đón và tour phải là domain riêng; không nhúng vào booking khách sạn hiện tại khi chưa có lifecycle/pricing/cancellation riêng. |
 
 ## 11. Open Questions
 

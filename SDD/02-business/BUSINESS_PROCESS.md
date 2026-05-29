@@ -29,8 +29,10 @@
 | `03-technical/API_CONTRACT.md` | API contract | Endpoint, request/response, access control, error code, mapping sang process |
 | `03-technical/ENTITY_SCHEMA.md` | Entity schema | Table, field, relation, enum, constraint, index, delete policy |
 | `01-product/USE_CASE_CATALOG.md` | Use case catalog | Danh sách đầy đủ use case theo role, process, API, priority |
+| `01-product/IMPLEMENTATION_STATUS.md` | Implementation status | Ma trận đạt/chưa đạt từ luận văn và ranh giới roadmap |
 | `05-guides/AI_MAINTENANCE_GUIDE.md` | AI maintenance guide | Thứ tự đọc tài liệu, checklist khi thêm feature, guardrails cho AI |
 | `04-diagrams/CORE_FLOW_DIAGRAMS.md` | Core diagrams | Mermaid diagrams cho entity và flow chính |
+| `06-quality/ACCEPTANCE_TEST_PLAN.md` | Acceptance tests | Kịch bản kiểm thử, ngoại lệ và evidence từ Chương 4 |
 
 ## 3. Module Map
 
@@ -93,10 +95,12 @@
 
 ## 7. Source References
 
-| Source ID | Path | Purpose |
-| --- | --- | --- |
-| SRC-PRD | `SDD/01-product/PRD.md` | Product requirements and business rules |
-| SRC-TECH | `SDD/03-technical/TECH_SPEC.md` | Entities, APIs, architecture, transaction notes |
-| SRC-CH2 | `Hotel booking service/Thesis-report/chapters/chuong-2-phuong-phap-thuc-hien.md` | Core business processes |
-| SRC-CH3 | `Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md` | Use cases, sequence diagrams, activity diagrams, screens |
-| SRC-CH4 | `Hotel booking service/Thesis-report/chapters/chuong-4-ket-luan.md` | Completed and not completed scope |
+| Source ID | Path                                                                                                                | Purpose                                                  |
+| --------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| SRC-PRD   | `SDD/01-product/PRD.md`                                                                                             | Product requirements and business rules                  |
+| SRC-TECH  | `SDD/03-technical/TECH_SPEC.md`                                                                                     | Entities, APIs, architecture, transaction notes          |
+| SRC-CH1   | `thesis/chapters/01_mo_dau/1_3_noi_dung_pham_vi_thuc_hien.md`<br>`thesis/chapters/01_mo_dau/1_4_ket_qua_can_dat.md` | Scope, functional and non-functional targets             |
+| SRC-CH2   | `thesis/chapters/02_phuong_phap_thuc_hien/2_4_phan_tich_yeu_cau.md`                                                 | Core business processes                                  |
+| SRC-CH3   | `thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/`<br>`thesis/chapters/03_thiet_ke/3_3_he_thong_man_hinh.md`          | Use cases, sequence diagrams, activity diagrams, screens |
+| SRC-CH4   | `thesis/chapters/04_thu_nghiem/`                                                                                    | Acceptance scenarios and exception cases                 |
+| SRC-CH5   | `thesis/chapters/05_ket_luan/`                                                                                      | Completed and not completed scope, roadmap gaps          |

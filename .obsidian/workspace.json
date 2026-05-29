@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "thesis/compiled_thesis.md",
+                "file": "SDD/02-business/BUSINESS_PROCESS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "compiled_thesis"
+              "title": "BUSINESS_PROCESS"
             }
           }
         ]
@@ -193,16 +193,39 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c6102da16e07152",
+  "active": "efef04d4d96966a5",
   "lastOpenFiles": [
+    "SDD/02-business/business-processes/06-amenity-management.md",
+    "SDD/02-business/business-processes/04-admin-hotel-room-management.md",
+    "SDD/02-business/business-processes/07-business-rules-and-edge-cases.md",
+    "SDD/02-business/business-processes/05-admin-booking-operations.md",
+    "SDD/02-business/business-processes/03-booking-lifecycle.md",
+    "SDD/02-business/business-processes/02-discovery-and-availability.md",
+    "SDD/02-business/business-processes/01-auth-and-account.md",
+    "SDD/01-product/PRD.md",
+    "SDD/01-product/IMPLEMENTATION_STATUS.md",
+    "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
+    "graphify-out/cache/ast/8824ca60b9b188f1bb81411fd69ed53bca1fa7f84decea10ae218e1e880004cf.json",
+    "graphify-out/cache/ast/628ef39fba495f24816fd21d80311d46bfb72dcd80ee75a4af30caedd0dc58ba.json",
+    "graphify-out/cache/ast/dad68876a754b75f0a9a4a1c427348360ef0a0ff06983fc3073b5c863a6d5981.json",
+    "graphify-out/cache/ast/048a85e5d570042cb0087ee2b767048d119c7c19e3f9532a695484d41fad7d67.json",
+    "graphify-out/cache/ast/cf3f42b3122a35d26328a35ce5bef95ef32b89a328a7fbfd02b3fa5744fd306d.json",
+    "graphify-out/cache/ast/14573bd98756f358db0edfada01e488917fd6e9c2714248ee700741a487c6296.json",
+    "graphify-out/cache/ast/0036bd4bd3969ab387eb0ae08f1364f117c880b0eec57188b5077ca489f710e8.json",
+    "graphify-out/cache/ast/247f32e2724adb2b900823d520d16cd0ec603aa01f637c1da6d5435c8cb7cfcb.json",
+    "graphify-out/cache/ast/534d62407c63f4cb74e8fd4604df4a72ee63f12a951d27d1d5f630316a7e908c.json",
+    "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+    "graphify-out/cache/ast/73d8795b3e8a75c285c159be71b027ad92049b2457c1c88bae8c8a91af5f1718.json",
+    "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+    "SDD/04-diagrams/CORE_FLOW_DIAGRAMS.md",
+    "SDD/01-product/USE_CASE_CATALOG.md",
+    "Hotel booking service/Update plan.md",
+    "thesis/compiled_thesis.md",
     "thesis/SCHOOL_RULES.md",
     "thesis/STYLE_GUIDE.md",
     "thesis/TODO.md",
     "thesis/THESIS_MEMORY.md",
     "thesis/README.md",
-    "thesis/compiled_thesis.md",
-    "graphify-out/cache/ast/db944da871c1db7bbf7a5050b91812f55e3630617d717c0c33d1cd1d5109c33d.json",
-    "graphify-out/cache/ast/438ee451f81c6ccc72053bc31e0a2ae2ae3d83a2ec2f5cd4fbc3b8126e626fcc.json",
     "thesis/figures/generated/3_2_3_so_do_hoat_dong_activity_01_1e30868bc07c.png",
     "thesis/figures/generated/3_2_3_35_so_do_hoat_dong_go_tien_ich_khoi_khach_01_60eff3dc79a1.png",
     "thesis/figures/generated/3_2_3_34_so_do_hoat_dong_xoa_tien_ich_he_thong_01_f6dda056272d.png",
@@ -214,32 +237,9 @@
     "thesis/figures/generated/3_2_3_28_so_do_hoat_dong_cap_nhat_trang_thai_boo_01_a1895ed78200.png",
     "thesis/figures/generated/3_2_3_27_so_do_hoat_dong_xem_danh_sach_tat_ca_bo_01_14480279a0b9.png",
     "thesis/AI_INSTRUCTIONS.md",
-    "graphify-out/cache/ast/636f32967b50022d70a5185a7fb762e0f58bb422562cc8e6eac386931e5c9518.json",
-    "graphify-out/cache/ast/a755ad04a741eac50609941542c0957335a3b5fdeb004ffb61edf651df7087d8.json",
-    "graphify-out/cache/ast/f90f4d5d61b13c4a5608e7361eb7c6c62964d9f8273307f91efc599e6766ea3c.json",
-    "graphify-out/cache/ast/b903867ead08432198a41a08f008b373daf3def81c0f5def6460cf990270b218.json",
     "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_1_7_usecase_quan_ly_khach_san.md",
     "thesis/compiled_thesis_readonly.md",
-    "graphify-out/cache/ast/a48d5aaabbfb45c2756ed71e327cf3ec36171422b6934ea5e23fc4599aeafcd3.json",
-    "graphify-out/cache/ast/2c54e8dc4cea6378d90e71d7a5ce3501cf9dd122bcd87e18e3a011f06532a1f7.json",
-    "graphify-out/cache/ast/e83ee3740fc6d952b1004f44296f18f511d21ab49152b32e65f403e4f5de946a.json",
-    "graphify-out/cache/ast/4678cf563227fb17dbb6e5d3301f3fd1552e0fd99bb955efda1bcacaff17c6cf.json",
     "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_1_1_usecase_dang_nhap.md",
-    "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_1_2_usecase_dang_ky.md",
-    "thesis/OUTLINE.md",
-    "thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md",
-    "thesis/chapters/04_thu_nghiem/muc_4_ghi_chu_cho_ai_agent.md",
-    "thesis/chapters/04_thu_nghiem/index.md",
-    "thesis/chapters/04_thu_nghiem/4_3_xu_ly_cac_truong_hop_ngoai_le.md",
-    "thesis/chapters/04_thu_nghiem/4_2_ket_qua_thu_nghiem_cac_kich_ban.md",
-    "thesis/chapters/04_thu_nghiem/4_1_cac_kich_ban_thu_nghiem.md",
-    "graphify-out/GRAPH_REPORT.md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/_z()_-_uz()_-_Ou().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/_src-lib-simple-git-api.ts_()_-_Rr()_-__src-lib-responses-StatusSummary.ts_().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/_src-git.js_()_-_c_-_u.md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/_addPattern()_-_f3().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/Zn()_-_eI()_-_sE().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/zB()_-_connectedCallback()_-_Ic().md",
-    "graphify-out/obsidian-contaminated-backup-20260522-122527/wiki/zi()_-_pA()_-_Gs().md"
+    "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_1_2_usecase_dang_ky.md"
   ]
 }

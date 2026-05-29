@@ -267,8 +267,10 @@ erDiagram
 
 | Task | Required Checks |
 | --- | --- |
+| Add forgot password | Add reset token table/fields or document a stateless token decision, expiry index, consumed flag, and rate-limit/audit implications |
 | Add new booking status | Update BookingStatus enum, state machine, API errors, availability rules, diagrams |
 | Add payment | Add payment entity, update booking lifecycle, refund rules, API contract |
+| Add revenue reports | Confirm revenue source of truth before adding summary tables, materialized views, or reporting indexes |
 | Add reviews | Add review entity linked to user/booking/hotel/room, enforce completed booking rule |
 | Add partner role | Split Admin permissions, update role matrix, owner checks, API access |
 | Change delete behavior | Update schema policy, business rules, and all affected flows |

@@ -139,11 +139,16 @@ Chapter 3 models detailed use cases with PlantUML include/extend relationships. 
 
 | New Feature | Use Case Updates Needed |
 | --- | --- |
+| Admin create/update/delete user | Resolve PRD `OQ-011`, then add Admin user-management use cases, validation, audit/deactivate rules, and user APIs |
 | Forgot password | Add Customer use case, auth API, token/email rules |
 | Real payment/local payment | Add payment use cases, payment status, callback/webhook, refund flow, VietQR/MoMo/bank transfer/pay-at-property options |
+| Revenue reporting / báo biểu | Add admin/partner reporting use cases, date-range filters, revenue aggregation rules, export policy, and permission boundaries |
 | Review/rating | Add review use cases, rule that only completed `CHECKED_OUT` bookings can review, anti-fake-review checks |
 | Partner role/marketplace commission | Split Admin use cases into System Admin and Hotel Partner, add commission/reporting/payout if approved |
+| Partner extranet | Add partner-facing hotel/room/booking/promotion/reporting workflows after the Hotel Partner role is approved |
 | Partner quality control | Add partner score, violation handling, audit log, temporary hotel/partner suspension |
 | Promotion/discount/loyalty | Add promotion CRUD, loyalty points, member offers, and pricing rule extension |
 | Recommendation | Add discovery use cases and personalization rules |
+| Breadcrumb/navigation clarity | Add route hierarchy, breadcrumb display rules, screen updates, and UX acceptance checks |
 | Support/chatbot | Add support ticket/FAQ/chatbot use cases and escalation rules |
+| Travel add-ons | Treat flights, airport transfer, and tours as separate product domains with their own supplier, pricing, booking, and cancellation use cases |

@@ -1440,7 +1440,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L1",
       "id": "hotel_booking_service_thesis_report_chapters_chuong_3_thiet_ke_md",
-      "community": 0,
+      "community": 4,
       "norm_label": "chuong-3-thiet-ke.md"
     },
     {
@@ -1449,7 +1449,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L1",
       "id": "chapters_chuong_3_thiet_ke_ch\u01b0\u01a1ng_3_thi\u1ebft_k\u1ebf",
-      "community": 0,
+      "community": 4,
       "norm_label": "chuong 3: thiet ke"
     },
     {
@@ -1458,7 +1458,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L3",
       "id": "chapters_chuong_3_thiet_ke_3_1_m\u00f4_h\u00ecnh_d\u1eef_li\u1ec7u_m\u1ee9c_\u00fd_ni\u1ec7m_m\u1ee9c_lu\u1eadn_l\u00fd_m\u1ee9c_v\u1eadt_l\u00fd",
-      "community": 0,
+      "community": 4,
       "norm_label": "3.1 mo hinh du lieu (muc y niem, muc luan ly, muc vat ly)"
     },
     {
@@ -1467,7 +1467,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L5",
       "id": "chapters_chuong_3_thiet_ke_3_1_1_m\u1ee9c_\u00fd_ni\u1ec7m",
-      "community": 0,
+      "community": 4,
       "norm_label": "3.1.1 muc y niem"
     },
     {
@@ -1476,7 +1476,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L11",
       "id": "chapters_chuong_3_thiet_ke_3_1_2_m\u1ee9c_lu\u1eadn_l\u00fd",
-      "community": 0,
+      "community": 4,
       "norm_label": "3.1.2 muc luan ly"
     },
     {
@@ -1485,7 +1485,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L14",
       "id": "chapters_chuong_3_thiet_ke_codeblock_1",
-      "community": 0,
+      "community": 4,
       "norm_label": "code:plantuml (@startuml)"
     },
     {
@@ -1494,7 +1494,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L143",
       "id": "chapters_chuong_3_thiet_ke_3_1_3_m\u1ee9c_v\u1eadt_l\u00fd",
-      "community": 0,
+      "community": 4,
       "norm_label": "3.1.3 muc vat ly"
     },
     {
@@ -1503,7 +1503,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L146",
       "id": "chapters_chuong_3_thiet_ke_codeblock_2",
-      "community": 0,
+      "community": 4,
       "norm_label": "code:plantuml (@startuml)"
     },
     {
@@ -1512,7 +1512,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L285",
       "id": "chapters_chuong_3_thiet_ke_3_1_4_m\u00f4_t\u1ea3_chi_ti\u1ebft_b\u1ea3ng",
-      "community": 0,
+      "community": 4,
       "norm_label": "3.1.4 mo ta chi tiet bang"
     },
     {
@@ -1521,7 +1521,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L401",
       "id": "chapters_chuong_3_thiet_ke_3_2_m\u00f4_h\u00ecnh_x\u1eed_l\u00fd",
-      "community": 0,
+      "community": 4,
       "norm_label": "3.2 mo hinh xu ly"
     },
     {
@@ -2421,7 +2421,7 @@
       "source_file": "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
       "source_location": "L4409",
       "id": "chapters_chuong_3_thiet_ke_3_3_h\u1ec7_th\u1ed1ng_m\u00e0n_h\u00ecnh",
-      "community": 0,
+      "community": 4,
       "norm_label": "3.3 he thong man hinh"
     },
     {
@@ -2527,7 +2527,7 @@
       "label": "3. Folder Structure",
       "file_type": "document",
       "source_file": "SDD/README.md",
-      "source_location": "L24",
+      "source_location": "L27",
       "id": "sdd_readme_3_folder_structure",
       "community": 45,
       "norm_label": "3. folder structure"
@@ -2536,28 +2536,109 @@
       "label": "4. Traceability Path",
       "file_type": "document",
       "source_file": "SDD/README.md",
-      "source_location": "L34",
+      "source_location": "L38",
       "id": "sdd_readme_4_traceability_path",
       "community": 45,
       "norm_label": "4. traceability path"
     },
     {
-      "label": "code:text (PRD requirement -> Use case -> Business process -> API contr)",
+      "label": "code:text (PRD requirement -> Implementation status -> Use case -> Busi)",
       "file_type": "document",
       "source_file": "SDD/README.md",
-      "source_location": "L38",
+      "source_location": "L42",
       "id": "sdd_readme_codeblock_1",
       "community": 45,
-      "norm_label": "code:text (prd requirement -> use case -> business process -> api contr)"
+      "norm_label": "code:text (prd requirement -> implementation status -> use case -> busi)"
     },
     {
       "label": "5. Maintenance Rules",
       "file_type": "document",
       "source_file": "SDD/README.md",
-      "source_location": "L42",
+      "source_location": "L46",
       "id": "sdd_readme_5_maintenance_rules",
       "community": 45,
       "norm_label": "5. maintenance rules"
+    },
+    {
+      "label": "IMPLEMENTATION_STATUS.md",
+      "file_type": "document",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L1",
+      "id": "sdd_01_product_implementation_status_md",
+      "community": 195,
+      "norm_label": "implementation_status.md"
+    },
+    {
+      "label": "Implementation Status And Thesis Gap Matrix - Hotel Booking",
+      "file_type": "document",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L1",
+      "id": "01_product_implementation_status_implementation_status_and_thesis_gap_matrix_hotel_booking",
+      "community": 195,
+      "norm_label": "implementation status and thesis gap matrix - hotel booking"
+    },
+    {
+      "label": "1. Metadata",
+      "file_type": "document",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L3",
+      "id": "01_product_implementation_status_1_metadata",
+      "community": 195,
+      "norm_label": "1. metadata"
+    },
+    {
+      "label": "2. How To Use This Document",
+      "file_type": "document",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L13",
+      "id": "01_product_implementation_status_2_how_to_use_this_document",
+      "community": 195,
+      "norm_label": "2. how to use this document"
+    },
+    {
+      "label": "3. Functional Completion Matrix",
+      "file_type": "document",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L19",
+      "id": "01_product_implementation_status_3_functional_completion_matrix",
+      "community": 195,
+      "norm_label": "3. functional completion matrix"
+    },
+    {
+      "label": "4. Non-Functional Completion Matrix",
+      "file_type": "document",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L38",
+      "id": "01_product_implementation_status_4_non_functional_completion_matrix",
+      "community": 195,
+      "norm_label": "4. non-functional completion matrix"
+    },
+    {
+      "label": "5. Known Gaps And Roadmap Boundaries",
+      "file_type": "document",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L54",
+      "id": "01_product_implementation_status_5_known_gaps_and_roadmap_boundaries",
+      "community": 195,
+      "norm_label": "5. known gaps and roadmap boundaries"
+    },
+    {
+      "label": "6. Reporting/B\u00e1o Bi\u1ec3u Decision",
+      "file_type": "document",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L67",
+      "id": "01_product_implementation_status_6_reporting_b\u00e1o_bi\u1ec3u_decision",
+      "community": 195,
+      "norm_label": "6. reporting/bao bieu decision"
+    },
+    {
+      "label": "7. Thesis Source Map",
+      "file_type": "document",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L71",
+      "id": "01_product_implementation_status_7_thesis_source_map",
+      "community": 195,
+      "norm_label": "7. thesis source map"
     },
     {
       "label": "PRD.md",
@@ -2590,7 +2671,7 @@
       "label": "2. T\u1ed5ng Quan D\u1ef1 \u00c1n",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L14",
+      "source_location": "L15",
       "id": "01_product_prd_2_t\u1ed5ng_quan_d\u1ef1_\u00e1n",
       "community": 11,
       "norm_label": "2. tong quan du an"
@@ -2599,7 +2680,7 @@
       "label": "2.1 M\u1ee5c Ti\u00eau C\u1ed1t L\u00f5i",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L16",
+      "source_location": "L17",
       "id": "01_product_prd_2_1_m\u1ee5c_ti\u00eau_c\u1ed1t_l\u00f5i",
       "community": 11,
       "norm_label": "2.1 muc tieu cot loi"
@@ -2608,7 +2689,7 @@
       "label": "2.2 Ph\u1ea1m Vi MVP",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L30",
+      "source_location": "L31",
       "id": "01_product_prd_2_2_ph\u1ea1m_vi_mvp",
       "community": 11,
       "norm_label": "2.2 pham vi mvp"
@@ -2617,7 +2698,7 @@
       "label": "2.3 Benchmark V\u00e0 Product Direction T\u1eeb H\u1ec7 Th\u1ed1ng T\u01b0\u01a1ng T\u1ef1",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L50",
+      "source_location": "L53",
       "id": "01_product_prd_2_3_benchmark_v\u00e0_product_direction_t\u1eeb_h\u1ec7_th\u1ed1ng_t\u01b0\u01a1ng_t\u1ef1",
       "community": 11,
       "norm_label": "2.3 benchmark va product direction tu he thong tuong tu"
@@ -2626,7 +2707,7 @@
       "label": "3. \u0110\u1ed1i T\u01b0\u1ee3ng Ng\u01b0\u1eddi D\u00f9ng",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L62",
+      "source_location": "L67",
       "id": "01_product_prd_3_\u0111\u1ed1i_t\u01b0\u1ee3ng_ng\u01b0\u1eddi_d\u00f9ng",
       "community": 11,
       "norm_label": "3. \u0111oi tuong nguoi dung"
@@ -2635,7 +2716,7 @@
       "label": "4. Vai Tr\u00f2 V\u00e0 Quy\u1ec1n Truy C\u1eadp",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L69",
+      "source_location": "L74",
       "id": "01_product_prd_4_vai_tr\u00f2_v\u00e0_quy\u1ec1n_truy_c\u1eadp",
       "community": 11,
       "norm_label": "4. vai tro va quyen truy cap"
@@ -2644,7 +2725,7 @@
       "label": "5. Y\u00eau C\u1ea7u Ch\u1ee9c N\u0103ng",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L83",
+      "source_location": "L88",
       "id": "01_product_prd_5_y\u00eau_c\u1ea7u_ch\u1ee9c_n\u0103ng",
       "community": 11,
       "norm_label": "5. yeu cau chuc nang"
@@ -2653,7 +2734,7 @@
       "label": "5.1 Customer Requirements",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L85",
+      "source_location": "L90",
       "id": "01_product_prd_5_1_customer_requirements",
       "community": 11,
       "norm_label": "5.1 customer requirements"
@@ -2662,7 +2743,7 @@
       "label": "5.2 Admin Requirements",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L110",
+      "source_location": "L115",
       "id": "01_product_prd_5_2_admin_requirements",
       "community": 11,
       "norm_label": "5.2 admin requirements"
@@ -2671,7 +2752,7 @@
       "label": "6. Use Case Map",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L137",
+      "source_location": "L142",
       "id": "01_product_prd_6_use_case_map",
       "community": 11,
       "norm_label": "6. use case map"
@@ -2680,7 +2761,7 @@
       "label": "7. Business Rules",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L154",
+      "source_location": "L159",
       "id": "01_product_prd_7_business_rules",
       "community": 11,
       "norm_label": "7. business rules"
@@ -2689,7 +2770,7 @@
       "label": "7.1 Authentication Rules",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L156",
+      "source_location": "L161",
       "id": "01_product_prd_7_1_authentication_rules",
       "community": 11,
       "norm_label": "7.1 authentication rules"
@@ -2698,7 +2779,7 @@
       "label": "7.2 Booking And Availability Rules",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L166",
+      "source_location": "L171",
       "id": "01_product_prd_7_2_booking_and_availability_rules",
       "community": 11,
       "norm_label": "7.2 booking and availability rules"
@@ -2707,7 +2788,7 @@
       "label": "7.3 Booking Status Rules",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L181",
+      "source_location": "L186",
       "id": "01_product_prd_7_3_booking_status_rules",
       "community": 11,
       "norm_label": "7.3 booking status rules"
@@ -2716,7 +2797,7 @@
       "label": "7.4 Ownership And Permission Rules",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L193",
+      "source_location": "L198",
       "id": "01_product_prd_7_4_ownership_and_permission_rules",
       "community": 11,
       "norm_label": "7.4 ownership and permission rules"
@@ -2725,7 +2806,7 @@
       "label": "7.5 Data Format, Validation, And Defaults",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L204",
+      "source_location": "L209",
       "id": "01_product_prd_7_5_data_format_validation_and_defaults",
       "community": 11,
       "norm_label": "7.5 data format, validation, and defaults"
@@ -2734,7 +2815,7 @@
       "label": "8. Screen Inventory",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L218",
+      "source_location": "L223",
       "id": "01_product_prd_8_screen_inventory",
       "community": 11,
       "norm_label": "8. screen inventory"
@@ -2743,7 +2824,7 @@
       "label": "8.1 Screen Coverage Notes",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L253",
+      "source_location": "L258",
       "id": "01_product_prd_8_1_screen_coverage_notes",
       "community": 11,
       "norm_label": "8.1 screen coverage notes"
@@ -2752,7 +2833,7 @@
       "label": "9. Y\u00eau C\u1ea7u Phi Ch\u1ee9c N\u0103ng",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L262",
+      "source_location": "L267",
       "id": "01_product_prd_9_y\u00eau_c\u1ea7u_phi_ch\u1ee9c_n\u0103ng",
       "community": 11,
       "norm_label": "9. yeu cau phi chuc nang"
@@ -2761,7 +2842,7 @@
       "label": "9.1 Performance",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L264",
+      "source_location": "L269",
       "id": "01_product_prd_9_1_performance",
       "community": 11,
       "norm_label": "9.1 performance"
@@ -2770,7 +2851,7 @@
       "label": "9.2 Security",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L272",
+      "source_location": "L277",
       "id": "01_product_prd_9_2_security",
       "community": 11,
       "norm_label": "9.2 security"
@@ -2779,7 +2860,7 @@
       "label": "9.3 Data Integrity",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L283",
+      "source_location": "L288",
       "id": "01_product_prd_9_3_data_integrity",
       "community": 11,
       "norm_label": "9.3 data integrity"
@@ -2788,7 +2869,7 @@
       "label": "9.4 Usability",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L293",
+      "source_location": "L298",
       "id": "01_product_prd_9_4_usability",
       "community": 11,
       "norm_label": "9.4 usability"
@@ -2797,7 +2878,7 @@
       "label": "9.5 Maintainability And Operations",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L303",
+      "source_location": "L308",
       "id": "01_product_prd_9_5_maintainability_and_operations",
       "community": 11,
       "norm_label": "9.5 maintainability and operations"
@@ -2806,7 +2887,7 @@
       "label": "10. Open Questions",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L311",
+      "source_location": "L316",
       "id": "01_product_prd_10_open_questions",
       "community": 11,
       "norm_label": "10. open questions"
@@ -2815,7 +2896,7 @@
       "label": "11. Source References",
       "file_type": "document",
       "source_file": "SDD/01-product/PRD.md",
-      "source_location": "L326",
+      "source_location": "L332",
       "id": "01_product_prd_11_source_references",
       "community": 11,
       "norm_label": "11. source references"
@@ -2950,7 +3031,7 @@
       "label": "3. Module Map",
       "file_type": "document",
       "source_file": "SDD/02-business/BUSINESS_PROCESS.md",
-      "source_location": "L35",
+      "source_location": "L37",
       "id": "02_business_business_process_3_module_map",
       "community": 32,
       "norm_label": "3. module map"
@@ -2959,7 +3040,7 @@
       "label": "4. End-To-End Customer Journey",
       "file_type": "document",
       "source_file": "SDD/02-business/BUSINESS_PROCESS.md",
-      "source_location": "L46",
+      "source_location": "L48",
       "id": "02_business_business_process_4_end_to_end_customer_journey",
       "community": 32,
       "norm_label": "4. end-to-end customer journey"
@@ -2968,7 +3049,7 @@
       "label": "5. End-To-End Admin Journey",
       "file_type": "document",
       "source_file": "SDD/02-business/BUSINESS_PROCESS.md",
-      "source_location": "L59",
+      "source_location": "L61",
       "id": "02_business_business_process_5_end_to_end_admin_journey",
       "community": 32,
       "norm_label": "5. end-to-end admin journey"
@@ -2977,7 +3058,7 @@
       "label": "6. Core State Machines",
       "file_type": "document",
       "source_file": "SDD/02-business/BUSINESS_PROCESS.md",
-      "source_location": "L72",
+      "source_location": "L74",
       "id": "02_business_business_process_6_core_state_machines",
       "community": 32,
       "norm_label": "6. core state machines"
@@ -2986,7 +3067,7 @@
       "label": "6.1 Booking Status",
       "file_type": "document",
       "source_file": "SDD/02-business/BUSINESS_PROCESS.md",
-      "source_location": "L74",
+      "source_location": "L76",
       "id": "02_business_business_process_6_1_booking_status",
       "community": 32,
       "norm_label": "6.1 booking status"
@@ -2995,7 +3076,7 @@
       "label": "6.2 Account Status",
       "file_type": "document",
       "source_file": "SDD/02-business/BUSINESS_PROCESS.md",
-      "source_location": "L85",
+      "source_location": "L87",
       "id": "02_business_business_process_6_2_account_status",
       "community": 32,
       "norm_label": "6.2 account status"
@@ -3004,7 +3085,7 @@
       "label": "7. Source References",
       "file_type": "document",
       "source_file": "SDD/02-business/BUSINESS_PROCESS.md",
-      "source_location": "L94",
+      "source_location": "L96",
       "id": "02_business_business_process_7_source_references",
       "community": 32,
       "norm_label": "7. source references"
@@ -4498,7 +4579,7 @@
       "label": "11. Open Questions",
       "file_type": "document",
       "source_file": "SDD/02-business/business-processes/07-business-rules-and-edge-cases.md",
-      "source_location": "L142",
+      "source_location": "L145",
       "id": "business_processes_07_business_rules_and_edge_cases_11_open_questions",
       "community": 29,
       "norm_label": "11. open questions"
@@ -5206,6 +5287,15 @@
       "norm_label": "10. cross-reference matrix"
     },
     {
+      "label": "11. Non-MVP API Boundary From Thesis Gaps",
+      "file_type": "document",
+      "source_file": "SDD/03-technical/API_CONTRACT.md",
+      "source_location": "L660",
+      "id": "03_technical_api_contract_11_non_mvp_api_boundary_from_thesis_gaps",
+      "community": 47,
+      "norm_label": "11. non-mvp api boundary from thesis gaps"
+    },
+    {
       "label": "ENTITY_SCHEMA.md",
       "file_type": "document",
       "source_file": "SDD/03-technical/ENTITY_SCHEMA.md",
@@ -5497,7 +5587,7 @@
       "label": "3. System Architecture",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L42",
+      "source_location": "L44",
       "id": "03_technical_tech_spec_3_system_architecture",
       "community": 1,
       "norm_label": "3. system architecture"
@@ -5506,7 +5596,7 @@
       "label": "3.1 Architecture Style",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L44",
+      "source_location": "L46",
       "id": "03_technical_tech_spec_3_1_architecture_style",
       "community": 1,
       "norm_label": "3.1 architecture style"
@@ -5515,7 +5605,7 @@
       "label": "3.2 High-Level Components",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L53",
+      "source_location": "L55",
       "id": "03_technical_tech_spec_3_2_high_level_components",
       "community": 1,
       "norm_label": "3.2 high-level components"
@@ -5524,7 +5614,7 @@
       "label": "3.3 Request Path",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L68",
+      "source_location": "L70",
       "id": "03_technical_tech_spec_3_3_request_path",
       "community": 1,
       "norm_label": "3.3 request path"
@@ -5533,7 +5623,7 @@
       "label": "3.4 Module Boundaries",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L83",
+      "source_location": "L85",
       "id": "03_technical_tech_spec_3_4_module_boundaries",
       "community": 1,
       "norm_label": "3.4 module boundaries"
@@ -5542,7 +5632,7 @@
       "label": "4. Authentication And Authorization",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L94",
+      "source_location": "L96",
       "id": "03_technical_tech_spec_4_authentication_and_authorization",
       "community": 1,
       "norm_label": "4. authentication and authorization"
@@ -5551,7 +5641,7 @@
       "label": "4.1 Roles",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L96",
+      "source_location": "L98",
       "id": "03_technical_tech_spec_4_1_roles",
       "community": 1,
       "norm_label": "4.1 roles"
@@ -5560,7 +5650,7 @@
       "label": "4.2 JWT Claims",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L103",
+      "source_location": "L105",
       "id": "03_technical_tech_spec_4_2_jwt_claims",
       "community": 1,
       "norm_label": "4.2 jwt claims"
@@ -5569,7 +5659,7 @@
       "label": "4.3 Protected Endpoint Rules",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L113",
+      "source_location": "L115",
       "id": "03_technical_tech_spec_4_3_protected_endpoint_rules",
       "community": 1,
       "norm_label": "4.3 protected endpoint rules"
@@ -5578,7 +5668,7 @@
       "label": "5. API Surface",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L126",
+      "source_location": "L128",
       "id": "03_technical_tech_spec_5_api_surface",
       "community": 1,
       "norm_label": "5. api surface"
@@ -5587,7 +5677,7 @@
       "label": "5.1 Auth APIs",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L128",
+      "source_location": "L130",
       "id": "03_technical_tech_spec_5_1_auth_apis",
       "community": 1,
       "norm_label": "5.1 auth apis"
@@ -5596,7 +5686,7 @@
       "label": "5.2 User APIs",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L137",
+      "source_location": "L139",
       "id": "03_technical_tech_spec_5_2_user_apis",
       "community": 1,
       "norm_label": "5.2 user apis"
@@ -5605,7 +5695,7 @@
       "label": "5.3 Hotel APIs",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L148",
+      "source_location": "L150",
       "id": "03_technical_tech_spec_5_3_hotel_apis",
       "community": 1,
       "norm_label": "5.3 hotel apis"
@@ -5614,7 +5704,7 @@
       "label": "5.4 Room APIs",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L160",
+      "source_location": "L162",
       "id": "03_technical_tech_spec_5_4_room_apis",
       "community": 1,
       "norm_label": "5.4 room apis"
@@ -5623,7 +5713,7 @@
       "label": "5.5 Booking APIs",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L171",
+      "source_location": "L173",
       "id": "03_technical_tech_spec_5_5_booking_apis",
       "community": 1,
       "norm_label": "5.5 booking apis"
@@ -5632,7 +5722,7 @@
       "label": "5.6 Amenity APIs",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L184",
+      "source_location": "L186",
       "id": "03_technical_tech_spec_5_6_amenity_apis",
       "community": 1,
       "norm_label": "5.6 amenity apis"
@@ -5641,7 +5731,7 @@
       "label": "6. Database Schema",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L197",
+      "source_location": "L199",
       "id": "03_technical_tech_spec_6_database_schema",
       "community": 1,
       "norm_label": "6. database schema"
@@ -5650,7 +5740,7 @@
       "label": "6.1 Entity Summary",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L199",
+      "source_location": "L201",
       "id": "03_technical_tech_spec_6_1_entity_summary",
       "community": 1,
       "norm_label": "6.1 entity summary"
@@ -5659,7 +5749,7 @@
       "label": "6.2 Tables",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L215",
+      "source_location": "L217",
       "id": "03_technical_tech_spec_6_2_tables",
       "community": 1,
       "norm_label": "6.2 tables"
@@ -5668,7 +5758,7 @@
       "label": "6.3 Relationships",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L231",
+      "source_location": "L233",
       "id": "03_technical_tech_spec_6_3_relationships",
       "community": 1,
       "norm_label": "6.3 relationships"
@@ -5677,7 +5767,7 @@
       "label": "6.4 Recommended Indexes",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L245",
+      "source_location": "L247",
       "id": "03_technical_tech_spec_6_4_recommended_indexes",
       "community": 1,
       "norm_label": "6.4 recommended indexes"
@@ -5686,7 +5776,7 @@
       "label": "7. Domain Enums",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L262",
+      "source_location": "L264",
       "id": "03_technical_tech_spec_7_domain_enums",
       "community": 1,
       "norm_label": "7. domain enums"
@@ -5695,7 +5785,7 @@
       "label": "7.1 Room Type",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L264",
+      "source_location": "L266",
       "id": "03_technical_tech_spec_7_1_room_type",
       "community": 1,
       "norm_label": "7.1 room type"
@@ -5704,7 +5794,7 @@
       "label": "7.2 Booking Status",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L273",
+      "source_location": "L275",
       "id": "03_technical_tech_spec_7_2_booking_status",
       "community": 1,
       "norm_label": "7.2 booking status"
@@ -5713,7 +5803,7 @@
       "label": "7.3 Amenity Type",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L282",
+      "source_location": "L284",
       "id": "03_technical_tech_spec_7_3_amenity_type",
       "community": 1,
       "norm_label": "7.3 amenity type"
@@ -5722,7 +5812,7 @@
       "label": "8. Core Flow Specifications",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L289",
+      "source_location": "L291",
       "id": "03_technical_tech_spec_8_core_flow_specifications",
       "community": 1,
       "norm_label": "8. core flow specifications"
@@ -5731,7 +5821,7 @@
       "label": "8.1 Login Flow",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L291",
+      "source_location": "L293",
       "id": "03_technical_tech_spec_8_1_login_flow",
       "community": 1,
       "norm_label": "8.1 login flow"
@@ -5740,7 +5830,7 @@
       "label": "8.2 Register Flow",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L307",
+      "source_location": "L309",
       "id": "03_technical_tech_spec_8_2_register_flow",
       "community": 1,
       "norm_label": "8.2 register flow"
@@ -5749,7 +5839,7 @@
       "label": "8.3 Search Available Rooms Flow",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L320",
+      "source_location": "L322",
       "id": "03_technical_tech_spec_8_3_search_available_rooms_flow",
       "community": 1,
       "norm_label": "8.3 search available rooms flow"
@@ -5758,7 +5848,7 @@
       "label": "8.4 Create Booking Flow",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L334",
+      "source_location": "L336",
       "id": "03_technical_tech_spec_8_4_create_booking_flow",
       "community": 1,
       "norm_label": "8.4 create booking flow"
@@ -5767,7 +5857,7 @@
       "label": "8.5 Cancel Booking Flow",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L352",
+      "source_location": "L354",
       "id": "03_technical_tech_spec_8_5_cancel_booking_flow",
       "community": 1,
       "norm_label": "8.5 cancel booking flow"
@@ -5776,7 +5866,7 @@
       "label": "8.6 Admin Add Hotel Flow",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L367",
+      "source_location": "L369",
       "id": "03_technical_tech_spec_8_6_admin_add_hotel_flow",
       "community": 1,
       "norm_label": "8.6 admin add hotel flow"
@@ -5785,7 +5875,7 @@
       "label": "8.7 Admin Add Room Flow",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L381",
+      "source_location": "L383",
       "id": "03_technical_tech_spec_8_7_admin_add_room_flow",
       "community": 1,
       "norm_label": "8.7 admin add room flow"
@@ -5794,7 +5884,7 @@
       "label": "8.8 Admin Update Booking Status Flow",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L397",
+      "source_location": "L399",
       "id": "03_technical_tech_spec_8_8_admin_update_booking_status_flow",
       "community": 1,
       "norm_label": "8.8 admin update booking status flow"
@@ -5803,7 +5893,7 @@
       "label": "8.9 Admin Amenity Management Flow",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L412",
+      "source_location": "L414",
       "id": "03_technical_tech_spec_8_9_admin_amenity_management_flow",
       "community": 1,
       "norm_label": "8.9 admin amenity management flow"
@@ -5812,7 +5902,7 @@
       "label": "9. Validation Rules",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L422",
+      "source_location": "L424",
       "id": "03_technical_tech_spec_9_validation_rules",
       "community": 1,
       "norm_label": "9. validation rules"
@@ -5821,7 +5911,7 @@
       "label": "10. Error Handling",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L442",
+      "source_location": "L444",
       "id": "03_technical_tech_spec_10_error_handling",
       "community": 1,
       "norm_label": "10. error handling"
@@ -5830,7 +5920,7 @@
       "label": "11. Non-Functional Technical Requirements",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L461",
+      "source_location": "L463",
       "id": "03_technical_tech_spec_11_non_functional_technical_requirements",
       "community": 1,
       "norm_label": "11. non-functional technical requirements"
@@ -5839,7 +5929,7 @@
       "label": "12. Transaction Boundaries",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L476",
+      "source_location": "L478",
       "id": "03_technical_tech_spec_12_transaction_boundaries",
       "community": 1,
       "norm_label": "12. transaction boundaries"
@@ -5848,19 +5938,28 @@
       "label": "13. Concurrency Notes",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L488",
+      "source_location": "L490",
       "id": "03_technical_tech_spec_13_concurrency_notes",
       "community": 1,
       "norm_label": "13. concurrency notes"
     },
     {
-      "label": "14. Source References",
+      "label": "14. Thesis Gap Technical Impacts",
       "file_type": "document",
       "source_file": "SDD/03-technical/TECH_SPEC.md",
-      "source_location": "L497",
-      "id": "03_technical_tech_spec_14_source_references",
+      "source_location": "L499",
+      "id": "03_technical_tech_spec_14_thesis_gap_technical_impacts",
       "community": 1,
-      "norm_label": "14. source references"
+      "norm_label": "14. thesis gap technical impacts"
+    },
+    {
+      "label": "15. Source References",
+      "file_type": "document",
+      "source_file": "SDD/03-technical/TECH_SPEC.md",
+      "source_location": "L511",
+      "id": "03_technical_tech_spec_15_source_references",
+      "community": 1,
+      "norm_label": "15. source references"
     },
     {
       "label": "CORE_FLOW_DIAGRAMS.md",
@@ -6118,7 +6217,7 @@
       "label": "3. C\u00e1ch Trace Requirement End-To-End",
       "file_type": "document",
       "source_file": "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
-      "source_location": "L45",
+      "source_location": "L55",
       "id": "05_guides_ai_maintenance_guide_3_c\u00e1ch_trace_requirement_end_to_end",
       "community": 28,
       "norm_label": "3. cach trace requirement end-to-end"
@@ -6127,7 +6226,7 @@
       "label": "code:text (Requirement: FR-CUS-BOOK-001)",
       "file_type": "document",
       "source_file": "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
-      "source_location": "L53",
+      "source_location": "L63",
       "id": "05_guides_ai_maintenance_guide_codeblock_1",
       "community": 28,
       "norm_label": "code:text (requirement: fr-cus-book-001)"
@@ -6136,7 +6235,7 @@
       "label": "4. Quy T\u1eafc Khi Th\u00eam Feature M\u1edbi",
       "file_type": "document",
       "source_file": "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
-      "source_location": "L74",
+      "source_location": "L84",
       "id": "05_guides_ai_maintenance_guide_4_quy_t\u1eafc_khi_th\u00eam_feature_m\u1edbi",
       "community": 28,
       "norm_label": "4. quy tac khi them feature moi"
@@ -6145,7 +6244,7 @@
       "label": "5. Checklist C\u1eadp Nh\u1eadt Docs",
       "file_type": "document",
       "source_file": "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
-      "source_location": "L88",
+      "source_location": "L98",
       "id": "05_guides_ai_maintenance_guide_5_checklist_c\u1eadp_nh\u1eadt_docs",
       "community": 28,
       "norm_label": "5. checklist cap nhat docs"
@@ -6154,7 +6253,7 @@
       "label": "6. Open Policy C\u1ea7n H\u1ecfi Ng\u01b0\u1eddi D\u00f9ng",
       "file_type": "document",
       "source_file": "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
-      "source_location": "L100",
+      "source_location": "L113",
       "id": "05_guides_ai_maintenance_guide_6_open_policy_c\u1ea7n_h\u1ecfi_ng\u01b0\u1eddi_d\u00f9ng",
       "community": 28,
       "norm_label": "6. open policy can hoi nguoi dung"
@@ -6163,7 +6262,7 @@
       "label": "7. Guardrails Booking, Availability, Permission",
       "file_type": "document",
       "source_file": "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
-      "source_location": "L114",
+      "source_location": "L127",
       "id": "05_guides_ai_maintenance_guide_7_guardrails_booking_availability_permission",
       "community": 28,
       "norm_label": "7. guardrails booking, availability, permission"
@@ -6172,7 +6271,7 @@
       "label": "8. T\u00edn Hi\u1ec7u C\u1ea7n D\u1eebng V\u00e0 H\u1ecfi L\u1ea1i",
       "file_type": "document",
       "source_file": "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
-      "source_location": "L144",
+      "source_location": "L157",
       "id": "05_guides_ai_maintenance_guide_8_t\u00edn_hi\u1ec7u_c\u1ea7n_d\u1eebng_v\u00e0_h\u1ecfi_l\u1ea1i",
       "community": 28,
       "norm_label": "8. tin hieu can dung va hoi lai"
@@ -6181,7 +6280,7 @@
       "label": "9. M\u1eabu Summary Cho Agent Sau Khi L\u00e0m Xong",
       "file_type": "document",
       "source_file": "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
-      "source_location": "L155",
+      "source_location": "L168",
       "id": "05_guides_ai_maintenance_guide_9_m\u1eabu_summary_cho_agent_sau_khi_l\u00e0m_xong",
       "community": 28,
       "norm_label": "9. mau summary cho agent sau khi lam xong"
@@ -6190,10 +6289,145 @@
       "label": "code:text (Changed:)",
       "file_type": "document",
       "source_file": "SDD/05-guides/AI_MAINTENANCE_GUIDE.md",
-      "source_location": "L157",
+      "source_location": "L170",
       "id": "05_guides_ai_maintenance_guide_codeblock_2",
       "community": 28,
       "norm_label": "code:text (changed:)"
+    },
+    {
+      "label": "USER_BOOKING_FLOW_GUIDE.md",
+      "file_type": "document",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L1",
+      "id": "sdd_05_guides_user_booking_flow_guide_md",
+      "community": 196,
+      "norm_label": "user_booking_flow_guide.md"
+    },
+    {
+      "label": "User Booking Flow Guide - Hotel Booking",
+      "file_type": "document",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L1",
+      "id": "05_guides_user_booking_flow_guide_user_booking_flow_guide_hotel_booking",
+      "community": 196,
+      "norm_label": "user booking flow guide - hotel booking"
+    },
+    {
+      "label": "1. Metadata",
+      "file_type": "document",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L3",
+      "id": "05_guides_user_booking_flow_guide_1_metadata",
+      "community": 196,
+      "norm_label": "1. metadata"
+    },
+    {
+      "label": "2. Scope",
+      "file_type": "document",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L13",
+      "id": "05_guides_user_booking_flow_guide_2_scope",
+      "community": 196,
+      "norm_label": "2. scope"
+    },
+    {
+      "label": "3. Five-Step Booking Walkthrough",
+      "file_type": "document",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L17",
+      "id": "05_guides_user_booking_flow_guide_3_five_step_booking_walkthrough",
+      "community": 196,
+      "norm_label": "3. five-step booking walkthrough"
+    },
+    {
+      "label": "4. User-Facing Rules To Preserve",
+      "file_type": "document",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L27",
+      "id": "05_guides_user_booking_flow_guide_4_user_facing_rules_to_preserve",
+      "community": 196,
+      "norm_label": "4. user-facing rules to preserve"
+    },
+    {
+      "label": "5. Evidence For Thesis Appendix",
+      "file_type": "document",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L38",
+      "id": "05_guides_user_booking_flow_guide_5_evidence_for_thesis_appendix",
+      "community": 196,
+      "norm_label": "5. evidence for thesis appendix"
+    },
+    {
+      "label": "ACCEPTANCE_TEST_PLAN.md",
+      "file_type": "document",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L1",
+      "id": "sdd_06_quality_acceptance_test_plan_md",
+      "community": 198,
+      "norm_label": "acceptance_test_plan.md"
+    },
+    {
+      "label": "Acceptance Test Plan - Hotel Booking",
+      "file_type": "document",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L1",
+      "id": "06_quality_acceptance_test_plan_acceptance_test_plan_hotel_booking",
+      "community": 198,
+      "norm_label": "acceptance test plan - hotel booking"
+    },
+    {
+      "label": "1. Metadata",
+      "file_type": "document",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L3",
+      "id": "06_quality_acceptance_test_plan_1_metadata",
+      "community": 198,
+      "norm_label": "1. metadata"
+    },
+    {
+      "label": "2. Test Data Baseline",
+      "file_type": "document",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L13",
+      "id": "06_quality_acceptance_test_plan_2_test_data_baseline",
+      "community": 198,
+      "norm_label": "2. test data baseline"
+    },
+    {
+      "label": "3. Acceptance Scenarios",
+      "file_type": "document",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L27",
+      "id": "06_quality_acceptance_test_plan_3_acceptance_scenarios",
+      "community": 198,
+      "norm_label": "3. acceptance scenarios"
+    },
+    {
+      "label": "4. Exception And Negative Scenarios",
+      "file_type": "document",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L46",
+      "id": "06_quality_acceptance_test_plan_4_exception_and_negative_scenarios",
+      "community": 198,
+      "norm_label": "4. exception and negative scenarios"
+    },
+    {
+      "label": "5. Evidence Checklist",
+      "file_type": "document",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L63",
+      "id": "06_quality_acceptance_test_plan_5_evidence_checklist",
+      "community": 198,
+      "norm_label": "5. evidence checklist"
+    },
+    {
+      "label": "6. Source Map",
+      "file_type": "document",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L75",
+      "id": "06_quality_acceptance_test_plan_6_source_map",
+      "community": 198,
+      "norm_label": "6. source map"
     },
     {
       "label": "AI_INSTRUCTIONS.md",
@@ -6768,7 +7002,7 @@
       "source_file": "thesis/compiled_thesis.md",
       "source_location": "L447",
       "id": "thesis_compiled_thesis_3_2_1_1_usecase_\u0111\u0103ng_nh\u1eadp",
-      "community": 22,
+      "community": 199,
       "norm_label": "3.2.1.1 usecase \u0111ang nhap"
     },
     {
@@ -6777,7 +7011,7 @@
       "source_file": "thesis/compiled_thesis.md",
       "source_location": "L467",
       "id": "thesis_compiled_thesis_3_2_1_2_usecase_\u0111\u0103ng_k\u00fd",
-      "community": 195,
+      "community": 22,
       "norm_label": "3.2.1.2 usecase \u0111ang ky"
     },
     {
@@ -6831,7 +7065,7 @@
       "source_file": "thesis/compiled_thesis.md",
       "source_location": "L811",
       "id": "thesis_compiled_thesis_3_2_1_8_usecase_tra_c\u1ee9u_kh\u00e1ch_s\u1ea1n",
-      "community": 198,
+      "community": 22,
       "norm_label": "3.2.1.8 usecase tra cuu khach san"
     },
     {
@@ -6858,7 +7092,7 @@
       "source_file": "thesis/compiled_thesis.md",
       "source_location": "L931",
       "id": "thesis_compiled_thesis_3_2_1_11_usecase_tra_c\u1ee9u_v\u00e0_h\u1ee7y_\u0111\u01a1n_\u0111\u1eb7t_ph\u00f2ng",
-      "community": 22,
+      "community": 197,
       "norm_label": "3.2.1.11 usecase tra cuu va huy \u0111on \u0111at phong"
     },
     {
@@ -10759,6 +10993,24 @@
       "norm_label": "cau hoi mo"
     },
     {
+      "label": "6. Thesis Source Map",
+      "file_type": "document",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L66",
+      "community": 195,
+      "norm_label": "6. thesis source map",
+      "id": "01_product_implementation_status_6_thesis_source_map"
+    },
+    {
+      "label": "14. Source References",
+      "file_type": "document",
+      "source_file": "SDD/03-technical/TECH_SPEC.md",
+      "source_location": "L497",
+      "community": 1,
+      "norm_label": "14. source references",
+      "id": "03_technical_tech_spec_14_source_references"
+    },
+    {
       "label": "In UTF-8 an to\u00e0n tr\u00ean Windows console c\u00f3 codepage h\u1eb9p nh\u01b0 cp1252.",
       "file_type": "rationale",
       "source_file": "thesis/scripts/build_thesis.py",
@@ -11411,7 +11663,7 @@
       "file_type": "document",
       "source_file": "thesis/compiled_thesis_readonly.md",
       "source_location": "L483",
-      "community": 196,
+      "community": 23,
       "norm_label": "3.2.1.2 usecase \u0111ang ky",
       "id": "thesis_compiled_thesis_readonly_3_2_1_2_usecase_\u0111\u0103ng_k\u00fd"
     },
@@ -11465,7 +11717,7 @@
       "file_type": "document",
       "source_file": "thesis/compiled_thesis_readonly.md",
       "source_location": "L827",
-      "community": 197,
+      "community": 23,
       "norm_label": "3.2.1.8 usecase tra cuu khach san",
       "id": "thesis_compiled_thesis_readonly_3_2_1_8_usecase_tra_c\u1ee9u_kh\u00e1ch_s\u1ea1n"
     },
@@ -11528,7 +11780,7 @@
       "file_type": "document",
       "source_file": "thesis/compiled_thesis_readonly.md",
       "source_location": "L1511",
-      "community": 199,
+      "community": 23,
       "norm_label": "3.2.3 so \u0111o hoat \u0111ong (activity)",
       "id": "thesis_compiled_thesis_readonly_3_2_3_s\u01a1_\u0111\u1ed3_ho\u1ea1t_\u0111\u1ed9ng_activity"
     },
@@ -11708,7 +11960,7 @@
       "file_type": "document",
       "source_file": "thesis/compiled_thesis.md",
       "source_location": "L1060",
-      "community": 22,
+      "community": 199,
       "norm_label": "code:plantuml (@startuml)",
       "id": "thesis_compiled_thesis_codeblock_11"
     },
@@ -11717,7 +11969,7 @@
       "file_type": "document",
       "source_file": "thesis/compiled_thesis.md",
       "source_location": "L1107",
-      "community": 195,
+      "community": 22,
       "norm_label": "code:plantuml (@startuml)",
       "id": "thesis_compiled_thesis_codeblock_12"
     },
@@ -11771,7 +12023,7 @@
       "file_type": "document",
       "source_file": "thesis/compiled_thesis.md",
       "source_location": "L1682",
-      "community": 198,
+      "community": 22,
       "norm_label": "code:plantuml (@startuml)",
       "id": "thesis_compiled_thesis_codeblock_18"
     },
@@ -11798,7 +12050,7 @@
       "file_type": "document",
       "source_file": "thesis/compiled_thesis.md",
       "source_location": "L1913",
-      "community": 22,
+      "community": 197,
       "norm_label": "code:plantuml (@startuml)",
       "id": "thesis_compiled_thesis_codeblock_21"
     },
@@ -12563,7 +12815,7 @@
       "file_type": "document",
       "source_file": "thesis/compiled_thesis_readonly.md",
       "source_location": "L1107",
-      "community": 196,
+      "community": 23,
       "norm_label": "code:plantuml (@startuml)",
       "id": "thesis_compiled_thesis_readonly_codeblock_12"
     },
@@ -12617,7 +12869,7 @@
       "file_type": "document",
       "source_file": "thesis/compiled_thesis_readonly.md",
       "source_location": "L1682",
-      "community": 197,
+      "community": 23,
       "norm_label": "code:plantuml (@startuml)",
       "id": "thesis_compiled_thesis_readonly_codeblock_18"
     },
@@ -13301,7 +13553,7 @@
       "file_type": "document",
       "source_file": "thesis/compiled_thesis_readonly.md",
       "source_location": "L5120",
-      "community": 199,
+      "community": 23,
       "norm_label": "code:plantuml (@startuml)",
       "id": "thesis_compiled_thesis_readonly_codeblock_94"
     },
@@ -13635,9 +13887,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L81",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "thesis_scripts_build_thesis_py",
-      "target": "scripts_build_thesis_configure_stdio",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_configure_stdio"
     },
     {
       "relation": "contains",
@@ -13735,9 +13987,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "thesis_scripts_build_thesis_py",
-      "target": "scripts_build_thesis_strip_ai_only_blocks",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_strip_ai_only_blocks"
     },
     {
       "relation": "contains",
@@ -14061,9 +14313,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L82",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_82",
-      "target": "scripts_build_thesis_configure_stdio",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_configure_stdio"
     },
     {
       "relation": "calls",
@@ -14093,9 +14345,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L91",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_91",
-      "target": "scripts_build_thesis_safe_print",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_safe_print"
     },
     {
       "relation": "rationale_for",
@@ -14176,9 +14428,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L108",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_108",
-      "target": "scripts_build_thesis_is_legacy_aggregate",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_is_legacy_aggregate"
     },
     {
       "relation": "rationale_for",
@@ -14260,9 +14512,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L273",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_clean_chunk_content",
-      "target": "scripts_build_thesis_strip_ai_only_blocks",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_strip_ai_only_blocks"
     },
     {
       "relation": "rationale_for",
@@ -14270,9 +14522,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L159",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_159",
-      "target": "scripts_build_thesis_strip_ai_only_blocks",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_strip_ai_only_blocks"
     },
     {
       "relation": "calls",
@@ -14291,9 +14543,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L165",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_165",
-      "target": "scripts_build_thesis_split_inline_link_target",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_split_inline_link_target"
     },
     {
       "relation": "rationale_for",
@@ -14352,9 +14604,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L204",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_204",
-      "target": "scripts_build_thesis_find_relocated_target",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_find_relocated_target"
     },
     {
       "relation": "rationale_for",
@@ -14413,9 +14665,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L224",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_224",
-      "target": "scripts_build_thesis_iter_markdown_files",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_iter_markdown_files"
     },
     {
       "relation": "rationale_for",
@@ -14496,9 +14748,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L287",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_287",
-      "target": "scripts_build_thesis_slugify_heading",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_slugify_heading"
     },
     {
       "relation": "rationale_for",
@@ -14579,9 +14831,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L322",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_322",
-      "target": "scripts_build_thesis_rewrite_internal_links",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_rewrite_internal_links"
     },
     {
       "relation": "rationale_for",
@@ -14662,9 +14914,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L359",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_359",
-      "target": "scripts_build_thesis_plantuml_encode",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_plantuml_encode"
     },
     {
       "relation": "rationale_for",
@@ -14712,9 +14964,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L373",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_373",
-      "target": "scripts_build_thesis_ensure_plantuml_unicode_font",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_ensure_plantuml_unicode_font"
     },
     {
       "relation": "rationale_for",
@@ -14753,9 +15005,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L414",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_414",
-      "target": "scripts_build_thesis_cleanup_stale_generated_figures",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_cleanup_stale_generated_figures"
     },
     {
       "relation": "rationale_for",
@@ -14804,9 +15056,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L436",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_436",
-      "target": "scripts_build_thesis_cleanup_legacy_readonly_output",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_cleanup_legacy_readonly_output"
     },
     {
       "relation": "rationale_for",
@@ -14845,9 +15097,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L455",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_455",
-      "target": "scripts_build_thesis_process_plantuml_blocks",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_process_plantuml_blocks"
     },
     {
       "relation": "rationale_for",
@@ -14865,9 +15117,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L488",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_488",
-      "target": "scripts_build_thesis_parse_args",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_parse_args"
     },
     {
       "relation": "rationale_for",
@@ -14896,9 +15148,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L503",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_503",
-      "target": "scripts_build_thesis_ask_plantuml_mode",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_ask_plantuml_mode"
     },
     {
       "relation": "rationale_for",
@@ -14916,9 +15168,9 @@
       "source_file": "thesis/scripts/build_thesis.py",
       "source_location": "L519",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "scripts_build_thesis_rationale_519",
-      "target": "scripts_build_thesis_resolve_plantuml_mode",
-      "confidence_score": 1.0
+      "target": "scripts_build_thesis_resolve_plantuml_mode"
     },
     {
       "relation": "rationale_for",
@@ -17010,6 +17262,96 @@
       "confidence_score": 1.0,
       "source": "sdd_readme_4_traceability_path",
       "target": "sdd_readme_codeblock_1"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sdd_01_product_implementation_status_md",
+      "target": "01_product_implementation_status_implementation_status_and_thesis_gap_matrix_hotel_booking"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_product_implementation_status_implementation_status_and_thesis_gap_matrix_hotel_booking",
+      "target": "01_product_implementation_status_1_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_product_implementation_status_implementation_status_and_thesis_gap_matrix_hotel_booking",
+      "target": "01_product_implementation_status_2_how_to_use_this_document"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L19",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_product_implementation_status_implementation_status_and_thesis_gap_matrix_hotel_booking",
+      "target": "01_product_implementation_status_3_functional_completion_matrix"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L37",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_product_implementation_status_implementation_status_and_thesis_gap_matrix_hotel_booking",
+      "target": "01_product_implementation_status_4_non_functional_completion_matrix"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L53",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_product_implementation_status_implementation_status_and_thesis_gap_matrix_hotel_booking",
+      "target": "01_product_implementation_status_5_known_gaps_and_roadmap_boundaries"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L67",
+      "weight": 1.0,
+      "source": "01_product_implementation_status_implementation_status_and_thesis_gap_matrix_hotel_booking",
+      "target": "01_product_implementation_status_6_reporting_b\u00e1o_bi\u1ec3u_decision",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L71",
+      "weight": 1.0,
+      "source": "01_product_implementation_status_implementation_status_and_thesis_gap_matrix_hotel_booking",
+      "target": "01_product_implementation_status_7_thesis_source_map",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/01-product/IMPLEMENTATION_STATUS.md",
+      "source_location": "L66",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "01_product_implementation_status_implementation_status_and_thesis_gap_matrix_hotel_booking",
+      "target": "01_product_implementation_status_6_thesis_source_map"
     },
     {
       "relation": "contains",
@@ -19185,6 +19527,16 @@
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "SDD/03-technical/API_CONTRACT.md",
+      "source_location": "L660",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_technical_api_contract_api_contract_hotel_booking",
+      "target": "03_technical_api_contract_11_non_mvp_api_boundary_from_thesis_gaps"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/03-technical/API_CONTRACT.md",
       "source_location": "L14",
       "weight": 1.0,
       "confidence_score": 1.0,
@@ -20249,6 +20601,26 @@
       "weight": 1.0,
       "confidence_score": 1.0,
       "source": "03_technical_tech_spec_technical_specification_hotel_booking",
+      "target": "03_technical_tech_spec_14_thesis_gap_technical_impacts"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/03-technical/TECH_SPEC.md",
+      "source_location": "L509",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_technical_tech_spec_technical_specification_hotel_booking",
+      "target": "03_technical_tech_spec_15_source_references"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/03-technical/TECH_SPEC.md",
+      "source_location": "L497",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "03_technical_tech_spec_technical_specification_hotel_booking",
       "target": "03_technical_tech_spec_14_source_references"
     },
     {
@@ -20900,6 +21272,136 @@
       "confidence_score": 1.0,
       "source": "05_guides_ai_maintenance_guide_9_m\u1eabu_summary_cho_agent_sau_khi_l\u00e0m_xong",
       "target": "05_guides_ai_maintenance_guide_codeblock_2"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "source": "sdd_05_guides_user_booking_flow_guide_md",
+      "target": "05_guides_user_booking_flow_guide_user_booking_flow_guide_hotel_booking",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "source": "05_guides_user_booking_flow_guide_user_booking_flow_guide_hotel_booking",
+      "target": "05_guides_user_booking_flow_guide_1_metadata",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "source": "05_guides_user_booking_flow_guide_user_booking_flow_guide_hotel_booking",
+      "target": "05_guides_user_booking_flow_guide_2_scope",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L17",
+      "weight": 1.0,
+      "source": "05_guides_user_booking_flow_guide_user_booking_flow_guide_hotel_booking",
+      "target": "05_guides_user_booking_flow_guide_3_five_step_booking_walkthrough",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "source": "05_guides_user_booking_flow_guide_user_booking_flow_guide_hotel_booking",
+      "target": "05_guides_user_booking_flow_guide_4_user_facing_rules_to_preserve",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/05-guides/USER_BOOKING_FLOW_GUIDE.md",
+      "source_location": "L38",
+      "weight": 1.0,
+      "source": "05_guides_user_booking_flow_guide_user_booking_flow_guide_hotel_booking",
+      "target": "05_guides_user_booking_flow_guide_5_evidence_for_thesis_appendix",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L1",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "sdd_06_quality_acceptance_test_plan_md",
+      "target": "06_quality_acceptance_test_plan_acceptance_test_plan_hotel_booking"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L3",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "06_quality_acceptance_test_plan_acceptance_test_plan_hotel_booking",
+      "target": "06_quality_acceptance_test_plan_1_metadata"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L13",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "06_quality_acceptance_test_plan_acceptance_test_plan_hotel_booking",
+      "target": "06_quality_acceptance_test_plan_2_test_data_baseline"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L27",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "06_quality_acceptance_test_plan_acceptance_test_plan_hotel_booking",
+      "target": "06_quality_acceptance_test_plan_3_acceptance_scenarios"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L44",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "06_quality_acceptance_test_plan_acceptance_test_plan_hotel_booking",
+      "target": "06_quality_acceptance_test_plan_4_exception_and_negative_scenarios"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L61",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "06_quality_acceptance_test_plan_acceptance_test_plan_hotel_booking",
+      "target": "06_quality_acceptance_test_plan_5_evidence_checklist"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "SDD/06-quality/ACCEPTANCE_TEST_PLAN.md",
+      "source_location": "L73",
+      "weight": 1.0,
+      "confidence_score": 1.0,
+      "source": "06_quality_acceptance_test_plan_acceptance_test_plan_hotel_booking",
+      "target": "06_quality_acceptance_test_plan_6_source_map"
     },
     {
       "relation": "contains",
@@ -27233,5 +27735,5 @@
     }
   ],
   "hyperedges": [],
-  "built_at_commit": "8f5ba4aa4e080a16e7e1620e6a8fa0e13993795d"
+  "built_at_commit": "208313fcbb66240054540b797af303695c932954"
 }

@@ -45,25 +45,25 @@
 
 ### Display Fields
 
-| Field | Source |
-| --- | --- |
-| Mã booking | `booking.booking_reference` |
-| Khách hàng | `booking.customer_name`, `user.full_name` |
-| Phòng | `room.name`, `room.type` |
-| Khách sạn | `hotel.name` |
-| Ngày lưu trú | `checkin_date`, `checkout_date` |
-| Trạng thái | `booking.status` |
-| Số phòng thực tế | `booking_room.room_number` |
+| Field            | Source                                    |
+| ---------------- | ----------------------------------------- |
+| Mã booking       | `booking.booking_reference`               |
+| Khách hàng       | `booking.customer_name`, `user.full_name` |
+| Phòng            | `room.name`, `room.type`                  |
+| Khách sạn        | `hotel.name`                              |
+| Ngày lưu trú     | `checkin_date`, `checkout_date`           |
+| Trạng thái       | `booking.status`                          |
+| Số phòng thực tế | `booking_room.room_number`                |
 
 ## 4. BP-OPS-002 - Tìm Kiếm/Lọc Booking
 
-| Field | Detail |
-| --- | --- |
-| Actor | Admin |
-| Trigger | Admin nhập từ khóa hoặc chọn filter |
-| Inputs | `bookingReference`, customer info, status, date range |
-| Outputs | Filtered booking list |
-| Data touched | `booking`, `user`, `room`, `hotel` |
+| Field        | Detail                                                |
+| ------------ | ----------------------------------------------------- |
+| Actor        | Admin                                                 |
+| Trigger      | Admin nhập từ khóa hoặc chọn filter                   |
+| Inputs       | `bookingReference`, customer info, status, date range |
+| Outputs      | Filtered booking list                                 |
+| Data touched | `booking`, `user`, `room`, `hotel`                    |
 
 ### Main Flow
 

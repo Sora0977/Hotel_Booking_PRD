@@ -10,6 +10,7 @@
 | Scope | Product requirements only |
 | Tech Spec status | Pending user approval |
 | Primary roles | Customer, Admin |
+| Implementation status | `SDD/01-product/IMPLEMENTATION_STATUS.md` |
 
 ## 2. Tổng Quan Dự Án
 
@@ -47,9 +48,13 @@
 | MVP-014 | No | Chatbot/FAQ tự động, hỗ trợ khách hàng đa kênh, SLA hỗ trợ |
 | MVP-015 | No | Khuyến mãi, loyalty/tích điểm, ưu đãi thành viên |
 
+Implementation evidence and thesis achieved/not-achieved status are tracked in `IMPLEMENTATION_STATUS.md`. A `No` item must stay out of MVP until its full traceability path is added.
+
 ### 2.3 Benchmark Và Product Direction Từ Hệ Thống Tương Tự
 
 Nguồn chương 2 phân tích Booking.com và Traveloka như hai hệ thống marketplace tiêu biểu. SDD dùng phần này để giữ lại reasoning sản phẩm, không mặc định đưa toàn bộ vào MVP.
+
+Source confidence: thesis `TODO.md` and `THESIS_MEMORY.md` still mark Booking.com/Traveloka claims and some technology/NFR claims as citation-pending. Treat this benchmark as product reasoning, not as a hard market statistic or mandatory MVP constraint until sources are completed.
 
 | Benchmark Insight | Ý nghĩa cho MVP hiện tại | Roadmap/Open Policy |
 | --- | --- | --- |
@@ -219,36 +224,36 @@ Nguồn chương 2 phân tích Booking.com và Traveloka như hai hệ thống m
 
 | Screen ID   | Role     | Screen                                 | Source Image                                               |
 | ----------- | -------- | -------------------------------------- | ---------------------------------------------------------- |
-| SCR-CUS-001 | Customer | Đăng nhập                              | `Hotel booking service/Thesis-report/images/image-096.png` |
-| SCR-CUS-002 | Customer | Đăng ký                                | `Hotel booking service/Thesis-report/images/image-097.png` |
-| SCR-CUS-003 | Customer | Trang chủ                              | `Hotel booking service/Thesis-report/images/image-098.png` |
-| SCR-CUS-004 | Customer | Xem tất cả khách sạn                   | `Hotel booking service/Thesis-report/images/image-099.png` |
-| SCR-CUS-005 | Customer | Chi tiết khách sạn                     | `Hotel booking service/Thesis-report/images/image-100.png` |
-| SCR-CUS-006 | Customer | Danh sách phòng của khách sạn          | `Hotel booking service/Thesis-report/images/image-101.png` |
-| SCR-CUS-007 | Customer | Chi tiết phòng và form đặt phòng       | `Hotel booking service/Thesis-report/images/image-102.png` |
-| SCR-CUS-008 | Customer | Đặt phòng thành công                   | `Hotel booking service/Thesis-report/images/image-103.png` |
-| SCR-CUS-009 | Customer | Lịch sử đặt phòng và tìm kiếm          | `Hotel booking service/Thesis-report/images/image-104.png` |
-| SCR-CUS-010 | Customer | Chi tiết booking                       | `Hotel booking service/Thesis-report/images/image-105.png` |
-| SCR-CUS-011 | Customer | Xác nhận hủy booking                   | `Hotel booking service/Thesis-report/images/image-106.png` |
-| SCR-CUS-012 | Customer | Thông tin cá nhân và đổi mật khẩu      | `Hotel booking service/Thesis-report/images/image-107.png` |
-| SCR-ADM-001 | Admin    | Trang chính quản trị                   | `Hotel booking service/Thesis-report/images/image-108.png` |
-| SCR-ADM-002 | Admin    | Quản lý tài khoản                      | `Hotel booking service/Thesis-report/images/image-109.png` |
-| SCR-ADM-003 | Admin    | Quản lý khách sạn                      | `Hotel booking service/Thesis-report/images/image-110.png` |
-| SCR-ADM-004 | Admin    | Quản lý một khách sạn cụ thể           | `Hotel booking service/Thesis-report/images/image-111.png` |
-| SCR-ADM-005 | Admin    | Quản lý phòng của khách sạn            | `Hotel booking service/Thesis-report/images/image-112.png` |
-| SCR-ADM-006 | Admin    | Thêm phòng mới                         | `Hotel booking service/Thesis-report/images/image-113.png` |
-| SCR-ADM-007 | Admin    | Chỉnh sửa phòng                        | `Hotel booking service/Thesis-report/images/image-114.png` |
-| SCR-ADM-008 | Admin    | Xác nhận xóa phòng                     | `Hotel booking service/Thesis-report/images/image-115.png` |
-| SCR-ADM-009 | Admin    | Thêm khách sạn                         | `Hotel booking service/Thesis-report/images/image-116.png` |
-| SCR-ADM-010 | Admin    | Chỉnh sửa khách sạn                    | `Hotel booking service/Thesis-report/images/image-117.png` |
-| SCR-ADM-011 | Admin    | Xác nhận xóa khách sạn                 | `Hotel booking service/Thesis-report/images/image-118.png` |
-| SCR-ADM-012 | Admin    | Quản lý và tìm kiếm booking            | `Hotel booking service/Thesis-report/images/image-119.png` |
-| SCR-ADM-013 | Admin    | Chuyển booking sang đã nhận phòng      | `Hotel booking service/Thesis-report/images/image-120.png` |
-| SCR-ADM-014 | Admin    | Quản lý tiện nghi                      | `Hotel booking service/Thesis-report/images/image-121.png` |
-| SCR-ADM-015 | Admin    | Thêm tiện nghi                         | `Hotel booking service/Thesis-report/images/image-122.png` |
-| SCR-ADM-016 | Admin    | Chỉnh sửa tiện nghi                    | `Hotel booking service/Thesis-report/images/image-123.png` |
-| SCR-ADM-017 | Admin    | Xác nhận xóa tiện nghi                 | `Hotel booking service/Thesis-report/images/image-124.png` |
-| SCR-ADM-018 | Admin    | Xem tiện nghi theo cấp khách sạn/phòng | `Hotel booking service/Thesis-report/images/image-125.png` |
+| SCR-CUS-001 | Customer | Đăng nhập                              | `thesis/figures/imported/image-096.png` |
+| SCR-CUS-002 | Customer | Đăng ký                                | `thesis/figures/imported/image-097.png` |
+| SCR-CUS-003 | Customer | Trang chủ                              | `thesis/figures/imported/image-098.png` |
+| SCR-CUS-004 | Customer | Xem tất cả khách sạn                   | `thesis/figures/imported/image-099.png` |
+| SCR-CUS-005 | Customer | Chi tiết khách sạn                     | `thesis/figures/imported/image-100.png` |
+| SCR-CUS-006 | Customer | Danh sách phòng của khách sạn          | `thesis/figures/imported/image-101.png` |
+| SCR-CUS-007 | Customer | Chi tiết phòng và form đặt phòng       | `thesis/figures/imported/image-102.png` |
+| SCR-CUS-008 | Customer | Đặt phòng thành công                   | `thesis/figures/imported/image-103.png` |
+| SCR-CUS-009 | Customer | Lịch sử đặt phòng và tìm kiếm          | `thesis/figures/imported/image-104.png` |
+| SCR-CUS-010 | Customer | Chi tiết booking                       | `thesis/figures/imported/image-105.png` |
+| SCR-CUS-011 | Customer | Xác nhận hủy booking                   | `thesis/figures/imported/image-106.png` |
+| SCR-CUS-012 | Customer | Thông tin cá nhân và đổi mật khẩu      | `thesis/figures/imported/image-107.png` |
+| SCR-ADM-001 | Admin    | Trang chính quản trị                   | `thesis/figures/imported/image-108.png` |
+| SCR-ADM-002 | Admin    | Quản lý tài khoản                      | `thesis/figures/imported/image-109.png` |
+| SCR-ADM-003 | Admin    | Quản lý khách sạn                      | `thesis/figures/imported/image-110.png` |
+| SCR-ADM-004 | Admin    | Quản lý một khách sạn cụ thể           | `thesis/figures/imported/image-111.png` |
+| SCR-ADM-005 | Admin    | Quản lý phòng của khách sạn            | `thesis/figures/imported/image-112.png` |
+| SCR-ADM-006 | Admin    | Thêm phòng mới                         | `thesis/figures/imported/image-113.png` |
+| SCR-ADM-007 | Admin    | Chỉnh sửa phòng                        | `thesis/figures/imported/image-114.png` |
+| SCR-ADM-008 | Admin    | Xác nhận xóa phòng                     | `thesis/figures/imported/image-115.png` |
+| SCR-ADM-009 | Admin    | Thêm khách sạn                         | `thesis/figures/imported/image-116.png` |
+| SCR-ADM-010 | Admin    | Chỉnh sửa khách sạn                    | `thesis/figures/imported/image-117.png` |
+| SCR-ADM-011 | Admin    | Xác nhận xóa khách sạn                 | `thesis/figures/imported/image-118.png` |
+| SCR-ADM-012 | Admin    | Quản lý và tìm kiếm booking            | `thesis/figures/imported/image-119.png` |
+| SCR-ADM-013 | Admin    | Chuyển booking sang đã nhận phòng      | `thesis/figures/imported/image-120.png` |
+| SCR-ADM-014 | Admin    | Quản lý tiện nghi                      | `thesis/figures/imported/image-121.png` |
+| SCR-ADM-015 | Admin    | Thêm tiện nghi                         | `thesis/figures/imported/image-122.png` |
+| SCR-ADM-016 | Admin    | Chỉnh sửa tiện nghi                    | `thesis/figures/imported/image-123.png` |
+| SCR-ADM-017 | Admin    | Xác nhận xóa tiện nghi                 | `thesis/figures/imported/image-124.png` |
+| SCR-ADM-018 | Admin    | Xem tiện nghi theo cấp khách sạn/phòng | `thesis/figures/imported/image-125.png` |
 
 ### 8.1 Screen Coverage Notes
 
@@ -322,14 +327,16 @@ Nguồn chương 2 phân tích Booking.com và Traveloka như hai hệ thống m
 | OQ-008 | Có cần partner quality score, audit log hoặc xử phạt khi đối tác vi phạm chính sách không? | Ảnh hưởng schema, admin workflow và compliance |
 | OQ-009 | Có cần chatbot/support workflow trong roadmap gần không? | Ảnh hưởng use case hỗ trợ khách hàng, SLA và màn hình support |
 | OQ-010 | Có cần rate plan/cancellation policy như free cancellation, non-refundable, pay-at-property không? | Ảnh hưởng pricing, cancellation, refund và payment domain |
+| OQ-011 | Quản trị viên có cần thêm/sửa/xóa tài khoản người dùng, hay MVP chỉ giữ xem danh sách/khóa/mở khóa? | Ảnh hưởng user management use cases, API contract, audit log, delete/deactivate policy |
 
 ## 11. Source References
 
 | Source ID | Path                                                                                                                        | Used For                                                                                    |
 | --------- | --------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
-| SRC-001   | `Hotel booking service/Thesis-report/chapters/chuong-1-gioi-thieu.md`                                                       | Mục tiêu, tiêu chí phi chức năng, scope đạt/chưa đạt                                        |
-| SRC-002   | `Hotel booking service/Thesis-report/chapters/chuong-2-phuong-phap-thuc-hien.md`                                            | Quy trình nghiệp vụ auth, hotel/room, availability, booking, vận hành                       |
-| SRC-003   | `Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md`                                                         | Use case chi tiết, screen inventory, activity/sequence diagrams                             |
-| SRC-004   | `Hotel booking service/Thesis-report/chapters/chuong-4-ket-luan.md`                                                         | Gaps: quên mật khẩu, thanh toán thật, thống kê doanh thu, HTTPS, recommendation, breadcrumb |
+| SRC-001   | `thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md`<br>`thesis/chapters/01_mo_dau/1_3_noi_dung_pham_vi_thuc_hien.md`<br>`thesis/chapters/01_mo_dau/1_4_ket_qua_can_dat.md` | Mục tiêu, phạm vi, tiêu chí chức năng và phi chức năng |
+| SRC-002   | `thesis/chapters/02_phuong_phap_thuc_hien/2_1_cac_he_thong_tuong_tu.md`<br>`thesis/chapters/02_phuong_phap_thuc_hien/2_4_phan_tich_yeu_cau.md` | Benchmark, product direction, quy trình nghiệp vụ |
+| SRC-003   | `thesis/chapters/03_thiet_ke/3_1_mo_hinh_du_lieu_muc_y_niem_muc_luan_ly_muc_vat_ly.md`<br>`thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/`<br>`thesis/chapters/03_thiet_ke/3_3_he_thong_man_hinh.md` | Use case chi tiết, schema, screen inventory, activity/sequence diagrams |
+| SRC-004   | `thesis/chapters/05_ket_luan/5_1_ket_qua_doi_chieu_voi_muc_tieu.md`<br>`thesis/chapters/05_ket_luan/5_2_cac_van_de_con_ton_dong.md`<br>`thesis/chapters/05_ket_luan/5_3_mo_rong_huong_phat_trien.md` | Gaps: quên mật khẩu, thanh toán thật, thống kê doanh thu, HTTPS, recommendation, breadcrumb, roadmap |
 | SRC-005   | `graphify-out/wiki/index.md`                                                                                                | Điều hướng knowledge graph                                                                  |
 | SRC-006   | `graphify-out/wiki/3.2.1_Use_case_chi_tiết_-_3.2.1.10_Usecase_đặt_phòng_-_3.2.1.11_Usecase_tra_cứu_và_hủy_đơn_đặt_phòng.md` | Use case map                                                                                |
+| SRC-007   | `thesis/chapters/04_thu_nghiem/`                                                                                            | Kịch bản thử nghiệm, ngoại lệ, evidence còn thiếu                                          |

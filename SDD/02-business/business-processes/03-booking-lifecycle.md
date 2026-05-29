@@ -2,14 +2,14 @@
 
 ## 1. Scope
 
-| Process ID | Process | Actor |
-| --- | --- | --- |
-| BP-BOOK-001 | Tạo booking mới | Customer, Admin |
-| BP-BOOK-002 | Hiển thị đặt phòng thành công | Customer |
-| BP-BOOK-003 | Xem lịch sử booking | Customer |
-| BP-BOOK-004 | Tra cứu booking theo mã | Customer, Admin |
-| BP-BOOK-005 | Xem chi tiết booking | Customer, Admin |
-| BP-BOOK-006 | Hủy booking | Customer, Admin |
+| Process ID  | Process                       | Actor           |
+| ----------- | ----------------------------- | --------------- |
+| BP-BOOK-001 | Tạo booking mới               | Customer, Admin |
+| BP-BOOK-002 | Hiển thị đặt phòng thành công | Customer        |
+| BP-BOOK-003 | Xem lịch sử booking           | Customer        |
+| BP-BOOK-004 | Tra cứu booking theo mã       | Customer, Admin |
+| BP-BOOK-005 | Xem chi tiết booking          | Customer, Admin |
+| BP-BOOK-006 | Hủy booking                   | Customer, Admin |
 
 ## 2. Booking Data Contract
 
