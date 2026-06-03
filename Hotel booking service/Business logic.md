@@ -1,6 +1,3 @@
-Here is your updated Business Logic document. I have integrated the exact reality of your current Spring Boot repository into the text.
-
-To ensure this document is 100% accurate to your MVP's current state, I have added **⚠️ Current Code Limitation** notes in the three specific domains (Account Security, Search, and Booking Engine) to highlight what is currently missing in the implementation.
 
 ### Complete Business Logic of the Hotel Booking Service
 

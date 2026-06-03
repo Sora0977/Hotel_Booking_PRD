@@ -1,5 +1,4 @@
 
-
 1. Gặp sinh viên tuần đầu tiên: từ ngày **04.05.2026 – 09.05.2026**
 2. Nộp danh sách đề tài hướng dẫn: ngày **27.05.2026** _(theo mẫu đính kèm)_
 3. Gửi danh sách các sinh viên không đến nhận đề tài: ngày **27.05.2026**
