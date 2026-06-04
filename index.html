@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel Booking PRD</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: Arial, Helvetica, sans-serif;
+        background: #f6f7f9;
+        color: #1f2933;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+      }
+
+      main {
+        width: min(760px, calc(100% - 32px));
+        background: #ffffff;
+        border: 1px solid #d7dde5;
+        border-radius: 8px;
+        padding: 28px;
+        box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: 28px;
+        line-height: 1.2;
+      }
+
+      p {
+        margin: 0 0 20px;
+        color: #52606d;
+        line-height: 1.6;
+      }
+
+      nav {
+        display: grid;
+        gap: 12px;
+      }
+
+      a {
+        display: block;
+        padding: 14px 16px;
+        border: 1px solid #d7dde5;
+        border-radius: 6px;
+        color: #0b5cad;
+        text-decoration: none;
+        font-weight: 700;
+        background: #fbfcfe;
+      }
+
+      a:hover,
+      a:focus {
+        border-color: #0b5cad;
+        background: #eef6ff;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Hotel Booking PRD</h1>
+      <p>
+        Live Server is working. Use these links to open the project documents
+        from the local server.
+      </p>
+      <nav aria-label="Project documents">
+        <a href="./thesis/compiled_thesis.md">Compiled thesis</a>
+        <a href="./thesis/chapters/index.md">Thesis chapters</a>
+        <a href="./SDD/README.md">Software design documentation</a>
+      </nav>
+    </main>
+  </body>
+</html>
