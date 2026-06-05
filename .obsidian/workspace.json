@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Clone/toàn bộ nghiệp vụ bằng lời.md",
+                "file": "Hotel booking service/So_sanh_nghiep_vu_Code_va_PRD.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "toàn bộ nghiệp vụ bằng lời"
+              "title": "So_sanh_nghiep_vu_Code_va_PRD"
             }
           }
         ]
@@ -195,14 +195,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "5ce9692c53285374",
+  "active": "3b83d99a5688479a",
   "lastOpenFiles": [
-    "Clone/toàn bộ business logic.md",
+    "Hotel booking service/Update logic backup.md",
+    "Hotel booking service/usecase_tong_quat backup.md",
+    "Hotel booking service/Update logic.md",
+    "Hotel booking service/So_sanh_nghiep_vu_Code_va_PRD.md",
     "Clone/toàn bộ nghiệp vụ bằng lời.md",
+    "Clone/toàn bộ business logic.md",
     "Clone/hotel-booking-web/apps/web/src/utils/formatTime.ts",
     "Clone/hotel-booking-web/apps/web/src/utils/currency.ts",
     "Clone/hotel-booking-web/apps/web/src/utils",
-    "Hotel booking service/usecase_tong_quat backup.md",
     "graphify-out/cache/ast/d7a23038cc765e1cb0426449fd39b37d503eb6af59d7e12373b395eb24b090d6.json",
     "graphify-out/cache/ast/9608d4bf4d4697a029f9adb004da4b076c5455ad4062cdd80899b45e67dde1d3.json",
     "graphify-out/cache/ast/0b6fe22df59faa9c3227a4bcafc4b960963979f0aeabbe0d2a934ed369767326.json",
@@ -223,8 +226,6 @@
     "Hotel booking service/usecase_tong_quat.md",
     "Clone/hotel-booking-web/apps/web/README.md",
     "Clone/hotel-booking-web/apps/api/README.md",
-    "Hotel booking service/Update logic.md",
-    "Hotel booking service/Update logic backup.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_3_cong_nghe_su_dung.md",
     "Hotel booking service/Usecase_logic_get_another.md",
     "Hotel booking service/Update plan.md",
