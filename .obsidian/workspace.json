@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hotel booking service/Update logic.md",
+                "file": "Hotel booking service/Update logic backup.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Update logic"
+              "title": "Update logic backup"
             }
           },
           {
@@ -199,13 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Hotel booking service/Update logic.md",
+                "file": "Hotel booking service/Update logic backup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Update logic"
+              "title": "Outline of Update logic backup"
             }
           },
           {
@@ -237,10 +237,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0c6102da16e07152",
+  "active": "3e4acbc16d118a62",
   "lastOpenFiles": [
-    "Hotel booking service/Usecase_logic_get_another.md",
     "Hotel booking service/Update logic.md",
+    "Hotel booking service/Update logic backup.md",
+    "Hotel booking service/Usecase_logic_get_another.md",
     "Hotel booking service/Update plan.md",
     "Hotel booking service/usecase_tong_quat.md",
     "Hotel booking service/Business logic.md",
