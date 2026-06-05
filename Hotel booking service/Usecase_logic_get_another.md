@@ -140,7 +140,9 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 - Thực hiện xoá khách sạn ra khỏi danh sách yêu thích khi không còn nhu cầu theo dõi.
 
 
+## Logic Nghiệp Vụ Hệ Thống
 
+**Actor (Tác nhân):** Quản lýlý
 
 ### 1. Nhóm chức năng: Quản lý thông tin khách sạn
 
@@ -289,6 +291,41 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 - **Kiểm soát chi phí:** Cho phép Doanh nghiệp xem chi tiết các khoản chi phí hoa hồng cần trả cho nền tảng.
     
 - **Sử dụng bộ lọc:** Doanh nghiệp có thể tùy chỉnh lọc dữ liệu doanh thu theo từng khoảng thời gian cụ thể để phục vụ việc phân tích.
+
+    
+**5. Nhóm nghiệp vụ Quản lý phân công** 
+
+- **Xác thực tài khoản:** Doanh nghiệp bắt buộc phải đăng nhập vào tài khoản doanh nghiệp để tiến hành phân công nhân sự.
+    
+- **Phân bổ nơi làm việc:** Khi thực hiện nghiệp vụ phân công, Doanh nghiệp bắt buộc phải chỉ định và phân công nơi làm việc hoặc nơi công tác cụ thể cho nhân viên.
+    
+- **Quản lý vai trò:** Đây là một khâu bắt buộc trong việc phân công. Doanh nghiệp phải gán một vai trò/chức vụ cụ thể cho nhân viên. Trong quá trình vận hành, Doanh nghiệp có thể cập nhật lại vai trò này bằng các quyết định thăng chức hoặc giáng chức nhân viên.
+    
+- **Luân chuyển nhân sự:** Doanh nghiệp có quyền quyết định luân chuyển công tác của nhân viên qua lại giữa các chi nhánh khách sạn khác nhau trong chuỗi.
+    
+- **Tra cứu danh sách:** Để hỗ trợ cho việc phân công, Doanh nghiệp có thể mở xem danh sách nhân viên hiện tại, kết hợp với các công cụ sắp xếp và lọc để tìm kiếm nhân sự phù hợp.
+    
+
+**66. Nhóm nghiệp vụ Quản lý thông tin hồ sơ** 
+
+- **Xác thực tài khoản:** Doanh nghiệp bắt buộc phải đăng nhập hệ thống để quản lý hồ sơ.
+    
+- **Xem thông tin đăng ký:** Ngay khi truy cập, Doanh nghiệp mặc định sẽ xem được toàn bộ thông tin đã đăng ký của tổ chức.
+    
+- **Đổi mật khẩu:** Doanh nghiệp có quyền thực hiện đổi mật khẩu để bảo đảm an toàn cho tài khoản.
+    
+- **Cập nhật thông tin:** Doanh nghiệp có thể tiến hành chỉnh sửa hồ sơ. Quá trình này cho phép cập nhật chi tiết về thông tin người đại diện hợp pháp và thông tin pháp lý của doanh nghiệp.
+    
+
+**7. Nhóm nghiệp vụ Quản lý nhân sự** 
+
+- **Xác thực tài khoản:** Doanh nghiệp bắt buộc đăng nhập để thao tác với dữ liệu nhân sự.
+    
+- **Xem danh sách nhân viên:** Doanh nghiệp có thể theo dõi danh sách toàn bộ nhân viên, có thể sử dụng thêm tính năng sắp xếp và lọc dữ liệu để quản lý dễ dàng hơn.
+    
+- **Thêm nhân viên mới:** Doanh nghiệp có quyền tạo lập hồ sơ cho nhân sự mới. Khi thêm mới, Doanh nghiệp bắt buộc phải khai báo đầy đủ các trường thông tin: Họ tên, Giới tính, Năm sinh, Số điện thoại và Trạng thái hoạt động.
+    
+- **Vô hiệu hoá tài khoản:** Doanh nghiệp có quyền khóa hoặc vô hiệu hóa tài khoản của các nhân viên không còn làm việc hoặc vi phạm quy định.
 
 
 ### Actor: Admin
