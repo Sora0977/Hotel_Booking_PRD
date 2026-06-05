@@ -197,6 +197,9 @@
   },
   "active": "5ce9692c53285374",
   "lastOpenFiles": [
+    "Clone/hotel-booking-web/apps/web/src/utils/formatTime.ts",
+    "Clone/hotel-booking-web/apps/web/src/utils/currency.ts",
+    "Clone/hotel-booking-web/apps/web/src/utils",
     "Clone/toàn bộ business logic.md",
     "Clone/toàn bộ nghiệp vụ bằng lời.md",
     "Hotel booking service/usecase_tong_quat backup.md",
@@ -208,8 +211,6 @@
     "graphify-out/cache/ast/9750ec58553252575bd7718459a2957a75965c87afc3e41805ab4f7f32cffab7.json",
     "graphify-out/cache/ast/b2f0501390024b3cc4dd039b9a1733122936a15425e797962f01a63627d3b59c.json",
     "graphify-out/cache/ast/cf51245ed83085953354beaed571314e65cfa6001b0b4cb4dc64d83af2bf7e2c.json",
-    "graphify-out/cache/ast/b3513388db86f2e36b37d43f8ea888efc5f774f17472f760e946ec39522af7b6.json",
-    "Clone/hotel-booking-web/apps/web/src/features/user/components/UserManagementTable.tsx",
     "Clone/hotel-booking-web/docs/images/promotions_screen.png",
     "Clone/hotel-booking-web/docs/images/partner_screen.png",
     "Clone/hotel-booking-web/docs/images/news_screen.png",
@@ -241,7 +242,6 @@
     "thesis/chapters/03_thiet_ke/3_1_mo_hinh_du_lieu_muc_y_niem_muc_luan_ly_muc_vat_ly.md",
     "thesis/chapters/03_thiet_ke/3_3_he_thong_man_hinh.md",
     "thesis/compiled_thesis.md",
-    "thesis/chapters/02_phuong_phap_thuc_hien/index.md",
-    "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_0_gioi_thieu_mo_hinh_xu_ly.md"
+    "thesis/chapters/02_phuong_phap_thuc_hien/index.md"
   ]
 }
