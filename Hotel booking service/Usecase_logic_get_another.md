@@ -100,3 +100,96 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 - Xem danh sách các khách sạn đã được lưu vào mục yêu thích.
     
 - Thực hiện xoá khách sạn ra khỏi danh sách yêu thích khi không còn nhu cầu theo dõi.
+
+
+
+
+### 1. Nhóm chức năng: Quản lý thông tin khách sạn
+
+- **Actor:** Quản lý
+    
+- **Luồng nghiệp vụ:** * Để bắt đầu, Quản lý bắt buộc phải **Đăng nhập** vào hệ thống.
+    
+    - Khi truy cập vào chức năng quản lý thông tin khách sạn, Quản lý có thể thực hiện các thao tác sau:
+        
+        - Thêm các thông tin mô tả, phần giới thiệu và hình ảnh của khách sạn.
+            
+        - Cập nhật, chỉnh sửa lại thông tin của khách sạn.
+            
+        - Thêm các tiện nghi mới cho khách sạn.
+            
+        - Cập nhật và chỉnh sửa thông tin của các tiện nghi hiện tại.
+            
+
+### 2. Nhóm chức năng: Quản lý phòng
+
+- **Actor:** Quản lý
+    
+- **Luồng nghiệp vụ:**
+    
+    - Quản lý bắt buộc phải **Đăng nhập** và hệ thống sẽ yêu cầu **Xem danh sách loại phòng** để tiến hành quản lý.
+        
+    - Tại đây, Quản lý có thể thực hiện các thao tác:
+        
+        - **Thêm loại phòng mới:** Khi thực hiện hành động này, hệ thống bắt buộc Quản lý phải nhập đầy đủ các thông tin đi kèm bao gồm: thêm hình ảnh, mô tả, giá, sức chứa và số lượng phòng.
+            
+        - **Cập nhật thông tin loại phòng:** Tương tự như khi thêm mới, khi cập nhật, Quản lý cũng bắt buộc phải làm việc với các trường dữ liệu: cập nhật hình ảnh, mô tả, giá, sức chứa và số lượng phòng.
+            
+        - **Ẩn/xoá loại phòng:** Quản lý có quyền ẩn hoặc xoá bỏ một loại phòng khỏi hệ thống.
+            
+
+### 3. Nhóm chức năng: Quản lý đặt phòng
+
+- **Actor:** Quản lý
+    
+- **Luồng nghiệp vụ:**
+    
+    - Quản lý bắt buộc phải **Đăng nhập** và **Xem danh sách đơn đặt phòng** để thao tác.
+        
+    - Trong quá trình quản lý đơn đặt phòng, Quản lý có quyền:
+        
+        - Xem chi tiết thông tin của một đơn đặt phòng cụ thể.
+            
+        - Lọc hoặc tìm kiếm các đơn đặt phòng theo nhu cầu.
+            
+        - Sắp xếp sản phẩm (sắp xếp các đơn/phòng).
+            
+        - Huỷ đơn đặt phòng.
+            
+        - **Cập nhật trạng thái đơn:** Khi cập nhật, Quản lý có thể thay đổi trạng thái của đơn thành các mốc cụ thể như: _No-show_ (Khách không đến), _Check-in_ (Nhận phòng), _Check-out_ (Trả phòng), hoặc _Cancel_ (Huỷ).
+            
+
+### 4. Nhóm chức năng: Quản lý đánh giá khách sạn
+
+- **Actor:** Quản lý
+    
+- **Luồng nghiệp vụ:**
+    
+    - Quản lý bắt buộc phải **Đăng nhập** và **Xem đánh giá từ khách hàng**.
+        
+    - Đối với các đánh giá này, Quản lý có thể thực hiện các tác vụ:
+        
+        - Lọc các đánh giá.
+            
+        - Sắp xếp các đánh giá để dễ dàng theo dõi.
+            
+        - Phản hồi lại các đánh giá của khách hàng.
+            
+        - Ẩn đi các đánh giá có nội dung vi phạm.
+            
+
+### 5. Nhóm chức năng: Quản lý chính sách và điều khoản (Ảnh 2)
+
+- **Actor:** Quản lý
+    
+- **Luồng nghiệp vụ:**
+    
+    - Quản lý bắt buộc phải **Đăng nhập** và **Xem danh sách chính sách và điều khoản** hiện có của hệ thống.
+        
+    - Tại màn hình quản lý này, Quản lý có quyền:
+        
+        - Thiết lập các chính sách liên quan đến việc đặt phòng, huỷ phòng và hoàn tiền.
+            
+        - Thêm các điều khoản về việc xử lý sự cố hoặc thiệt hại tài sản.
+            
+        - Chỉnh sửa lại nội dung các chính sách, điều khoản hiện tại của khách sạn cho phù hợp.
