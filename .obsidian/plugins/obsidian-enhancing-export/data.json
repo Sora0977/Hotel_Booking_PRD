@@ -1,13 +1,66 @@
 {
   "items": [
     {
-      "name": "Word (.docx)",
-      "type": "pandoc",
-      "arguments": "-f ${fromFormat} --resource-path=\"${currentDir}\" --resource-path=\"${attachmentFolderPath}\" --reference-doc=\"${pluginDir}/docx/reference.docx\" -o \"${outputPath}\" -t docx",
-      "openExportedFile": false,
-      "runCommand": true,
-      "command": "python \"${pluginDir}/docx/report_docx_postprocess.py\" \"${outputPath}\"",
-      "extension": ".docx"
+      "name": "Word (.docx)"
+    },
+    {
+      "name": "Markdown"
+    },
+    {
+      "name": "Markdown (Hugo)"
+    },
+    {
+      "name": "Html"
+    },
+    {
+      "name": "TextBundle"
+    },
+    {
+      "name": "Typst"
+    },
+    {
+      "name": "PDF"
+    },
+    {
+      "name": "OpenOffice"
+    },
+    {
+      "name": "RTF"
+    },
+    {
+      "name": "Epub"
+    },
+    {
+      "name": "Latex"
+    },
+    {
+      "name": "Media Wiki"
+    },
+    {
+      "name": "reStructuredText"
+    },
+    {
+      "name": "Textile"
+    },
+    {
+      "name": "OPML"
+    },
+    {
+      "name": "Bibliography"
+    },
+    {
+      "name": "PowerPoint (.pptx)"
     }
-  ]
+  ],
+  "defaultExportDirectoryMode": "Custom",
+  "openExportedFile": true,
+  "env": {},
+  "showExportProgressBar": true,
+  "customDefaultExportDirectory": {
+    "win32": "W:\\Downloads"
+  },
+  "lastExportDirectory": {
+    "win32": "W:\\Downloads"
+  },
+  "lastExportType": "Word (.docx)"
 }
