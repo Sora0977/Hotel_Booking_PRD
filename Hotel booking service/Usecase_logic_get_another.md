@@ -217,7 +217,7 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
     
 - **Theo dõi danh sách khách sạn:** Doanh nghiệp có thể xem toàn bộ danh sách các khách sạn hiện đang thuộc sở hữu/quản lý của mình.
     
-- **Đăng ký khách sạn mới:** Từ giao diện quản lý, Doanh nghiệp có thể trực tiếp kích hoạt lại quy trình đăng ký thêm một khách sạn mới.
+- **Mở rộng chuỗi:** Từ giao diện quản lý, Doanh nghiệp có thể trực tiếp kích hoạt lại quy trình đăng ký thêm một khách sạn mới.
     
 
 **3. Nhóm nghiệp vụ Quản lý nhân viên**
@@ -246,3 +246,95 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 - **Kiểm soát chi phí:** Cho phép Doanh nghiệp xem chi tiết các khoản chi phí hoa hồng cần trả cho nền tảng.
     
 - **Sử dụng bộ lọc:** Doanh nghiệp có thể tùy chỉnh lọc dữ liệu doanh thu theo từng khoảng thời gian cụ thể để phục vụ việc phân tích.
+
+
+### Actor: Admin
+
+**1. Trong nghiệp vụ "Quản lý đăng ký khách sạn từ đối tác"**
+
+Admin có thể:
+
+- Đăng nhập vào hệ thống.
+    
+- Xem danh sách các đăng ký khách sạn được gửi từ đối tác.
+    
+- Duyệt các yêu cầu đăng ký hợp lệ.
+    
+- Từ chối các yêu cầu đăng ký và ghi kèm theo lý do từ chối.
+    
+- Ẩn khách sạn trên nền tảng.
+    
+
+**2. Trong nghiệp vụ "Quản lý giao dịch và hoa hồng"**
+
+Admin có thể:
+
+- Đăng nhập vào hệ thống.
+    
+- Xem nhật ký của các giao dịch.
+    
+- Xem chi tiết từng giao dịch cụ thể.
+    
+- Lọc và tìm kiếm các giao dịch.
+    
+- Tính toán và lưu vết doanh thu hoa hồng thu được từ các đối tác.
+    
+
+**3. Trong nghiệp vụ "Quản lý hoạt động khách sạn"**
+
+Admin có thể:
+
+- Đăng nhập vào hệ thống.
+    
+- Xem danh sách các khách sạn hiện đang hoạt động.
+    
+- Lọc và tìm kiếm các khách sạn.
+    
+- Đình chỉ hoạt động của một khách sạn cụ thể.
+    
+- Ẩn hoặc vô hiệu hoá khách sạn trên nền tảng.
+    
+
+**4. Trong nghiệp vụ "Quản lý người dùng"**
+
+Admin có thể:
+
+- Đăng nhập vào hệ thống.
+    
+- Xem danh sách người dùng.
+    
+- Lọc và tìm kiếm người dùng.
+    
+- Vô hiệu hoá tài khoản của người dùng.
+    
+
+**5. Trong nghiệp vụ "Quản lý tiện nghi / Đánh giá khách sạn"** 
+
+Admin có thể:
+
+- Đăng nhập vào hệ thống.
+    
+- Xem danh sách các tiện nghi.
+    
+- Thêm tiện nghi mới.
+    
+- Cập nhật thông tin tiện nghi.
+    
+- Xoá tiện nghi.
+    
+
+**6. Trong nghiệp vụ "Thống kê báo cáo"**
+
+Admin có thể:
+
+- Đăng nhập vào hệ thống.
+    
+- Lọc các chỉ số thống kê theo thời gian.
+    
+- So sánh doanh thu theo các mốc thời gian: tháng/quý/năm.
+    
+- Xem tổng số lượng đơn đặt phòng.
+    
+- Xem tổng doanh thu của toàn bộ nền tảng.
+    
+- Xem tổng lợi nhuận của đối tác.
