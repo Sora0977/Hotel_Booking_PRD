@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hotel booking service/Update plan.md",
+                "file": "Hotel booking service/Usecase_logic_get.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Update plan"
+              "title": "Usecase_logic_get"
             }
           }
         ],
@@ -239,11 +239,13 @@
   },
   "active": "fa206d0a0618ed1f",
   "lastOpenFiles": [
-    "Hotel booking service/Update logic.md",
-    "graphify-out/cache/ast/26aed880d42f8f181338560a58b2f308f4d418947ee86909aacc6356f5c5b6fb.json",
-    "Hotel booking service/Business logic.md",
     "Hotel booking service/Update plan.md",
+    "Hotel booking service/Usecase_logic_get.md",
+    "Hotel booking service/usecase_tong_quat.md",
+    "Hotel booking service/Update logic.md",
+    "Hotel booking service/Business logic.md",
     "Hotel booking service/Timeline.md",
+    "graphify-out/cache/ast/26aed880d42f8f181338560a58b2f308f4d418947ee86909aacc6356f5c5b6fb.json",
     "graphify-out/2026-06-05/cost.json",
     "graphify-out/2026-06-05/manifest.json",
     "graphify-out/2026-06-05/graph.json",
@@ -253,7 +255,6 @@
     "graphify-out/cache/ast/dec20c5aab1e9fa276de7bc38bd26aed491f16eba9bb3106c78ccbbfc0788890.json",
     "graphify-out/cache/ast/d023c0e820aa2a85ef01a54d27190634b3600d6b68c92dff4d5f5c7bf91e1e50.json",
     "graphify-out/cache/ast/87e53216be64c17b183c30c801055244eb02e2b3567b2188098579586428650d.json",
-    "Hotel booking service/usecase_tong_quat.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_4_phan_tich_yeu_cau.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_3_cong_nghe_su_dung.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_2_co_so_ly_thuyet.md",
