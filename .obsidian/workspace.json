@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hotel booking service/usecase_tong_quat backup.md",
+                "file": "Clone/toàn bộ nghiệp vụ bằng lời.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "usecase_tong_quat backup"
+              "title": "toàn bộ nghiệp vụ bằng lời"
             }
           }
         ]
@@ -195,8 +195,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b83d99a5688479a",
+  "active": "5ce9692c53285374",
   "lastOpenFiles": [
+    "Clone/toàn bộ business logic.md",
+    "Clone/toàn bộ nghiệp vụ bằng lời.md",
+    "Hotel booking service/usecase_tong_quat backup.md",
     "graphify-out/cache/ast/d7a23038cc765e1cb0426449fd39b37d503eb6af59d7e12373b395eb24b090d6.json",
     "graphify-out/cache/ast/9608d4bf4d4697a029f9adb004da4b076c5455ad4062cdd80899b45e67dde1d3.json",
     "graphify-out/cache/ast/0b6fe22df59faa9c3227a4bcafc4b960963979f0aeabbe0d2a934ed369767326.json",
@@ -206,9 +209,7 @@
     "graphify-out/cache/ast/b2f0501390024b3cc4dd039b9a1733122936a15425e797962f01a63627d3b59c.json",
     "graphify-out/cache/ast/cf51245ed83085953354beaed571314e65cfa6001b0b4cb4dc64d83af2bf7e2c.json",
     "graphify-out/cache/ast/b3513388db86f2e36b37d43f8ea888efc5f774f17472f760e946ec39522af7b6.json",
-    "Clone/toàn bộ business logic.md",
     "Clone/hotel-booking-web/apps/web/src/features/user/components/UserManagementTable.tsx",
-    "Clone/hotel-booking-web/apps/web/src/features/rooms/components/RoomTable.tsx",
     "Clone/hotel-booking-web/docs/images/promotions_screen.png",
     "Clone/hotel-booking-web/docs/images/partner_screen.png",
     "Clone/hotel-booking-web/docs/images/news_screen.png",
@@ -220,7 +221,6 @@
     "Clone/hotel-booking-web/docs/images/hotelmembermanagement_screen.png",
     "Clone/hotel-booking-web/docs/images/hotelmanagement_screen.png",
     "Hotel booking service/usecase_tong_quat.md",
-    "Hotel booking service/usecase_tong_quat backup.md",
     "Clone/hotel-booking-web/apps/web/README.md",
     "Clone/hotel-booking-web/apps/api/README.md",
     "Hotel booking service/Update logic.md",
