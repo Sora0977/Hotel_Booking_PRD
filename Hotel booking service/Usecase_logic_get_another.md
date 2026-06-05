@@ -211,13 +211,18 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 - **Chuyển hồ sơ:** Sau khi hoàn tất thông tin, Doanh nghiệp gửi hồ sơ lên quản trị viên (Admin) để tiến hành xét duyệt.
     
 
+
 **2. Nhóm nghiệp vụ Quản lý danh mục khách sạn**
 
-- **Xác thực tài khoản:** Doanh nghiệp bắt buộc phải đăng nhập để truy cập vào không gian quản lý danh mục.
+- **Xác thực tài khoản:** Doanh nghiệp bắt buộc phải đăng nhập thành công mới có thể truy cập vào giao diện quản lý danh mục khách sạn.
     
-- **Theo dõi danh sách khách sạn:** Doanh nghiệp có thể xem toàn bộ danh sách các khách sạn hiện đang thuộc sở hữu/quản lý của mình.
+- **Theo dõi danh sách khách sạn:** Từ giao diện quản lý, Doanh nghiệp có thể lựa chọn xem danh sách toàn bộ các khách sạn hiện đang thuộc sở hữu của mình.
     
-- **Mở rộng chuỗi:** Từ giao diện quản lý, Doanh nghiệp có thể trực tiếp kích hoạt lại quy trình đăng ký thêm một khách sạn mới.
+- **Đăng ký khách sạn mới:** Doanh nghiệp có thể mở rộng chuỗi bằng cách kích hoạt quy trình đăng ký thêm một khách sạn mới ngay từ trong phần quản lý danh mục. Khi thực hiện nghiệp vụ này, Doanh nghiệp bắt buộc phải hoàn thành các bước sau:
+    
+    - **Đăng ký địa điểm:** Cung cấp thông tin vị trí, địa chỉ cụ thể cho khách sạn mới.
+        
+    - **Đăng ký tên khách sạn:** Cung cấp và xác nhận tên gọi mới cho khách sạn vừa được tạo.
     
 
 **3. Nhóm nghiệp vụ Quản lý nhân viên**
