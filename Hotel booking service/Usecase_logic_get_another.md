@@ -178,7 +178,7 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
         - Ẩn đi các đánh giá có nội dung vi phạm.
             
 
-### 5. Nhóm chức năng: Quản lý chính sách và điều khoản (Ảnh 2)
+### 5. Nhóm chức năng: Quản lý chính sách và điều khoản 
 
 - **Actor:** Quản lý
     
@@ -193,3 +193,56 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
         - Thêm các điều khoản về việc xử lý sự cố hoặc thiệt hại tài sản.
             
         - Chỉnh sửa lại nội dung các chính sách, điều khoản hiện tại của khách sạn cho phù hợp.
+
+
+
+### Actor: Doanh nghiệp
+
+**1. Nhóm nghiệp vụ Đăng ký khách sạn mới**
+
+- **Đăng nhập hệ thống:** Đây là thao tác bắt buộc đầu tiên để Doanh nghiệp bắt đầu quy trình.
+    
+- **Tạo đơn đăng ký:** Doanh nghiệp tiến hành tạo lập đơn đăng ký cho một khách sạn mới thuộc chuỗi của mình.
+    
+- **Cung cấp thông tin pháp nhân:** Doanh nghiệp bắt buộc phải điền đầy đủ các thông tin pháp nhân bao gồm tên, mã số thuế và địa điểm.
+    
+- **Chỉnh sửa thông tin pháp nhân:** Trong quá trình thực hiện, Doanh nghiệp có quyền thay đổi hoặc cập nhật lại các thông tin pháp lý này nếu cần thiết.
+    
+- **Chuyển hồ sơ:** Sau khi hoàn tất thông tin, Doanh nghiệp gửi hồ sơ lên quản trị viên (Admin) để tiến hành xét duyệt.
+    
+
+**2. Nhóm nghiệp vụ Quản lý danh mục khách sạn**
+
+- **Xác thực tài khoản:** Doanh nghiệp bắt buộc phải đăng nhập để truy cập vào không gian quản lý danh mục.
+    
+- **Theo dõi danh sách khách sạn:** Doanh nghiệp có thể xem toàn bộ danh sách các khách sạn hiện đang thuộc sở hữu/quản lý của mình.
+    
+- **Mở rộng chuỗi:** Từ giao diện quản lý, Doanh nghiệp có thể trực tiếp kích hoạt lại quy trình đăng ký thêm một khách sạn mới.
+    
+
+**3. Nhóm nghiệp vụ Quản lý nhân viên**
+
+- **Xác thực tài khoản:** Doanh nghiệp cần đăng nhập để thao tác với phân hệ nhân sự.
+    
+- **Xem danh sách nhân sự:** Doanh nghiệp có thể theo dõi danh sách toàn bộ nhân viên đang hoạt động trong hệ thống của mình.
+    
+- **Thêm nhân viên mới:** Doanh nghiệp có quyền tạo thêm tài khoản cho nhân sự mới.
+    
+- **Gán quyền hạn:** Khi thực hiện thêm nhân viên mới, Doanh nghiệp bắt buộc phải thiết lập vai trò và gán quyền tương ứng (ví dụ: cấp quyền quản lý hoặc quyền nhân viên thông thường).
+    
+- **Bảo mật và kiểm soát:** Doanh nghiệp có quyền thu hồi các quyền đã cấp hoặc vô hiệu hóa hoàn toàn tài khoản của nhân viên khi có sự thay đổi về mặt nhân sự.
+    
+
+**4. Nhóm nghiệp vụ Thống kê báo cáo**
+
+- **Xác thực tài khoản:** Doanh nghiệp bắt buộc đăng nhập để xem các dữ liệu nhạy cảm về tài chính và hoạt động.
+    
+- **Xem số liệu tổng quan:** Doanh nghiệp có thể xem số liệu về tổng doanh thu và tổng lợi nhuận của toàn chuỗi.
+    
+- **Xem số liệu chi tiết:** Cung cấp khả năng xem doanh thu chi tiết bóc tách cho từng khách sạn cụ thể.
+    
+- **Theo dõi lượng đơn:** Doanh nghiệp có thể kiểm tra tổng số lượng đơn (đặt phòng/dịch vụ) đã phát sinh.
+    
+- **Kiểm soát chi phí:** Cho phép Doanh nghiệp xem chi tiết các khoản chi phí hoa hồng cần trả cho nền tảng.
+    
+- **Sử dụng bộ lọc:** Doanh nghiệp có thể tùy chỉnh lọc dữ liệu doanh thu theo từng khoảng thời gian cụ thể để phục vụ việc phân tích.
