@@ -217,7 +217,7 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
     
 - **Theo dõi danh sách khách sạn:** Doanh nghiệp có thể xem toàn bộ danh sách các khách sạn hiện đang thuộc sở hữu/quản lý của mình.
     
-- **Mở rộng chuỗi:** Từ giao diện quản lý, Doanh nghiệp có thể trực tiếp kích hoạt lại quy trình đăng ký thêm một khách sạn mới.
+- **Đăng ký khách sạn mới:** Từ giao diện quản lý, Doanh nghiệp có thể trực tiếp kích hoạt lại quy trình đăng ký thêm một khách sạn mới.
     
 
 **3. Nhóm nghiệp vụ Quản lý nhân viên**
