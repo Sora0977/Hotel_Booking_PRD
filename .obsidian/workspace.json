@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "3007f64df24d4cc0",
+        "id": "904af6344f451d47",
         "type": "tabs",
         "children": [
           {
-            "id": "5ce9692c53285374",
+            "id": "10c07c7c85601635",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -195,12 +195,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b83d99a5688479a",
+  "active": "10c07c7c85601635",
   "lastOpenFiles": [
+    "Hotel booking service/So_sanh_nghiep_vu_Code_va_PRD.md",
+    "So_sanh_nghiep_vu_Code_va_PRD.md",
     "Hotel booking service/Update logic backup.md",
     "Hotel booking service/usecase_tong_quat backup.md",
     "Hotel booking service/Update logic.md",
-    "Hotel booking service/So_sanh_nghiep_vu_Code_va_PRD.md",
     "Clone/toàn bộ nghiệp vụ bằng lời.md",
     "Clone/toàn bộ business logic.md",
     "Clone/hotel-booking-web/apps/web/src/utils/formatTime.ts",
@@ -241,7 +242,6 @@
     "SDD/01-product/IMPLEMENTATION_STATUS.md",
     "thesis/chapters/03_thiet_ke/3_1_mo_hinh_du_lieu_muc_y_niem_muc_luan_ly_muc_vat_ly.md",
     "thesis/chapters/03_thiet_ke/3_3_he_thong_man_hinh.md",
-    "thesis/compiled_thesis.md",
-    "thesis/chapters/02_phuong_phap_thuc_hien/index.md"
+    "thesis/compiled_thesis.md"
   ]
 }
