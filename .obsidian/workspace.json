@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hotel booking service/usecase.md",
+                "file": "Hotel booking service/usecase_tong_quat.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "usecase"
+              "title": "usecase_tong_quat"
             }
           }
         ],
@@ -240,7 +240,8 @@
   "active": "fa206d0a0618ed1f",
   "lastOpenFiles": [
     "Hotel booking service/Update logic.md",
-    "Hotel booking service/usecase.md",
+    "Hotel booking service/Update plan.md",
+    "Hotel booking service/usecase_tong_quat.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_4_phan_tich_yeu_cau.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_3_cong_nghe_su_dung.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_2_co_so_ly_thuyet.md",
@@ -249,7 +250,6 @@
     "Rules.md",
     "GEMINI.md",
     "AGENTS.md",
-    "Hotel booking service/Update plan.md",
     "Hotel booking service/Timeline.md",
     "SDD/01-product/IMPLEMENTATION_STATUS.md",
     "thesis/chapters/03_thiet_ke/3_1_mo_hinh_du_lieu_muc_y_niem_muc_luan_ly_muc_vat_ly.md",
