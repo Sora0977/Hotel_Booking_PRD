@@ -306,7 +306,7 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 - **Tra cứu danh sách:** Để hỗ trợ cho việc phân công, Doanh nghiệp có thể mở xem danh sách nhân viên hiện tại, kết hợp với các công cụ sắp xếp và lọc để tìm kiếm nhân sự phù hợp.
     
 
-**66. Nhóm nghiệp vụ Quản lý thông tin hồ sơ** 
+**6. Nhóm nghiệp vụ Quản lý thông tin hồ sơ** 
 
 - **Xác thực tài khoản:** Doanh nghiệp bắt buộc phải đăng nhập hệ thống để quản lý hồ sơ.
     
