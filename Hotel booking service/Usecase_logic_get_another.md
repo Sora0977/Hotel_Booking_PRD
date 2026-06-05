@@ -39,6 +39,44 @@ Trong quá trình tìm phòng, **Người dùng** có quyền **Xem khách sạn
 - **Đổi mật khẩu** để tăng cường tính bảo mật cho tài khoản.
 
 
+Dựa trên biểu đồ Use Case từ tệp `image_c51e65.png`, dưới đây là các luồng nghiệp vụ (business logic) mô tả chi tiết những gì **Người dùng** có thể thực hiện trên hệ thống:
+
+
+### 4. Đăng nhập
+
+**Người dùng** có thể truy cập vào hệ thống thông qua chức năng **Đăng nhập**. Tùy thuộc vào vai trò, người dùng có thể tùy chọn:
+
+- **Đăng nhập tài khoản khách hàng:** Truy cập bằng tư cách người dùng cá nhân.
+    
+- **Đăng nhập tài khoản doanh nghiệp:** Truy cập bằng tư cách tổ chức hoặc công ty.
+    
+
+### 5. Đăng ký
+
+Nếu chưa có tài khoản, **Người dùng** có thể thiết lập tài khoản mới thông qua chức năng **Đăng ký**. Người dùng có hai hướng để tạo tài khoản với các yêu cầu thông tin đi kèm:
+
+- **Đăng ký tài khoản khách hàng:** Để hoàn tất, **Người dùng** cần nhập các thông tin cơ bản:
+    
+    - Email.
+        
+    - Mật khẩu và xác nhận mật khẩu.
+        
+- **Đăng ký tài khoản doanh nghiệp:** Phức tạp hơn, **Người dùng** cần cung cấp đầy đủ 4 nhóm thông tin chính:
+    
+    - **Thông tin tài khoản:** Cung cấp Email.
+        
+    - **Bảo mật:** Thiết lập Mật khẩu và xác nhận mật khẩu.
+        
+    - **Người đại diện:** Cập nhật thông tin của người chịu trách nhiệm, bao gồm: Họ tên, Chức vụ, Số điện thoại và Email.
+        
+    - **Thông tin pháp lý và doanh nghiệp:** Cung cấp các chứng từ pháp lý bao gồm: Tên doanh nghiệp, Mã số thuế và Địa chỉ đăng ký kinh doanh (Địa chỉ trụ sở chính).
+        
+
+### 6. Đăng xuất
+
+Sau khi đã xác thực và sử dụng xong hệ thống, **Người dùng** có thể thực hiện **Đăng xuất** để chấm dứt phiên làm việc và bảo vệ tài khoản.
+
+
 
 ## Logic Nghiệp Vụ Hệ Thống
 
