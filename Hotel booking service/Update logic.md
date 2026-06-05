@@ -60,7 +60,7 @@
 - Quản lý sẽ trực tiếp vào hệ thống để thiết lập danh sách tiện nghi, tạo các loại phòng (Room type), thiết lập số lượng phòng trống theo ngày và cấu hình giá bán cũng như các điều khoản hủy phòng.
 
 ## 5. Đánh giá khách sạn và đối soát doanh thu
-
+[Update logic.md](Hotel booking service/Update logic.md) format for me this file
 ### Đánh giá
 
 - Tính năng đánh giá chỉ được mở khóa sau khi Quản lý khách sạn chuyển trạng thái đơn hàng thành "Check-out" thành công.

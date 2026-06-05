@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hotel booking service/Update logic.md",
+                "file": "thesis/chapters/02_phuong_phap_thuc_hien/2_4_phan_tich_yeu_cau.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Update logic"
+              "title": "2_4_phan_tich_yeu_cau"
             }
           }
         ],
@@ -239,12 +239,14 @@
   },
   "active": "fa206d0a0618ed1f",
   "lastOpenFiles": [
-    "Hotel booking service/Business logic.md",
+    "thesis/chapters/02_phuong_phap_thuc_hien/2_3_cong_nghe_su_dung.md",
+    "thesis/chapters/02_phuong_phap_thuc_hien/2_2_co_so_ly_thuyet.md",
+    "thesis/chapters/02_phuong_phap_thuc_hien/2_1_cac_he_thong_tuong_tu.md",
     "Hotel booking service/Update logic.md",
+    "Hotel booking service/Business logic.md",
     "Rules.md",
     "GEMINI.md",
     "AGENTS.md",
-    "thesis/chapters/02_phuong_phap_thuc_hien/2_3_cong_nghe_su_dung.md",
     "Hotel booking service/Update plan.md",
     "Hotel booking service/Timeline.md",
     "SDD/01-product/IMPLEMENTATION_STATUS.md",
@@ -252,7 +254,6 @@
     "thesis/chapters/03_thiet_ke/3_3_he_thong_man_hinh.md",
     "thesis/compiled_thesis.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_4_phan_tich_yeu_cau.md",
-    "thesis/chapters/02_phuong_phap_thuc_hien/2_1_cac_he_thong_tuong_tu.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/index.md",
     "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_0_gioi_thieu_mo_hinh_xu_ly.md",
     "thesis/chapters/03_thiet_ke/3_2_mo_hinh_xu_ly/3_2_1_4_usecase_quan_tri_nguoi_dung.md",
@@ -264,7 +265,6 @@
     "SDD/02-business/business-processes/04-admin-hotel-room-management.md",
     "SDD/02-business/business-processes/07-business-rules-and-edge-cases.md",
     "SDD/02-business/business-processes/05-admin-booking-operations.md",
-    "SDD/02-business/business-processes/03-booking-lifecycle.md",
     "graphify-out/cache/ast/8824ca60b9b188f1bb81411fd69ed53bca1fa7f84decea10ae218e1e880004cf.json",
     "graphify-out/cache/ast/628ef39fba495f24816fd21d80311d46bfb72dcd80ee75a4af30caedd0dc58ba.json",
     "graphify-out/cache/ast/dad68876a754b75f0a9a4a1c427348360ef0a0ff06983fc3073b5c863a6d5981.json",
