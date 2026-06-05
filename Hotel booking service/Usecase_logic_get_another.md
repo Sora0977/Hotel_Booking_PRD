@@ -1,6 +1,4 @@
-## Khả năng tương tác của Actor: Người dùng
-
-Dưới đây là các luồng nghiệp vụ (business logic) mô tả những gì **Người dùng** có thể thực hiện trên hệ thống, được chia theo từng nhóm chức năng:
+## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Người dùng
 
 ### 1. Quản lý Tài khoản và Xác thực
 
@@ -78,9 +76,7 @@ Sau khi đã xác thực và sử dụng xong hệ thống, **Người dùng** c
 
 
 
-## Logic Nghiệp Vụ Hệ Thống
-
-**Actor (Tác nhân):** Khách hàng
+## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Khách hàng
 
 ### 1. Đánh giá khách sạn
 
@@ -140,9 +136,7 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 - Thực hiện xoá khách sạn ra khỏi danh sách yêu thích khi không còn nhu cầu theo dõi.
 
 
-## Logic Nghiệp Vụ Hệ Thống
-
-**Actor (Tác nhân):** Quản lý
+## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Quản lý 
 
 ### 1. Nhóm chức năng: Quản lý thông tin khách sạn
 
@@ -293,7 +287,7 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 
 
 
-### Actor: Doanh nghiệp
+## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Doanh Nghiệp 
 
 **1. Nhóm nghiệp vụ Đăng ký khách sạn mới**
 
@@ -385,7 +379,7 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 - **Vô hiệu hoá tài khoản:** Doanh nghiệp có quyền khóa hoặc vô hiệu hóa tài khoản của các nhân viên không còn làm việc hoặc vi phạm quy định.
 
 
-### Actor: Admin
+## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Admin (Quản )
 
 **1. Trong nghiệp vụ "Quản lý đăng ký khách sạn từ đối tác"**
 
