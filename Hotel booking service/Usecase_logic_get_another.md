@@ -338,3 +338,18 @@ Admin có thể:
 - Xem tổng doanh thu của toàn bộ nền tảng.
     
 - Xem tổng lợi nhuận của đối tác.
+
+
+**7. Trong nghiệp vụ "Quản lý địa điểm"**
+
+Admin có thể:
+
+- Đăng nhập vào hệ thống.
+    
+- Xem danh sách các tỉnh/thành phố, phường/xã.
+    
+- Thêm tỉnh/thành phố, phường/xã.
+    
+- Cập nhật thông tin tỉnh/thành phố, phường/xã.
+    
+- Xoá tỉnh/thành phố, phường/xã.
