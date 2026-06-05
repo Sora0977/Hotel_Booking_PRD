@@ -199,12 +199,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Hotel booking service/Usecase_logic_get_another.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
+              "title": "Outline of Usecase_logic_get_another"
             }
           },
           {
@@ -218,12 +219,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 406.5,
-    "collapsed": true
+    "width": 406.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,7 +237,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "fa206d0a0618ed1f",
+  "active": "bac1e7b49979088e",
   "lastOpenFiles": [
     "Hotel booking service/usecase_tong_quat.md",
     "Hotel booking service/Update logic.md",

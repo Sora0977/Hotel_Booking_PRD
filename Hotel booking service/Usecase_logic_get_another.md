@@ -142,7 +142,7 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 
 ## Logic Nghiệp Vụ Hệ Thống
 
-**Actor (Tác nhân):** Quản lýlý
+**Actor (Tác nhân):** Quản lý
 
 ### 1. Nhóm chức năng: Quản lý thông tin khách sạn
 
@@ -233,6 +233,63 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
         - Thêm các điều khoản về việc xử lý sự cố hoặc thiệt hại tài sản.
             
         - Chỉnh sửa lại nội dung các chính sách, điều khoản hiện tại của khách sạn cho phù hợp.
+
+
+### 6. Nhóm chức năng: Quản lý đặt phòng
+
+- **Actor:** Quản lý.
+    
+- **Luồng nghiệp vụ:**
+    
+    - Để bắt đầu thao tác, Quản lý bắt buộc phải Đăng nhập tài khoản quản lý và Xem danh sách đơn đặt phòng.
+        
+    - Tại danh sách này, Quản lý có thể Xem chi tiết đơn đặt phòng.
+        
+    - Quản lý có chức năng Lọc/Tìm đơn để dễ dàng tra cứu.
+        
+    - Quản lý có thể Sắp xếp đơn theo nhu cầu.
+        
+    - Quản lý có quyền Huỷ đơn đặt phòng.
+        
+    - Khi tiến hành huỷ đơn, hệ thống có thể hỗ trợ các thao tác đi kèm là Hoàn tiền theo chính sách và Gửi email thông báo kèm lý do huỷ.
+        
+    - Quản lý có thể Cập nhật trạng thái đơn.
+        
+    - Các trạng thái có thể được cập nhật bao gồm: Cancel, Check-out, Check-in, hoặc No-show.
+        
+
+### 7. Nhóm chức năng: Quản lý phòng
+
+- **Actor:** Quản lý.
+    
+- **Luồng nghiệp vụ:**
+    
+    - Quản lý bắt buộc phải Đăng nhập và Xem danh sách loại phòng để quản lý.
+        
+    - Quản lý có quyền Thêm loại phòng mới vào hệ thống.
+        
+    - Trong quá trình thêm loại phòng mới, hệ thống bắt buộc Quản lý phải thiết lập đầy đủ các thông tin: Giá, Hình ảnh, Mô tả, Sức chứa, và Số lượng phòng.
+        
+    - Quản lý có thể Cập nhật thông tin loại phòng hiện có.
+        
+    - Quản lý có quyền Ẩn/Xoá loại phòng khỏi hệ thống.
+        
+
+### 8. Nhóm chức năng: Quản lý thông tin hồ sơ
+
+- **Actor:** Quản lý.
+    
+- **Luồng nghiệp vụ:**
+    
+    - Quản lý bắt buộc phải Đăng nhập và Xem thông tin tài khoản của mình.
+        
+    - Khi xem thông tin tài khoản, Quản lý có thể xem được các thông tin chi tiết về: Mã nhân viên, Vai trò, và Địa điểm công tác.
+        
+    - Quản lý có thể thực hiện chức năng Đổi mật khẩu tài khoản.
+        
+    - Quản lý có quyền Cập nhật thông tin hồ sơ của bản thân.
+        
+    - Khi thực hiện cập nhật thông tin, Quản lý có thể chỉnh sửa các dữ liệu bao gồm: Họ tên, Số điện thoại, Ngày tháng năm sinh, và Giới tính.
 
 
 
