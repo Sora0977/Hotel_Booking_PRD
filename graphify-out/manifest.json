@@ -1600,8 +1600,8 @@
     "semantic_hash": ""
   },
   "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Hotel booking service\\Update logic.md": {
-    "mtime": 1780629154.5040035,
-    "ast_hash": "6ea5d58f37b3fcf5b2ee16eceb5dc813",
+    "mtime": 1780633684.1362092,
+    "ast_hash": "d5085bfb57dc897f6c5049e00ca756ce",
     "semantic_hash": ""
   },
   "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Hotel booking service\\usecase_tong_quat.md": {
@@ -1610,8 +1610,13 @@
     "semantic_hash": ""
   },
   "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Hotel booking service\\Usecase_logic_get_another.md": {
-    "mtime": 1780632929.26802,
-    "ast_hash": "1d138ae8893b686403ab7e64659abeee",
+    "mtime": 1780633034.9688993,
+    "ast_hash": "2bef40954476bfa559cba543e4a4f280",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Hotel booking service\\Update logic backup.md": {
+    "mtime": 1780629154.5040035,
+    "ast_hash": "6ea5d58f37b3fcf5b2ee16eceb5dc813",
     "semantic_hash": ""
   }
 }
