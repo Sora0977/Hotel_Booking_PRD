@@ -379,7 +379,7 @@ Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn
 - **Vô hiệu hoá tài khoản:** Doanh nghiệp có quyền khóa hoặc vô hiệu hóa tài khoản của các nhân viên không còn làm việc hoặc vi phạm quy định.
 
 
-## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Admin (Quản )
+## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Admin (Quản trị viên )
 
 **1. Trong nghiệp vụ "Quản lý đăng ký khách sạn từ đối tác"**
 
