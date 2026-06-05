@@ -1,486 +1,266 @@
-## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Người dùng
+# Logic Nghiệp Vụ Hệ Thống Theo Actor
 
-### 1. Quản lý Tài khoản và Xác thực
+Tài liệu này mô tả các chức năng nghiệp vụ theo hướng: mỗi actor có thể thực hiện những hành động nào trên hệ thống. Các chức năng trùng lặp đã được gộp lại để nội dung dễ đọc và tránh lặp ý.
 
-Đối với nhóm chức năng này, **Người dùng** có thể thực hiện việc **Xác thực** để truy cập và sử dụng hệ thống. Cụ thể, người dùng có thể:
+## 1. Actor Người dùng
 
-- **Đăng nhập** vào hệ thống bằng tài khoản đã có.
-    
-- **Đăng ký** một tài khoản mới.
-    
-- Khôi phục quyền truy cập thông qua chức năng **Quên mật khẩu**.
-    
+Người dùng là actor tổng quát của hệ thống. Các actor Khách hàng, Doanh nghiệp, Quản lý và Quản trị viên đều có thể kế thừa các thao tác xác thực cơ bản tùy theo quyền truy cập.
 
-### 2. Tìm kiếm và Xem Thông tin Khách sạn
+### Người dùng có thể đăng ký tài khoản
 
-Trong quá trình tìm phòng, **Người dùng** có quyền **Xem khách sạn và phòng**. Để quá trình này diễn ra hiệu quả, người dùng có thể thực hiện các hành động bổ trợ sau:
+- Người dùng có thể đăng ký tài khoản mới nếu chưa có tài khoản trên hệ thống.
+- Người dùng có thể đăng ký tài khoản khách hàng bằng cách nhập email, mật khẩu và xác nhận mật khẩu.
+- Người dùng có thể đăng ký tài khoản doanh nghiệp bằng cách cung cấp đầy đủ các nhóm thông tin sau:
+  - Thông tin tài khoản gồm email đăng nhập.
+  - Thông tin bảo mật gồm mật khẩu và xác nhận mật khẩu.
+  - Thông tin người đại diện gồm họ tên, chức vụ, số điện thoại và email.
+  - Thông tin pháp lý và doanh nghiệp gồm tên doanh nghiệp, mã số thuế và địa chỉ đăng ký kinh doanh.
+- Sau khi đăng ký, hệ thống lưu thông tin tài khoản và phân loại tài khoản theo vai trò phù hợp.
 
-- **Nhập thông tin lọc/tìm kiếm** để xác định các tiêu chí (ví dụ: địa điểm, thời gian, mức giá).
-    
-- Kích hoạt tính năng **Tìm kiếm/Lọc** để hệ thống trả về danh sách phù hợp.
-    
-- **Sắp xếp kết quả lọc/tìm kiếm** để dễ dàng so sánh và lựa chọn hơn.
-    
-- **Xem thông tin chi tiết khách sạn và phòng khách sạn** đối với các kết quả cụ thể mà họ quan tâm.
-    
-- **Thêm vào danh sách yêu thích** những khách sạn hoặc phòng mà họ ưng ý để tiện lưu trữ và xem lại sau.
-    
+### Người dùng có thể đăng nhập
 
-### 3. Quản lý Hồ sơ Cá nhân
+- Người dùng có thể đăng nhập vào hệ thống bằng tài khoản đã có.
+- Người dùng có thể đăng nhập bằng tài khoản khách hàng để truy cập hệ thống với tư cách người dùng cá nhân.
+- Người dùng có thể đăng nhập bằng tài khoản doanh nghiệp để truy cập hệ thống với tư cách tổ chức hoặc công ty.
+- Sau khi đăng nhập thành công, hệ thống điều hướng người dùng đến đúng giao diện theo vai trò.
 
-Để kiểm soát thông tin tài khoản của mình, **Người dùng** có thể **Quản lý thông tin hồ sơ**. Quá trình này bắt buộc người dùng phải thực hiện bước **Đăng nhập** trước. Sau khi vào khu vực quản lý, người dùng có thể:
+### Người dùng có thể khôi phục mật khẩu
 
-- **Xem thông tin cá nhân** hiện tại của mình trên hệ thống.
-    
-- **Cập nhật thông tin cá nhân** khi có bất kỳ thay đổi nào.
-    
-- **Đổi mật khẩu** để tăng cường tính bảo mật cho tài khoản.
+- Người dùng có thể sử dụng chức năng quên mật khẩu để khôi phục quyền truy cập.
+- Hệ thống yêu cầu người dùng cung cấp thông tin tài khoản cần khôi phục.
+- Sau khi xác thực hợp lệ, hệ thống hỗ trợ người dùng thiết lập lại mật khẩu hoặc lấy lại quyền truy cập.
 
+### Người dùng có thể đổi mật khẩu
 
-Dựa trên biểu đồ Use Case từ tệp `image_c51e65.png`, dưới đây là các luồng nghiệp vụ (business logic) mô tả chi tiết những gì **Người dùng** có thể thực hiện trên hệ thống:
+- Người dùng đã đăng nhập có thể đổi mật khẩu để tăng cường bảo mật tài khoản.
+- Hệ thống yêu cầu người dùng cung cấp thông tin mật khẩu cần thiết trước khi cập nhật.
+- Sau khi đổi mật khẩu thành công, người dùng sử dụng mật khẩu mới cho các lần đăng nhập sau.
 
+### Người dùng có thể đăng xuất
 
-### 4. Đăng nhập
+- Sau khi sử dụng xong hệ thống, người dùng có thể đăng xuất để chấm dứt phiên làm việc.
+- Việc đăng xuất giúp bảo vệ tài khoản, đặc biệt khi người dùng thao tác trên thiết bị dùng chung.
 
-**Người dùng** có thể truy cập vào hệ thống thông qua chức năng **Đăng nhập**. Tùy thuộc vào vai trò, người dùng có thể tùy chọn:
+### Người dùng có thể tìm kiếm và lọc khách sạn
 
-- **Đăng nhập tài khoản khách hàng:** Truy cập bằng tư cách người dùng cá nhân.
-    
-- **Đăng nhập tài khoản doanh nghiệp:** Truy cập bằng tư cách tổ chức hoặc công ty.
-    
+- Người dùng có thể nhập thông tin lọc/tìm kiếm để xác định tiêu chí như địa điểm, thời gian và mức giá.
+- Người dùng có thể kích hoạt chức năng tìm kiếm/lọc để hệ thống trả về danh sách khách sạn hoặc phòng phù hợp.
+- Người dùng có thể sắp xếp kết quả lọc/tìm kiếm để dễ so sánh và lựa chọn.
 
-### 5. Đăng ký
+### Người dùng có thể xem thông tin khách sạn và phòng
 
-Nếu chưa có tài khoản, **Người dùng** có thể thiết lập tài khoản mới thông qua chức năng **Đăng ký**. Người dùng có hai hướng để tạo tài khoản với các yêu cầu thông tin đi kèm:
+- Người dùng có thể xem thông tin chi tiết khách sạn từ danh sách kết quả tìm kiếm.
+- Người dùng có thể xem thông tin chi tiết phòng khách sạn đối với các kết quả cụ thể mà họ quan tâm.
+- Các thông tin hiển thị có thể bao gồm mô tả, hình ảnh, tiện nghi, giá, sức chứa, số lượng phòng và các điều kiện liên quan.
 
-- **Đăng ký tài khoản khách hàng:** Để hoàn tất, **Người dùng** cần nhập các thông tin cơ bản:
-    
-    - Email.
-        
-    - Mật khẩu và xác nhận mật khẩu.
-        
-- **Đăng ký tài khoản doanh nghiệp:** Phức tạp hơn, **Người dùng** cần cung cấp đầy đủ 4 nhóm thông tin chính:
-    
-    - **Thông tin tài khoản:** Cung cấp Email.
-        
-    - **Bảo mật:** Thiết lập Mật khẩu và xác nhận mật khẩu.
-        
-    - **Người đại diện:** Cập nhật thông tin của người chịu trách nhiệm, bao gồm: Họ tên, Chức vụ, Số điện thoại và Email.
-        
-    - **Thông tin pháp lý và doanh nghiệp:** Cung cấp các chứng từ pháp lý bao gồm: Tên doanh nghiệp, Mã số thuế và Địa chỉ đăng ký kinh doanh (Địa chỉ trụ sở chính).
-        
-
-### 6. Đăng xuất
-
-Sau khi đã xác thực và sử dụng xong hệ thống, **Người dùng** có thể thực hiện **Đăng xuất** để chấm dứt phiên làm việc và bảo vệ tài khoản.
-
-
-
-## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Khách hàng
-
-### 1. Đánh giá khách sạn
-
-Khách hàng có quyền để lại nhận xét và đánh giá về khách sạn mà họ đã trải nghiệm. Để hoàn tất quy trình này, khách hàng có thể:
-
-- Đăng nhập vào hệ thống.
-    
-- Xem lại lịch sử các đơn đặt phòng ở trạng thái đã hoàn tất (đã checkout).
-    
-- Thực hiện viết và gửi đánh giá cho khách sạn.
-    
-
-### 2. Đặt phòng và thanh toán
-
-Khách hàng có thể tìm kiếm, lựa chọn và hoàn tất giao dịch thuê phòng khách sạn thông qua các hành động sau:
-
-- Đăng nhập vào hệ thống.
-    
-- Nhập thông tin điều kiện để tìm kiếm và lọc các phòng/khách sạn phù hợp.
-    
-- Xem thông tin chi tiết của phòng khách sạn.
-    
-- Chọn phòng muốn đặt.
-    
-- Nhập thông tin cá nhân để ghi nhận trên đơn đặt phòng.
-    
-- Ghi chú thêm các yêu cầu đặc biệt (nếu có).
-    
-- Tiến hành thanh toán bằng cách chọn phương thức thanh toán và hoàn tất giao dịch.
-    
-
-### 3. Xem lịch sử đặt phòng
-
-Khách hàng có thể quản lý, theo dõi tình trạng và xử lý các vấn đề liên quan đến đơn đặt phòng của mình:
-
-- Đăng nhập vào hệ thống.
-    
-- Xem danh sách tổng hợp tất cả các đơn đặt phòng.
-    
-- Xem thông tin chi tiết của một đơn đặt phòng cụ thể.
-    
-- Thực hiện thao tác huỷ đặt phòng.
-    
-- Gửi yêu cầu hoàn tiền cho các đơn hàng hợp lệ.
-    
-- Chuyển sang bước đánh giá khách sạn trực tiếp từ lịch sử đơn hàng.
-    
-
-### 4. Quản lý khách sạn yêu thích
-
-Khách hàng có thể lưu trữ và tuỳ chỉnh danh sách các khách sạn mà mình quan tâm:
-
-- Đăng nhập vào hệ thống.
-    
-- Xem danh sách các khách sạn đã được lưu vào mục yêu thích.
-    
-- Thực hiện xoá khách sạn ra khỏi danh sách yêu thích khi không còn nhu cầu theo dõi.
-
-
-## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Quản lý 
-
-### 1. Nhóm chức năng: Quản lý thông tin khách sạn
-
-- **Actor:** Quản lý
-    
-- **Luồng nghiệp vụ:** * Để bắt đầu, Quản lý bắt buộc phải **Đăng nhập** vào hệ thống.
-    
-    - Khi truy cập vào chức năng quản lý thông tin khách sạn, Quản lý có thể thực hiện các thao tác sau:
-        
-        - Thêm các thông tin mô tả, phần giới thiệu và hình ảnh của khách sạn.
-            
-        - Cập nhật, chỉnh sửa lại thông tin của khách sạn.
-            
-        - Thêm các tiện nghi mới cho khách sạn.
-            
-        - Cập nhật và chỉnh sửa thông tin của các tiện nghi hiện tại.
-            
-
-### 2. Nhóm chức năng: Quản lý phòng
-
-- **Actor:** Quản lý
-    
-- **Luồng nghiệp vụ:**
-    
-    - Quản lý bắt buộc phải **Đăng nhập** và hệ thống sẽ yêu cầu **Xem danh sách loại phòng** để tiến hành quản lý.
-        
-    - Tại đây, Quản lý có thể thực hiện các thao tác:
-        
-        - **Thêm loại phòng mới:** Khi thực hiện hành động này, hệ thống bắt buộc Quản lý phải nhập đầy đủ các thông tin đi kèm bao gồm: thêm hình ảnh, mô tả, giá, sức chứa và số lượng phòng.
-            
-        - **Cập nhật thông tin loại phòng:** Tương tự như khi thêm mới, khi cập nhật, Quản lý cũng bắt buộc phải làm việc với các trường dữ liệu: cập nhật hình ảnh, mô tả, giá, sức chứa và số lượng phòng.
-            
-        - **Ẩn/xoá loại phòng:** Quản lý có quyền ẩn hoặc xoá bỏ một loại phòng khỏi hệ thống.
-            
-
-### 3. Nhóm chức năng: Quản lý đặt phòng
-
-- **Actor:** Quản lý
-    
-- **Luồng nghiệp vụ:**
-    
-    - Quản lý bắt buộc phải **Đăng nhập** và **Xem danh sách đơn đặt phòng** để thao tác.
-        
-    - Trong quá trình quản lý đơn đặt phòng, Quản lý có quyền:
-        
-        - Xem chi tiết thông tin của một đơn đặt phòng cụ thể.
-            
-        - Lọc hoặc tìm kiếm các đơn đặt phòng theo nhu cầu.
-            
-        - Sắp xếp sản phẩm (sắp xếp các đơn/phòng).
-            
-        - Huỷ đơn đặt phòng.
-            
-        - **Cập nhật trạng thái đơn:** Khi cập nhật, Quản lý có thể thay đổi trạng thái của đơn thành các mốc cụ thể như: _No-show_ (Khách không đến), _Check-in_ (Nhận phòng), _Check-out_ (Trả phòng), hoặc _Cancel_ (Huỷ).
-            
-
-### 4. Nhóm chức năng: Quản lý đánh giá khách sạn
-
-- **Actor:** Quản lý
-    
-- **Luồng nghiệp vụ:**
-    
-    - Quản lý bắt buộc phải **Đăng nhập** và **Xem đánh giá từ khách hàng**.
-        
-    - Đối với các đánh giá này, Quản lý có thể thực hiện các tác vụ:
-        
-        - Lọc các đánh giá.
-            
-        - Sắp xếp các đánh giá để dễ dàng theo dõi.
-            
-        - Phản hồi lại các đánh giá của khách hàng.
-            
-        - Ẩn đi các đánh giá có nội dung vi phạm.
-            
-
-### 5. Nhóm chức năng: Quản lý chính sách và điều khoản 
-
-- **Actor:** Quản lý
-    
-- **Luồng nghiệp vụ:**
-    
-    - Quản lý bắt buộc phải **Đăng nhập** và **Xem danh sách chính sách và điều khoản** hiện có của hệ thống.
-        
-    - Tại màn hình quản lý này, Quản lý có quyền:
-        
-        - Thiết lập các chính sách liên quan đến việc đặt phòng, huỷ phòng và hoàn tiền.
-            
-        - Thêm các điều khoản về việc xử lý sự cố hoặc thiệt hại tài sản.
-            
-        - Chỉnh sửa lại nội dung các chính sách, điều khoản hiện tại của khách sạn cho phù hợp.
-
-
-### 6. Nhóm chức năng: Quản lý đặt phòng
-
-- **Actor:** Quản lý.
-    
-- **Luồng nghiệp vụ:**
-    
-    - Để bắt đầu thao tác, Quản lý bắt buộc phải Đăng nhập tài khoản quản lý và Xem danh sách đơn đặt phòng.
-        
-    - Tại danh sách này, Quản lý có thể Xem chi tiết đơn đặt phòng.
-        
-    - Quản lý có chức năng Lọc/Tìm đơn để dễ dàng tra cứu.
-        
-    - Quản lý có thể Sắp xếp đơn theo nhu cầu.
-        
-    - Quản lý có quyền Huỷ đơn đặt phòng.
-        
-    - Khi tiến hành huỷ đơn, hệ thống có thể hỗ trợ các thao tác đi kèm là Hoàn tiền theo chính sách và Gửi email thông báo kèm lý do huỷ.
-        
-    - Quản lý có thể Cập nhật trạng thái đơn.
-        
-    - Các trạng thái có thể được cập nhật bao gồm: Cancel, Check-out, Check-in, hoặc No-show.
-        
-
-### 7. Nhóm chức năng: Quản lý phòng
-
-- **Actor:** Quản lý.
-    
-- **Luồng nghiệp vụ:**
-    
-    - Quản lý bắt buộc phải Đăng nhập và Xem danh sách loại phòng để quản lý.
-        
-    - Quản lý có quyền Thêm loại phòng mới vào hệ thống.
-        
-    - Trong quá trình thêm loại phòng mới, hệ thống bắt buộc Quản lý phải thiết lập đầy đủ các thông tin: Giá, Hình ảnh, Mô tả, Sức chứa, và Số lượng phòng.
-        
-    - Quản lý có thể Cập nhật thông tin loại phòng hiện có.
-        
-    - Quản lý có quyền Ẩn/Xoá loại phòng khỏi hệ thống.
-        
-
-### 8. Nhóm chức năng: Quản lý thông tin hồ sơ
-
-- **Actor:** Quản lý.
-    
-- **Luồng nghiệp vụ:**
-    
-    - Quản lý bắt buộc phải Đăng nhập và Xem thông tin tài khoản của mình.
-        
-    - Khi xem thông tin tài khoản, Quản lý có thể xem được các thông tin chi tiết về: Mã nhân viên, Vai trò, và Địa điểm công tác.
-        
-    - Quản lý có thể thực hiện chức năng Đổi mật khẩu tài khoản.
-        
-    - Quản lý có quyền Cập nhật thông tin hồ sơ của bản thân.
-        
-    - Khi thực hiện cập nhật thông tin, Quản lý có thể chỉnh sửa các dữ liệu bao gồm: Họ tên, Số điện thoại, Ngày tháng năm sinh, và Giới tính.
-
-
-
-## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Doanh Nghiệp 
-
-**1. Nhóm nghiệp vụ Đăng ký khách sạn mới**
-
-- **Đăng nhập hệ thống:** Đây là thao tác bắt buộc đầu tiên để Doanh nghiệp bắt đầu quy trình.
-    
-- **Tạo đơn đăng ký:** Doanh nghiệp tiến hành tạo lập đơn đăng ký cho một khách sạn mới thuộc chuỗi của mình.
-    
-- **Cung cấp thông tin pháp nhân:** Doanh nghiệp bắt buộc phải điền đầy đủ các thông tin pháp nhân bao gồm tên, mã số thuế và địa điểm.
-    
-- **Chỉnh sửa thông tin pháp nhân:** Trong quá trình thực hiện, Doanh nghiệp có quyền thay đổi hoặc cập nhật lại các thông tin pháp lý này nếu cần thiết.
-    
-- **Chuyển hồ sơ:** Sau khi hoàn tất thông tin, Doanh nghiệp gửi hồ sơ lên quản trị viên (Admin) để tiến hành xét duyệt.
-    
-
-
-**2. Nhóm nghiệp vụ Quản lý danh mục khách sạn**
-
-- **Xác thực tài khoản:** Doanh nghiệp bắt buộc phải đăng nhập thành công mới có thể truy cập vào giao diện quản lý danh mục khách sạn.
-    
-- **Theo dõi danh sách khách sạn:** Từ giao diện quản lý, Doanh nghiệp có thể lựa chọn xem danh sách toàn bộ các khách sạn hiện đang thuộc sở hữu của mình.
-    
-- **Đăng ký khách sạn mới:** Doanh nghiệp có thể mở rộng chuỗi bằng cách kích hoạt quy trình đăng ký thêm một khách sạn mới ngay từ trong phần quản lý danh mục. Khi thực hiện nghiệp vụ này, Doanh nghiệp bắt buộc phải hoàn thành các bước sau:
-    
-    - **Đăng ký địa điểm:** Cung cấp thông tin vị trí, địa chỉ cụ thể cho khách sạn mới.
-        
-    - **Đăng ký tên khách sạn:** Cung cấp và xác nhận tên gọi mới cho khách sạn vừa được tạo.
-    
-
-**3. Nhóm nghiệp vụ Quản lý nhân viên**
-
-- **Xác thực tài khoản:** Doanh nghiệp cần đăng nhập để thao tác với phân hệ nhân sự.
-    
-- **Xem danh sách nhân sự:** Doanh nghiệp có thể theo dõi danh sách toàn bộ nhân viên đang hoạt động trong hệ thống của mình.
-    
-- **Thêm nhân viên mới:** Doanh nghiệp có quyền tạo thêm tài khoản cho nhân sự mới.
-    
-- **Gán quyền hạn:** Khi thực hiện thêm nhân viên mới, Doanh nghiệp bắt buộc phải thiết lập vai trò và gán quyền tương ứng (ví dụ: cấp quyền quản lý hoặc quyền nhân viên thông thường).
-    
-- **Bảo mật và kiểm soát:** Doanh nghiệp có quyền thu hồi các quyền đã cấp hoặc vô hiệu hóa hoàn toàn tài khoản của nhân viên khi có sự thay đổi về mặt nhân sự.
-    
-
-**4. Nhóm nghiệp vụ Thống kê báo cáo**
-
-- **Xác thực tài khoản:** Doanh nghiệp bắt buộc đăng nhập để xem các dữ liệu nhạy cảm về tài chính và hoạt động.
-    
-- **Xem số liệu tổng quan:** Doanh nghiệp có thể xem số liệu về tổng doanh thu và tổng lợi nhuận của toàn chuỗi.
-    
-- **Xem số liệu chi tiết:** Cung cấp khả năng xem doanh thu chi tiết bóc tách cho từng khách sạn cụ thể.
-    
-- **Theo dõi lượng đơn:** Doanh nghiệp có thể kiểm tra tổng số lượng đơn (đặt phòng/dịch vụ) đã phát sinh.
-    
-- **Kiểm soát chi phí:** Cho phép Doanh nghiệp xem chi tiết các khoản chi phí hoa hồng cần trả cho nền tảng.
-    
-- **Sử dụng bộ lọc:** Doanh nghiệp có thể tùy chỉnh lọc dữ liệu doanh thu theo từng khoảng thời gian cụ thể để phục vụ việc phân tích.
-
-    
-**5. Nhóm nghiệp vụ Quản lý phân công** 
-
-- **Xác thực tài khoản:** Doanh nghiệp bắt buộc phải đăng nhập vào tài khoản doanh nghiệp để tiến hành phân công nhân sự.
-    
-- **Phân bổ nơi làm việc:** Khi thực hiện nghiệp vụ phân công, Doanh nghiệp bắt buộc phải chỉ định và phân công nơi làm việc hoặc nơi công tác cụ thể cho nhân viên.
-    
-- **Quản lý vai trò:** Đây là một khâu bắt buộc trong việc phân công. Doanh nghiệp phải gán một vai trò/chức vụ cụ thể cho nhân viên. Trong quá trình vận hành, Doanh nghiệp có thể cập nhật lại vai trò này bằng các quyết định thăng chức hoặc giáng chức nhân viên.
-    
-- **Luân chuyển nhân sự:** Doanh nghiệp có quyền quyết định luân chuyển công tác của nhân viên qua lại giữa các chi nhánh khách sạn khác nhau trong chuỗi.
-    
-- **Tra cứu danh sách:** Để hỗ trợ cho việc phân công, Doanh nghiệp có thể mở xem danh sách nhân viên hiện tại, kết hợp với các công cụ sắp xếp và lọc để tìm kiếm nhân sự phù hợp.
-    
-
-**6. Nhóm nghiệp vụ Quản lý thông tin hồ sơ** 
-
-- **Xác thực tài khoản:** Doanh nghiệp bắt buộc phải đăng nhập hệ thống để quản lý hồ sơ.
-    
-- **Xem thông tin đăng ký:** Ngay khi truy cập, Doanh nghiệp mặc định sẽ xem được toàn bộ thông tin đã đăng ký của tổ chức.
-    
-- **Đổi mật khẩu:** Doanh nghiệp có quyền thực hiện đổi mật khẩu để bảo đảm an toàn cho tài khoản.
-    
-- **Cập nhật thông tin:** Doanh nghiệp có thể tiến hành chỉnh sửa hồ sơ. Quá trình này cho phép cập nhật chi tiết về thông tin người đại diện hợp pháp và thông tin pháp lý của doanh nghiệp.
-    
-
-**7. Nhóm nghiệp vụ Quản lý nhân sự** 
-
-- **Xác thực tài khoản:** Doanh nghiệp bắt buộc đăng nhập để thao tác với dữ liệu nhân sự.
-    
-- **Xem danh sách nhân viên:** Doanh nghiệp có thể theo dõi danh sách toàn bộ nhân viên, có thể sử dụng thêm tính năng sắp xếp và lọc dữ liệu để quản lý dễ dàng hơn.
-    
-- **Thêm nhân viên mới:** Doanh nghiệp có quyền tạo lập hồ sơ cho nhân sự mới. Khi thêm mới, Doanh nghiệp bắt buộc phải khai báo đầy đủ các trường thông tin: Họ tên, Giới tính, Năm sinh, Số điện thoại và Trạng thái hoạt động.
-    
-- **Vô hiệu hoá tài khoản:** Doanh nghiệp có quyền khóa hoặc vô hiệu hóa tài khoản của các nhân viên không còn làm việc hoặc vi phạm quy định.
-
-
-## Logic Nghiệp Vụ Hệ Thống **Actor (Tác nhân):** Admin (Quản trị viên )
-
-**1. Trong nghiệp vụ "Quản lý đăng ký khách sạn từ đối tác"**
-
-Admin có thể:
-
-- Đăng nhập vào hệ thống.
-    
-- Xem danh sách các đăng ký khách sạn được gửi từ đối tác.
-    
-- Duyệt các yêu cầu đăng ký hợp lệ.
-    
-- Từ chối các yêu cầu đăng ký và ghi kèm theo lý do từ chối.
-    
-- Ẩn khách sạn trên nền tảng.
-    
-
-**2. Trong nghiệp vụ "Quản lý giao dịch và hoa hồng"**
-
-Admin có thể:
-
-- Đăng nhập vào hệ thống.
-    
-- Xem nhật ký của các giao dịch.
-    
-- Xem chi tiết từng giao dịch cụ thể.
-    
-- Lọc và tìm kiếm các giao dịch.
-    
-- Tính toán và lưu vết doanh thu hoa hồng thu được từ các đối tác.
-    
-
-**3. Trong nghiệp vụ "Quản lý hoạt động khách sạn"**
-
-Admin có thể:
-
-- Đăng nhập vào hệ thống.
-    
-- Xem danh sách các khách sạn hiện đang hoạt động.
-    
-- Lọc và tìm kiếm các khách sạn.
-    
-- Đình chỉ hoạt động của một khách sạn cụ thể.
-    
-- Ẩn hoặc vô hiệu hoá khách sạn trên nền tảng.
-    
-
-**4. Trong nghiệp vụ "Quản lý người dùng"**
-
-Admin có thể:
-
-- Đăng nhập vào hệ thống.
-    
-- Xem danh sách người dùng.
-    
-- Lọc và tìm kiếm người dùng.
-    
-- Vô hiệu hoá tài khoản của người dùng.
-    
-
-**5. Trong nghiệp vụ "Quản lý tiện nghi / Đánh giá khách sạn"** 
-
-Admin có thể:
-
-- Đăng nhập vào hệ thống.
-    
-- Xem danh sách các tiện nghi.
-    
-- Thêm tiện nghi mới.
-    
-- Cập nhật thông tin tiện nghi.
-    
-- Xoá tiện nghi.
-    
-
-**6. Trong nghiệp vụ "Thống kê báo cáo"**
-
-Admin có thể:
-
-- Đăng nhập vào hệ thống.
-    
-- Lọc các chỉ số thống kê theo thời gian.
-    
-- So sánh doanh thu theo các mốc thời gian: tháng/quý/năm.
-    
-- Xem tổng số lượng đơn đặt phòng.
-    
-- Xem tổng doanh thu của toàn bộ nền tảng.
-    
-- Xem tổng lợi nhuận của đối tác.
-
-
-**7. Trong nghiệp vụ "Quản lý địa điểm"**
-
-Admin có thể:
-
-- Đăng nhập vào hệ thống.
-    
-- Xem danh sách các tỉnh/thành phố, phường/xã.
-    
-- Thêm tỉnh/thành phố, phường/xã.
-    
-- Cập nhật thông tin tỉnh/thành phố, phường/xã.
-    
-- Xoá tỉnh/thành phố, phường/xã.
+### Người dùng có thể quản lý hồ sơ cá nhân
+
+- Người dùng phải đăng nhập trước khi truy cập khu vực quản lý hồ sơ.
+- Người dùng có thể xem thông tin cá nhân hiện tại của mình trên hệ thống.
+- Người dùng có thể cập nhật thông tin cá nhân khi có thay đổi.
+- Người dùng có thể đổi mật khẩu từ khu vực hồ sơ để bảo vệ tài khoản.
+
+## 2. Actor Khách hàng
+
+Khách hàng là người dùng sử dụng hệ thống để tìm khách sạn, lưu khách sạn yêu thích, đặt phòng, thanh toán, theo dõi lịch sử đặt phòng và đánh giá khách sạn.
+
+### Khách hàng có thể quản lý khách sạn yêu thích
+
+- Khách hàng phải đăng nhập trước khi quản lý danh sách yêu thích.
+- Khách hàng có thể thêm khách sạn hoặc phòng quan tâm vào danh sách yêu thích để lưu trữ và xem lại sau.
+- Khách hàng có thể xem danh sách các khách sạn đã được lưu vào mục yêu thích.
+- Khách hàng có thể xóa khách sạn khỏi danh sách yêu thích khi không còn nhu cầu theo dõi.
+
+### Khách hàng có thể đặt phòng và thanh toán
+
+- Khách hàng phải đăng nhập trước khi đặt phòng.
+- Khách hàng có thể nhập thông tin điều kiện để tìm kiếm và lọc các phòng/khách sạn phù hợp.
+- Khách hàng có thể xem thông tin chi tiết của phòng khách sạn trước khi đặt.
+- Khách hàng có thể chọn phòng muốn đặt.
+- Khách hàng có thể nhập thông tin cá nhân để ghi nhận trên đơn đặt phòng.
+- Khách hàng có thể ghi chú thêm các yêu cầu đặc biệt nếu có.
+- Khách hàng có thể chọn phương thức thanh toán và hoàn tất giao dịch.
+
+### Khách hàng có thể xem lịch sử đặt phòng
+
+- Khách hàng phải đăng nhập trước khi xem lịch sử đặt phòng.
+- Khách hàng có thể xem danh sách tổng hợp tất cả các đơn đặt phòng của mình.
+- Khách hàng có thể xem thông tin chi tiết của một đơn đặt phòng cụ thể.
+- Khách hàng có thể chuyển sang bước đánh giá khách sạn trực tiếp từ lịch sử đơn hàng nếu đơn đủ điều kiện.
+
+### Khách hàng có thể hủy đặt phòng và yêu cầu hoàn tiền
+
+- Khách hàng có thể thực hiện thao tác hủy đặt phòng từ lịch sử đơn hàng.
+- Khách hàng có thể gửi yêu cầu hoàn tiền cho các đơn hàng hợp lệ.
+- Hệ thống xử lý việc hủy đơn và hoàn tiền theo chính sách áp dụng cho đơn đặt phòng.
+
+### Khách hàng có thể đánh giá khách sạn
+
+- Khách hàng phải đăng nhập trước khi đánh giá khách sạn.
+- Khách hàng có thể xem lại lịch sử các đơn đặt phòng ở trạng thái đã hoàn tất hoặc đã checkout.
+- Khách hàng có thể viết và gửi đánh giá cho khách sạn mà mình đã trải nghiệm.
+
+## 3. Actor Quản lý
+
+Quản lý là actor được phân quyền để vận hành thông tin khách sạn, phòng, đơn đặt phòng, đánh giá, chính sách và hồ sơ cá nhân trong phạm vi khách sạn được giao.
+
+### Quản lý có thể quản lý thông tin khách sạn
+
+- Quản lý bắt buộc phải đăng nhập trước khi thao tác.
+- Quản lý có thể thêm thông tin mô tả, phần giới thiệu và hình ảnh của khách sạn.
+- Quản lý có thể cập nhật, chỉnh sửa lại thông tin của khách sạn.
+- Quản lý có thể thêm các tiện nghi mới cho khách sạn.
+- Quản lý có thể cập nhật và chỉnh sửa thông tin của các tiện nghi hiện tại.
+
+### Quản lý có thể quản lý phòng
+
+- Quản lý bắt buộc phải đăng nhập và xem danh sách loại phòng trước khi quản lý.
+- Quản lý có thể thêm loại phòng mới vào hệ thống.
+- Khi thêm loại phòng mới, hệ thống yêu cầu Quản lý nhập đầy đủ giá, hình ảnh, mô tả, sức chứa và số lượng phòng.
+- Quản lý có thể cập nhật thông tin loại phòng hiện có.
+- Khi cập nhật loại phòng, Quản lý có thể cập nhật hình ảnh, mô tả, giá, sức chứa và số lượng phòng.
+- Quản lý có thể ẩn hoặc xóa loại phòng khỏi hệ thống.
+
+### Quản lý có thể quản lý đặt phòng
+
+- Quản lý bắt buộc phải đăng nhập và xem danh sách đơn đặt phòng trước khi thao tác.
+- Quản lý có thể xem chi tiết thông tin của một đơn đặt phòng cụ thể.
+- Quản lý có thể lọc hoặc tìm kiếm đơn đặt phòng theo nhu cầu.
+- Quản lý có thể sắp xếp danh sách đơn đặt phòng để dễ theo dõi.
+- Quản lý có thể hủy đơn đặt phòng.
+- Khi hủy đơn, hệ thống có thể hỗ trợ hoàn tiền theo chính sách và gửi email thông báo kèm lý do hủy.
+- Quản lý có thể cập nhật trạng thái đơn đặt phòng.
+- Các trạng thái có thể được cập nhật gồm `Cancel`, `Check-in`, `Check-out` và `No-show`.
+
+### Quản lý có thể quản lý đánh giá khách sạn
+
+- Quản lý bắt buộc phải đăng nhập và xem đánh giá từ khách hàng.
+- Quản lý có thể lọc các đánh giá.
+- Quản lý có thể sắp xếp các đánh giá để dễ theo dõi.
+- Quản lý có thể phản hồi lại các đánh giá của khách hàng.
+- Quản lý có thể ẩn các đánh giá có nội dung vi phạm.
+
+### Quản lý có thể quản lý chính sách và điều khoản
+
+- Quản lý bắt buộc phải đăng nhập và xem danh sách chính sách, điều khoản hiện có.
+- Quản lý có thể thiết lập các chính sách liên quan đến đặt phòng, hủy phòng và hoàn tiền.
+- Quản lý có thể thêm các điều khoản về xử lý sự cố hoặc thiệt hại tài sản.
+- Quản lý có thể chỉnh sửa nội dung các chính sách, điều khoản hiện tại của khách sạn cho phù hợp.
+
+### Quản lý có thể quản lý thông tin hồ sơ cá nhân
+
+- Quản lý bắt buộc phải đăng nhập và xem thông tin tài khoản của mình.
+- Quản lý có thể xem các thông tin chi tiết như mã nhân viên, vai trò và địa điểm công tác.
+- Quản lý có thể đổi mật khẩu tài khoản.
+- Quản lý có thể cập nhật thông tin hồ sơ của bản thân.
+- Khi cập nhật hồ sơ, Quản lý có thể chỉnh sửa họ tên, số điện thoại, ngày tháng năm sinh và giới tính.
+
+## 4. Actor Doanh nghiệp
+
+Doanh nghiệp là actor đại diện cho đối tác hoặc tổ chức sở hữu khách sạn. Doanh nghiệp có thể đăng ký khách sạn, quản lý danh mục khách sạn, nhân sự, phân công, hồ sơ và báo cáo.
+
+### Doanh nghiệp có thể đăng ký khách sạn mới
+
+- Doanh nghiệp bắt buộc phải đăng nhập trước khi bắt đầu quy trình.
+- Doanh nghiệp có thể tạo đơn đăng ký cho một khách sạn mới thuộc chuỗi của mình.
+- Doanh nghiệp bắt buộc phải cung cấp thông tin pháp nhân gồm tên doanh nghiệp, mã số thuế và địa điểm.
+- Doanh nghiệp có thể chỉnh sửa hoặc cập nhật lại thông tin pháp nhân trong quá trình thực hiện nếu cần.
+- Doanh nghiệp có thể đăng ký địa điểm và địa chỉ cụ thể cho khách sạn mới.
+- Doanh nghiệp có thể đăng ký và xác nhận tên khách sạn mới.
+- Sau khi hoàn tất thông tin, Doanh nghiệp gửi hồ sơ lên Quản trị viên để xét duyệt.
+
+### Doanh nghiệp có thể quản lý danh mục khách sạn
+
+- Doanh nghiệp bắt buộc phải đăng nhập thành công mới có thể truy cập giao diện quản lý danh mục khách sạn.
+- Doanh nghiệp có thể xem danh sách toàn bộ các khách sạn hiện đang thuộc sở hữu của mình.
+- Doanh nghiệp có thể mở rộng chuỗi bằng cách kích hoạt quy trình đăng ký thêm khách sạn mới từ phần quản lý danh mục.
+
+### Doanh nghiệp có thể quản lý nhân sự và phân công
+
+- Doanh nghiệp bắt buộc phải đăng nhập để thao tác với phân hệ nhân sự.
+- Doanh nghiệp có thể xem danh sách toàn bộ nhân viên đang hoạt động trong hệ thống của mình.
+- Doanh nghiệp có thể sử dụng tính năng sắp xếp và lọc dữ liệu để quản lý hoặc tìm kiếm nhân sự phù hợp.
+- Doanh nghiệp có thể thêm nhân viên mới.
+- Khi thêm nhân viên mới, Doanh nghiệp bắt buộc khai báo họ tên, giới tính, năm sinh, số điện thoại và trạng thái hoạt động.
+- Khi thêm hoặc phân công nhân viên, Doanh nghiệp phải thiết lập vai trò và gán quyền tương ứng.
+- Doanh nghiệp có thể phân bổ nơi làm việc hoặc nơi công tác cụ thể cho nhân viên.
+- Doanh nghiệp có thể cập nhật vai trò/chức vụ của nhân viên thông qua thăng chức hoặc giáng chức.
+- Doanh nghiệp có thể luân chuyển công tác của nhân viên giữa các chi nhánh khách sạn khác nhau trong chuỗi.
+- Doanh nghiệp có thể thu hồi quyền đã cấp hoặc vô hiệu hóa tài khoản nhân viên khi có thay đổi nhân sự hoặc khi nhân viên vi phạm quy định.
+
+### Doanh nghiệp có thể xem thống kê báo cáo
+
+- Doanh nghiệp bắt buộc đăng nhập để xem dữ liệu nhạy cảm về tài chính và hoạt động.
+- Doanh nghiệp có thể xem số liệu tổng quan về tổng doanh thu và tổng lợi nhuận của toàn chuỗi.
+- Doanh nghiệp có thể xem doanh thu chi tiết bóc tách theo từng khách sạn cụ thể.
+- Doanh nghiệp có thể kiểm tra tổng số lượng đơn đặt phòng hoặc dịch vụ đã phát sinh.
+- Doanh nghiệp có thể xem chi tiết các khoản chi phí hoa hồng cần trả cho nền tảng.
+- Doanh nghiệp có thể lọc dữ liệu doanh thu theo từng khoảng thời gian cụ thể để phục vụ việc phân tích.
+
+### Doanh nghiệp có thể quản lý thông tin hồ sơ
+
+- Doanh nghiệp bắt buộc phải đăng nhập để quản lý hồ sơ.
+- Doanh nghiệp có thể xem toàn bộ thông tin đã đăng ký của tổ chức.
+- Doanh nghiệp có thể đổi mật khẩu để bảo đảm an toàn cho tài khoản.
+- Doanh nghiệp có thể cập nhật thông tin hồ sơ.
+- Khi cập nhật hồ sơ, Doanh nghiệp có thể chỉnh sửa thông tin người đại diện hợp pháp và thông tin pháp lý của doanh nghiệp.
+
+## 5. Actor Quản trị viên
+
+Quản trị viên là actor quản lý toàn hệ thống, bao gồm đăng ký khách sạn từ đối tác, giao dịch, hoa hồng, trạng thái hoạt động khách sạn, người dùng, tiện nghi, báo cáo và địa điểm.
+
+### Quản trị viên có thể quản lý đăng ký khách sạn từ đối tác
+
+- Quản trị viên phải đăng nhập trước khi thao tác.
+- Quản trị viên có thể xem danh sách các đăng ký khách sạn được gửi từ đối tác.
+- Quản trị viên có thể duyệt các yêu cầu đăng ký hợp lệ.
+- Quản trị viên có thể từ chối các yêu cầu đăng ký và ghi kèm lý do từ chối.
+- Quản trị viên có thể ẩn khách sạn trên nền tảng khi cần thiết.
+
+### Quản trị viên có thể quản lý giao dịch và hoa hồng
+
+- Quản trị viên phải đăng nhập trước khi thao tác.
+- Quản trị viên có thể xem nhật ký của các giao dịch.
+- Quản trị viên có thể xem chi tiết từng giao dịch cụ thể.
+- Quản trị viên có thể lọc và tìm kiếm các giao dịch.
+- Quản trị viên có thể tính toán và lưu vết doanh thu hoa hồng thu được từ các đối tác.
+
+### Quản trị viên có thể quản lý hoạt động khách sạn
+
+- Quản trị viên phải đăng nhập trước khi thao tác.
+- Quản trị viên có thể xem danh sách các khách sạn hiện đang hoạt động.
+- Quản trị viên có thể lọc và tìm kiếm các khách sạn.
+- Quản trị viên có thể đình chỉ hoạt động của một khách sạn cụ thể.
+- Quản trị viên có thể ẩn hoặc vô hiệu hóa khách sạn trên nền tảng.
+
+### Quản trị viên có thể quản lý người dùng
+
+- Quản trị viên phải đăng nhập trước khi thao tác.
+- Quản trị viên có thể xem danh sách người dùng.
+- Quản trị viên có thể lọc và tìm kiếm người dùng.
+- Quản trị viên có thể vô hiệu hóa tài khoản của người dùng.
+
+### Quản trị viên có thể quản lý tiện nghi
+
+- Quản trị viên phải đăng nhập trước khi thao tác.
+- Quản trị viên có thể xem danh sách các tiện nghi.
+- Quản trị viên có thể thêm tiện nghi mới.
+- Quản trị viên có thể cập nhật thông tin tiện nghi.
+- Quản trị viên có thể xóa tiện nghi.
+
+### Quản trị viên có thể xem thống kê báo cáo
+
+- Quản trị viên phải đăng nhập trước khi xem báo cáo.
+- Quản trị viên có thể lọc các chỉ số thống kê theo thời gian.
+- Quản trị viên có thể so sánh doanh thu theo tháng, quý hoặc năm.
+- Quản trị viên có thể xem tổng số lượng đơn đặt phòng.
+- Quản trị viên có thể xem tổng doanh thu của toàn bộ nền tảng.
+- Quản trị viên có thể xem tổng lợi nhuận của đối tác.
+
+### Quản trị viên có thể quản lý địa điểm
+
+- Quản trị viên phải đăng nhập trước khi thao tác.
+- Quản trị viên có thể xem danh sách các tỉnh/thành phố và phường/xã.
+- Quản trị viên có thể thêm tỉnh/thành phố hoặc phường/xã.
+- Quản trị viên có thể cập nhật thông tin tỉnh/thành phố hoặc phường/xã.
+- Quản trị viên có thể xóa tỉnh/thành phố hoặc phường/xã.
