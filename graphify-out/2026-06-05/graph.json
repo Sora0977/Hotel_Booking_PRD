@@ -3105,6 +3105,15 @@
       "norm_label": "quan tri vien co the quan ly \u0111ia \u0111iem"
     },
     {
+      "label": "usecase_tong_quat backup.md",
+      "file_type": "document",
+      "source_file": "Hotel booking service/usecase_tong_quat backup.md",
+      "source_location": "L1",
+      "id": "hotel_booking_service_usecase_tong_quat_backup",
+      "community": 288,
+      "norm_label": "usecase_tong_quat backup.md"
+    },
+    {
       "label": "usecase_tong_quat.md",
       "file_type": "document",
       "source_file": "Hotel booking service/usecase_tong_quat.md",
@@ -5648,7 +5657,7 @@
       "source_file": "SDD/03-technical/API_CONTRACT.md",
       "source_location": "L191",
       "id": "03_technical_api_contract_3_1_register",
-      "community": 142,
+      "community": 283,
       "norm_label": "3.1 register"
     },
     {
@@ -5657,7 +5666,7 @@
       "source_file": "SDD/03-technical/API_CONTRACT.md",
       "source_location": "L201",
       "id": "03_technical_api_contract_request",
-      "community": 142,
+      "community": 283,
       "norm_label": "request"
     },
     {
@@ -5666,7 +5675,7 @@
       "source_file": "SDD/03-technical/API_CONTRACT.md",
       "source_location": "L213",
       "id": "03_technical_api_contract_response",
-      "community": 142,
+      "community": 283,
       "norm_label": "response"
     },
     {
@@ -5675,7 +5684,7 @@
       "source_file": "SDD/03-technical/API_CONTRACT.md",
       "source_location": "L229",
       "id": "03_technical_api_contract_errors",
-      "community": 142,
+      "community": 283,
       "norm_label": "errors"
     },
     {
@@ -5684,7 +5693,7 @@
       "source_file": "SDD/03-technical/API_CONTRACT.md",
       "source_location": "L236",
       "id": "03_technical_api_contract_3_2_login",
-      "community": 283,
+      "community": 142,
       "norm_label": "3.2 login"
     },
     {
@@ -5693,7 +5702,7 @@
       "source_file": "SDD/03-technical/API_CONTRACT.md",
       "source_location": "L246",
       "id": "03_technical_api_contract_request_246",
-      "community": 283,
+      "community": 142,
       "norm_label": "request"
     },
     {
@@ -5702,7 +5711,7 @@
       "source_file": "SDD/03-technical/API_CONTRACT.md",
       "source_location": "L255",
       "id": "03_technical_api_contract_response_255",
-      "community": 283,
+      "community": 142,
       "norm_label": "response"
     },
     {
@@ -5711,7 +5720,7 @@
       "source_file": "SDD/03-technical/API_CONTRACT.md",
       "source_location": "L269",
       "id": "03_technical_api_contract_errors_269",
-      "community": 283,
+      "community": 142,
       "norm_label": "errors"
     },
     {
@@ -10984,7 +10993,7 @@
       "file_type": "document",
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L61",
-      "community": 278,
+      "community": 285,
       "norm_label": "3. ho so khach hang, yeu thich va \u0111anh gia",
       "id": "hotel_booking_service_update_logic_3_h\u1ed3_s\u01a1_kh\u00e1ch_h\u00e0ng_y\u00eau_th\u00edch_v\u00e0_\u0111\u00e1nh_gi\u00e1"
     },
@@ -10993,7 +11002,7 @@
       "file_type": "document",
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L63",
-      "community": 278,
+      "community": 285,
       "norm_label": "quan ly thong tin ho so",
       "id": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_h\u1ed3_s\u01a1"
     },
@@ -11002,7 +11011,7 @@
       "file_type": "document",
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L69",
-      "community": 278,
+      "community": 285,
       "norm_label": "khach san yeu thich",
       "id": "hotel_booking_service_update_logic_kh\u00e1ch_s\u1ea1n_y\u00eau_th\u00edch"
     },
@@ -11011,7 +11020,7 @@
       "file_type": "document",
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L75",
-      "community": 278,
+      "community": 285,
       "norm_label": "\u0111anh gia khach san",
       "id": "hotel_booking_service_update_logic_\u0111\u00e1nh_gi\u00e1_kh\u00e1ch_s\u1ea1n"
     },
@@ -11020,7 +11029,7 @@
       "file_type": "document",
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L83",
-      "community": 285,
+      "community": 278,
       "norm_label": "4. \u0111at phong, thanh toan, lich su va huy \u0111at phong",
       "id": "hotel_booking_service_update_logic_4_\u0111\u1eb7t_ph\u00f2ng_thanh_to\u00e1n_l\u1ecbch_s\u1eed_v\u00e0_h\u1ee7y_\u0111\u1eb7t_ph\u00f2ng"
     },
@@ -11029,7 +11038,7 @@
       "file_type": "document",
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L85",
-      "community": 285,
+      "community": 278,
       "norm_label": "\u0111at phong khach san va thanh toan",
       "id": "hotel_booking_service_update_logic_\u0111\u1eb7t_ph\u00f2ng_kh\u00e1ch_s\u1ea1n_v\u00e0_thanh_to\u00e1n"
     },
@@ -11038,7 +11047,7 @@
       "file_type": "document",
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L99",
-      "community": 285,
+      "community": 278,
       "norm_label": "xem lich su \u0111at phong",
       "id": "hotel_booking_service_update_logic_xem_l\u1ecbch_s\u1eed_\u0111\u1eb7t_ph\u00f2ng"
     },
@@ -11047,7 +11056,7 @@
       "file_type": "document",
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L105",
-      "community": 285,
+      "community": 278,
       "norm_label": "huy \u0111at phong khach san",
       "id": "hotel_booking_service_update_logic_h\u1ee7y_\u0111\u1eb7t_ph\u00f2ng_kh\u00e1ch_s\u1ea1n"
     },
@@ -18029,9 +18038,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L1",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup",
-      "target": "hotel_booking_service_update_logic_backup_update_logic",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_update_logic"
     },
     {
       "relation": "contains",
@@ -18039,9 +18048,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L5",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_update_logic",
-      "target": "hotel_booking_service_update_logic_backup_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_1_actor_ng\u01b0\u1eddi_d\u00f9ng"
     },
     {
       "relation": "contains",
@@ -18049,9 +18058,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L63",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_update_logic",
-      "target": "hotel_booking_service_update_logic_backup_2_actor_kh\u00e1ch_h\u00e0ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_2_actor_kh\u00e1ch_h\u00e0ng"
     },
     {
       "relation": "contains",
@@ -18059,9 +18068,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L115",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_update_logic",
-      "target": "hotel_booking_service_update_logic_backup_3_actor_doanh_nghi\u1ec7p",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_3_actor_doanh_nghi\u1ec7p"
     },
     {
       "relation": "contains",
@@ -18069,9 +18078,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L148",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_update_logic",
-      "target": "hotel_booking_service_update_logic_backup_4_actor_qu\u1ea3n_l\u00fd",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_4_actor_qu\u1ea3n_l\u00fd"
     },
     {
       "relation": "contains",
@@ -18079,9 +18088,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L193",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_update_logic",
-      "target": "hotel_booking_service_update_logic_backup_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean"
     },
     {
       "relation": "contains",
@@ -18089,9 +18098,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L243",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_update_logic",
-      "target": "hotel_booking_service_update_logic_backup_6_logic_t\u1ef1_\u0111\u1ed9ng_c\u1ee7a_h\u1ec7_th\u1ed1ng_\u0111i_k\u00e8m_c\u00e1c_actor",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_6_logic_t\u1ef1_\u0111\u1ed9ng_c\u1ee7a_h\u1ec7_th\u1ed1ng_\u0111i_k\u00e8m_c\u00e1c_actor"
     },
     {
       "relation": "contains",
@@ -18099,9 +18108,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L56",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_backup_h\u1ec7_th\u1ed1ng_ki\u1ec3m_tra_ph\u00f2ng_tr\u1ed1ng_khi_ng\u01b0\u1eddi_d\u00f9ng_t\u00ecm_ki\u1ebfm_ho\u1eb7c_xem_ph\u00f2ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_h\u1ec7_th\u1ed1ng_ki\u1ec3m_tra_ph\u00f2ng_tr\u1ed1ng_khi_ng\u01b0\u1eddi_d\u00f9ng_t\u00ecm_ki\u1ebfm_ho\u1eb7c_xem_ph\u00f2ng"
     },
     {
       "relation": "contains",
@@ -18109,9 +18118,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L37",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_t\u00ecm_ki\u1ebfm_v\u00e0_l\u1ecdc_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_t\u00ecm_ki\u1ebfm_v\u00e0_l\u1ecdc_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18119,9 +18128,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L50",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_xem_th\u00f4ng_tin_chi_ti\u1ebft_ph\u00f2ng_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_xem_th\u00f4ng_tin_chi_ti\u1ebft_ph\u00f2ng_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18129,9 +18138,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L44",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_xem_th\u00f4ng_tin_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_xem_th\u00f4ng_tin_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18139,9 +18148,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L24",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_y\u00eau_c\u1ea7u_kh\u00f4i_ph\u1ee5c_m\u1eadt_kh\u1ea9u",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_y\u00eau_c\u1ea7u_kh\u00f4i_ph\u1ee5c_m\u1eadt_kh\u1ea9u"
     },
     {
       "relation": "contains",
@@ -18149,9 +18158,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L9",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_\u0111\u0103ng_k\u00fd_t\u00e0i_kho\u1ea3n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_\u0111\u0103ng_k\u00fd_t\u00e0i_kho\u1ea3n"
     },
     {
       "relation": "contains",
@@ -18159,9 +18168,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L17",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_\u0111\u0103ng_nh\u1eadp",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_\u0111\u0103ng_nh\u1eadp"
     },
     {
       "relation": "contains",
@@ -18169,9 +18178,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L30",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_\u0111\u1ed5i_m\u1eadt_kh\u1ea9u",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_\u0111\u1ed5i_m\u1eadt_kh\u1ea9u"
     },
     {
       "relation": "contains",
@@ -18179,9 +18188,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L99",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_2_actor_kh\u00e1ch_h\u00e0ng",
-      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_h\u1ee7y_\u0111\u1eb7t_ph\u00f2ng_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_h\u1ee7y_\u0111\u1eb7t_ph\u00f2ng_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18189,9 +18198,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L73",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_2_actor_kh\u00e1ch_h\u00e0ng",
-      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_kh\u00e1ch_s\u1ea1n_y\u00eau_th\u00edch",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_kh\u00e1ch_s\u1ea1n_y\u00eau_th\u00edch"
     },
     {
       "relation": "contains",
@@ -18199,9 +18208,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L67",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_2_actor_kh\u00e1ch_h\u00e0ng",
-      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_h\u1ed3_s\u01a1",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_h\u1ed3_s\u01a1"
     },
     {
       "relation": "contains",
@@ -18209,9 +18218,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L93",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_2_actor_kh\u00e1ch_h\u00e0ng",
-      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_xem_l\u1ecbch_s\u1eed_\u0111\u1eb7t_ph\u00f2ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_xem_l\u1ecbch_s\u1eed_\u0111\u1eb7t_ph\u00f2ng"
     },
     {
       "relation": "contains",
@@ -18219,9 +18228,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L107",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_2_actor_kh\u00e1ch_h\u00e0ng",
-      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_\u0111\u00e1nh_gi\u00e1_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_\u0111\u00e1nh_gi\u00e1_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18229,9 +18238,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L79",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_2_actor_kh\u00e1ch_h\u00e0ng",
-      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_\u0111\u1eb7t_ph\u00f2ng_kh\u00e1ch_s\u1ea1n_v\u00e0_thanh_to\u00e1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_\u0111\u1eb7t_ph\u00f2ng_kh\u00e1ch_s\u1ea1n_v\u00e0_thanh_to\u00e1n"
     },
     {
       "relation": "contains",
@@ -18239,9 +18248,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L127",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_3_actor_doanh_nghi\u1ec7p",
-      "target": "hotel_booking_service_update_logic_backup_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_danh_m\u1ee5c_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_danh_m\u1ee5c_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18249,9 +18258,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L134",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_3_actor_doanh_nghi\u1ec7p",
-      "target": "hotel_booking_service_update_logic_backup_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_nh\u00e2n_s\u1ef1",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_nh\u00e2n_s\u1ef1"
     },
     {
       "relation": "contains",
@@ -18259,9 +18268,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L141",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_3_actor_doanh_nghi\u1ec7p",
-      "target": "hotel_booking_service_update_logic_backup_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_xem_th\u1ed1ng_k\u00ea_b\u00e1o_c\u00e1o_v\u00e0_\u0111\u1ed1i_so\u00e1t",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_xem_th\u1ed1ng_k\u00ea_b\u00e1o_c\u00e1o_v\u00e0_\u0111\u1ed1i_so\u00e1t"
     },
     {
       "relation": "contains",
@@ -18269,9 +18278,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L119",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_3_actor_doanh_nghi\u1ec7p",
-      "target": "hotel_booking_service_update_logic_backup_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_\u0111\u0103ng_k\u00fd_kh\u00e1ch_s\u1ea1n_m\u1edbi",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_\u0111\u0103ng_k\u00fd_kh\u00e1ch_s\u1ea1n_m\u1edbi"
     },
     {
       "relation": "contains",
@@ -18279,9 +18288,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L181",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_4_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ch\u00ednh_s\u00e1ch_v\u00e0_\u0111i\u1ec1u_kho\u1ea3n_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ch\u00ednh_s\u00e1ch_v\u00e0_\u0111i\u1ec1u_kho\u1ea3n_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18289,9 +18298,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L158",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_4_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ph\u00f2ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ph\u00f2ng"
     },
     {
       "relation": "contains",
@@ -18299,9 +18308,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L152",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_4_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18309,9 +18318,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L174",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_4_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u00e1nh_gi\u00e1_kh\u00e1ch_h\u00e0ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u00e1nh_gi\u00e1_kh\u00e1ch_h\u00e0ng"
     },
     {
       "relation": "contains",
@@ -18319,9 +18328,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L165",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_4_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u1eb7t_ph\u00f2ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u1eb7t_ph\u00f2ng"
     },
     {
       "relation": "contains",
@@ -18329,9 +18338,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L187",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_4_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_xem_th\u1ed1ng_k\u00ea_b\u00e1o_c\u00e1o",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_xem_th\u1ed1ng_k\u00ea_b\u00e1o_c\u00e1o"
     },
     {
       "relation": "contains",
@@ -18339,9 +18348,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_giao_d\u1ecbch_v\u00e0_hoa_h\u1ed3ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_giao_d\u1ecbch_v\u00e0_hoa_h\u1ed3ng"
     },
     {
       "relation": "contains",
@@ -18349,9 +18358,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L224",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_h\u1ed3_s\u01a1_h\u1ee3p_t\u00e1c_kh\u00e1ch_s\u1ea1n_t\u1eeb_\u0111\u1ed1i_t\u00e1c",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_h\u1ed3_s\u01a1_h\u1ee3p_t\u00e1c_kh\u00e1ch_s\u1ea1n_t\u1eeb_\u0111\u1ed1i_t\u00e1c"
     },
     {
       "relation": "contains",
@@ -18359,9 +18368,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L197",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ti\u1ec7n_nghi",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ti\u1ec7n_nghi"
     },
     {
       "relation": "contains",
@@ -18369,9 +18378,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L217",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_tr\u1ea1ng_th\u00e1i_ho\u1ea1t_\u0111\u1ed9ng_c\u1ee7a_t\u1ea5t_c\u1ea3_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_tr\u1ea1ng_th\u00e1i_ho\u1ea1t_\u0111\u1ed9ng_c\u1ee7a_t\u1ea5t_c\u1ea3_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18379,9 +18388,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L210",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_t\u1ea5t_c\u1ea3_ng\u01b0\u1eddi_d\u00f9ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_t\u1ea5t_c\u1ea3_ng\u01b0\u1eddi_d\u00f9ng"
     },
     {
       "relation": "contains",
@@ -18389,9 +18398,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L237",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_xem_th\u1ed1ng_k\u00ea_b\u00e1o_c\u00e1o_to\u00e0n_h\u1ec7_th\u1ed1ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_xem_th\u1ed1ng_k\u00ea_b\u00e1o_c\u00e1o_to\u00e0n_h\u1ec7_th\u1ed1ng"
     },
     {
       "relation": "contains",
@@ -18399,9 +18408,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L231",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_x\u1eed_l\u00fd_\u0111\u00e1nh_gi\u00e1_vi_ph\u1ea1m",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_x\u1eed_l\u00fd_\u0111\u00e1nh_gi\u00e1_vi_ph\u1ea1m"
     },
     {
       "relation": "contains",
@@ -18409,9 +18418,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L245",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_6_logic_t\u1ef1_\u0111\u1ed9ng_c\u1ee7a_h\u1ec7_th\u1ed1ng_\u0111i_k\u00e8m_c\u00e1c_actor",
-      "target": "hotel_booking_service_update_logic_backup_h\u1ec7_th\u1ed1ng_t\u1ef1_\u0111\u1ed9ng_b\u1ea3o_v\u1ec7_d\u1eef_li\u1ec7u_\u0111\u1eb7t_ph\u00f2ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_h\u1ec7_th\u1ed1ng_t\u1ef1_\u0111\u1ed9ng_b\u1ea3o_v\u1ec7_d\u1eef_li\u1ec7u_\u0111\u1eb7t_ph\u00f2ng"
     },
     {
       "relation": "contains",
@@ -18419,9 +18428,9 @@
       "source_file": "Hotel booking service/Update logic backup.md",
       "source_location": "L252",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_backup_6_logic_t\u1ef1_\u0111\u1ed9ng_c\u1ee7a_h\u1ec7_th\u1ed1ng_\u0111i_k\u00e8m_c\u00e1c_actor",
-      "target": "hotel_booking_service_update_logic_backup_h\u1ec7_th\u1ed1ng_t\u1ef1_\u0111\u1ed9ng_c\u1eadp_nh\u1eadt_uy_t\u00edn_v\u00e0_\u01b0u_\u0111\u00e3i",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_backup_h\u1ec7_th\u1ed1ng_t\u1ef1_\u0111\u1ed9ng_c\u1eadp_nh\u1eadt_uy_t\u00edn_v\u00e0_\u01b0u_\u0111\u00e3i"
     },
     {
       "relation": "contains",
@@ -18489,9 +18498,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L133",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_update_logic",
-      "target": "hotel_booking_service_update_logic_3_actor_qu\u1ea3n_l\u00fd",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_3_actor_qu\u1ea3n_l\u00fd"
     },
     {
       "relation": "contains",
@@ -18509,9 +18518,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L199",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_update_logic",
-      "target": "hotel_booking_service_update_logic_4_actor_doanh_nghi\u1ec7p",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_4_actor_doanh_nghi\u1ec7p"
     },
     {
       "relation": "contains",
@@ -18609,9 +18618,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L64",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_h\u1ed3_s\u01a1_c\u00e1_nh\u00e2n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_h\u1ed3_s\u01a1_c\u00e1_nh\u00e2n"
     },
     {
       "relation": "contains",
@@ -18649,9 +18658,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L55",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_xem_th\u00f4ng_tin_kh\u00e1ch_s\u1ea1n_v\u00e0_ph\u00f2ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_xem_th\u00f4ng_tin_kh\u00e1ch_s\u1ea1n_v\u00e0_ph\u00f2ng"
     },
     {
       "relation": "contains",
@@ -18689,9 +18698,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L40",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_1_actor_ng\u01b0\u1eddi_d\u00f9ng",
-      "target": "hotel_booking_service_update_logic_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_\u0111\u0103ng_xu\u1ea5t",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_ng\u01b0\u1eddi_d\u00f9ng_c\u00f3_th\u1ec3_\u0111\u0103ng_xu\u1ea5t"
     },
     {
       "relation": "contains",
@@ -18719,9 +18728,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L116",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_2_actor_kh\u00e1ch_h\u00e0ng",
-      "target": "hotel_booking_service_update_logic_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_h\u1ee7y_\u0111\u1eb7t_ph\u00f2ng_v\u00e0_y\u00eau_c\u1ea7u_ho\u00e0n_ti\u1ec1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_kh\u00e1ch_h\u00e0ng_c\u00f3_th\u1ec3_h\u1ee7y_\u0111\u1eb7t_ph\u00f2ng_v\u00e0_y\u00eau_c\u1ea7u_ho\u00e0n_ti\u1ec1n"
     },
     {
       "relation": "contains",
@@ -18779,9 +18788,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L177",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_3_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ch\u00ednh_s\u00e1ch_v\u00e0_\u0111i\u1ec1u_kho\u1ea3n_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ch\u00ednh_s\u00e1ch_v\u00e0_\u0111i\u1ec1u_kho\u1ea3n_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18789,9 +18798,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L145",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_3_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ph\u00f2ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ph\u00f2ng"
     },
     {
       "relation": "contains",
@@ -18799,9 +18808,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L185",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_3_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_h\u1ed3_s\u01a1_c\u00e1_nh\u00e2n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_h\u1ed3_s\u01a1_c\u00e1_nh\u00e2n"
     },
     {
       "relation": "contains",
@@ -18809,9 +18818,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L137",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_3_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18819,9 +18828,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L169",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_3_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u00e1nh_gi\u00e1_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u00e1nh_gi\u00e1_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18829,9 +18838,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L156",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_3_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u1eb7t_ph\u00f2ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u1eb7t_ph\u00f2ng"
     },
     {
       "relation": "contains",
@@ -18839,9 +18848,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L193",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_3_actor_qu\u1ea3n_l\u00fd",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_xem_th\u1ed1ng_k\u00ea_b\u00e1o_c\u00e1o",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_l\u00fd_c\u00f3_th\u1ec3_xem_th\u1ed1ng_k\u00ea_b\u00e1o_c\u00e1o"
     },
     {
       "relation": "contains",
@@ -18899,9 +18908,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L213",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_4_actor_doanh_nghi\u1ec7p",
-      "target": "hotel_booking_service_update_logic_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_danh_m\u1ee5c_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_danh_m\u1ee5c_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -18909,9 +18918,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L222",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_4_actor_doanh_nghi\u1ec7p",
-      "target": "hotel_booking_service_update_logic_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_nh\u00e2n_s\u1ef1_v\u00e0_ph\u00e2n_c\u00f4ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_nh\u00e2n_s\u1ef1_v\u00e0_ph\u00e2n_c\u00f4ng"
     },
     {
       "relation": "contains",
@@ -18919,9 +18928,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L246",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_4_actor_doanh_nghi\u1ec7p",
-      "target": "hotel_booking_service_update_logic_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_h\u1ed3_s\u01a1",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_th\u00f4ng_tin_h\u1ed3_s\u01a1"
     },
     {
       "relation": "contains",
@@ -18929,9 +18938,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L237",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_4_actor_doanh_nghi\u1ec7p",
-      "target": "hotel_booking_service_update_logic_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_xem_th\u1ed1ng_k\u00ea_b\u00e1o_c\u00e1o_v\u00e0_\u0111\u1ed1i_so\u00e1t",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_xem_th\u1ed1ng_k\u00ea_b\u00e1o_c\u00e1o_v\u00e0_\u0111\u1ed1i_so\u00e1t"
     },
     {
       "relation": "contains",
@@ -18939,9 +18948,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L203",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_4_actor_doanh_nghi\u1ec7p",
-      "target": "hotel_booking_service_update_logic_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_\u0111\u0103ng_k\u00fd_kh\u00e1ch_s\u1ea1n_m\u1edbi",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_doanh_nghi\u1ec7p_c\u00f3_th\u1ec3_\u0111\u0103ng_k\u00fd_kh\u00e1ch_s\u1ea1n_m\u1edbi"
     },
     {
       "relation": "contains",
@@ -18989,9 +18998,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L279",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ho\u1ea1t_\u0111\u1ed9ng_kh\u00e1ch_s\u1ea1n",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ho\u1ea1t_\u0111\u1ed9ng_kh\u00e1ch_s\u1ea1n"
     },
     {
       "relation": "contains",
@@ -19009,9 +19018,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L290",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ng\u01b0\u1eddi_d\u00f9ng",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_ng\u01b0\u1eddi_d\u00f9ng"
     },
     {
       "relation": "contains",
@@ -19049,9 +19058,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L259",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u0103ng_k\u00fd_kh\u00e1ch_s\u1ea1n_t\u1eeb_\u0111\u1ed1i_t\u00e1c",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u0103ng_k\u00fd_kh\u00e1ch_s\u1ea1n_t\u1eeb_\u0111\u1ed1i_t\u00e1c"
     },
     {
       "relation": "contains",
@@ -19059,9 +19068,9 @@
       "source_file": "Hotel booking service/Update logic.md",
       "source_location": "L317",
       "weight": 1.0,
+      "confidence_score": 1.0,
       "source": "hotel_booking_service_update_logic_5_actor_qu\u1ea3n_tr\u1ecb_vi\u00ean",
-      "target": "hotel_booking_service_update_logic_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u1ecba_\u0111i\u1ec3m",
-      "confidence_score": 1.0
+      "target": "hotel_booking_service_update_logic_qu\u1ea3n_tr\u1ecb_vi\u00ean_c\u00f3_th\u1ec3_qu\u1ea3n_l\u00fd_\u0111\u1ecba_\u0111i\u1ec3m"
     },
     {
       "relation": "contains",
@@ -29988,5 +29997,5 @@
       "source_file": "Hotel booking service/Thesis-report/images/image-009.png"
     }
   ],
-  "built_at_commit": "276ce64f100b8060c27687aa6744eb285e16f80c"
+  "built_at_commit": "6f1147b521da10a516bada8ed63274cef0bd804f"
 }

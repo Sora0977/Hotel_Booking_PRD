@@ -1623,5 +1623,3290 @@
     "mtime": 1780628596.4849572,
     "ast_hash": "64760eccb5381b92461705dd6de06442",
     "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\actions.sql": {
+    "mtime": 1780638877.277651,
+    "ast_hash": "3dc1bae73c002286e9ea413071fdfcf2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\eslint.config.mjs": {
+    "mtime": 1780638877.277651,
+    "ast_hash": "4bbe907362443a8590eba916d7cbf38d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\nest-cli.json": {
+    "mtime": 1780638877.277651,
+    "ast_hash": "fa439650fa28a1a7aa8c2b6d81c8cc20",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\package.json": {
+    "mtime": 1780638877.277651,
+    "ast_hash": "a388e327a6eee133fdd3aeebc7b44ac1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\prisma\\migrations\\20251218062158_reset\\migration.sql": {
+    "mtime": 1780638877.277651,
+    "ast_hash": "f23b583da068ed3eb0c4e9fd634e9999",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\prisma\\migrations\\20251218125827_add_payment\\migration.sql": {
+    "mtime": 1780638877.277651,
+    "ast_hash": "78131e975464b885f87b32aa6cd5be7f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\app.controller.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "26cd58b68c2aa4ca5fa3b61818ed21eb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\app.module.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "da8b14a6d781c0efdb8320714baac79c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\app.service.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "a71b5eae64918dc6b8bf7e754b9244fb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\common\\decorators\\public.decorator.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "f245595b80bbe0660ed5634247780e2b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\common\\filters\\prisma-exception.filter.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "098606176132ec0754765ecfe48a4c29",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\common\\upload\\file.constants.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "b44b2e468b96e5e4f3a8a3640e701f52",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\common\\upload\\image-file.filter.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "04315f082748baf57aeb0ad792b51e08",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\common\\upload\\image-parse.pipe.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "9cefa784dfefe1e87a92e1e78db50034",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\common\\upload\\multer.options.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "42b53d6f6f809f246a786dc4b5a1b177",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\main.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "c6a4953c577e76f154ce4d1816061c68",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\actions\\actions.controller.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "d1841321b8146c543820e9cbde3fe477",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\actions\\actions.module.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "388f2473c64ab6f56d5299a85230b0d4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\actions\\actions.service.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "ba92befc976b2b96f038b1a38dd17562",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\actions\\dto\\set-action-permissions.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "8040c5316e3f11f7dfc05dd9ed064118",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\actions\\dto\\upsert-action.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "29204f89111f25854f31c24e5a5a8c43",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\amentity\\amenity.controller.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "dfdc31a545e5e93b22b4bc5aed6260b0",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\amentity\\amenity.module.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "b879f15661de2fc987adf0a5f663956a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\amentity\\amenity.service.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "99ae649138aae74ce8ef9e14940b0ad9",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\amentity\\dto\\create-amenity.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "dbebc6c89bf86eff3bd9beb55543264b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\amentity\\dto\\list-amenity.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "194311815a90db3c2fd87d64710d65cd",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\amentity\\dto\\update-amenity.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "7831cb70d688346bded135a44247f312",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\auth.controller.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "f78adc8e373e1510676a9762a15ed9aa",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\auth.module.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "20a29f281d83e2ede063b1eda9023522",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\auth.service.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "9094fee43d18d978024082528206270a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\decorator\\action.decorator.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "aa24e218a600abc8b191e04f190ac67a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\decorator\\permissions.decorator.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "15c9cedfff90b14856c1f39c9ddae715",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\decorator\\roles.decorator.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "a49347f3f056e9c40e0eec26687f7623",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\dto\\list-users.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "1235691f7f0484642dd65796d289955b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\dto\\login.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "8d3069ccb9e721e1c931e7e18fcf38d5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\dto\\logout.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "908a73011cc7be04484f85301c888aeb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\dto\\refresh.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "a2106858fd6e505c238e258e845d4068",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\dto\\register.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "01c575ca98e524fee113b38341f3a7be",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\dto\\resend-email.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "c024b1fa2afce595a92d21260c8282b1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\dto\\verify-email.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "5a21d8e10b27ed5ba2b044056e58c790",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\guards\\action.guard.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "dc4f190d328154218991aa89c24cb89c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\guards\\jwt-auth.guard.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "d9172a241319fed7c0a8d2d5107a37d3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\guards\\permissions.guard.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "aef9088272cb585e601a4601f07363e6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\guards\\roles.guard.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "d6554380ac757d6ce2ac3a8bc9aafd2e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\strategy\\google.strategy.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "3cad6d9a8b1778fda2188dab4fb4bc55",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\auth\\strategy\\jwt-access.strategy.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "ed144915b93d9a44d7d7baa142ca3da8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\banner\\banner.controller.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "226621a88846933469f95f6daa717b24",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\banner\\banner.module.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "caf0bee618c5bbc42a5a67cbaed008ad",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\banner\\banner.service.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "ddf9d18930d4c190b304b5b722480261",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\banner\\dto\\create-banner.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "ebc82eff1dc55f501fbd315ed30e26c1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\banner\\dto\\update-banner.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "d9945f1b9ebcfa5fc1e287862cadfb33",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\booking\\booking.controller.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "2980539f0af0d8656c517f3e6e54699d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\booking\\booking.module.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "55a5c929290087faf891ebacea2cab53",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\booking\\booking.service.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "408d05fc6c54b83f66b9b9c52db2dc73",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\booking\\dto\\check-in.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "b8da0485faa1dbd48809b8e4db40082e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\booking\\dto\\create-booking.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "2c1fca6c8c7b2438eb281400c3f27598",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\booking\\dto\\list-my-bookings.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "bcf1604a759db04ec18cfe94d8d59bb5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\booking\\dto\\update-booking-status.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "0440a2a1c3f06f14ffc5fc279e649404",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\cloudinary\\cloudinary.controller.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "b73865ee3f515514d8cc44227bab9a7c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\cloudinary\\cloudinary.module.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "aefa3f22265beb4416c37bd200c4e116",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\cloudinary\\cloudinary.service.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "9301f78f126aeb2abd02f501ff32fd60",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\commission-package\\commission-package.controller.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "236011fa7639bb0bd6e8e2a7bc6f2a39",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\commission-package\\commission-package.module.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "6e52070639f5a34d2740595d0bafb181",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\commission-package\\commission-package.service.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "8d816cf059de95d733aab4c46725dad8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\commission-package\\dto\\commission-revenue-query.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "c801d41d0dad78cc6d5cd20566a1798e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\commission-package\\dto\\create-commission-package.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "946c5b0f69bec0bb3d5356c1bf7982c1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\commission-package\\dto\\update-commission-package.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "ffef4bdbe265f648eff8c4766a5d4779",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\contact\\contact.controller.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "088ca81db18b8f286c1ddb8661651cd4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\contact\\contact.module.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "46ce0112c307a60567429becbbb44941",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\contact\\contact.service.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "b8cc53cf54295b64590dcd88407e1cbc",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\contact\\dto\\create-contact.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "cc2c228b90770b4bc32308e538a11cbe",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\contact\\dto\\list-contact.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "b4360c071949f4bbce0cb10395047d3b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\contact\\dto\\update-contact.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "03fb5c7fcde8eaf1e31db6e0f662dbb6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\contact\\entities\\contact.entity.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "930f1f10c06a21d28985427fac932bf7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\dashboard\\dashboard.controller.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "fe3a0cad85e252bf80db6e8c5c323902",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\dashboard\\dashboard.module.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "9863e5c25dad66a4ae9ec56482c0d10b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\dashboard\\dashboard.service.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "f3aca974c9b0f4dba5e59ef815bfd112",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\dashboard\\dto\\list-dashboard.query.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\decorator\\hotel-role.decorator.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "a5152c8bd4fd7c999ca5ab5b291ee41c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\dto\\add-member.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "a7583140d81dc34fcb90de1473daa765",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\dto\\create-hotel.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "e801476feba14e96af20794b4fe4cc5f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\dto\\list-hotels.query.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "e66b0173ece55b8abaac814445766a11",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\dto\\reorder-hotel-images.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "e158373dc9b40f077d2c4784ae2da0cb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\dto\\update-hotel.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "ce4275292899fc6932aa940c0d94ce05",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\dto\\upload-hotel-images.dto.ts": {
+    "mtime": 1780638877.2932754,
+    "ast_hash": "e20900e42fe05e2662a036c1e897fb1c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\guards\\hotel-context.guard.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "07992ae8907024f9365c4e4cebb3a3d2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\guards\\hotel-member-with-admin.guard.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "657849b621b549937ab17d84dc60b7fb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\guards\\hotel-member.guard.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "593d21bbb866b744d41eb0cd6b20c7c4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\guards\\hotel-role.guard.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "2fb390faf6a7ea7111dacce08d235c15",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\hotel.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "07adce2ab22733c98e6448018479f565",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\hotel.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "e51f70862d218ada0752fcc28f9fba52",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\hotel\\hotel.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "12c2da2c5f36f05d84670b55114c4c6a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\image\\image.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "6d1a4d35a5ea49952fd2c446e3fed4a8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\inventory\\dto\\bulk-set-inventory.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "492f0f92215bd147d3ac79a9adc4a32f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\inventory\\dto\\list-inventory.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "0a69f1de190f2d08bd6c980478c90368",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\inventory\\dto\\update-inventory.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "8f51eedaad1cf4353cb3b57da62302ef",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\inventory\\inventory.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "594303efd580b7cd45f679feceb12437",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\inventory\\inventory.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "273752eac6c560307383d7faa42ef227",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\inventory\\inventory.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "2e99fa4e0fbb493d2c6e8ccbc229a0f3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\mail\\mail.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "d8dcb78b66994d9e849994bcf9bad078",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\mail\\mail.service.spec.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "6f6b02471c931f544eb2a0b934af382c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\mail\\mail.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "134b556df86b86b440c5aa5c2dc86749",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\news\\dto\\create-news.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "d4111e3e29c7b0b6a3b5754eeb3728b5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\news\\dto\\list-news.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "fa6d28242ed3e58c68044d7ff69fc2cd",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\news\\dto\\update-news.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "4e8942c33cac559ae44b17a126a9baa2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\news\\news.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "13ad43e54c2f0fa18d1c7e7e60635bb1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\news\\news.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "9649128f64db01487d2925effa9d1c91",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\news\\news.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "0f16b23928fefccd417808c9e22f8340",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\notification\\dto\\create-notification.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "a8d611b3bd4cc3cc10e190c4ee77e1cc",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\notification\\dto\\mark-notification-read.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "dae978524e2a5f0fa65b29d002559962",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\notification\\dto\\update-notification.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "d39716dcd5dcbc4f15449eeffa367223",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\notification\\notification.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "715f93ffa72435cd27d5f33dadf94d46",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\notification\\notification.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "0e787202bf62232fc815cb8cc921a91d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\notification\\notification.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "15b947726d7e2825a479a5a71318f9b8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\payment\\dto\\create-vnpay-payment.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "ada7f3eca058e8f865423ec5e67efcd7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\payment\\payment.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "32b813430b28fd4b272082d22361a0e5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\payment\\payment.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "735cfcfa8012e6a9e0e2633cd97c918a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\payment\\payment.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "f2a0c1bc459e881f2d05b0fe0c2c5068",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\payment\\payment.util.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "a75311fb81becda4b3adb9e546337342",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\payment\\vnpay-signature.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "2a5fe0cfc541125bfec298c8d8745e87",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\permissions\\dto\\create-permission.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "fce8c71337441ef909093d618da7a175",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\permissions\\dto\\list-permissions-query.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "cadc2abe88a973824d6c009a233dbace",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\permissions\\dto\\update-permission.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "45a6a560ed371684f55d65dd7a870d0b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\permissions\\permissions.constant.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "81f0357a2ab4d0db9809832a3711772a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\permissions\\permissions.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "fc13a9dc507713cd0ff55c39c2666a22",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\permissions\\permissions.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "e48adcdacf44ff5d942138193717478d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\permissions\\permissions.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "bec177a7b91ffcc48591eef1ddc6643b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\policy\\dto\\create-policy.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "80b53c3e04f3e7b32735b57e95ee8175",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\policy\\dto\\update-policy.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "6ba537b376f38ea6aec7bc05dbfabcf9",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\policy\\entities\\policy.entity.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "e17d6147746520c9ff1c015d188b4b86",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\policy\\policy.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "efded4fd62e4077a18ed6709beae3b1d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\policy\\policy.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "939ba9d1236962d4e1f2444822cd9e37",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\policy\\policy.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "9ca8aa40c952f6767ee3ea6f779fcfb9",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\prisma\\prisma.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "10c682fbc6dafe73992550ff1af48f87",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\prisma\\prisma.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "e33e5acc95c32774a07684dd76a1c2e4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\promotion\\dto\\create-promotion.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "3f4a2cdc092729b3105dae68bedf04b6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\promotion\\dto\\list-promotions.query.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "88d5743d6c0a7de95a3b285c9e070868",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\promotion\\dto\\update-promotion.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "5df93a13a02ad71da735cf0d732edc93",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\promotion\\promotion.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "5db79c5cbe87d7b62319aea9e1cbecd3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\promotion\\promotion.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "332b2a3cb8a50497e351bf69de3c6ebf",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\promotion\\promotion.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "771cbeb09444341f0ac3bc0d5ce38a6d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\reviews\\dto\\create-review.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "85442a2a3a6e34372a98c199d9f1dc11",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\reviews\\dto\\list-reviews.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "55587405034d81d25829a2bdd07aeb46",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\reviews\\dto\\update-review.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "0f45b8ba40807b059e957e362b44e7ec",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\reviews\\reviews.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "e19984390a6675188d4e0bc921c6f1bf",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\reviews\\reviews.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "448ee2cdbe6800445e330988bc7a38c4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\reviews\\reviews.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "54ac25212c52d127be07a0ea551df4ec",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\roles\\dto\\assign-permissions.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "2145fa4b61debea3247e2c12029c0797",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\roles\\dto\\assign-roles-to-user.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "97fc073ae6df1617cb976050d346a41f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\roles\\dto\\create-role.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "8465218a733bd1241a972f444cc81666",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\roles\\dto\\update-role.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "57ddc0ba4406e2484be6066c14eb71e8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\roles\\roles.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "fd32f18e546aba27e64d171f418ec513",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\roles\\roles.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "cb809fb14594efc29c35e5a404e4e5ee",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\roles\\roles.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "3bd32c4ab47b0cedb238cf6ae1501085",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room-type\\dto\\create-room-type.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "91e78efb4670745a74904b282532f4af",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room-type\\dto\\list-room-type.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "17a4a3597e7888d31d3f159fce9a8a1a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room-type\\dto\\update-room-type.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "cca1c4b3951ee828218cb3d4706519b7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room-type\\room-type.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "37cbf4fde620f70c7c8f95cf27262ac8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room-type\\room-type.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "303592ac355e1b936ec2dfbf1cc8619e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room-type\\room-type.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "601e002b08ae7da51254ad0e5df3581b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room\\dto\\create-room.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "b2306c792211f34ec21f89f5e20dfb4a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room\\dto\\list-room.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "71f6252355f3f85249705978ae70b333",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room\\dto\\update-room.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "7c4699e98f4ebcd731018d317dac3e70",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room\\room.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "a823f8682bb15a7ccea40e2f7662ac18",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room\\room.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "df352a19673fed293a7f2b45b72c12f7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\room\\room.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "f382552a2e4717c43c223f97cd3c60bf",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\users\\avatar\\user-avatar.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "a802d196092fd7e25f335992666043df",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\users\\avatar\\user-avatar.service.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "dcc218d93e6a411814eef03d2d9ab0ba",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\users\\dto\\list-users.query.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "83d383a12352f9c0a495741a52ae6719",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\users\\dto\\public-user.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "2fb8c01d3b7f4b2808a240e4adbc0188",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\users\\dto\\update-me.dto.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "9617e103ea17e81f84e9e898dfecbea1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\users\\users.controller.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "a4d252e3156b88c2c5c915b1799ff7c4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\users\\users.module.ts": {
+    "mtime": 1780638877.308901,
+    "ast_hash": "e569671ea12eb397d7cd1b4666b0dd82",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\modules\\users\\users.service.ts": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "7bdc1549db240e6f69635c58fc981cca",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\shared\\utils.ts": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "85e97789d2c83c013be95fe323fcad2d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\types\\express.d.ts": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "71bf5ab11e3d992de96f7ce76ab42fb5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\src\\validators\\match.decorator.ts": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "fc67bdc8ac9001baf42c242983ed00ef",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\test\\app.e2e-spec.ts": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "909f313d5889be27ac4be4addae4e200",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\test\\jest-e2e.json": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "707a50895cb1c565825637916e9cf290",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\tsconfig.build.json": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "d23fc4aff02c91ce9c424c15aea9b49b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\tsconfig.json": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "4b6cb5721ec61555db0559972d1cb8bf",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\components.json": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "112e4afdb9839f04270bff1452f1c891",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\eslint.config.mjs": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "f75fd72656455fa6dc6055e3cbea5d68",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\next.config.ts": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "81ebd6287a5299a54bba722a47b5a775",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\package.json": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "79247f45d0b934f82b0b433db1ccc48c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\postcss.config.mjs": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "0a8c5fa8885965eb3d71ee945ff2e9be",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\amenities\\[id]\\page.tsx": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "666cd141e13d68fe5a9a9a1f841df4b6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\amenities\\page.tsx": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "b72029434b35c43d3379feb5e33b8abd",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\bookings\\[hotel_id]\\booking\\[booking_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "27d08b921abbdd63d810c2cf23456648",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\bookings\\[hotel_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "463246dc34eea8c4b3bf7cb6e93c1cba",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\bookings\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "542a16c90ba9f6716430cdeeec687bf1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\commissions\\[commission_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "8497fd09e483623428a8721e773e200b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\commissions\\hotels\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "2197fc56ab8d9cfada49861d6302e955",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\commissions\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "51a55a36b998bb0aa467f76172a4af88",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\contacts\\[contact_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "dafa0c3bd68b34dccec085b5adfd5948",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\contacts\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "3dc92185813a57a47abd6951c2c1209f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\dashboard\\[hotel_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "7bec1411fcbe8862a6adbc2d683dd5bb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\hotels\\[id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "c260237ade2f3cda3eec1f14e7aeb5ef",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\hotels\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "5661c223ed5d9b37b97db0c33d162b5e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\inventory\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "e10026dd77f15539b39c7cd13e5b52ba",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\member-hotels\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "8e025da744650ba3862fc3de2909ac5e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\news\\[news_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "912d6025024ceb1eefe6a0041fbe1ac8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\news\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "e3b68db120929119072eab6a663b7b2a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "8a7f5c550b0e20d0fd2da540f1e07755",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\policies\\[hotel_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "36c60f9174deeaaaf63ebba2957d7bb8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\policies\\[hotel_id]\\policy\\[policy_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "a1319a26f164d4da92176c8ffba3aca8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\policies\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "eb5c648ddb14cdc2ca825f8ad12fb88b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\promotions\\[id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "2a7e0ae23a136f879725ff3dc7e4c888",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\promotions\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "4e9ac267f37aaef34798086d9d6102e5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\reviews\\[hotel_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "f8d0a3b4541ec827fd95d82cec9f1ea3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\reviews\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "fae5f8935eac19d7a9332fdaafb114ad",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\room-types\\[hotel_id]\\manage\\[type_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "68ee1b95f74d37072da3acd99740d1be",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\room-types\\[hotel_id]\\manage\\[type_id]\\room\\[room_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "13232d4c9496cbf0ce17bba73f3464c7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\room-types\\[hotel_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "1517e9ecca959ec17510821e34063362",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\room-types\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "928e21eac26f699657b32008359aaec8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\settings\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "750cd7406ab592b9ac2d7527988c92c6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\users\\actions\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "c16dd39bf89a62a5bb38b1efbabc3dbe",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\users\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "b70fe72cdbf371a9d1c69f14aaf969c2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\users\\permissions\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "be11b8601b5da008b3fd7aad2380c5f4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\admin\\users\\roles\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "06cd870305e61c425c5bc165e2c9a7fa",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(dashboard)\\layout.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "77faf32c0091399779205e70b57e8c26",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\(auth)\\auth\\callback\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "5782c76193e9af5d84a2908c74fde2dd",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\(auth)\\auth\\reset\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "aa86da578cd7759b5d65927ec86309ab",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\(auth)\\auth\\verify-email\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "2fd60802723b48010a6e8e31c473a167",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\(auth)\\forgot-password\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "52d99bfd5ed4a52c50ab5f9997fd289c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\(auth)\\login\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "a90456eddfe042fadd85d8d124ef58f2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\(auth)\\register\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "bc7f34d94e130e3474c4c87d1f566162",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\booking\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "ea76bace6fe2d99e36c8326e6d91f0c3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\contact\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "a9816aa44a5ea3b8fa3ceda183e0c83c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\hotels\\[hotel_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "4101da1b5ad637c42315d2a40c8affd0",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\hotels\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "71695e5c0b112f77b6e7aa847bb683bc",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\layout.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "701dd0e192b1ad6ff6a5eba877a6b26d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\me\\layout.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "f9b5c5f455211645777dc1ea6e19f8d7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\me\\my-bookings\\[booking_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "9784acab4351d1b01f08c116d5a05d21",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\me\\my-bookings\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "169668c981fca32fa6dd6836254e835c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\me\\my-reviews\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "5fcd28443dc0d334eef27b62f967f7fe",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\me\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "7753ce2adb1ff6a17809ce422b8ac055",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\news\\[news_id]\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "6e517482faa620e6c56b78429fd6f28d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\news\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "dafed1a53de04afe32baaef0ec4d4a11",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "96f53a9e14f08536418658764284757d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\partner\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "3f8263a67f191ee6ea26187906da368d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\(public)\\payment-result\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "15ad2fb110f2e68d37a939b3a4fb7bcb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\editor\\page.tsx": {
+    "mtime": 1780638877.34015,
+    "ast_hash": "126ce11e70b0c35d24cffbc1a6816f54",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\forbidden\\page.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "f86e1d0d36cf51b21800d1e38b13a318",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\layout.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "a229c7e710a539efe3a78008331a59fc",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\app\\simple\\page.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "55de392ba514449a5a92f80ec706869c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\booking\\BookingFilter.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "60c95cae6654010451fadb9bd8fbd457",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\common\\CofirmDialog.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "f163cac99596bb8fd4b2a7d9a5b2ee52",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\common\\Editor.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "82849e604f25b697739deb5b4d6affe9",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\common\\EditorClient.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "6ea7146d0c51766fe4430010d0b03b8f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\common\\GalleryFolders.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "9f596cc009950bb1685b99a4128d1b73",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\common\\GalleryImages.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "13013a403d808bff9248828e55dba495",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\common\\GalleryImagesDialog.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "b873bb0ef930d431f77f591df3fa14d4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\common\\IconExplorer.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "df07a83f48fb7bdbe1271744f2b7c044",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\dashboard\\CustomerReviews.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "d1225dd0ede3c4934ca5c05cdab4454c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\dashboard\\DashboardStats.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "629eb8df14010ad20be826834317b210",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\dashboard\\NewestBooking.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "68dc263a8fc849cb7fa2d9fcd02b4d23",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\dashboard\\RevenueChart.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "4e992c92c957f28a244d9b7ec6d9f7f0",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\icons\\GoogleIcon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "162755664009c57296d2ed53bace5a29",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\layouts\\AccountSidebar.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "b754b8a8b081261becb51d3317b4284e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\layouts\\AdminHeader.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "e164d4a2dadff62e9bed9b8253d76e7d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\layouts\\AdminRoute.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "c538b9847ce45adf5a88efdd172212f9",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\layouts\\AdminSidebar.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "8b49a763c8d5e75ea9117ba439c73eb4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\layouts\\Footer.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "a606015cf6bb8d779cd6094155a8ea79",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\layouts\\Header.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "f17aeb0f56e2246fc947642e906efd63",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\permissions\\Can.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "242e4bb348bf69d6b9d9505009a0652b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\sections\\AboutSection.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "73f81aff759ec6b56fb6013afad30a0a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\sections\\ContactSection.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "cfe2d94e9de9375c5b592979d1b16793",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\sections\\FeatureSection.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "b90024fa0c95938175af493116d1896c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\sections\\HeroBanner.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "53f5d15b9dd86e05485e5c2e37b13530",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\sections\\HotelCarousel.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "346aea17d2dcc0818d13181dc5fea637",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\sections\\NewsSection.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "97e1238919548a274e06b83a79da7c28",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\sections\\PageTitle.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "f483a0fdbe8fbe8688e0cba0b3ce942f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\shared\\PrimaryButton.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "ec45cddbea32fe886b009da0f3e009b0",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-extension\\node-background-extension.ts": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "1e3f28efa2a58e1a7b853b887b0a3e7f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\align-center-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "886860f02694ca8b1de13803772a9735",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\align-justify-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "b13d9cf45333897e9b829eb2d2c17299",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\align-left-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "6d54715db10d7f4c59db57f51fb9dafc",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\align-right-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "4c43e4536d4796c97f38c97f77c4fc8c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\arrow-left-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "7a00d6dc1bfc74d59c81d3bde5f1a3a8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\ban-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "e5999479ca73d492103698854abcef46",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\blockquote-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "81a42552a7ccb5e32fdd098686e31692",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\bold-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "ec13765fa82ff7ed93148af8911c9aa8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\chevron-down-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "b49d25f85e73a61c96ab54e86d2ba5c8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\close-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "cd993a4734e4f26c914e460d9730cbd1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\code-block-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "8101bddc70f96be420a6fe12b1890e7d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\code2-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "dde1d2fb0f90b92fa02bd0d74debeff2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\corner-down-left-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "7edf4eefe25678f083ba63f0b98488e8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\external-link-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "67fb16c985c74b0bfda797b07a65eaa4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\heading-five-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "ed1932621d40e71ddd576f883a03fbff",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\heading-four-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "e27df503b4f4468df911dafbb46dee39",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\heading-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "017730c0abd85156cb55e3df756f3266",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\heading-one-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "93a522ca9625407f806c7f8351b39e30",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\heading-six-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "bde151fe2e59dc2ea8ab17c614dff159",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\heading-three-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "0ccdfc351f013417bb2994fa6803fe8d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\heading-two-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "723e152491b32401759ca3ac1394a849",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\highlighter-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "2bb1cc20caeea5e171e4549423391b10",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\image-plus-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "15691db50be06598f7f0d36c795fdc1d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\italic-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "ada6fca352c8da4205e57cd4313c916b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\link-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "38858f77e83e73ba15bedac7789da537",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\list-icon.tsx": {
+    "mtime": 1780638877.3561676,
+    "ast_hash": "f51f88b1dd27d14b819c506616d3198f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\list-ordered-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "500a2bb56b10f1a8cf681db51e0e9207",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\list-todo-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "1013afa4c76b3f9fceb2d11231c466d4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\moon-star-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "ec1800dccaf3dd59c410a198fd105be5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\redo2-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "c3e13dec44806bb036d7f88511b49295",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\strike-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "24bd725d78ee5621aa3aa2543bdbcbac",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\subscript-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "4bc46ad432e4af78be73e788321e972a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\sun-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "e369e97cd5fdff2ef815d3f5f5ae9576",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\superscript-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "d0e372bedbef6d554dbfdf1d95ab5206",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\trash-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "b960fa03a82defc96999224ceeba7588",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\underline-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "63d22d10b91c6e2d05ad2f2a89d6395c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-icons\\undo2-icon.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "fa527f6b9a901b76cdba732a91f30945",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-node\\horizontal-rule-node\\horizontal-rule-node-extension.ts": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "8eeb16279a5bbbec378438aeae95b34b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-node\\image-upload-node\\image-upload-node-extension.ts": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "28fb983470f5ef38a6a73e878750513d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-node\\image-upload-node\\image-upload-node.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "a5488b12ca0d5c248f79c81ba7f65f40",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-node\\image-upload-node\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "21c94de31c41bb3a3625b9ac3d40dde2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-templates\\simple\\data\\content.json": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "d0b5f9a4ed030b1580f0f346893b7722",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-templates\\simple\\simple-editor.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "048d72d8b9a4b7ca902c4dcfb365702e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-templates\\simple\\theme-toggle.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "1d6444510fe9e6c3c86c58f042221070",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\badge\\badge.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "9e3b59b3ebdffa17986e85a6e23cf0c4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\badge\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "4700bff64f3ce8f34c4c928d3c8fc41d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\button\\button.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "ea6393575011a1444967e55d2267f5b0",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\button\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "e9e49cc4284200badd2c4be59d9a9bde",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\card\\card.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "71d99efa1dbc763157b0b2745dfba91b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\card\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "8a94121a44cf7554557ae4753de71265",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\dropdown-menu\\dropdown-menu.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "644e84f67ec43cf4689ce15e54ecd968",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\dropdown-menu\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "212aa33fdda64cdd93f4669ed19d40c2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\input\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "8c0b90ceaac308d5effa98a3bf9fdb8d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\input\\input.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "a398d493739085659ada023a083b3ad3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\popover\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "a1cd83beedfa85d38dcf343e4d06b319",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\popover\\popover.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "f2e52184203efae769e03a4f84a0dc3e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\separator\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "3a178b650208f710681fe48005dbbbe0",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\separator\\separator.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "4731395ec71f89531eb8acb0335036ba",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\spacer\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "3dff4241a8d9b5bd15589b57593da49d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\spacer\\spacer.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "f0f60ed7803cebcc23d490beb5fcc0e7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\toolbar\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "dbe8ca8ae80dc307087f40c0afe16b39",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\toolbar\\toolbar.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "89f00187c80ad1cdfb4314766ce1833c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\tooltip\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "5da1e0eafa447582bd1f6342c13d974b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui-primitive\\tooltip\\tooltip.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "1ac4164814fc372ce2a6aaf8cb159dd0",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\blockquote-button\\blockquote-button.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "41cbbfda4e52f0b94b74d35c3328ae76",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\blockquote-button\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "3685703a112ef640da6512336b7da1b8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\blockquote-button\\use-blockquote.ts": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "146ba93ce307365ba24cff843825322c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\code-block-button\\code-block-button.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "cf866193f841ae9d3b1cb5dd6fcf1095",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\code-block-button\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "75c059ed3bcddc76306127342c67bcb7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\code-block-button\\use-code-block.ts": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "6697675930a88f0795003ea15ab69e90",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\color-highlight-button\\color-highlight-button.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "4c846232962840ea2feaaddae0e9e29a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\color-highlight-button\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "982a2ae487e55c017d43a24d08b334b9",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\color-highlight-button\\use-color-highlight.ts": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "808af5b56d26c290249cdce5d0fc1759",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\color-highlight-popover\\color-highlight-popover.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "afdefd3868a2867cecc4cd4963043ff7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\color-highlight-popover\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "7596a0cdfd65b3b829f7e4c63f3f7c2d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\heading-button\\heading-button.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "87be9b0225633f941802113c912e7f18",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\heading-button\\index.tsx": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "95d77a46cc549159d9feb7b021aa2526",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\heading-button\\use-heading.ts": {
+    "mtime": 1780638877.371836,
+    "ast_hash": "e3a40f2b276664547ba4732efcee19d1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\heading-dropdown-menu\\heading-dropdown-menu.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "11817928923811d49e8e2ec6014b5538",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\heading-dropdown-menu\\index.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "99bb4d07d37ccaf4129a12e4b9240cc7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\heading-dropdown-menu\\use-heading-dropdown-menu.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "b44afa3b5e8ae6852769d9b9f5fa762a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\image-upload-button\\image-upload-button.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "216c4a57e7b60f6d320b37c3dcbf574a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\image-upload-button\\index.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "8ae08e59a9ae2b303cf3cdfdfb72701b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\image-upload-button\\use-image-upload.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "bc4498e832381c3383b58969e2249fae",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\link-popover\\index.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "540494abff33848e02e1bc8ad67ad230",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\link-popover\\link-popover.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "84690fc1f42ba96372735983f75f2ca8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\link-popover\\use-link-popover.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "5cdd2b4a379d929492e6138582d27b6b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\list-button\\index.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "48e2fa694e8a702532148185919306d3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\list-button\\list-button.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "2d9a90386993d65e07e4525516c48f55",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\list-button\\use-list.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "3b9e0785870a1e1519d7e94d9badc14b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\list-dropdown-menu\\index.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "b1a78fff615cab7727905336da18652d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\list-dropdown-menu\\list-dropdown-menu.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "1238fa85df62d1f8dbfdd22b26bab1da",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\list-dropdown-menu\\use-list-dropdown-menu.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "4d638b1c2572acaccfe5dd7e23ef6ad3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\mark-button\\index.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "566bdc022b3de71fb333fc3e49017494",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\mark-button\\mark-button.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "3f1f76a562a3974ce53ef9624c23f546",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\mark-button\\use-mark.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "73d8cbdc55d322581dfc22838c989589",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\text-align-button\\index.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "02fbe42ec5e176fd794d315630eef6d7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\text-align-button\\text-align-button.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "0eb6acfb7a292c5b42c069ab08040b91",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\text-align-button\\use-text-align.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "0e7b9e72e4a305859b5a05f0986c7ace",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\undo-redo-button\\index.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "a2b9914629a07733013008b337ceb222",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\undo-redo-button\\undo-redo-button.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "e277d38970a36284f9856912a6f8d65e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\tiptap-ui\\undo-redo-button\\use-undo-redo.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "cad61ed66aaa349cded432ac1bb3cab8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\EllipsisPagination.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "a3911049b8daf58408f9238b5b9253d2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\alert-dialog.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "96289b446b05be92f5fa68a99489c908",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\avatar.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "dfe8c1ef8f73aa7f91230c14a4a21b71",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\badge.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "3a4a285c9d7379680ae3e87ed7810692",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\breadcrumb.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "908958673b534e7ab8af02a47d450bf3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\button.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "b46361a0205b8bb5b600502e14106446",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\calendar.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "4be1da833b44c7bbe86a3538d2bd0b9e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\card.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "47a29c39097f9e68761c5ef152ace1e6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\carousel.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "61511ca1762ddf6b333c382a4e921c52",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\checkbox.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "d31f2bfdcb41e378da9ef00f025d0ef4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\collapsible.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "6dc9bbf54b5bdb11466bfa79966c2755",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\command.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "c1db40a6f8892dba4122046b4b448484",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\dialog.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "8735cc509ecf04f07f2e611bb03c3d6f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\dropdown-menu.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "9fcfff9ef2d0c3d6345bfa274ed84a0b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\form.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "99de6156a685803cbd5e1f044694502d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\image-upload.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "593891f94ee51468c2d691964664c276",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\input.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "229513f0e77fbd6da03231cdb66cc50d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\label.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "54182f15eaa11b2f35bc2ff903e2557b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\navigation-menu.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "74d588ba6187fb0c5620fcc3e5bfd19a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\popover.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "6a3f7b8119ecbf80cad8bbe2848266ba",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\radio-group.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "0f087070684fb1f5ca5eb2c1a263ad5f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\scroll-area.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "bcfa838c604a2e1b3cba179c2c174989",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\select.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "85c0149030cec98980ab06b43586c03d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\separator.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "981488d95a2e21d07ed8acfd3963d7e9",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\sheet.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "edbeb83948a72bc767f0052a40bc0dca",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\sidebar.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "b189d5e4b86e7780e3230147f98566cd",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\skeleton.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "cbb09a6a9e8a6f87d3bbe20567e22c6e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\slider.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "8e6a6d24014e419c5bdf45bc9ce31c09",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\switch.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "881e0aadc25f61839d2e97dd646f3ae3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\table.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "1b339aeaa78100603808436dd1ae9fe2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\tabs.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "c40b57c831b57166ae18690a41e5d5b3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\textarea.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "16e5d792f0aed75752e902fa141a1f18",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\components\\ui\\tooltip.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "e39d1875f274764eca8782374c3872cb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\constants\\api.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "4a064391de505e166a216a75a2037cf7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\constants\\index.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "375ac616e0dd719a7ccde8e42d705b3b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\constants\\message.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "6951be2bff3f3e2a49359151b2927b71",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\constants\\routes.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "b89f28d4e57132955eb66a3fab39c82b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\actions\\api.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "58c86805e368562683ff06398e29ed3a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\actions\\component\\ActionManagementTable.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "7b38b48bd6f30c1ccc2cf5445f81c166",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\actions\\component\\PermissionAssignActionDialog.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "84452a31dd8476993bebb2b91ce8c78c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\actions\\index.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "5ebf9a9fad1f1a2063b5c5821b08d830",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\actions\\mutations.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "855cc4eca0d10e53cf0a15362a2e7c14",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\actions\\queries.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "3e543c28f1412c8b19216082de946672",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\actions\\types.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "c06c8c418e98b5bd388a877fbd931102",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\actions\\validator.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "ab69cc839f4b43acf12d1ad516903c8e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\amentites\\api.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "5a789a2b5bce402e2770c7cf5fac4509",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\amentites\\index.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "21ad8a04a91de7b72853aac5bc963792",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\amentites\\mutations.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "4ff0a1011988bdbda406b9a7aeaf07b1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\amentites\\queries.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "fdbe4f6d2cadda747e6f1912991951d5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\amentites\\types.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "47ef313556c047e85b8a668383634df7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\amentites\\validator.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "4e3ee2f05cc776697dec41d521fd984b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\auth\\api.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "7b852b6c7e0b5ae4c6de310e10d4b147",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\auth\\components\\ForgotPasswordForm.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "16158701cd163e0014450b8361750278",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\auth\\components\\LoginForm.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "881f87d8e6a17fc38b772fed41f51017",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\auth\\components\\OAuthCallBack.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "5ea215c461636518cb87fad9b63d6d4d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\auth\\components\\RegisterForm.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "1f8c0ae7b4bbe7b3fdc83ced846cc712",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\auth\\components\\ResetPasswordForm.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "fdd1824c18cbd9dc795a3118f5c18f01",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\auth\\components\\VerifyEmail.tsx": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "9a541c2017eb553899e377c9d2b9cbfa",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\auth\\index.ts": {
+    "mtime": 1780638877.3874607,
+    "ast_hash": "99878a32fc5ef169fb0822f28bb7a322",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\auth\\types.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "d9380ce9552d92928d76b6a20bb0cd41",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\auth\\validator.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "8a7455a2c24461a81f1cbfa2573f0cd8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\banner\\api.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "97a67175260472f4e88e69024cf95f3e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\banner\\components\\BannerTable.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "fd86a47e021ffe0f7aedd396347ea9f3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\banner\\components\\CreateBannerDialog.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "6e7923b951b0493f1a2c2dc0f293c753",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\banner\\components\\EditBannerDialog.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "f3a8f6c1e3afb63b1b72f40451c345fe",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\banner\\components\\index.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "371e7c43b7c7e8aeee41ebd383a66248",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\banner\\index.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "ef77a3b7277df31c68911126d0b083b1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\banner\\mutations.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "cafa04353239a247bf1e1ffde746ba0d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\banner\\queries.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "0f931f82ac7fa3251b0c3cb2245b124d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\banner\\types.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "93384597f1f540079b70927f583bd099",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\banner\\validator.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "54fb2879860910d9d2370eeebc64bf3e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\api.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "e5ffa7e815aa7b54f0b31620ca9d8ad4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\BookingCheckInInfo.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "f2e1ed3e3c11deb4888ed1940658d8d3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\BookingGuestInfo.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "769d49f2977aafd14ea520402ba0fec3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\BookingHotelCard.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "81f94a527ee589e7cc6375137bbcd2ba",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\BookingPayment.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "755101e4dd98010706c631d835393deb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\BookingPaymentMethod.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "ff96a7cba359fc664e83d17865b3bc1d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\BookingRoomList.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "a8d7abe1a41e110ff3ce341ca91b7ffe",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\BookingSummary.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "a0189c45d82e3c1d4aa940a02726a4b6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\BookingTable.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "0ed4faa1d25fa6e22959416757df04cf",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\CheckInGuestsDialog.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "7d158eff1428089467dc041acecfbb27",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\PaymentResult.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "408e9355229d0974f6aa91e44e994d17",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\components\\UpdateStatusBookingDialog.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "cff3456de96b0cba876bacb01e7bf9a6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\index.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "b5dde491addda00789f0ff6396b6e751",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\mutations.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "328024bffeb5ad8277a3fc8295cb381b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\queries.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "299bba33dd122f0dfd58eb8c70ee6045",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\types.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "bf657fc4f0d62d62aeab5ffa64642d1b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\bookings\\validator.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "18c6a87d39310814ca392ef2fbf7b884",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\api.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "d73a30094990781731224666a69af59c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\components\\CommissionAssignToHotelDialog.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "7ec121ae8cfe633386e4da7e60d3e3fe",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\components\\CommissionAssignToHotelsDialog.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "82d51910ca888e473dd2c3fa7d6add47",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\components\\CommissionHotelTable.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "8a62611063be2a9fdc83fe5a8694bac1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\components\\CommissionPackageForm.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "356164a7770a43fb51f58559b19b81ee",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\components\\CommissionPackageTable.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "0acf316e9bee8ab267c03d3b7891b2b9",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\components\\CommissionRevenue.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "4e9201568a0d8482ea0c8067294881fa",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\index.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "35fedd5147ddbb6d64cd51775cb5007f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\mutations.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "30040d7f3c519c92676072d68645ee88",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\queries.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "b204a916f8aa004b1cf5fa1459d4e236",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\types.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "afa09792d396ab6ecbd7a9db3354a292",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\commissions\\validator.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "f5291adf3d51e5c7584b8e05d514724f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\contact\\api.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "5cc27f3e717b0b634a5617b1bae0de41",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\contact\\components\\ContactForm.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "2bb5e95f2c8ce2ff591c521d985c2399",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\contact\\components\\ContactTable.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "6ca2fc857f3c794b2390ba17c20e7f5a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\contact\\index.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "284548a2c37bda3b53a6bf629f10187e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\contact\\mutations.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "7a5a08c2dd6e4c52da2b04ad5c77d76e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\contact\\queries.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "f4a7d560041e0e366446cd43e194fc11",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\contact\\types.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "1e9a62da4d5d0cfae02929c35cab2fa8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\contact\\validator.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "7d4d42040bfd21bdd32373960565f720",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\dashboard\\api.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "45446a0f569be2bee6818eb08038c0e3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\dashboard\\index.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "d2c9c261bdedcd5c5719264005a9ab80",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\dashboard\\queries.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "300f9e61de92c212ae589c884811d06f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\dashboard\\types.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "7f74d7e4959ddef28a409e309d80a6b7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\gallery\\api.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "d35ddcd0a71f40fbe036f7b5373f1be5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\gallery\\index.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\gallery\\mutations.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "6623787ccb0772b863504543f8f9248b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\gallery\\queries.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "31792a3dee639ff6e3d0e21821d24562",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\gallery\\types.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "8f21239bb611c1f76f6231f6f3ab4c12",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\hotels\\api.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "9cd85ba5000693b250d1eea6ec14ce39",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\hotels\\components\\HotelForm.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "3495158ac872c1ab35552ef68b35ff82",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\hotels\\components\\HotelGallery.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "b275a05a38cd20b76bbb08fa0f099235",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\hotels\\components\\HotelSearch.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "8d0512179128b5e69971743494a6e279",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\hotels\\components\\HotelTable.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "e6236ab6123d0702d08331af461667af",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\hotels\\index.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "d2c9c261bdedcd5c5719264005a9ab80",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\hotels\\mutations.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "e97229d9700a9de4e43ee1a84cdc454b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\hotels\\queries.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "473274c32811d9926984b398b7140591",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\hotels\\types.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "991ef6dc0be4bbf43dd5167ec4cee705",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\hotels\\validator.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "111b6aa00223fe7eb956d1813fee3ef3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\inventory\\api.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "e0504a9beb92f06eabc3e57c4c41bc16",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\inventory\\components\\CalendarInventory.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "95429d363db0bab78fa5ad7bf1afcf54",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\inventory\\components\\CreateInventoryDialog.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "084ad8ed5fa6d80e0bc22bdbcc389d5e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\inventory\\components\\UpdateInventoryDialog.tsx": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "68f52720f2b949038c432830b2a3da73",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\inventory\\index.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "567f87147266b84864bb74b2aad6c166",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\inventory\\mutations.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "92b1712d95ac0d7526cd42ac0233e448",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\inventory\\queries.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "45b0f6a350b145e20c01edad00360361",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\inventory\\types.ts": {
+    "mtime": 1780638877.4030857,
+    "ast_hash": "2e1de60a6c8b3c4a0f0a22f6d2a064e6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\inventory\\validator.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "56d3c105948acb1bf80d083f6d998502",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\news\\api.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "3d7d6ebb0de7d15a42ae3998ed035b50",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\news\\components\\NewsForm.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "9fde2d1b71aff63a6b234417d85074b1",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\news\\components\\NewsTable.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "48e5e93bb385f3345110ba8f726f2e95",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\news\\index.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "284548a2c37bda3b53a6bf629f10187e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\news\\mutations.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "5508d52f59d539635c7a96463df9694d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\news\\queries.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "0c676f38b64f81b09a310f0beeb7eeaa",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\news\\types.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "94002de538b75d505950b9081f73c918",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\news\\validator.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "c0e0905b298acfda2738e52f4876aafb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\notifications\\api.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "60242ff6f2ebc43893f6779b1e6cab31",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\notifications\\index.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "c450d93324401645a16d71bb286f4225",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\notifications\\mutations.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "a5d8b6c566cff23fda2f5dd78f566535",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\notifications\\queries.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "976cc58a0e41d35619abe503781c781f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\notifications\\types.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "34b937d78be859f1f957a8bec2c54dc3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\permissions\\api.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "6120281e514460e39ce2552ef52d7f88",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\permissions\\component\\PermissionFormDialog.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "d8269f9fddfef91fb87dc051739fdb2d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\permissions\\component\\PermissionManagementTable.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "0d717f21b889aa1be30eb204f191336e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\permissions\\index.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "a7a4478a0329f58484e13d961e70cad5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\permissions\\mutations.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "309cc05e46e3d2d7d1070e38960fb297",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\permissions\\queries.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "c07651ac3cfc4fb59db1cb0c4d11a601",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\permissions\\types.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "a4eee5f0402955f982a71f3090c0b451",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\permissions\\validator.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "fe8dc2bc3bef8afe3bd315e816a8502f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\policies\\api.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "88a03b217a1cc371389a6b96b12b2d28",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\policies\\components\\PolicyList.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "4c260d99d5e7a7044fdfbe8f4c43c273",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\policies\\index.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "279c99c7ad3cc57fb0860e80966143aa",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\policies\\mutations.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "cd86cf4cbd7600ef41fecd53db1202c6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\policies\\queries.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "621a4fa3139458e2fa11032bb580abb9",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\policies\\types.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "76cd1badbedc95c308a9d0e60becf901",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\policies\\validator.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "26eba5ee537db5f94cb7bdd2480c0568",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\promotion\\api.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "450ba08fab6bde6beb0364ceffbcab86",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\promotion\\components\\PromotionForm.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "66bca641a7345ab86563d5a1edfce812",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\promotion\\components\\PromotionTable.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "a3fafa2da05d0d07a6f099beb4b75b5a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\promotion\\index.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "6e19a0eec3ad29f08fd20702f0ac737d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\promotion\\mutations.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "001d91e9329d3fbfa5bda2126d56dbc4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\promotion\\queries.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "66f021b0fc3d2e127e59a75bd1dad98c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\promotion\\types.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "93cd90cf8e94328fb63823f63ffa0cdd",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\promotion\\validator.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "ca207e8738f3fffbf01b1a5806540813",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\reviews\\api.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "328e7afcfd0f5bae53aac66991166d3b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\reviews\\components\\CreateReviewDialog.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "574f699f7749fd7ceedc673c0a76ef45",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\reviews\\components\\ReviewList.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "ab98786df74624d2d48cc55030839a97",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\reviews\\components\\UpdateReviewDialog.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "c6e2c9310d14be8788f1af4f6bb07a9b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\reviews\\index.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "d41d8cd98f00b204e9800998ecf8427e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\reviews\\mutations.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "1e129cd27e56bc6d3f1541ca43fee8e5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\reviews\\queries.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "8ef528c45d94541d1bf235e118ab3920",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\reviews\\types.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "f816a07d8821b418d68892e64997ad7d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\reviews\\validator.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "9fe4e3c102f6e7d449213b83a7aa9adb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\roles\\api.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "52909efe8db50f2b89a0eb71d60e7559",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\roles\\component\\PermissionAssignRoleDialog.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "e9eb11587c907785ad6c3fa5259c321e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\roles\\component\\RoleFormDialog.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "7a3cc14ad2ff1950a16e599930f1822f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\roles\\component\\RoleManagementTable.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "f18b2b71bbe1a96aaca51eef238be0e3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\roles\\index.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "8ebef11c43e08cae5dfc261c95981f85",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\roles\\mutations.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "b74bd7f2d12afb08bb69408ecf147d17",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\roles\\queries.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "7289ac9a3e5b17e8a587054e31ac7b2d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\roles\\types.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "3a171e8af5d7f2d4bba6726f7f48ab31",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\roles\\validator.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "cfad5ee95099e1837865e730da7af526",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\room-types\\api.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "98e599915a71be1d5de8eace3e0bc802",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\room-types\\components\\RoomTypeForm.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "ce985ffd176435ed084c1575baeaad2d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\room-types\\components\\RoomTypeTable.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "0f7d84ef7862a4cd5115467aa36c7c31",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\room-types\\index.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "baac4b37078a5c1a9d6edc3755b397da",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\room-types\\mutations.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "37b86c61ce2d31b34262ddcabfbafb39",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\room-types\\queries.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "dd290fd3885be54111ef5aacebdff720",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\room-types\\types.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "753fe1f51efdf816455b0bf2f214e838",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\room-types\\validator.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "7f7254492e55d064bd730fbca55186af",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\rooms\\api.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "8301d63ae5c9194897d499e6cc21f794",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\rooms\\components\\RoomForm.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "28edacae99e91ed13c2cf9233c275851",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\rooms\\components\\RoomTable.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "430412ae81e6eb4539787a710ca1f0bd",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\rooms\\mutations.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "66503184de1b150aa97ee2cabd5da665",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\rooms\\queries.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "09cc46697fd5ab462ee38c58c9d5a383",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\rooms\\types.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "2872b6a1cdf261737249fc86adf532cf",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\rooms\\validator.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "c43824e862fdf048574a5586884ff4e2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\user\\api.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "f5d7b4c3f0ea29bcab6ae93cb0d57252",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\user\\components\\RoleAssignUserDialog.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "eb2733d1227239ee3bc3a55a7d9f39ce",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\user\\components\\UserEditFormDialog.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "c67592dcaae26f6124e208c13bab89ac",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\user\\components\\UserFilter.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "2e67734f52f82f18538f64b3798fcf4a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\user\\components\\UserManagementTable.tsx": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "2487e339cc6ef7e86d8de52f8286484e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\user\\index.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "87453c1dcf108eba39c3212a5f3f6923",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\user\\mutations.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "b6767d5c932ad677966f4c075a9da75f",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\user\\queries.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "c95d5be6cb6ea6e2872962e6170d1006",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\user\\types.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "6414037dfa20de732aee4a686bc62334",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\features\\user\\validator.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "ed50d8243e69d19f48a2938ab4217ea8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-composed-ref.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "67571563f27783147dcf7b877578b54b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-cursor-visibility.ts": {
+    "mtime": 1780638877.4187105,
+    "ast_hash": "d18670e4d656cdde039ef7d28de2ca0a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-element-rect.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "4a0ede187cfd2c07fbf51d0be35a20a8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-is-breakpoint.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "6d02fc466fb4996bb914a1a8fd6a5cda",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-menu-navigation.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "bf58b454f9fa66629a6a88e1bcd37cef",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-mobile.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "654e2ca2e9fddc27eb7e3954900dc48e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-scrolling.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "de9b818d5d61c8f213b6ce39e9c43b00",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-throttled-callback.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "9c31f8662a664a3111858102523fdece",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-tiptap-editor.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "891ce439db4c304bba45ead3d200df27",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-unmount.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "0b187200c108f61a67723ff00386b9e5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\use-window-size.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "4713280c0aca220b1058d648da8ecffc",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\useActionGuard.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "9387be1d6e3a712d7efcfd08fac0e08b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\hooks\\useDebounce.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "b448b2698e2ffb16e354b7614641e368",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\lib\\axios.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "f5a713940a7d0e5f5973992ecbef1461",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\lib\\tiptap-utils.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "d6e404837b3d4318d03f2b147df845b8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\lib\\utils.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "1d8011eb18769078bf77502b220daa5e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\providers\\AuthProvider.tsx": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "d3d052215f89bf5815b6b44523ccfddb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\providers\\PermissionProvider.tsx": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "f52094704791d267c6195be071f34843",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\providers\\QueryProvider.tsx": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "18c28e05facf48335a955037df75f1da",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\proxy.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "4f1d0454d5c97a69afd51ad526c43552",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\types\\index.d.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "3bd4ba8628e4fb3ac7e39ef68ec0bb19",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\utils\\currency.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "c56b329b22e6c329abbea62203590fb2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\src\\utils\\formatTime.ts": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "a3361be561dd15570c09db809cc6b0c7",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\tsconfig.json": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "e71b9422f68fdd7aec3ce10e79f878f3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\package.json": {
+    "mtime": 1780638877.5280862,
+    "ast_hash": "70b9c638d56584265e523d2f0574ae2b",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\turbo.json": {
+    "mtime": 1780638877.5280862,
+    "ast_hash": "f195c640c095676ffde968418fc5be64",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\README.md": {
+    "mtime": 1780638877.277651,
+    "ast_hash": "9551a519be078210a19a5d3a14d48589",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\api\\README.md": {
+    "mtime": 1780638877.277651,
+    "ast_hash": "1fbfe4d5175bf7e12686ebe25353b4e0",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\README.md": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "9162add00befbcdb432430f405c4ad8d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docker-compose.yml": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "79077367165e0a680726178ad570fa5e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\to\u00e0n b\u1ed9 business logic.md": {
+    "mtime": 1780639668.935406,
+    "ast_hash": "d87512a17a42c82935d715da509e56f8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\en-flag.webp": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "57705cb42ea08b058e2d6a9142185e65",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\file.svg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "d09f95206c3fa0bb9bd9fefabfd0ea71",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\globe.svg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "2aaafa6a49b6563925fe440891e32717",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\hero-bg.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "5a6d615495e8b9f29d5e9aa36e9f468a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\luxury-hotel-bathroom-marble.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "b99db1ed134ac628a6694dad7396f498",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\luxury-hotel-bedroom-interior.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "6ae348fa72a8e24c54b601311d103ac3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\luxury-hotel-building-exterior.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "d218cba0069a6cc84d988ae9bf78420e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\luxury-hotel-living-room.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "570fd1fda748fdf8eec69c0b31822cbc",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\luxury-hotel-pool-area.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "9ab516dd3acf8dc4fbf3a5fdc13aa0e4",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\luxury-hotel-reception-lobby.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "ed70840f3af7fa29644736067e0b03d8",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\luxury-hotel-restaurant-dining.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "c786866b84d3115b8215deb56abece4e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\page-title-bg.png": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "0c3f93652a5fe206bfbda7f4378286e6",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\service-01.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "ec79ba8a93fe5d88f3fae22238b62c24",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\service-02.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "9c0f03af8f2e556387a6bdb17f5498e5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\images\\service-03.jpg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "192d35585f43f23df450601ecd7cbabb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\next.svg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "8e061864f388b47f33a1c3780831193e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\vercel.svg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "c0af2f507b369b085b35ef4bbe3bcf1e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\vn-flag.webp": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "006372e7af003e63483d698511fb5cc5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\apps\\web\\public\\window.svg": {
+    "mtime": 1780638877.324525,
+    "ast_hash": "a2760511c65806022ad20adf74370ff3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\banner_management_screen.png": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "dd3a186ffc77e3dde442b16d16be058c",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\checkout_screen.png": {
+    "mtime": 1780638877.4343352,
+    "ast_hash": "fa6909a1593c5c1f611d17f725a7a57d",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\contact_screen.png": {
+    "mtime": 1780638877.4499886,
+    "ast_hash": "2bde278005d639c2fa59f80cf336c3b5",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\dashboard_screen.png": {
+    "mtime": 1780638877.4499886,
+    "ast_hash": "18ac6e2bc80a7ea16d31bf5719841d58",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\home_screen.png": {
+    "mtime": 1780638877.4656117,
+    "ast_hash": "8375203b5c2c1bcd6012d722f9249471",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\hotel_detail_screen.png": {
+    "mtime": 1780638877.481211,
+    "ast_hash": "9154a4e62fe518d4f45c19c844ca1b7e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\hotelmanagement_screen.png": {
+    "mtime": 1780638877.481211,
+    "ast_hash": "f943f70cdd74b4c0f72f521f5391827a",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\hotelmembermanagement_screen.png": {
+    "mtime": 1780638877.481211,
+    "ast_hash": "a0ebb0b95790f2aefa56a0dcd837c7a2",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\hotels_screen.png": {
+    "mtime": 1780638877.4968626,
+    "ast_hash": "b6662be1e5ce29856d386ff524acb9c3",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\inventory_screen.png": {
+    "mtime": 1780638877.4968626,
+    "ast_hash": "f2e0d7cff27789711cdd8a85717ed35e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\mybooking_detail_screeen.png": {
+    "mtime": 1780638877.4968626,
+    "ast_hash": "8b47c58705f19e0366245904e9aa0f91",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\mybooking_screeen.png": {
+    "mtime": 1780638877.5125754,
+    "ast_hash": "0e036d4648a35114aa45e39cff4ccc1e",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\news_screen.png": {
+    "mtime": 1780638877.5280862,
+    "ast_hash": "f4f6bdb8df69012a8cf1c8fc9223e8fb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\partner_screen.png": {
+    "mtime": 1780638877.5280862,
+    "ast_hash": "036c7338fce929ca574692ed847a69eb",
+    "semantic_hash": ""
+  },
+  "W:\\Working\\School\\Y4_2\\Luanvan\\Report\\Thesis\\Hotel_Booking_PRD\\Clone\\hotel-booking-web\\docs\\images\\promotions_screen.png": {
+    "mtime": 1780638877.5280862,
+    "ast_hash": "b4e0bf8f8c3c507a21e90eda8b21b19d",
+    "semantic_hash": ""
   }
 }

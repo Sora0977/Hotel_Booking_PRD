@@ -1,16 +1,16 @@
 # Graph Report - Hotel_Booking_PRD  (2026-06-05)
 
 ## Corpus Check
-- 168 files · ~655,607 words
+- 790 files · ~1,483,793 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1511 nodes · 1417 edges · 289 communities (201 shown, 88 thin omitted)
-- Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 39 edges (avg confidence: 0.94)
+- 4267 nodes · 8490 edges · 425 communities (318 shown, 107 thin omitted)
+- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 76 edges (avg confidence: 0.87)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `6f1147b5`
+- Built from commit: `a3857de5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -231,18 +231,149 @@
 - [[_COMMUNITY_Community 285|Community 285]]
 - [[_COMMUNITY_Community 286|Community 286]]
 - [[_COMMUNITY_Community 287|Community 287]]
+- [[_COMMUNITY_Community 289|Community 289]]
+- [[_COMMUNITY_Community 290|Community 290]]
+- [[_COMMUNITY_Community 291|Community 291]]
+- [[_COMMUNITY_Community 292|Community 292]]
+- [[_COMMUNITY_Community 293|Community 293]]
+- [[_COMMUNITY_Community 294|Community 294]]
+- [[_COMMUNITY_Community 295|Community 295]]
+- [[_COMMUNITY_Community 296|Community 296]]
+- [[_COMMUNITY_Community 297|Community 297]]
+- [[_COMMUNITY_Community 298|Community 298]]
+- [[_COMMUNITY_Community 299|Community 299]]
+- [[_COMMUNITY_Community 300|Community 300]]
+- [[_COMMUNITY_Community 301|Community 301]]
+- [[_COMMUNITY_Community 302|Community 302]]
+- [[_COMMUNITY_Community 303|Community 303]]
+- [[_COMMUNITY_Community 304|Community 304]]
+- [[_COMMUNITY_Community 305|Community 305]]
+- [[_COMMUNITY_Community 306|Community 306]]
+- [[_COMMUNITY_Community 307|Community 307]]
+- [[_COMMUNITY_Community 308|Community 308]]
+- [[_COMMUNITY_Community 309|Community 309]]
+- [[_COMMUNITY_Community 310|Community 310]]
+- [[_COMMUNITY_Community 311|Community 311]]
+- [[_COMMUNITY_Community 312|Community 312]]
+- [[_COMMUNITY_Community 313|Community 313]]
+- [[_COMMUNITY_Community 314|Community 314]]
+- [[_COMMUNITY_Community 315|Community 315]]
+- [[_COMMUNITY_Community 316|Community 316]]
+- [[_COMMUNITY_Community 317|Community 317]]
+- [[_COMMUNITY_Community 318|Community 318]]
+- [[_COMMUNITY_Community 319|Community 319]]
+- [[_COMMUNITY_Community 320|Community 320]]
+- [[_COMMUNITY_Community 321|Community 321]]
+- [[_COMMUNITY_Community 322|Community 322]]
+- [[_COMMUNITY_Community 323|Community 323]]
+- [[_COMMUNITY_Community 324|Community 324]]
+- [[_COMMUNITY_Community 325|Community 325]]
+- [[_COMMUNITY_Community 326|Community 326]]
+- [[_COMMUNITY_Community 327|Community 327]]
+- [[_COMMUNITY_Community 328|Community 328]]
+- [[_COMMUNITY_Community 329|Community 329]]
+- [[_COMMUNITY_Community 330|Community 330]]
+- [[_COMMUNITY_Community 331|Community 331]]
+- [[_COMMUNITY_Community 332|Community 332]]
+- [[_COMMUNITY_Community 333|Community 333]]
+- [[_COMMUNITY_Community 334|Community 334]]
+- [[_COMMUNITY_Community 335|Community 335]]
+- [[_COMMUNITY_Community 336|Community 336]]
+- [[_COMMUNITY_Community 337|Community 337]]
+- [[_COMMUNITY_Community 338|Community 338]]
+- [[_COMMUNITY_Community 339|Community 339]]
+- [[_COMMUNITY_Community 340|Community 340]]
+- [[_COMMUNITY_Community 341|Community 341]]
+- [[_COMMUNITY_Community 342|Community 342]]
+- [[_COMMUNITY_Community 343|Community 343]]
+- [[_COMMUNITY_Community 344|Community 344]]
+- [[_COMMUNITY_Community 345|Community 345]]
+- [[_COMMUNITY_Community 346|Community 346]]
+- [[_COMMUNITY_Community 347|Community 347]]
+- [[_COMMUNITY_Community 348|Community 348]]
+- [[_COMMUNITY_Community 349|Community 349]]
+- [[_COMMUNITY_Community 350|Community 350]]
+- [[_COMMUNITY_Community 351|Community 351]]
+- [[_COMMUNITY_Community 352|Community 352]]
+- [[_COMMUNITY_Community 353|Community 353]]
+- [[_COMMUNITY_Community 354|Community 354]]
+- [[_COMMUNITY_Community 355|Community 355]]
+- [[_COMMUNITY_Community 356|Community 356]]
+- [[_COMMUNITY_Community 357|Community 357]]
+- [[_COMMUNITY_Community 358|Community 358]]
+- [[_COMMUNITY_Community 359|Community 359]]
+- [[_COMMUNITY_Community 360|Community 360]]
+- [[_COMMUNITY_Community 361|Community 361]]
+- [[_COMMUNITY_Community 362|Community 362]]
+- [[_COMMUNITY_Community 363|Community 363]]
+- [[_COMMUNITY_Community 364|Community 364]]
+- [[_COMMUNITY_Community 365|Community 365]]
+- [[_COMMUNITY_Community 366|Community 366]]
+- [[_COMMUNITY_Community 367|Community 367]]
+- [[_COMMUNITY_Community 368|Community 368]]
+- [[_COMMUNITY_Community 369|Community 369]]
+- [[_COMMUNITY_Community 370|Community 370]]
+- [[_COMMUNITY_Community 371|Community 371]]
+- [[_COMMUNITY_Community 372|Community 372]]
+- [[_COMMUNITY_Community 373|Community 373]]
+- [[_COMMUNITY_Community 374|Community 374]]
+- [[_COMMUNITY_Community 375|Community 375]]
+- [[_COMMUNITY_Community 376|Community 376]]
+- [[_COMMUNITY_Community 377|Community 377]]
+- [[_COMMUNITY_Community 378|Community 378]]
+- [[_COMMUNITY_Community 379|Community 379]]
+- [[_COMMUNITY_Community 380|Community 380]]
+- [[_COMMUNITY_Community 381|Community 381]]
+- [[_COMMUNITY_Community 382|Community 382]]
+- [[_COMMUNITY_Community 383|Community 383]]
+- [[_COMMUNITY_Community 384|Community 384]]
+- [[_COMMUNITY_Community 385|Community 385]]
+- [[_COMMUNITY_Community 386|Community 386]]
+- [[_COMMUNITY_Community 387|Community 387]]
+- [[_COMMUNITY_Community 388|Community 388]]
+- [[_COMMUNITY_Community 389|Community 389]]
+- [[_COMMUNITY_Community 390|Community 390]]
+- [[_COMMUNITY_Community 391|Community 391]]
+- [[_COMMUNITY_Community 392|Community 392]]
+- [[_COMMUNITY_Community 393|Community 393]]
+- [[_COMMUNITY_Community 394|Community 394]]
+- [[_COMMUNITY_Community 395|Community 395]]
+- [[_COMMUNITY_Community 396|Community 396]]
+- [[_COMMUNITY_Community 397|Community 397]]
+- [[_COMMUNITY_Community 398|Community 398]]
+- [[_COMMUNITY_Community 399|Community 399]]
+- [[_COMMUNITY_Community 400|Community 400]]
+- [[_COMMUNITY_Community 401|Community 401]]
+- [[_COMMUNITY_Community 402|Community 402]]
+- [[_COMMUNITY_Community 403|Community 403]]
+- [[_COMMUNITY_Community 404|Community 404]]
+- [[_COMMUNITY_Community 405|Community 405]]
+- [[_COMMUNITY_Community 406|Community 406]]
+- [[_COMMUNITY_Community 407|Community 407]]
+- [[_COMMUNITY_Community 408|Community 408]]
+- [[_COMMUNITY_Community 409|Community 409]]
+- [[_COMMUNITY_Community 410|Community 410]]
+- [[_COMMUNITY_Community 411|Community 411]]
+- [[_COMMUNITY_Community 412|Community 412]]
+- [[_COMMUNITY_Community 413|Community 413]]
+- [[_COMMUNITY_Community 414|Community 414]]
+- [[_COMMUNITY_Community 415|Community 415]]
+- [[_COMMUNITY_Community 416|Community 416]]
+- [[_COMMUNITY_Community 418|Community 418]]
+- [[_COMMUNITY_Community 419|Community 419]]
+- [[_COMMUNITY_Community 420|Community 420]]
 
 ## God Nodes (most connected - your core abstractions)
-1. `str` - 27 edges
-2. `Path` - 17 edges
-3. `Update Logic` - 17 edges
-4. `Technical Specification - Hotel Booking` - 16 edges
-5. `Thesis Memory` - 16 edges
-6. `3.2 Mô hình xử lý` - 16 edges
-7. `3.2.1 Use case chi tiết` - 13 edges
-8. `Style Guide` - 13 edges
-9. `1. Actor Người dùng` - 12 edges
-10. `5. Actor Quản trị viên` - 12 edges
+1. `Button()` - 109 edges
+2. `PrismaService` - 71 edges
+3. `Card()` - 59 edges
+4. `Input()` - 57 edges
+5. `cn()` - 45 edges
+6. `CardContent()` - 40 edges
+7. `useTiptapEditor()` - 40 edges
+8. `CardHeader()` - 38 edges
+9. `CardTitle()` - 37 edges
+10. `FormLabel()` - 34 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Availability Formula` --semantically_similar_to--> `Availability Algorithm Limitation`  [INFERRED] [semantically similar]
@@ -251,10 +382,10 @@
   thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md → thesis/chapters/02_phuong_phap_thuc_hien/2_1_cac_he_thong_tuong_tu.md
 - `Hotel Booking System` --semantically_similar_to--> `Traveloka`  [INFERRED] [semantically similar]
   thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md → thesis/chapters/02_phuong_phap_thuc_hien/2_1_cac_he_thong_tuong_tu.md
-- `Hotel Booking System` --implements--> `MySQL`  [INFERRED]
-  thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md → thesis/chapters/02_phuong_phap_thuc_hien/2_3_cong_nghe_su_dung.md
-- `Hotel Booking System` --implements--> `ReactJS`  [INFERRED]
-  thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md → thesis/chapters/02_phuong_phap_thuc_hien/2_3_cong_nghe_su_dung.md
+- `HotelBookingsPage()` --calls--> `useDebounce()`  [INFERRED]
+  Clone/hotel-booking-web/apps/web/src/app/(dashboard)/admin/bookings/[hotel_id]/page.tsx → Clone/hotel-booking-web/apps/web/src/hooks/useDebounce.ts
+- `HotelBookingsPage()` --calls--> `useHotelDetailQuery()`  [INFERRED]
+  Clone/hotel-booking-web/apps/web/src/app/(dashboard)/admin/bookings/[hotel_id]/page.tsx → Clone/hotel-booking-web/apps/web/src/features/hotels/queries.ts
 
 ## Import Cycles
 - None detected.
@@ -297,7 +428,7 @@
 - **Booking Process Flow** — images_image_009_user, images_image_009_booking, images_image_009_room, images_image_009_payment [EXTRACTED 1.00]
 - **Hotel Portfolio Configuration** — images_image_009_hotel, images_image_009_room, images_image_009_amenity, images_image_009_image, images_image_009_policy [EXTRACTED 1.00]
 
-## Communities (289 total, 88 thin omitted)
+## Communities (425 total, 107 thin omitted)
 
 ### Community 0 - "Plantuml Plantuml"
 Cohesion: 0.08
@@ -348,8 +479,8 @@ Cohesion: 0.05
 Nodes (37): 1. Metadata, 2. Actor Catalog, 3. Customer/Guest Use Cases, 4. Admin Use Cases, 5. Detailed Use Case Template, 6. Use Case Detail Matrix, 7. Chapter 3 Include/Extend Traceability, 8. Feature Extension Notes (+29 more)
 
 ### Community 12 - "Process Availability"
-Cohesion: 0.04
-Nodes (41): 1. Mục Đích, 2. Cấu Trúc Tài Liệu, 3. Module Map, 4. End-To-End Customer Journey, 5. End-To-End Admin Journey, 6.1 Booking Status, 6.2 Account Status, 6. Core State Machines (+33 more)
+Cohesion: 0.14
+Nodes (14): 02 - Tra Cứu Khách Sạn, Phòng Và Kiểm Tra Phòng Trống, 1. Scope, 3. BP-DISC-002 - Xem Chi Tiết Khách Sạn, 4. BP-DISC-003 - Tìm Kiếm Khách Sạn, 5. BP-DISC-004 - Xem Danh Sách Phòng Của Khách Sạn, 9. BP-DISC-008 - Kiểm Tra Phòng Trống Theo Ngày, Availability Formula, Error/Empty Flows (+6 more)
 
 ### Community 13 - "Booking Create"
 Cohesion: 0.29
@@ -544,8 +675,8 @@ Cohesion: 0.06
 Nodes (35): 1.1. Đặt vấn đề, mục tiêu luận văn, 1.2. Những thách thức cần giải quyết, 1.3. Nội dung, phạm vi thực hiện, 1.4. Kết quả cần đạt, 2.1. Các hệ thống tương tự, 2.2. Cơ sở lý thuyết, 2.3. Công nghệ sử dụng, 2.4.1. Các quy trình, nghiệp vụ (+27 more)
 
 ### Community 124 - "Community 124"
-Cohesion: 0.06
-Nodes (31): 01 - Tài Khoản Và Xác Thực, 10. BP-AUTH-009 - Admin Khóa Tài Khoản, 11. BP-AUTH-010 - Admin Mở Khóa Tài Khoản, 1. Scope, 2. BP-AUTH-001 - Đăng Ký Tài Khoản, 3. BP-AUTH-002 - Đăng Nhập, 4. BP-AUTH-003 - Đăng Xuất, 5. BP-AUTH-004 - Xem Profile (+23 more)
+Cohesion: 0.11
+Nodes (18): 01 - Tài Khoản Và Xác Thực, 11. BP-AUTH-010 - Admin Mở Khóa Tài Khoản, 1. Scope, 2. BP-AUTH-001 - Đăng Ký Tài Khoản, 4. BP-AUTH-003 - Đăng Xuất, 5. BP-AUTH-004 - Xem Profile, 7. BP-AUTH-006 - Đổi Mật Khẩu, 9. BP-AUTH-008 - Admin Xem Danh Sách User (+10 more)
 
 ### Community 125 - "Community 125"
 Cohesion: 0.22
@@ -617,7 +748,7 @@ Nodes (9): 10. Cross-Reference Matrix, 11. Non-MVP API Boundary From Thesis Gaps
 
 ### Community 142 - "Community 142"
 Cohesion: 0.20
-Nodes (10): 3.2 Login, 3.3 Logout, 3.4 Change Password, 3. Auth APIs, Errors, Errors, Request, Request (+2 more)
+Nodes (10): 3.1 Register, 3.3 Logout, 3.4 Change Password, 3. Auth APIs, Errors, Errors, Request, Request (+2 more)
 
 ### Community 143 - "Community 143"
 Cohesion: 0.20
@@ -773,7 +904,7 @@ Nodes (10): 3. Actor Quản lý, 4. Actor Quản lý, Quản lý có thể quả
 
 ### Community 278 - "Community 278"
 Cohesion: 0.20
-Nodes (9): 4. Đặt phòng, thanh toán, lịch sử và hủy đặt phòng, 6. Logic tự động của hệ thống đi kèm các actor, 8. Mở rộng: Tích điểm, uy tín khách sạn và ưu đãi khi đánh giá, Hệ thống tự động bảo vệ dữ liệu đặt phòng, Hệ thống tự động cập nhật uy tín và ưu đãi, Hủy đặt phòng khách sạn, Update Logic, Xem lịch sử đặt phòng (+1 more)
+Nodes (9): 3. Hồ sơ khách hàng, yêu thích và đánh giá, 6. Logic tự động của hệ thống đi kèm các actor, 8. Mở rộng: Tích điểm, uy tín khách sạn và ưu đãi khi đánh giá, Hệ thống tự động bảo vệ dữ liệu đặt phòng, Hệ thống tự động cập nhật uy tín và ưu đãi, Khách sạn yêu thích, Quản lý thông tin hồ sơ, Update Logic (+1 more)
 
 ### Community 279 - "Community 279"
 Cohesion: 0.33
@@ -792,16 +923,16 @@ Cohesion: 0.32
 Nodes (8): 3. Actor Doanh nghiệp, 4. Actor Doanh nghiệp, Doanh nghiệp có thể quản lý danh mục khách sạn, Doanh nghiệp có thể quản lý nhân sự, Doanh nghiệp có thể quản lý nhân sự và phân công, Doanh nghiệp có thể quản lý thông tin hồ sơ, Doanh nghiệp có thể xem thống kê báo cáo và đối soát, Doanh nghiệp có thể đăng ký khách sạn mới
 
 ### Community 283 - "Community 283"
-Cohesion: 0.50
-Nodes (4): 3.1 Register, Errors, Request, Response
+Cohesion: 0.07
+Nodes (42): useAdminBannersQuery(), BookingPaymentMethodProps, BookingRoomListProps, BookingSummaryProps, ForgotPasswordFormProps, ForgotPasswordFormValues, POLICY_ICONS, POLICY_LABELS (+34 more)
 
 ### Community 284 - "Community 284"
 Cohesion: 0.05
 Nodes (40): 1. Actor Người dùng, 2. Actor Khách hàng, 3. Actor Doanh nghiệp, 4. Actor Quản lý, 5. Actor Quản trị viên, 6. Logic tự động của hệ thống đi kèm các actor, Doanh nghiệp có thể quản lý danh mục khách sạn, Doanh nghiệp có thể quản lý nhân sự (+32 more)
 
 ### Community 285 - "Community 285"
-Cohesion: 0.50
-Nodes (4): 3. Hồ sơ khách hàng, yêu thích và đánh giá, Khách sạn yêu thích, Quản lý thông tin hồ sơ, Đánh giá khách sạn
+Cohesion: 0.08
+Nodes (43): resendVerificationEmail(), verifyEmail(), forgotPasswordSchema, loginSchema, registerSchema, resendVerificationEmailSchema, resetPasswordSchema, Editor (+35 more)
 
 ### Community 286 - "Community 286"
 Cohesion: 0.50
@@ -811,25 +942,473 @@ Nodes (4): 5. Đăng ký và quản lý khách sạn của Doanh nghiệp, Quả
 Cohesion: 0.05
 Nodes (37): 1. Actor Người dùng, 2. Actor Khách hàng, 3. Actor Quản lý, 4. Actor Doanh nghiệp, 5. Actor Quản trị viên, Doanh nghiệp có thể quản lý danh mục khách sạn, Doanh nghiệp có thể quản lý nhân sự và phân công, Doanh nghiệp có thể quản lý thông tin hồ sơ (+29 more)
 
+### Community 289 - "Community 289"
+Cohesion: 0.06
+Nodes (49): createAmentity(), getAmenities(), getAmentityById(), updateAmentity(), useCreateAmenityMutation(), useUpdateAmenityMutation(), useGetAmenityByIdQuery(), AmenitiesQueryParams (+41 more)
+
+### Community 290 - "Community 290"
+Cohesion: 0.03
+Nodes (63): dependencies, axios, class-variance-authority, clsx, cmdk, date-fns, embla-carousel-autoplay, embla-carousel-react (+55 more)
+
+### Community 291 - "Community 291"
+Cohesion: 0.15
+Nodes (25): useDeleteBannerMutation(), useMyBookingsQuery(), useDeactivateCommissionPackageMutation(), ConfirmDialog(), ConfirmDialogProps, BannerTable(), CommissionPackageTable(), STATUS_CONFIG (+17 more)
+
+### Community 292 - "Community 292"
+Cohesion: 0.07
+Nodes (13): CreatePromotionDto, CreateRoomTypeDto, RoomTypeImageDto, ListPromotionsQueryDto, AvailableRoomTypeDto, ListRoomTypeDto, UpdatePromotionDto, UpdateRoomTypeDto (+5 more)
+
+### Community 293 - "Community 293"
+Cohesion: 0.10
+Nodes (32): AmenitiesPage(), useGetAmenitiesQuery(), GalleryImagesDialogProps, SelectedImage, PermissionAssignActionDialog(), PermissionAssignRoleDialog(), CreateReviewDialog(), CreateReviewDialogProps (+24 more)
+
+### Community 294 - "Community 294"
+Cohesion: 0.06
+Nodes (45): cancleBooking(), createBooking(), createPayment(), getBookingById(), getBookings(), getMyBookingById(), getMyBookings(), updateBookingStatus() (+37 more)
+
+### Community 295 - "Community 295"
+Cohesion: 0.08
+Nodes (35): useSetHotelCommissionPackageMutation(), AssignCommissionFormValues, assignCommissionSchema, AssignCommissionToHotelsFormValues, assignCommissionToHotelsSchema, commissionPackageSchema, CommissionAssignToHotelDialog(), CommissionAssignToHotelsDialog() (+27 more)
+
+### Community 296 - "Community 296"
+Cohesion: 0.06
+Nodes (42): GalleryFolders(), GalleryFoldersProps, GalleryImages(), GalleryImagesProps, UpdateReviewDialogProps, API_ENDPOINTS, getDashboardStats(), getLatestReviews() (+34 more)
+
+### Community 297 - "Community 297"
+Cohesion: 0.07
+Nodes (39): canToggleBlockquote(), shouldShowButton(), toggleBlockquote(), useBlockquote(), canToggle(), shouldShowButton(), toggleCodeBlock(), useCodeBlock() (+31 more)
+
+### Community 298 - "Community 298"
+Cohesion: 0.07
+Nodes (14): ActionsController, Permissions(), Roles(), CreatePermissionDto, ListPermissionsQueryDto, SetActionPermissionsDto, UpdatePermissionDto, UpsertActionDto (+6 more)
+
+### Community 299 - "Community 299"
+Cohesion: 0.07
+Nodes (34): Badge, BadgeProps, BlockquoteButton, BlockquoteButtonProps, BlockquoteShortcutBadge(), UseBlockquoteConfig, Button, ButtonGroup (+26 more)
+
+### Community 300 - "Community 300"
+Cohesion: 0.12
+Nodes (27): useCreateBannerMutation(), useUpdateBannerMutation(), BannerLinkType, CreateBannerFormData, createBannerSchema, UpdateBannerFormData, updateBannerSchema, BookingTable() (+19 more)
+
+### Community 301 - "Community 301"
+Cohesion: 0.07
+Nodes (33): Card, CardBody, CardFooter, CardGroupLabel, CardHeader, CardItemGroup, HighlightColor, ColorHighlightPopoverButton (+25 more)
+
+### Community 302 - "Community 302"
+Cohesion: 0.09
+Nodes (10): BookingController, BookingService, eachDateFixed(), toDateOnly(), CheckInDto, CheckInGuestDto, CreateBookingDto, CreateBookingItemDto (+2 more)
+
+### Community 303 - "Community 303"
+Cohesion: 0.09
+Nodes (33): BookingHotelCardProps, CommissionAssignToHotelDialogProps, CommissionHotelTableProps, HotelForm(), HotelFormProps, HotelTable(), HotelTableProps, addMembersToHotel() (+25 more)
+
+### Community 304 - "Community 304"
+Cohesion: 0.10
+Nodes (27): NewsForm(), NewsFormProps, NewsTableProps, createNews(), deleteNews(), getNewsDetail(), getNewsList(), getPublicNewsDetail() (+19 more)
+
+### Community 305 - "Community 305"
+Cohesion: 0.07
+Nodes (24): ColorHighlightPopoverContent(), content, type, useComposedRef(), UserRef, MenuNavigationOptions, Orientation, useMenuNavigation() (+16 more)
+
+### Community 306 - "Community 306"
+Cohesion: 0.09
+Nodes (9): Public(), AddMemberDto, CreateHotelDto, HotelImageDto, ListHotelsQueryDto, UpdateHotelDto, HotelController, HotelModule (+1 more)
+
+### Community 307 - "Community 307"
+Cohesion: 0.11
+Nodes (29): useTiptapEditor(), ListButton, ListButtonProps, ListShortcutBadge(), canToggleList(), isListActive(), LIST_SHORTCUT_KEYS, listIcons (+21 more)
+
+### Community 308 - "Community 308"
+Cohesion: 0.09
+Nodes (30): createBanner(), deleteBanner(), getAdminBanners(), getPublicBanners(), updateBanner(), BANNER_QUERY_KEYS, usePublicBannersQuery(), Banner (+22 more)
+
+### Community 309 - "Community 309"
+Cohesion: 0.08
+Nodes (28): isMarkInSchema(), MarkButton, MarkButtonProps, MarkShortcutBadge(), canToggleMark(), getFormattedMarkName(), isMarkActive(), Mark (+20 more)
+
+### Community 310 - "Community 310"
+Cohesion: 0.10
+Nodes (10): CreateVnpayPaymentDto, MailService, PaymentController, PaymentModule, formatVnpDate(), parseVnpPayDate(), PaymentService, signParams() (+2 more)
+
+### Community 311 - "Community 311"
+Cohesion: 0.07
+Nodes (22): FileItem, ImageUploadDragAreaProps, ImageUploadNode(), ImageUploadPreviewProps, UploadOptions, useFileUpload(), findNodeAtPosition(), focusNextNode() (+14 more)
+
+### Community 312 - "Community 312"
+Cohesion: 0.08
+Nodes (19): useIsMobile(), Sheet(), SheetContent(), SheetDescription(), SheetHeader(), SheetTitle(), Sidebar(), SidebarContext (+11 more)
+
+### Community 313 - "Community 313"
+Cohesion: 0.11
+Nodes (22): BookingCheckInInfoWrapper(), BookingDetailPage(), MyBookingDetailPage(), useCancelBookingMutation(), useCreatePaymentMutation(), useBookingByIdQuery(), useCheckInQuery(), useMyBookingByIdQuery() (+14 more)
+
+### Community 314 - "Community 314"
+Cohesion: 0.11
+Nodes (25): BookingGuestInfoProps, RoleAssignUserDialogProps, UserEditFormDialogProps, UsersTableProps, Profile(), assignRoleToUser(), changePassword(), getProfile() (+17 more)
+
+### Community 315 - "Community 315"
+Cohesion: 0.06
+Nodes (32): devDependencies, eslint, eslint-config-prettier, @eslint/eslintrc, @eslint/js, eslint-plugin-prettier, globals, jest (+24 more)
+
+### Community 316 - "Community 316"
+Cohesion: 0.09
+Nodes (8): ActionsModule, ActionsService, HotelMemberGuard, HotelMemberWithAdminGuard, ImageService, PrismaService, JwtAccessStrategy, JwtUser
+
+### Community 317 - "Community 317"
+Cohesion: 0.13
+Nodes (13): AuthModule, BookingModule, ContactModule, MailModule, NotificationModule, PrismaModule, RoomModule, RoomTypeModule (+5 more)
+
+### Community 318 - "Community 318"
+Cohesion: 0.14
+Nodes (8): CreateNewsDto, NewsStatusDto, ListNewsDto, UpdateNewsDto, NewsController, NewsModule, NewsService, slugify()
+
+### Community 319 - "Community 319"
+Cohesion: 0.09
+Nodes (24): IconComponent, IconProps, TextAlignButton, TextAlignButtonProps, TextAlignShortcutBadge(), canSetTextAlign(), hasSetTextAlign(), isTextAlignActive() (+16 more)
+
+### Community 320 - "Community 320"
+Cohesion: 0.13
+Nodes (23): CommissionPackageEditPage(), CommissionRevenueParams, createCommissionPackage(), deactivateCommissionPackage(), getCommissionPackageById(), getCommissionPackages(), getCommissionRevenue(), setHotelCommissionPackage() (+15 more)
+
+### Community 321 - "Community 321"
+Cohesion: 0.14
+Nodes (7): AssignPermissionsDto, AssignRolesToUserDto, CreateRoleDto, UpdateRoleDto, RolesController, RolesModule, RolesService
+
+### Community 322 - "Community 322"
+Cohesion: 0.14
+Nodes (7): CreateReviewDto, ListReviewsDto, ModerateReviewDto, UpdateReviewDto, ReviewController, ReviewsModule, ReviewService
+
+### Community 323 - "Community 323"
+Cohesion: 0.10
+Nodes (18): LoginResponse, RegisterData, LoginForm(), OAuthCallBack(), RegisterForm(), ResetPasswordForm(), ForgotPasswordPage(), AdminRoute() (+10 more)
+
+### Community 324 - "Community 324"
+Cohesion: 0.13
+Nodes (6): CommissionPackageController, CommissionPackageModule, CommissionPackageService, CommissionRevenueQueryDto, CreateCommissionPackageDto, UpdateCommissionPackageDto
+
+### Community 325 - "Community 325"
+Cohesion: 0.16
+Nodes (21): PermissionAssignRoleDialogProps, RoleFormDialogProps, RoleTableProps, RoleAssignUserDialog(), assignPermissionsToRole(), createRole(), deleteRole(), getRoles() (+13 more)
+
+### Community 326 - "Community 326"
+Cohesion: 0.07
+Nodes (27): dependencies, argon2, class-transformer, class-validator, cloudinary, cookie-parser, date-fns, dayjs (+19 more)
+
+### Community 327 - "Community 327"
+Cohesion: 0.13
+Nodes (21): canColorHighlight(), HIGHLIGHT_COLORS, HighlightMode, isColorHighlightActive(), pickHighlightColorsByValue(), removeHighlight(), shouldShowButton(), useColorHighlight() (+13 more)
+
+### Community 328 - "Community 328"
+Cohesion: 0.17
+Nodes (9): BulkSetInventoryDto, ListInventoryDto, UpdateInventoryDto, getUserId(), InventoryController, InventoryModule, eachDay(), InventoryService (+1 more)
+
+### Community 329 - "Community 329"
+Cohesion: 0.17
+Nodes (15): CalendarInventory(), CalendarInventoryProps, UpdateInventoryDialog(), UpdateInventoryDialogProps, createInventory(), getInventory(), updateInventory(), useUpdateInventoryMutation() (+7 more)
+
+### Community 330 - "Community 330"
+Cohesion: 0.15
+Nodes (5): CreatePolicyDto, UpdatePolicyDto, PolicyController, PolicyModule, PolicyService
+
+### Community 331 - "Community 331"
+Cohesion: 0.16
+Nodes (6): AmenityController, AmentityModule, AmenityService, CreateAmenityDto, ListAmenityDto, UpdateAmenityDto
+
+### Community 332 - "Community 332"
+Cohesion: 0.12
+Nodes (6): AuthController, LoginDto, LogoutDto, RefreshDto, ResendEmailDto, VerifyEmailDto
+
+### Community 333 - "Community 333"
+Cohesion: 0.09
+Nodes (22): compilerOptions, allowSyntheticDefaultImports, baseUrl, declaration, emitDecoratorMetadata, esModuleInterop, experimentalDecorators, forceConsistentCasingInFileNames (+14 more)
+
+### Community 334 - "Community 334"
+Cohesion: 0.11
+Nodes (3): CloudinaryController, CloudinaryModule, CloudinaryService
+
+### Community 335 - "Community 335"
+Cohesion: 0.18
+Nodes (5): CreateRoomDto, ListRoomDto, UpdateRoomDto, RoomController, RoomService
+
+### Community 336 - "Community 336"
+Cohesion: 0.15
+Nodes (16): CursorVisibilityOptions, useCursorVisibility(), ElementRectOptions, initialRect, isClientSide(), RectState, useBodyRect(), useElementRect() (+8 more)
+
+### Community 337 - "Community 337"
+Cohesion: 0.16
+Nodes (5): BannerController, BannerModule, BannerService, CreateBannerDto, UpdateBannerDto
+
+### Community 338 - "Community 338"
+Cohesion: 0.13
+Nodes (4): CreateNotificationDto, UpdateNotificationDto, NotificationController, NotificationService
+
+### Community 339 - "Community 339"
+Cohesion: 0.16
+Nodes (9): useBookingsQuery(), HotelBookingsPage(), navigationItems, DropdownMenu(), DropdownMenuContent(), DropdownMenuItem(), DropdownMenuLabel(), DropdownMenuSeparator() (+1 more)
+
+### Community 340 - "Community 340"
+Cohesion: 0.10
+Nodes (21): 4.10 Payment VNPAY, 4.11 Review, 4.12 Promotion, 4.13 Commission package, 4.14 Dashboard, 4.15 Policy, 4.16 News, 4.17 Banner (+13 more)
+
+### Community 341 - "Community 341"
+Cohesion: 0.18
+Nodes (16): HotelPoliciesPage(), createPolicy(), deletePolicy(), getPoliciesByHotel(), getPolicyById(), getPublicPoliciesByHotel(), updatePolicy(), useCreatePolicyMutation() (+8 more)
+
+### Community 342 - "Community 342"
+Cohesion: 0.14
+Nodes (16): Redo2Icon, SvgProps, SvgProps, Undo2Icon, HistoryShortcutBadge(), UndoRedoButton, UndoRedoButtonProps, canExecuteUndoRedoAction() (+8 more)
+
+### Community 343 - "Community 343"
+Cohesion: 0.19
+Nodes (5): ContactController, ContactService, CreateContactDto, ListContactDto, UpdateContactDto
+
+### Community 344 - "Community 344"
+Cohesion: 0.10
+Nodes (19): compilerOptions, allowJs, esModuleInterop, incremental, isolatedModules, jsx, lib, module (+11 more)
+
+### Community 345 - "Community 345"
+Cohesion: 0.19
+Nodes (12): assignPermissionToAction(), getActions(), useAssignPermissionToAction(), ActionsPage(), useActionsQuery(), Policy, RoleAction, permissionAssignActionFormSchema (+4 more)
+
+### Community 346 - "Community 346"
+Cohesion: 0.20
+Nodes (13): PermissionFormDialogProps, PermissionTableProps, createPermission(), deletePermission(), getPermissions(), updatePermission(), useCreatePermissionMutation(), useDeletePermissionMutation() (+5 more)
+
+### Community 347 - "Community 347"
+Cohesion: 0.11
+Nodes (18): � 1. Authentication & Users (Xác thực & Người dùng), 1️⃣ Clone dự án, 2️⃣ Cài đặt dependencies, 🏨 2. Hotel Management (Quản lý Khách sạn), 3️⃣ Cài đặt biến môi trường, �️ 3. Room & Inventory (Phòng & Kho phòng), � 4. Booking & Payment (Đặt phòng & Thanh toán), 4️⃣ Chạy dự án (+10 more)
+
+### Community 348 - "Community 348"
+Cohesion: 0.11
+Nodes (18): aliases, components, hooks, lib, ui, utils, iconLibrary, registries (+10 more)
+
+### Community 349 - "Community 349"
+Cohesion: 0.18
+Nodes (5): UserAvatarController, UserAvatarService, imageFileFilter(), makeImageParsePipe(), imageMulterOptions
+
+### Community 350 - "Community 350"
+Cohesion: 0.15
+Nodes (4): DashboardController, DashboardModule, DashboardService, Action()
+
+### Community 351 - "Community 351"
+Cohesion: 0.17
+Nodes (7): ListUsersQuery, PublicImageDto, PublicRoleDto, PublicUserDto, UpdateMeDto, UsersController, userPublicSelect
+
+### Community 352 - "Community 352"
+Cohesion: 0.18
+Nodes (14): AdminHeader(), findBreadcrumb(), NotificationItem(), navItems, useDeleteNotificationMutation(), useMarkAllAsReadMutation(), useMarkAsReadMutation(), useNotifications() (+6 more)
+
+### Community 353 - "Community 353"
+Cohesion: 0.14
+Nodes (8): App(), BaseKit, debounce(), DocumentColumn, extensions, PrismaExceptionFilter, createApp(), handler()
+
+### Community 354 - "Community 354"
+Cohesion: 0.14
+Nodes (15): NavItem, SubMenuItem, Collapsible(), CollapsibleContent(), CollapsibleTrigger(), SidebarContent(), SidebarGroup(), SidebarGroupContent() (+7 more)
+
+### Community 355 - "Community 355"
+Cohesion: 0.18
+Nodes (6): TokenPair, RegisterDto, generateToken(), sha256(), Match(), MatchConstraint
+
+### Community 356 - "Community 356"
+Cohesion: 0.22
+Nodes (11): PromotionTable(), useDeletePromotionMutation(), AlertDialog(), AlertDialogAction(), AlertDialogCancel(), AlertDialogContent(), AlertDialogDescription(), AlertDialogFooter() (+3 more)
+
+### Community 357 - "Community 357"
+Cohesion: 0.12
+Nodes (15): author, description, devDependencies, turbo, keywords, license, main, name (+7 more)
+
+### Community 358 - "Community 358"
+Cohesion: 0.13
+Nodes (15): scripts, build, dev, format, lint, start, start:debug, start:dev (+7 more)
+
+### Community 359 - "Community 359"
+Cohesion: 0.24
+Nodes (11): ContactFormProps, ContactTableProps, createContact(), getContactById(), getContacts(), updateContact(), Contact, ContactsQueryParams (+3 more)
+
+### Community 360 - "Community 360"
+Cohesion: 0.18
+Nodes (10): DropdownMenu(), DropdownMenuContent, DropdownMenuSubContent, DropdownMenuTrigger, Level, HeadingDropdownMenu, HeadingDropdownMenuProps, UseHeadingDropdownMenuConfig (+2 more)
+
+### Community 361 - "Community 361"
+Cohesion: 0.25
+Nodes (10): deleteNotification(), getNotifications(), getUnreadCount(), markAllAsRead(), markAsRead(), notificationKeys, Notification, NotificationListResponse (+2 more)
+
+### Community 362 - "Community 362"
+Cohesion: 0.20
+Nodes (9): useActionGuard(), AdminSidebar(), Can(), CanProps, PermissionContext, PermissionContextType, PermissionProvider(), usePermission() (+1 more)
+
+### Community 363 - "Community 363"
+Cohesion: 0.14
+Nodes (14): devDependencies, eslint, eslint-config-next, @eslint/eslintrc, sass, tailwindcss, @tailwindcss/postcss, @tailwindcss/typography (+6 more)
+
+### Community 365 - "Community 365"
+Cohesion: 0.23
+Nodes (10): LinkContent(), canSetLink(), isLinkActive(), LinkHandlerProps, shouldShowLinkButton(), useLinkHandler(), useLinkPopover(), useLinkState() (+2 more)
+
+### Community 366 - "Community 366"
+Cohesion: 0.18
+Nodes (9): Tooltip(), TooltipContent, TooltipContentProps, TooltipContext, TooltipContextValue, TooltipProviderProps, TooltipTrigger, TooltipTriggerProps (+1 more)
+
+### Community 368 - "Community 368"
+Cohesion: 0.17
+Nodes (11): name, overrides, @types/react, @types/react-dom, private, scripts, build, dev (+3 more)
+
+### Community 369 - "Community 369"
+Cohesion: 0.20
+Nodes (10): 1. Mục Đích, 2. Cấu Trúc Tài Liệu, 3. Module Map, 4. End-To-End Customer Journey, 5. End-To-End Admin Journey, 6.1 Booking Status, 6.2 Account Status, 6. Core State Machines (+2 more)
+
+### Community 370 - "Community 370"
+Cohesion: 0.20
+Nodes (9): Compile and run the project, Deployment, Description, License, Project setup, Resources, Run tests, Stay in touch (+1 more)
+
+### Community 371 - "Community 371"
+Cohesion: 0.27
+Nodes (8): useCheckInBookingMutation(), boookingFormSchema, BoookingFormValues, CheckInFormValues, checkInGuestSchema, checkInSchema, CheckInGuestsDialog(), CheckInGuestsDialogProps
+
+### Community 373 - "Community 373"
+Cohesion: 0.22
+Nodes (9): jest, collectCoverageFrom, coverageDirectory, moduleFileExtensions, rootDir, testEnvironment, testRegex, transform (+1 more)
+
+### Community 374 - "Community 374"
+Cohesion: 0.33
+Nodes (6): HotelGallery(), GalleryImage, Tabs(), TabsContent(), TabsList(), TabsTrigger()
+
+### Community 375 - "Community 375"
+Cohesion: 0.25
+Nodes (4): Availability Formula, Availability Algorithm Limitation, Complete Business Logic of the Hotel Booking Service, Pricing Calculation Limitation
+
+### Community 376 - "Community 376"
+Cohesion: 0.29
+Nodes (7): DashboardPage(), BookingsHotelListPage(), RevenueChart(), useHotelsQuery(), AdminPoliciesPage(), AdminReviewsPage(), AdminRoomTypesPage()
+
+### Community 377 - "Community 377"
+Cohesion: 0.25
+Nodes (4): beVietnamPro, metadata, Props, queryClient
+
+### Community 378 - "Community 378"
+Cohesion: 0.25
+Nodes (8): 3.1 Xác thực JWT và session, 3.2 Public route và protected route, 3.3 RBAC và action permission, 3.4 Hotel-scoped access, 3.5 Soft delete, 3.6 Upload và ảnh, 3.7 Mail và notification, 3. Cross-cutting business logic
+
+### Community 379 - "Community 379"
+Cohesion: 0.39
+Nodes (6): UsersFilters(), MESSAGES, useAssignRoleToUserMutation(), useUpdateUserMutation(), useUsersQuery(), UserManagementPage()
+
+### Community 380 - "Community 380"
+Cohesion: 0.25
+Nodes (7): dependsOn, outputs, cache, tasks, build, dev, lint
+
+### Community 381 - "Community 381"
+Cohesion: 0.29
+Nodes (6): author, description, license, name, private, version
+
+### Community 382 - "Community 382"
+Cohesion: 0.43
+Nodes (3): HotelSearch(), usePublicHotelsQuery(), Slider()
+
+### Community 383 - "Community 383"
+Cohesion: 0.29
+Nodes (7): 2.1 User/Auth/RBAC, 2.2 Hotel/Room/Inventory, 2.3 Booking/Payment/Check-in/Review, 2.4 Marketing/CMS/Support, 2.5 Image/Gallery, 2.6 Lưu ý schema/migration, 2. Domain model trong Prisma
+
+### Community 384 - "Community 384"
+Cohesion: 0.29
+Nodes (7): 5.1 Route groups, 5.2 AuthProvider và axios, 5.3 Public hotel search/booking flow, 5.4 Payment/account flow, 5.5 Admin workflows, 5.6 Frontend validation đáng chú ý, 5. Frontend business logic
+
+### Community 386 - "Community 386"
+Cohesion: 0.29
+Nodes (6): moduleFileExtensions, rootDir, testEnvironment, testRegex, transform, ^.+\\.(t|j)s$
+
+### Community 387 - "Community 387"
+Cohesion: 0.33
+Nodes (5): collection, compilerOptions, deleteOutDir, $schema, sourceRoot
+
+### Community 388 - "Community 388"
+Cohesion: 0.33
+Nodes (6): 6.1 Khách đặt phòng, 6.2 Vận hành lưu trú, 6.3 Quản trị khách sạn, 6.4 RBAC/action permission, 6.5 Promotion và commission, 6. Các luồng nghiệp vụ end-to-end
+
+### Community 390 - "Community 390"
+Cohesion: 0.40
+Nodes (5): useCreateBookingMutation(), BookingPayment(), HotelDetailPage(), usePublicPromotionsQuery(), useQueryRoomTypesAvailable()
+
+### Community 391 - "Community 391"
+Cohesion: 0.40
+Nodes (4): 1. Tổng quan kiến trúc, 7. API mapping chính, 8. Business invariants và điểm cần lưu ý, Toàn bộ business logic - hotel-booking-web
+
+### Community 392 - "Community 392"
+Cohesion: 0.40
+Nodes (3): EventTargetWithScroll, ScrollTarget, UseScrollingOptions
+
+### Community 394 - "Community 394"
+Cohesion: 0.40
+Nodes (4): ApiError, ApiErrorResponse, PaginatedResponse, PaginationMeta
+
+### Community 395 - "Community 395"
+Cohesion: 0.40
+Nodes (4): compat, __dirname, eslintConfig, __filename
+
+### Community 396 - "Community 396"
+Cohesion: 0.50
+Nodes (4): 3.2 Login, Errors, Request, Response
+
+### Community 397 - "Community 397"
+Cohesion: 0.50
+Nodes (4): 3. BP-AUTH-002 - Đăng Nhập, Alternate/Error Flows, Business Rules, Main Flow
+
+### Community 398 - "Community 398"
+Cohesion: 0.50
+Nodes (4): 8. BP-DISC-007 - Tìm Phòng Theo Từ Khóa/Loại Phòng, Future Filter Candidates From Benchmark, Main Flow, Search Rules
+
+### Community 400 - "Community 400"
+Cohesion: 0.50
+Nodes (4): 4. Đặt phòng, thanh toán, lịch sử và hủy đặt phòng, Hủy đặt phòng khách sạn, Xem lịch sử đặt phòng, Đặt phòng khách sạn và thanh toán
+
+### Community 401 - "Community 401"
+Cohesion: 0.50
+Nodes (3): Deploy on Vercel, Getting Started, Learn More
+
+### Community 403 - "Community 403"
+Cohesion: 0.67
+Nodes (3): 10. BP-AUTH-009 - Admin Khóa Tài Khoản, Error Flows, Main Flow
+
+### Community 404 - "Community 404"
+Cohesion: 0.67
+Nodes (3): 6. BP-AUTH-005 - Cập Nhật Profile, Error Flows, Main Flow
+
+### Community 405 - "Community 405"
+Cohesion: 0.67
+Nodes (3): 8. BP-AUTH-007 - Xóa/Vô Hiệu Hóa Tài Khoản Cá Nhân, Main Flow, Open Policy
+
+### Community 406 - "Community 406"
+Cohesion: 0.67
+Nodes (3): 2. BP-DISC-001 - Xem Danh Sách Khách Sạn, Display Fields, Main Flow
+
+### Community 407 - "Community 407"
+Cohesion: 0.67
+Nodes (3): 6. BP-DISC-005 - Xem Danh Sách Tất Cả Phòng, Display Fields, Main Flow
+
+### Community 408 - "Community 408"
+Cohesion: 0.67
+Nodes (3): 7. BP-DISC-006 - Xem Chi Tiết Phòng, Error Flows, Main Flow
+
 ## Knowledge Gaps
-- **955 isolated node(s):** `liveServer.settings.root`, `liveServer.settings.port`, `liveServer.settings.CustomBrowser`, `bool`, `Namespace` (+950 more)
+- **1498 isolated node(s):** `liveServer.settings.root`, `liveServer.settings.port`, `liveServer.settings.CustomBrowser`, `$schema`, `collection` (+1493 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **88 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **107 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Update Logic` connect `Community 278` to `Community 163`, `Community 266`, `Community 275`, `Community 276`, `Community 277`, `Community 279`, `Community 280`, `Community 281`, `Community 282`, `Community 285`, `Community 286`?**
-  _High betweenness centrality (0.003) - this node is a cross-community bridge._
-- **Why does `01 - Tài Khoản Và Xác Thực` connect `Community 124` to `Process Availability`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
+- **Why does `PrismaService` connect `Community 316` to `Community 385`, `Community 292`, `Community 298`, `Community 302`, `Community 306`, `Community 310`, `Community 317`, `Community 318`, `Community 321`, `Community 322`, `Community 324`, `Community 328`, `Community 330`, `Community 331`, `Community 334`, `Community 335`, `Community 337`, `Community 338`, `Community 343`, `Community 349`, `Community 350`, `Community 351`, `Community 355`, `Community 364`, `Community 367`?**
+  _High betweenness centrality (0.013) - this node is a cross-community bridge._
+- **Why does `Button()` connect `Community 291` to `Community 393`, `Community 409`, `Community 283`, `Community 285`, `Community 289`, `Community 293`, `Community 295`, `Community 300`, `Community 303`, `Community 304`, `Community 308`, `Community 312`, `Community 313`, `Community 320`, `Community 325`, `Community 329`, `Community 339`, `Community 352`, `Community 356`, `Community 371`, `Community 376`, `Community 379`, `Community 382`?**
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
+- **Why does `cn()` connect `Community 300` to `Community 352`, `Community 291`, `Community 356`, `Community 293`, `Community 295`, `Community 393`, `Community 329`, `Community 362`, `Community 339`, `Community 308`, `Community 372`, `Community 374`, `Community 312`, `Community 313`, `Community 283`, `Community 285`, `Community 382`?**
+  _High betweenness centrality (0.005) - this node is a cross-community bridge._
 - **What connects `liveServer.settings.root`, `liveServer.settings.port`, `liveServer.settings.CustomBrowser` to the rest of the system?**
-  _976 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _1519 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Plantuml Plantuml` be split into smaller, more focused modules?**
   _Cohesion score 0.07884615384615384 - nodes in this community are weakly interconnected._
 - **Should `Nghi Cho` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `Entity Use` be split into smaller, more focused modules?**
   _Cohesion score 0.05128205128205128 - nodes in this community are weakly interconnected._
-- **Should `Process Availability` be split into smaller, more focused modules?**
-  _Cohesion score 0.044444444444444446 - nodes in this community are weakly interconnected._
