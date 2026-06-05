@@ -1,16 +1,16 @@
 # Graph Report - Hotel_Booking_PRD  (2026-06-05)
 
 ## Corpus Check
-- 166 files · ~649,633 words
+- 167 files · ~655,010 words
 - Verdict: corpus is large enough that graph structure adds value.
 
 ## Summary
-- 1455 nodes · 1355 edges · 288 communities (200 shown, 88 thin omitted)
+- 1510 nodes · 1417 edges · 288 communities (200 shown, 88 thin omitted)
 - Extraction: 97% EXTRACTED · 3% INFERRED · 0% AMBIGUOUS · INFERRED: 39 edges (avg confidence: 0.94)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `26a66f4f`
+- Built from commit: `276ce64f`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -235,14 +235,14 @@
 ## God Nodes (most connected - your core abstractions)
 1. `str` - 27 edges
 2. `Path` - 17 edges
-3. `Technical Specification - Hotel Booking` - 16 edges
-4. `Thesis Memory` - 16 edges
-5. `3.2 Mô hình xử lý` - 16 edges
-6. `Update Logic` - 15 edges
+3. `Update Logic` - 17 edges
+4. `Technical Specification - Hotel Booking` - 16 edges
+5. `Thesis Memory` - 16 edges
+6. `3.2 Mô hình xử lý` - 16 edges
 7. `3.2.1 Use case chi tiết` - 13 edges
 8. `Style Guide` - 13 edges
-9. `Product Requirements Document - Hotel Booking` - 12 edges
-10. `01 - Tài Khoản Và Xác Thực` - 12 edges
+9. `1. Actor Người dùng` - 12 edges
+10. `5. Actor Quản trị viên` - 12 edges
 
 ## Surprising Connections (you probably didn't know these)
 - `Availability Formula` --semantically_similar_to--> `Availability Algorithm Limitation`  [INFERRED] [semantically similar]
@@ -348,8 +348,8 @@ Cohesion: 0.05
 Nodes (37): 1. Metadata, 2. Actor Catalog, 3. Customer/Guest Use Cases, 4. Admin Use Cases, 5. Detailed Use Case Template, 6. Use Case Detail Matrix, 7. Chapter 3 Include/Extend Traceability, 8. Feature Extension Notes (+29 more)
 
 ### Community 12 - "Process Availability"
-Cohesion: 0.07
-Nodes (27): 02 - Tra Cứu Khách Sạn, Phòng Và Kiểm Tra Phòng Trống, 1. Scope, 2. BP-DISC-001 - Xem Danh Sách Khách Sạn, 3. BP-DISC-002 - Xem Chi Tiết Khách Sạn, 4. BP-DISC-003 - Tìm Kiếm Khách Sạn, 5. BP-DISC-004 - Xem Danh Sách Phòng Của Khách Sạn, 6. BP-DISC-005 - Xem Danh Sách Tất Cả Phòng, 7. BP-DISC-006 - Xem Chi Tiết Phòng (+19 more)
+Cohesion: 0.04
+Nodes (41): 1. Mục Đích, 2. Cấu Trúc Tài Liệu, 3. Module Map, 4. End-To-End Customer Journey, 5. End-To-End Admin Journey, 6.1 Booking Status, 6.2 Account Status, 6. Core State Machines (+33 more)
 
 ### Community 13 - "Booking Create"
 Cohesion: 0.29
@@ -544,8 +544,8 @@ Cohesion: 0.06
 Nodes (35): 1.1. Đặt vấn đề, mục tiêu luận văn, 1.2. Những thách thức cần giải quyết, 1.3. Nội dung, phạm vi thực hiện, 1.4. Kết quả cần đạt, 2.1. Các hệ thống tương tự, 2.2. Cơ sở lý thuyết, 2.3. Công nghệ sử dụng, 2.4.1. Các quy trình, nghiệp vụ (+27 more)
 
 ### Community 124 - "Community 124"
-Cohesion: 0.04
-Nodes (45): 1. Mục Đích, 2. Cấu Trúc Tài Liệu, 3. Module Map, 4. End-To-End Customer Journey, 5. End-To-End Admin Journey, 6.1 Booking Status, 6.2 Account Status, 6. Core State Machines (+37 more)
+Cohesion: 0.06
+Nodes (31): 01 - Tài Khoản Và Xác Thực, 10. BP-AUTH-009 - Admin Khóa Tài Khoản, 11. BP-AUTH-010 - Admin Mở Khóa Tài Khoản, 1. Scope, 2. BP-AUTH-001 - Đăng Ký Tài Khoản, 3. BP-AUTH-002 - Đăng Nhập, 4. BP-AUTH-003 - Đăng Xuất, 5. BP-AUTH-004 - Xem Profile (+23 more)
 
 ### Community 125 - "Community 125"
 Cohesion: 0.22
@@ -700,8 +700,8 @@ Cohesion: 0.50
 Nodes (3): 2.1.1 Booking.com, 2.1.2 Traveloka, 2.1 Các hệ thống tương tự
 
 ### Community 163 - "Community 163"
-Cohesion: 0.22
-Nodes (9): 1. Actor Người dùng, Hệ thống kiểm tra phòng trống khi Người dùng tìm kiếm hoặc xem phòng, Người dùng có thể tìm kiếm và lọc khách sạn, Người dùng có thể xem thông tin chi tiết phòng khách sạn, Người dùng có thể xem thông tin khách sạn, Người dùng có thể yêu cầu khôi phục mật khẩu, Người dùng có thể đăng ký tài khoản, Người dùng có thể đăng nhập (+1 more)
+Cohesion: 0.17
+Nodes (12): 1. Actor Người dùng, Hệ thống kiểm tra phòng trống khi Người dùng tìm kiếm hoặc xem phòng, Người dùng có thể quản lý hồ sơ cá nhân, Người dùng có thể tìm kiếm và lọc khách sạn, Người dùng có thể xem thông tin chi tiết phòng khách sạn, Người dùng có thể xem thông tin khách sạn, Người dùng có thể xem thông tin khách sạn và phòng, Người dùng có thể yêu cầu khôi phục mật khẩu (+4 more)
 
 ### Community 164 - "Community 164"
 Cohesion: 0.50
@@ -760,20 +760,20 @@ Cohesion: 0.67
 Nodes (3): 5.1 Customer Requirements, 5.2 Admin Requirements, 5. Yêu Cầu Chức Năng
 
 ### Community 275 - "Community 275"
-Cohesion: 0.25
-Nodes (8): 5. Actor Quản trị viên, Quản trị viên có thể quản lý giao dịch và hoa hồng, Quản trị viên có thể quản lý hồ sơ hợp tác khách sạn từ đối tác, Quản trị viên có thể quản lý tiện nghi, Quản trị viên có thể quản lý trạng thái hoạt động của tất cả khách sạn, Quản trị viên có thể quản lý tất cả người dùng, Quản trị viên có thể xem thống kê báo cáo toàn hệ thống, Quản trị viên có thể xử lý đánh giá vi phạm
+Cohesion: 0.17
+Nodes (12): 5. Actor Quản trị viên, Quản trị viên có thể quản lý giao dịch và hoa hồng, Quản trị viên có thể quản lý hoạt động khách sạn, Quản trị viên có thể quản lý hồ sơ hợp tác khách sạn từ đối tác, Quản trị viên có thể quản lý người dùng, Quản trị viên có thể quản lý tiện nghi, Quản trị viên có thể quản lý trạng thái hoạt động của tất cả khách sạn, Quản trị viên có thể quản lý tất cả người dùng (+4 more)
 
 ### Community 276 - "Community 276"
-Cohesion: 0.29
-Nodes (7): 2. Actor Khách hàng, Khách hàng có thể hủy đặt phòng khách sạn, Khách hàng có thể quản lý khách sạn yêu thích, Khách hàng có thể quản lý thông tin hồ sơ, Khách hàng có thể xem lịch sử đặt phòng, Khách hàng có thể đánh giá khách sạn, Khách hàng có thể đặt phòng khách sạn và thanh toán
+Cohesion: 0.25
+Nodes (8): 2. Actor Khách hàng, Khách hàng có thể hủy đặt phòng khách sạn, Khách hàng có thể hủy đặt phòng và yêu cầu hoàn tiền, Khách hàng có thể quản lý khách sạn yêu thích, Khách hàng có thể quản lý thông tin hồ sơ, Khách hàng có thể xem lịch sử đặt phòng, Khách hàng có thể đánh giá khách sạn, Khách hàng có thể đặt phòng khách sạn và thanh toán
 
 ### Community 277 - "Community 277"
 Cohesion: 0.29
-Nodes (7): 4. Actor Quản lý, Quản lý có thể quản lý chính sách và điều khoản khách sạn, Quản lý có thể quản lý phòng, Quản lý có thể quản lý thông tin khách sạn, Quản lý có thể quản lý đánh giá khách hàng, Quản lý có thể quản lý đặt phòng, Quản lý có thể xem thống kê báo cáo
+Nodes (10): 3. Actor Quản lý, 4. Actor Quản lý, Quản lý có thể quản lý chính sách và điều khoản khách sạn, Quản lý có thể quản lý phòng, Quản lý có thể quản lý thông tin hồ sơ cá nhân, Quản lý có thể quản lý thông tin khách sạn, Quản lý có thể quản lý đánh giá khách hàng, Quản lý có thể quản lý đánh giá khách sạn (+2 more)
 
 ### Community 278 - "Community 278"
-Cohesion: 0.33
-Nodes (5): 6. Logic tự động của hệ thống đi kèm các actor, 8. Mở rộng: Tích điểm, uy tín khách sạn và ưu đãi khi đánh giá, Hệ thống tự động bảo vệ dữ liệu đặt phòng, Hệ thống tự động cập nhật uy tín và ưu đãi, Update Logic
+Cohesion: 0.20
+Nodes (9): 3. Hồ sơ khách hàng, yêu thích và đánh giá, 6. Logic tự động của hệ thống đi kèm các actor, 8. Mở rộng: Tích điểm, uy tín khách sạn và ưu đãi khi đánh giá, Hệ thống tự động bảo vệ dữ liệu đặt phòng, Hệ thống tự động cập nhật uy tín và ưu đãi, Khách sạn yêu thích, Quản lý thông tin hồ sơ, Update Logic (+1 more)
 
 ### Community 279 - "Community 279"
 Cohesion: 0.33
@@ -788,16 +788,16 @@ Cohesion: 0.40
 Nodes (5): 2. Tìm kiếm, xem khách sạn và kiểm tra phòng trống, Kiểm tra phòng trống, Tìm kiếm/Lọc khách sạn, Xem khách sạn, Xem thông tin chi tiết phòng khách sạn
 
 ### Community 282 - "Community 282"
-Cohesion: 0.40
-Nodes (5): 3. Actor Doanh nghiệp, Doanh nghiệp có thể quản lý danh mục khách sạn, Doanh nghiệp có thể quản lý nhân sự, Doanh nghiệp có thể xem thống kê báo cáo và đối soát, Doanh nghiệp có thể đăng ký khách sạn mới
+Cohesion: 0.32
+Nodes (8): 3. Actor Doanh nghiệp, 4. Actor Doanh nghiệp, Doanh nghiệp có thể quản lý danh mục khách sạn, Doanh nghiệp có thể quản lý nhân sự, Doanh nghiệp có thể quản lý nhân sự và phân công, Doanh nghiệp có thể quản lý thông tin hồ sơ, Doanh nghiệp có thể xem thống kê báo cáo và đối soát, Doanh nghiệp có thể đăng ký khách sạn mới
 
 ### Community 283 - "Community 283"
 Cohesion: 0.50
 Nodes (4): 3.2 Login, Errors, Request, Response
 
 ### Community 284 - "Community 284"
-Cohesion: 0.50
-Nodes (4): 3. Hồ sơ khách hàng, yêu thích và đánh giá, Khách sạn yêu thích, Quản lý thông tin hồ sơ, Đánh giá khách sạn
+Cohesion: 0.05
+Nodes (40): 1. Actor Người dùng, 2. Actor Khách hàng, 3. Actor Doanh nghiệp, 4. Actor Quản lý, 5. Actor Quản trị viên, 6. Logic tự động của hệ thống đi kèm các actor, Doanh nghiệp có thể quản lý danh mục khách sạn, Doanh nghiệp có thể quản lý nhân sự (+32 more)
 
 ### Community 285 - "Community 285"
 Cohesion: 0.50
@@ -812,24 +812,24 @@ Cohesion: 0.05
 Nodes (37): 1. Actor Người dùng, 2. Actor Khách hàng, 3. Actor Quản lý, 4. Actor Doanh nghiệp, 5. Actor Quản trị viên, Doanh nghiệp có thể quản lý danh mục khách sạn, Doanh nghiệp có thể quản lý nhân sự và phân công, Doanh nghiệp có thể quản lý thông tin hồ sơ (+29 more)
 
 ## Knowledge Gaps
-- **918 isolated node(s):** `liveServer.settings.root`, `liveServer.settings.port`, `liveServer.settings.CustomBrowser`, `bool`, `Namespace` (+913 more)
+- **955 isolated node(s):** `liveServer.settings.root`, `liveServer.settings.port`, `liveServer.settings.CustomBrowser`, `bool`, `Namespace` (+950 more)
   These have ≤1 connection - possible missing edges or undocumented components.
 - **88 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `Update Logic` connect `Community 278` to `Community 163`, `Community 266`, `Community 275`, `Community 276`, `Community 277`, `Community 279`, `Community 280`, `Community 281`, `Community 282`, `Community 284`, `Community 285`, `Community 286`?**
-  _High betweenness centrality (0.004) - this node is a cross-community bridge._
-- **Why does `API Contract - Hotel Booking` connect `Community 141` to `Community 164`, `Community 137`, `Community 142`, `Community 151`, `Community 152`, `Community 157`?**
-  _High betweenness centrality (0.002) - this node is a cross-community bridge._
-- **Why does `1. Actor Người dùng` connect `Community 163` to `Community 278`?**
+- **Why does `Update Logic` connect `Community 278` to `Community 163`, `Community 266`, `Community 275`, `Community 276`, `Community 277`, `Community 279`, `Community 280`, `Community 281`, `Community 282`, `Community 285`, `Community 286`?**
+  _High betweenness centrality (0.003) - this node is a cross-community bridge._
+- **Why does `01 - Tài Khoản Và Xác Thực` connect `Community 124` to `Process Availability`?**
   _High betweenness centrality (0.001) - this node is a cross-community bridge._
 - **What connects `liveServer.settings.root`, `liveServer.settings.port`, `liveServer.settings.CustomBrowser` to the rest of the system?**
-  _939 weakly-connected nodes found - possible documentation gaps or missing edges._
+  _976 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Plantuml Plantuml` be split into smaller, more focused modules?**
   _Cohesion score 0.07884615384615384 - nodes in this community are weakly interconnected._
 - **Should `Nghi Cho` be split into smaller, more focused modules?**
   _Cohesion score 0.05714285714285714 - nodes in this community are weakly interconnected._
 - **Should `Entity Use` be split into smaller, more focused modules?**
   _Cohesion score 0.05128205128205128 - nodes in this community are weakly interconnected._
+- **Should `Process Availability` be split into smaller, more focused modules?**
+  _Cohesion score 0.044444444444444446 - nodes in this community are weakly interconnected._
