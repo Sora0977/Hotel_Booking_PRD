@@ -1,0 +1,11 @@
+{
+  "wordPreset": {
+    "name": "Word (.docx)",
+    "type": "pandoc",
+    "arguments": "-f ${fromFormat} --resource-path=\"${currentDir}\" --resource-path=\"${attachmentFolderPath}\" --reference-doc=\"${pluginDir}/docx/reference.docx\" -o \"${outputPath}\" -t docx",
+    "openExportedFile": false,
+    "runCommand": true,
+    "command": "python \"${pluginDir}/docx/report_docx_postprocess.py\" \"${outputPath}\"",
+    "extension": ".docx"
+  }
+}
