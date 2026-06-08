@@ -197,6 +197,7 @@
   },
   "active": "10c07c7c85601635",
   "lastOpenFiles": [
+    "Clone/hotel-booking.xml",
     "Clone/toàn bộ business logic.md",
     "Clone/toàn bộ nghiệp vụ bằng lời.md",
     "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
@@ -241,7 +242,6 @@
     "thesis/chapters/02_phuong_phap_thuc_hien/2_4_phan_tich_yeu_cau.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_2_co_so_ly_thuyet.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_1_cac_he_thong_tuong_tu.md",
-    "Rules.md",
-    "GEMINI.md"
+    "Rules.md"
   ]
 }
