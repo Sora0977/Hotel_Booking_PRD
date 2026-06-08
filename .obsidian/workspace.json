@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hotel booking service/usecase_tong_quat backup.md",
+                "file": "Hotel booking service/Thesis-report/chapters/chuong-1-gioi-thieu.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "usecase_tong_quat backup"
+              "title": "chuong-1-gioi-thieu"
             }
           }
         ]
@@ -197,19 +197,20 @@
   },
   "active": "10c07c7c85601635",
   "lastOpenFiles": [
+    "Clone/toàn bộ business logic.md",
+    "Clone/toàn bộ nghiệp vụ bằng lời.md",
+    "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
+    "Hotel booking service/Thesis-report/chapters/chuong-4-ket-luan.md",
+    "Hotel booking service/Thesis-report/chapters/chuong-2-phuong-phap-thuc-hien.md",
+    "Hotel booking service/Thesis-report/chapters/chuong-1-gioi-thieu.md",
+    "Hotel booking service/usecase_tong_quat backup.md",
     "Hotel booking service/usecase_tong_quat.md",
     "Hotel booking service/Update plan.md",
     "Hotel booking service/Update logic v2.md",
     "Hotel booking service/Update logic.md",
     "Hotel booking service/So_sanh_nghiep_vu_Code_va_PRD.md",
-    "Hotel booking service/Thesis-report/chapters/chuong-4-ket-luan.md",
-    "Hotel booking service/Thesis-report/chapters/chuong-2-phuong-phap-thuc-hien.md",
-    "Hotel booking service/Thesis-report/chapters/chuong-1-gioi-thieu.md",
-    "Clone/toàn bộ nghiệp vụ bằng lời.md",
     "So_sanh_nghiep_vu_Code_va_PRD.md",
     "Hotel booking service/Update logic backup.md",
-    "Hotel booking service/usecase_tong_quat backup.md",
-    "Clone/toàn bộ business logic.md",
     "Clone/hotel-booking-web/apps/web/src/utils/formatTime.ts",
     "Clone/hotel-booking-web/apps/web/src/utils/currency.ts",
     "Clone/hotel-booking-web/apps/web/src/utils",
@@ -241,7 +242,6 @@
     "thesis/chapters/02_phuong_phap_thuc_hien/2_2_co_so_ly_thuyet.md",
     "thesis/chapters/02_phuong_phap_thuc_hien/2_1_cac_he_thong_tuong_tu.md",
     "Rules.md",
-    "GEMINI.md",
-    "AGENTS.md"
+    "GEMINI.md"
   ]
 }
