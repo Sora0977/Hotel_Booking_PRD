@@ -20,8 +20,23 @@
               "icon": "lucide-file",
               "title": "chuong-1-gioi-thieu"
             }
+          },
+          {
+            "id": "8dabd26e6673106c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -171,8 +186,8 @@
             "state": {
               "type": "git-view",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "git-view"
             }
           }
         ],
@@ -195,15 +210,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "10c07c7c85601635",
+  "active": "8dabd26e6673106c",
   "lastOpenFiles": [
+    "Hotel booking service/Thesis-report/chapters/chuong-1-gioi-thieu.md",
+    "Untitled.md",
     "Clone/hotel-booking.xml",
     "Clone/toàn bộ business logic.md",
     "Clone/toàn bộ nghiệp vụ bằng lời.md",
     "Hotel booking service/Thesis-report/chapters/chuong-3-thiet-ke.md",
     "Hotel booking service/Thesis-report/chapters/chuong-4-ket-luan.md",
     "Hotel booking service/Thesis-report/chapters/chuong-2-phuong-phap-thuc-hien.md",
-    "Hotel booking service/Thesis-report/chapters/chuong-1-gioi-thieu.md",
     "Hotel booking service/usecase_tong_quat backup.md",
     "Hotel booking service/usecase_tong_quat.md",
     "Hotel booking service/Update plan.md",
@@ -221,7 +237,6 @@
     "graphify-out/cache/ast/d205bfd5b6414ade78f874636f34fa0e8713156b75e0e051604f005225db5caa.json",
     "graphify-out/cache/ast/b5b43d270ba879fd11b968c11df544cddd14ddfd3dab86baf32bc2957ba45b52.json",
     "graphify-out/cache/ast/9750ec58553252575bd7718459a2957a75965c87afc3e41805ab4f7f32cffab7.json",
-    "graphify-out/cache/ast/b2f0501390024b3cc4dd039b9a1733122936a15425e797962f01a63627d3b59c.json",
     "Clone/hotel-booking-web/docs/images/promotions_screen.png",
     "Clone/hotel-booking-web/docs/images/partner_screen.png",
     "Clone/hotel-booking-web/docs/images/news_screen.png",
