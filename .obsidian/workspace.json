@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Rules.md",
+                "file": "thesis/compiled_thesis.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Rules"
+              "title": "compiled_thesis"
             }
           }
         ],
@@ -212,8 +212,9 @@
   },
   "active": "8dabd26e6673106c",
   "lastOpenFiles": [
-    "Note.md",
+    "thesis/compiled_thesis.docx",
     "Rules.md",
+    "Note.md",
     "thesis/compiled_thesis.md",
     "Pass.md",
     "GEMINI.md",
@@ -256,7 +257,6 @@
     "thesis/chapters/02_phuong_phap_thuc_hien/2_3_cong_nghe_su_dung.md",
     "Hotel booking service/Usecase_logic_get_another.md",
     "Hotel booking service/Business logic.md",
-    "Hotel booking service/Timeline.md",
-    "graphify-out/2026-06-05/GRAPH_REPORT.md"
+    "Hotel booking service/Timeline.md"
   ]
 }
