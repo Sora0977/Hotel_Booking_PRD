@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "thesis/compiled_thesis.md",
+                "file": "thesis/THESIS_MEMORY.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "compiled_thesis"
+              "title": "THESIS_MEMORY"
             }
           }
         ],
@@ -212,12 +212,19 @@
   },
   "active": "8dabd26e6673106c",
   "lastOpenFiles": [
-    "thesis/compiled_thesis.docx",
+    "AGENTS.md",
+    "GEMINI.md",
+    "Pass.md",
     "Rules.md",
     "Note.md",
+    "thesis/compiled_thesis_rules.sections.tmp.docx",
+    "thesis/rendered_rules",
+    "thesis/scripts/__pycache__/configure_docx_rules.cpython-312.pyc",
+    "thesis/scripts/__pycache__",
+    "thesis/compiled_thesis_rules.docx",
+    "thesis/scripts/configure_docx_rules.py",
     "thesis/compiled_thesis.md",
-    "Pass.md",
-    "GEMINI.md",
+    "thesis/compiled_thesis.docx",
     "So_sanh_nghiep_vu_Code_va_PRD.md",
     "Hotel booking service/Thesis-report/chapters/chuong-1-gioi-thieu.md",
     "Clone/hotel-booking.xml",
@@ -235,13 +242,6 @@
     "Hotel booking service/Update logic backup.md",
     "Clone/hotel-booking-web/apps/web/src/utils/formatTime.ts",
     "Clone/hotel-booking-web/apps/web/src/utils/currency.ts",
-    "Clone/hotel-booking-web/apps/web/src/utils",
-    "graphify-out/cache/ast/d7a23038cc765e1cb0426449fd39b37d503eb6af59d7e12373b395eb24b090d6.json",
-    "graphify-out/cache/ast/9608d4bf4d4697a029f9adb004da4b076c5455ad4062cdd80899b45e67dde1d3.json",
-    "graphify-out/cache/ast/0b6fe22df59faa9c3227a4bcafc4b960963979f0aeabbe0d2a934ed369767326.json",
-    "graphify-out/cache/ast/d205bfd5b6414ade78f874636f34fa0e8713156b75e0e051604f005225db5caa.json",
-    "graphify-out/cache/ast/b5b43d270ba879fd11b968c11df544cddd14ddfd3dab86baf32bc2957ba45b52.json",
-    "graphify-out/cache/ast/9750ec58553252575bd7718459a2957a75965c87afc3e41805ab4f7f32cffab7.json",
     "Clone/hotel-booking-web/docs/images/promotions_screen.png",
     "Clone/hotel-booking-web/docs/images/partner_screen.png",
     "Clone/hotel-booking-web/docs/images/news_screen.png",
