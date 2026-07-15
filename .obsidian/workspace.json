@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Hotel booking service/usecase_tong_quat backup.md",
+                "file": "thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "usecase_tong_quat backup"
+              "title": "1_1_dat_van_de_muc_tieu_luan_van"
             }
           }
         ],
@@ -212,6 +212,9 @@
   },
   "active": "8dabd26e6673106c",
   "lastOpenFiles": [
+    "thesis/chapters/01_mo_dau/1_2_nhung_thach_thuc_can_giai_quyet.md",
+    "thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md",
+    "Hotel booking service/usecase_tong_quat backup.md",
     "thesis/compiled_thesis.md",
     "thesis/README.md",
     "thesis/SCHOOL_RULES.md",
@@ -234,10 +237,7 @@
     "Hotel booking service/Update plan.md",
     "Hotel booking service/Usecase_logic_get_another.md",
     "Hotel booking service/usecase_tong_quat.md",
-    "Hotel booking service/usecase_tong_quat backup.md",
     "thesis/OUTLINE.md",
-    "thesis/STYLE_GUIDE.md",
-    "GEMINI.md",
     "thesis/compiled_thesis_rules.sections.tmp.docx",
     "thesis/rendered_rules",
     "thesis/scripts/__pycache__/configure_docx_rules.cpython-312.pyc",
