@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md",
+                "file": "Rules.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "1_1_dat_van_de_muc_tieu_luan_van"
+              "title": "Rules"
             }
           }
         ],
@@ -212,8 +212,8 @@
   },
   "active": "8dabd26e6673106c",
   "lastOpenFiles": [
-    "thesis/chapters/01_mo_dau/1_2_nhung_thach_thuc_can_giai_quyet.md",
     "thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md",
+    "thesis/chapters/01_mo_dau/1_2_nhung_thach_thuc_can_giai_quyet.md",
     "Hotel booking service/usecase_tong_quat backup.md",
     "thesis/compiled_thesis.md",
     "thesis/README.md",
