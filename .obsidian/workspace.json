@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Pass.md",
+                "file": "thesis/STYLE_GUIDE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Pass"
+              "title": "STYLE_GUIDE"
             }
           }
         ],
@@ -226,21 +226,21 @@
   },
   "active": "17b30194f791d6ee",
   "lastOpenFiles": [
+    "thesis/THESIS_MEMORY.md",
+    "thesis/TODO.md",
+    "AGENTS.md",
+    "GEMINI.md",
+    "Hermes.md",
+    "Note.md",
+    "Pass.md",
     "Rules.md",
     "So_sanh_nghiep_vu_Code_va_PRD.md",
-    "AGENTS.md",
-    "Pass.md",
-    "Note.md",
-    "Hermes.md",
-    "GEMINI.md",
     "thesis/chapters/01_mo_dau/1_1_dat_van_de_muc_tieu_luan_van.md",
     "thesis/chapters/01_mo_dau/1_2_nhung_thach_thuc_can_giai_quyet.md",
     "Hotel booking service/usecase_tong_quat backup.md",
     "thesis/compiled_thesis.md",
     "thesis/README.md",
     "thesis/SCHOOL_RULES.md",
-    "thesis/THESIS_MEMORY.md",
-    "thesis/TODO.md",
     "Clone/toàn bộ business logic.md",
     "Clone/toàn bộ nghiệp vụ bằng lời.md",
     "graphify-out/GRAPH_REPORT.md",
