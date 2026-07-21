@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "So_sanh_nghiep_vu_Code_va_PRD.md",
+                "file": "Note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "So_sanh_nghiep_vu_Code_va_PRD"
+              "title": "Note"
             }
           }
         ],
@@ -224,8 +224,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3b83d99a5688479a",
+  "active": "17b30194f791d6ee",
   "lastOpenFiles": [
+    "So_sanh_nghiep_vu_Code_va_PRD.md",
     "Hermes.md",
     "AGENTS.md",
     "Rules.md",
@@ -239,7 +240,6 @@
     "thesis/SCHOOL_RULES.md",
     "thesis/THESIS_MEMORY.md",
     "thesis/TODO.md",
-    "So_sanh_nghiep_vu_Code_va_PRD.md",
     "Note.md",
     "Clone/toàn bộ business logic.md",
     "Clone/toàn bộ nghiệp vụ bằng lời.md",
